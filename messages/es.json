@@ -206,5 +206,7 @@
 	"day_short_5": "V",
 	"day_short_6": "S",
 	"lang_es": "Español",
-	"lang_de": "Deutsch"
+	"lang_de": "Deutsch",
+	"editor_duplicate": "Ya está en tu vocabulario.",
+	"editor_duplicate_open": "Abrirla"
 }

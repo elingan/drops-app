@@ -121,7 +121,7 @@
 							{m.answer_remembered()}<Icon name="chevronRight" size={22} stroke={3} />
 						</button>
 					</div>
-					<span class="hint">{m.answer_or_swipe()}<span class="kbd"> · {m.answer_keyboard_hint()}</span></span>
+					<span class="hint">{m.answer_or_swipe()}<span class="kbd">{' · '}{m.answer_keyboard_hint()}</span></span>
 				</div>
 			{/if}
 		</div>
@@ -153,8 +153,9 @@
 		justify-content: center;
 		gap: 8px;
 		font-family: var(--font-heading);
-		font-size: 18px;
-		padding: 0 14px;
+		font-size: clamp(15px, 4.6vw, 18px);
+		white-space: nowrap;
+		padding: 0 12px;
 		transition: transform 0.12s, background 0.15s;
 	}
 	.ans:active { transform: scale(0.97); }

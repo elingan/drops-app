@@ -3,6 +3,7 @@
 	import { m } from '$lib/paraglide/messages.js';
 	import { AudioRecorder, type PlaybackState } from '$lib/services/audio';
 	import { isPhraseText, suggestCategory } from '$lib/services/content-analysis';
+	import { sameText } from '$lib/services/content';
 	import { learning } from '$lib/state/learning.svelte';
 	import { ui } from '$lib/state/ui.svelte';
 	import { compressImage } from '$lib/utils/image';
@@ -47,6 +48,7 @@
 	const created = new Set<string>();
 
 	const hasText = $derived(german.trim().length > 0);
+	const duplicate = $derived(hasText ? learning.items.find((i) => i.id !== init.item?.id && sameText(i.german, german)) : undefined);
 	const suggestedName = $derived(known?.categoryName ?? suggestCategory(german));
 	const suggested = $derived(learning.categories.find((c) => c.name === suggestedName) ?? learning.categories[0]);
 	const chosenId = $derived(categoryId ?? suggested?.id);
@@ -110,7 +112,7 @@
 
 	async function save(e: SubmitEvent) {
 		e.preventDefault();
-		if (!hasText || !chosenId || saving) return;
+		if (!hasText || !chosenId || saving || duplicate) return;
 		saving = true;
 		try {
 			const saved = await learning.saveItem(
@@ -173,6 +175,10 @@
 			aria-label={m.editor_german_label()}
 			required
 		></textarea>
+
+		{#if duplicate}
+			<p class="dup" role="status">{m.editor_duplicate()} <a href="/add?edit={duplicate.id}">{m.editor_duplicate_open()}</a></p>
+		{/if}
 
 		{#if mode === 'speak'}
 			<VoiceInput service={svc.speech} {hasText} autostart ontranscript={(t) => (german = t)} />
@@ -245,7 +251,7 @@
 	</div>
 
 	<div class="save">
-		<PrimaryButton type="submit" disabled={!hasText || saving || recording}>{editing ? m.editor_save_changes() : m.editor_save()}</PrimaryButton>
+		<PrimaryButton type="submit" disabled={!hasText || saving || recording || !!duplicate}>{editing ? m.editor_save_changes() : m.editor_save()}</PrimaryButton>
 	</div>
 </form>
 
@@ -291,5 +297,6 @@
 	.ac.rec { background: var(--color-accent); color: var(--color-neutral-100); }
 	.ac.has { background: var(--color-accent-2-700); color: var(--color-neutral-100); }
 	.x { width: 44px; height: 44px; border: 0; border-radius: 50%; background: var(--color-neutral-100); display: grid; place-items: center; }
+	.dup { margin: -6px 6px 0; font-size: 14px; font-weight: 600; color: var(--color-accent-800); }
 	.save { padding: 10px 20px calc(18px + env(safe-area-inset-bottom)); }
 </style>

@@ -53,7 +53,7 @@
 			<div class="today-txt">
 				<span class="kicker" id="today-lbl">{m.home_today()}</span>
 				<span class="title">{allDone ? m.home_both_done() : m.home_sessions_of({ done: today.sessions, goal: DAILY_SESSION_GOAL })}</span>
-				<span class="sub">{today.cards ? m.home_day_sub({ cards: today.cards, minutes: Math.round(today.seconds / 60) }) : m.home_day_none()}</span>
+				<span class="sub">{today.cards ? m.home_day_sub({ cards: today.cards, minutes: Math.max(1, Math.round(today.seconds / 60)) }) : m.home_day_none()}</span>
 			</div>
 		</div>
 		<div class="slots">

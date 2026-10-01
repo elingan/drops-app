@@ -206,5 +206,7 @@
 	"day_short_5": "F",
 	"day_short_6": "S",
 	"lang_es": "Español",
-	"lang_de": "Deutsch"
+	"lang_de": "Deutsch",
+	"editor_duplicate": "Steht schon in deinem Wortschatz.",
+	"editor_duplicate_open": "Öffnen"
 }

@@ -88,6 +88,14 @@ describe('generateLearningRoute', () => {
 		expect(route.entries.filter((e) => dueIds.has(e.itemId))).toHaveLength(10);
 	});
 
+	it('first session introduces new cards progressively (default cap)', () => {
+		const items = library();
+		const route = engine.generateLearningRoute(items, new Map(), { now, random: seeded(5) });
+		expect(route.entries.length).toBeGreaterThan(0);
+		expect(route.entries.length).toBeLessThanOrEqual(12);
+		expect(route.entries.every((e) => e.reason === 'new')).toBe(true);
+	});
+
 	it('filters by category', () => {
 		const items = library();
 		const route = engine.generateLearningRoute(items, new Map(), { now, categoryId: 'verkehr', random: seeded(2) });

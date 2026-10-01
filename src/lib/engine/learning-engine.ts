@@ -98,10 +98,12 @@ export class LearningEngine {
 		const maxNew = opts.maxNew ?? (dueCount > 30 ? 4 : dueCount > 15 ? 8 : 12);
 
 		const picked = balancedPick(scored, byId, size, maxNew);
-		// Small pools: fill with whatever is left so the session never starves.
+		// Top up with already-seen cards (extra practice), still respecting the
+		// new-card cap: new content is introduced progressively, and the session
+		// refills the route as cards get answered.
 		for (const s of scored) {
-			if (picked.length >= Math.min(size, pool.length)) break;
-			if (!picked.includes(s)) picked.push(s);
+			if (picked.length >= size) break;
+			if (s.reason !== 'new' && !picked.includes(s)) picked.push(s);
 		}
 
 		const entries = interleave(picked, byId, opts.avoidFirst);

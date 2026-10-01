@@ -26,6 +26,7 @@ describe('ContentService', () => {
 		expect(it2.id).toBe(it1.id);
 		expect(it2.type).toBe('word');
 		await repos.progress.put({ itemId: it1.id, level: 1, mastery: 0.2, difficulty: 0.3, reviewCount: 1, correctCount: 1, incorrectCount: 0 });
+		await expect(svc.saveItem({ german: 'Besprechen!', categoryId: 'alltag' })).rejects.toThrow('duplicate');
 		await svc.deleteItem(it1.id);
 		expect(await repos.items.get(it1.id)).toBeUndefined();
 		expect(await repos.progress.get(it1.id)).toBeUndefined();

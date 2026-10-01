@@ -1,5 +1,6 @@
 import type { BetterAuthOptions } from 'better-auth';
-import { LibsqlDialect } from '@libsql/kysely-libsql';
+import type { Client } from '@libsql/client';
+import { LibsqlDialect } from './libsql-dialect.ts';
 
 export interface AuthEnv {
 	BETTER_AUTH_SECRET?: string;
@@ -8,21 +9,17 @@ export interface AuthEnv {
 	DATABASE_AUTH_TOKEN?: string;
 }
 
+export const databaseUrl = (env: AuthEnv) => env.DATABASE_URL || 'file:local.db';
+
 /**
  * Shared BetterAuth configuration (used by the app and by the CLI scripts).
  * Public sign-up is disabled: the single user is created with `npm run seed:user`.
  */
-export function authOptions(env: AuthEnv, { allowSignUp = false } = {}): BetterAuthOptions {
+export function authOptions(env: AuthEnv, client: Client, { allowSignUp = false } = {}): BetterAuthOptions {
 	return {
 		secret: env.BETTER_AUTH_SECRET,
 		baseURL: env.BETTER_AUTH_URL,
-		database: {
-			dialect: new LibsqlDialect({
-				url: env.DATABASE_URL || 'file:local.db',
-				authToken: env.DATABASE_AUTH_TOKEN || undefined
-			}),
-			type: 'sqlite'
-		},
+		database: { dialect: new LibsqlDialect(client), type: 'sqlite' },
 		emailAndPassword: {
 			enabled: true,
 			disableSignUp: !allowSignUp,

@@ -21,6 +21,12 @@ const trimOrUndef = (s: string | undefined, max: number) => {
 	return t ? t.slice(0, max) : undefined;
 };
 
+/** Case/punctuation-insensitive comparison used to avoid duplicate entries. */
+export function sameText(a: string, b: string): boolean {
+	const n = (s: string) => s.trim().toLowerCase().replace(/[.!?¿¡,;:]+/g, '').replace(/\s+/g, ' ');
+	return n(a) === n(b);
+}
+
 export class ContentService {
 	readonly categories: CategoryService;
 
@@ -49,6 +55,8 @@ export class ContentService {
 	async saveItem(input: ItemInput, id?: string): Promise<LearningItem> {
 		const german = input.german.trim().slice(0, 300);
 		if (!german) throw new Error('empty');
+		const all = await this.repos.items.all();
+		if (all.some((i) => i.id !== id && sameText(i.german, german))) throw new Error('duplicate');
 		const now = new Date();
 		const prev = id ? await this.repos.items.get(id) : undefined;
 		const item: LearningItem = {
@@ -81,7 +89,7 @@ export class ContentService {
 	/** Adds validated rows; skips German texts that already exist. Returns number added. */
 	async importRows(rows: ImportRow[], userCreated = false): Promise<number> {
 		const cats = await this.categories.list();
-		const existing = new Set((await this.repos.items.all()).map((i) => i.german.toLowerCase()));
+		const existing = new Set((await this.repos.items.all()).map((i) => i.german.trim().toLowerCase()));
 		const now = new Date();
 		const items: LearningItem[] = [];
 		for (const r of rows) {
