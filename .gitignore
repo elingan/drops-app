@@ -1,0 +1,11 @@
+node_modules
+/.svelte-kit
+/build
+/.vercel
+/src/lib/paraglide
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+vite.config.*.timestamp-*
