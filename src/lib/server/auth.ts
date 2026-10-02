@@ -1,3 +1,4 @@
+import type { Client } from '@libsql/client';
 import { betterAuth } from 'better-auth';
 import { sveltekitCookies } from 'better-auth/svelte-kit';
 import { getRequestEvent } from '$app/server';
@@ -15,6 +16,18 @@ function createAuth(client: Parameters<typeof authOptions>[1]) {
 export type Auth = ReturnType<typeof createAuth>;
 
 let instance: Promise<Auth> | null = null;
+let clientPromise: Promise<Client> | null = null;
+
+/** libSQL client: remote (Turso) → HTTP client, no native module; local file → Node client. */
+export function getClient(): Promise<Client> {
+	clientPromise ??= (async () => {
+		const url = databaseUrl(env);
+		return url.startsWith('file:')
+			? (await import('@libsql/client')).createClient({ url })
+			: (await import('@libsql/client/web')).createClient({ url, authToken: databaseToken(env) });
+	})();
+	return clientPromise;
+}
 
 /**
  * Lazily connects, migrates/seeds (bootstrap) and only then creates the
@@ -23,11 +36,7 @@ let instance: Promise<Auth> | null = null;
  */
 export function getAuth(): Promise<Auth> {
 	instance ??= (async () => {
-		const url = databaseUrl(env);
-		// Remote (Turso) → HTTP client, no native module; local file → Node client.
-		const client = url.startsWith('file:')
-			? (await import('@libsql/client')).createClient({ url })
-			: (await import('@libsql/client/web')).createClient({ url, authToken: databaseToken(env) });
+		const client = await getClient();
 		await bootstrap(env, client);
 		return createAuth(client);
 	})().catch((e) => {
@@ -35,4 +44,16 @@ export function getAuth(): Promise<Auth> {
 		throw e;
 	});
 	return instance;
+}
+
+/** Non-secret runtime facts for /api/health. */
+export function runtimeInfo() {
+	const url = databaseUrl(env);
+	return {
+		database: url.startsWith('file:') ? 'local-file' : 'remote',
+		databaseHost: url.startsWith('file:') ? null : url.replace(/^[a-z]+:\/\//, '').split(/[/?]/)[0],
+		hasToken: !!databaseToken(env),
+		hasSecret: !!env.BETTER_AUTH_SECRET,
+		seedUserConfigured: !!env.SEED_USER_EMAIL && (env.SEED_USER_PASSWORD?.length ?? 0) >= 8
+	};
 }
