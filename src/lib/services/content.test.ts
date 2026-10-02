@@ -6,14 +6,34 @@ describe('ContentService', () => {
 	it('seeds once and new items get categories', async () => {
 		const repos = createMemoryRepositories();
 		const svc = new ContentService(repos);
-		expect(await svc.seedIfEmpty()).toBe(true);
-		expect(await svc.seedIfEmpty()).toBe(false);
+		expect(await svc.seedIfEmpty()).toBeGreaterThan(1000);
+		expect(await svc.seedIfEmpty()).toBe(0);
 		const items = await svc.listItems();
-		expect(items.length).toBeGreaterThan(30);
-		const added = await svc.importRows([{ type: 'word', german: 'die Reise', category: 'Reisen' }]);
+		expect(items.filter((i) => i.type === 'phrase').length).toBeGreaterThan(250);
+		const cats = (await svc.categories.list()).map((c) => c.name);
+		expect(cats).toEqual(expect.arrayContaining(['Korrespondenz', 'Behörden', 'Wohnen', 'Finanzen', 'Technik']));
+		const added = await svc.importRows([{ type: 'word', german: 'das Einhorn', category: 'Reisen' }]);
 		expect(added).toBe(1);
+		expect((await svc.categories.list()).some((c) => c.name === 'Reisen')).toBe(true);
+	});
+
+	it('upgrades an existing v1 install without touching progress or user items', async () => {
+		const repos = createMemoryRepositories();
+		const svc = new ContentService(repos);
+		// Simulate the original install: v1 flag, a user item with progress.
+		await repos.user.setFlag('seeded', '1');
+		await repos.categories.put({ id: 'alltag', name: 'Alltag', tone: 0, createdAt: new Date(0) });
+		const mine = await svc.saveItem({ german: 'Servus!', categoryId: 'alltag' });
+		const progress = { itemId: mine.id, level: 3, mastery: 0.5, difficulty: 0.2, reviewCount: 4, correctCount: 4, incorrectCount: 0 };
+		await repos.progress.put(progress);
+		const added = await svc.seedIfEmpty();
+		expect(added).toBeGreaterThan(1000);
+		expect(await repos.progress.get(mine.id)).toEqual(progress);
+		const servus = (await svc.listItems()).filter((i) => i.german.toLowerCase().startsWith('servus'));
+		expect(servus.map((i) => i.german)).toContain('Servus!');
 		const cats = await svc.categories.list();
-		expect(cats.some((c) => c.name === 'Reisen')).toBe(true);
+		expect(cats.filter((c) => c.name === 'Alltag')).toHaveLength(1);
+		expect(await svc.seedIfEmpty()).toBe(0);
 	});
 
 	it('saves, edits and deletes items with their progress', async () => {

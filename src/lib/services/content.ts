@@ -1,6 +1,6 @@
 import type { Category, ItemType, LearningItem } from '$lib/domain/types';
 import type { Repositories } from '$lib/repositories/interfaces';
-import { SEED_CATEGORIES, SEED_ITEMS } from '$lib/data/seed';
+import { loadVocabulary, SEED_CATEGORIES, SEED_ITEMS, SEED_VERSION } from '$lib/data/seed';
 import { CategoryService } from './category';
 import { isPhraseText } from './content-analysis';
 import type { ImportRow } from './importer';
@@ -34,18 +34,28 @@ export class ContentService {
 		this.categories = new CategoryService(repos.categories);
 	}
 
-	/** Loads the dev dataset the first time the app runs. */
-	async seedIfEmpty(): Promise<boolean> {
-		if (await this.repos.user.getFlag('seeded')) return false;
+	/**
+	 * Installs the built-in content on first run and upgrades it when
+	 * SEED_VERSION grows: missing categories and items are added, existing
+	 * items (and their progress) are left alone. Returns items added.
+	 */
+	async seedIfEmpty(): Promise<number> {
+		const version = Number((await this.repos.user.getFlag('seedVersion')) ?? ((await this.repos.user.getFlag('seeded')) ? 1 : 0));
+		if (version >= SEED_VERSION) return 0;
+		const existing = await this.categories.list();
 		const now = Date.now();
-		const cats: Category[] = SEED_CATEGORIES.map((c, i) => ({ ...c, createdAt: new Date(now + i) }));
-		await this.repos.categories.putMany(cats);
-		await this.importRows(
-			SEED_ITEMS.map((s) => ({ ...s, type: s.type ?? (isPhraseText(s.german) ? 'phrase' : 'word') })),
+		const missing = SEED_CATEGORIES.filter(
+			(c) => !existing.some((e) => e.id === c.id || e.name.toLowerCase() === c.name.toLowerCase())
+		).map((c, i) => ({ ...c, createdAt: new Date(now + i) }) satisfies Category);
+		await this.repos.categories.putMany(missing);
+		const rows = [...(version === 0 ? SEED_ITEMS : []), ...(await loadVocabulary())];
+		const added = await this.importRows(
+			rows.map((s) => ({ ...s, type: s.type ?? (isPhraseText(s.german) ? 'phrase' : 'word') })),
 			false
 		);
 		await this.repos.user.setFlag('seeded', '1');
-		return true;
+		await this.repos.user.setFlag('seedVersion', String(SEED_VERSION));
+		return added;
 	}
 
 	listItems(): Promise<LearningItem[]> {

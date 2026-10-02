@@ -105,7 +105,7 @@ describe('SessionState (state machine)', () => {
 	it('a new item enters the next route', async () => {
 		const { data, s } = await setup();
 		const cat = data.categories[0]!;
-		const added = await data.saveItem({ german: 'die Straßenbahn', translation: 'el tranvía', categoryId: 'verkehr' });
+		const added = await data.saveItem({ german: 'der Leuchtturm', translation: 'el faro', categoryId: 'verkehr' });
 		const ids = data.route({ size: 200, categoryId: added.categoryId }).entries.map((e) => e.itemId);
 		expect(ids).toContain(added.id);
 		expect(cat).toBeDefined();

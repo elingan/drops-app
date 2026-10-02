@@ -1,0 +1,53 @@
+# Restaurant
+w|das Gasthaus|el restaurante tradicional, la fonda||Austria.
+w|das Beisl|el bar-restaurante sencillo|die Kneipe (DE)|Austria (Viena).
+w|der Heurige|la taberna de vino nuevo||Austria: vino de la cosecha del año.
+w|die Buschenschank|la taberna de viñedo||Austria/Steiermark, típico.
+w|das Kaffeehaus|el café tradicional||Austria.
+w|die Speisekarte|la carta||
+w|das Mittagsmenü|el menú del día||
+w|die Vorspeise|el entrante||
+w|die Hauptspeise|el plato principal|das Hauptgericht (DE)|Austria.
+w|die Nachspeise|el postre|der Nachtisch (DE)|Austria.
+w|die Mehlspeise|el dulce, el pastel||Austria.
+w|die Beilage|la guarnición||
+w|der Kellner / die Kellnerin|el/la camarero/a||Austria también: Herr Ober.
+w|reservieren|reservar||
+w|bestellen|pedir||
+w|das Trinkgeld|la propina||Austria: se redondea (5–10 %).
+w|zahlen|pagar||Zahlen, bitte!
+w|getrennt|por separado||getrennt zahlen
+w|zusammen|junto||
+w|der Gespritzte|vino con agua con gas|die Weinschorle (DE)|Austria.
+w|der Almdudler|refresco de hierbas||Austria, típico.
+w|das Krügerl|la jarra de cerveza (0,5 l)||Austria.
+w|das Seidl|la caña de cerveza (0,3 l)||Austria.
+w|der Verlängerte|café americano||Austria: espresso alargado.
+w|die Melange|café con leche espumosa||Austria.
+w|das Häferl|la taza grande|der Becher (DE)|Austria.
+w|das Wiener Schnitzel|el escalope vienés||
+w|das Backhendl|el pollo empanado||Austria.
+w|der Tafelspitz|la carne de ternera hervida||Austria.
+w|die Palatschinke|el crep|der Pfannkuchen (DE)|Austria.
+w|der Kaiserschmarrn|tortilla dulce troceada||Austria.
+w|der Strudel|el strudel||
+w|der Sterz|plato de harina (polenta)||Austria/Steiermark.
+w|das Leitungswasser|el agua del grifo||
+w|vegetarisch|vegetariano||
+w|scharf|picante||
+w|g'schmackig|sabroso|lecker|Austria, coloquial.
+w|satt|lleno (de comida)||
+w|der Stammtisch|la mesa de los habituales||
+w|das Mittagessen|la comida (del mediodía)||
+w|das Abendessen|la cena||
+w|das Frühstück|el desayuno||
+p|Wir hätten gern die Rechnung.|Nos trae la cuenta, por favor.||
+p|Zahlen, bitte!|¡La cuenta, por favor!||Austria, muy habitual.
+p|Getrennt oder zusammen?|¿Por separado o junto?||
+p|Ist hier noch frei?|¿Está libre?||
+p|Ich hätte gern einen Verlängerten.|Querría un café americano.||Austria.
+p|Ein Krügerl, bitte.|Una jarra de cerveza, por favor.||Austria.
+p|Was können Sie empfehlen?|¿Qué me recomienda?||
+p|Haben Sie auch etwas Vegetarisches?|¿Tiene también algo vegetariano?||
+p|Stimmt so.|Quédese con el cambio.||Al dejar propina.
+p|Das war sehr g'schmackig!|¡Estaba muy rico!||Austria, coloquial.

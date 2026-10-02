@@ -1,0 +1,64 @@
+# Einkaufen
+w|das Sackerl|la bolsa|die Tüte (DE)|Austria.
+w|die Kassa|la caja (para pagar)|die Kasse (DE)|Austria.
+w|der Kassabon|el ticket de compra|der Kassenbon (DE)|Austria.
+w|das Geschäft|la tienda||
+w|der Supermarkt|el supermercado||
+w|der Markt|el mercado||Bauernmarkt = mercado de productores.
+w|der Bauernmarkt|el mercado de productores||Austria: Kaiser-Josef-Markt en Graz.
+w|die Drogerie|la droguería||
+w|das Angebot|la oferta||im Angebot = de oferta
+w|die Aktion|la promoción, la oferta|das Sonderangebot|Austria: «in Aktion».
+w|reduziert|rebajado||
+w|der Ausverkauf|las rebajas, la liquidación||
+w|die Größe|la talla||
+w|anprobieren|probarse (ropa)||
+w|die Umkleidekabine|el probador||
+w|umtauschen|cambiar (un producto)||
+w|zurückgeben|devolver||
+w|die Rücksendung|la devolución (envío)|die Retoure|
+w|die Bestellung|el pedido||
+w|bestellen|pedir, encargar||
+w|die Lieferung|la entrega||
+w|liefern|entregar, repartir||
+w|das Lieferdatum|la fecha de entrega||
+w|voraussichtlich|previsiblemente, estimado||das voraussichtliche Lieferdatum
+w|die Versandkosten|los gastos de envío||
+w|die Garantie|la garantía||
+w|kaputt|roto||
+w|der Gutschein|el vale, el cupón||
+w|die Filiale|la sucursal||
+w|geöffnet / geschlossen|abierto / cerrado||
+w|der Feiertag|el día festivo||Austria: tiendas cerradas en festivos y domingos.
+w|das Pfand|el depósito (de envases)||Austria: Pfand desde 2025.
+w|die Pfandflasche|la botella retornable||
+w|die Semmel|el panecillo|das Brötchen (DE)|Austria.
+w|das Kipferl|el croissant (tipo cuerno)|das Hörnchen (DE)|Austria.
+w|der Topfen|el requesón|der Quark (DE)|Austria.
+w|das Schlagobers|la nata montada|die Sahne (DE)|Austria.
+w|das Obers|la nata líquida|die Sahne (DE)|Austria.
+w|die Erdäpfel|las patatas|die Kartoffeln (DE)|Austria.
+w|der Karfiol|la coliflor|der Blumenkohl (DE)|Austria.
+w|die Fisolen|las judías verdes|die grünen Bohnen (DE)|Austria.
+w|der Kren|el rábano picante|der Meerrettich (DE)|Austria.
+w|die Marille|el albaricoque|die Aprikose (DE)|Austria.
+w|die Ribisel|la grosella|die Johannisbeere (DE)|Austria.
+w|der Kukuruz|el maíz|der Mais (DE)|Austria.
+w|die Melanzani|la berenjena|die Aubergine (DE)|Austria.
+w|das Faschierte|la carne picada|das Hackfleisch (DE)|Austria.
+w|das Kürbiskernöl|el aceite de pepitas de calabaza||Austria/Steiermark, típico.
+w|der Bäcker|la panadería; el panadero||Austria: zum Bäcker gehen.
+w|das Stück|la pieza, la unidad||
+w|das Deka|10 gramos|zehn Gramm|Austria: 10 Deka Schinken.
+p|Brauchen Sie ein Sackerl?|¿Necesita una bolsa?||Austria.
+p|Ich zahle mit Karte.|Pago con tarjeta.||
+p|Kann ich das umtauschen?|¿Puedo cambiarlo?||
+p|Haben Sie das eine Nummer größer?|¿Lo tiene una talla más grande?||
+p|Ich schaue nur, danke.|Solo estoy mirando, gracias.||
+p|Das ist gerade in Aktion.|Eso está ahora en oferta.||Austria.
+p|Zehn Deka Schinken, bitte.|Cien gramos de jamón, por favor.||Austria.
+p|Zwei Semmeln, bitte.|Dos panecillos, por favor.||Austria.
+p|Die Sendung befindet sich auf dem Versandweg.|El envío está en camino.||
+p|Die Lieferung hat sich leider verzögert.|Lamentablemente la entrega se ha retrasado.||
+p|Ich möchte den Artikel zurückschicken.|Quiero devolver el artículo.||
+p|Am Sonntag haben die Geschäfte zu.|El domingo las tiendas están cerradas.||Austria.

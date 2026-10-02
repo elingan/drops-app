@@ -1,0 +1,111 @@
+# Korrespondenz
+w|die Nachricht|el mensaje||
+w|der Anhang|el archivo adjunto||Im Anhang findest du … = en el adjunto encontrarás…
+w|anbei|adjunto, en el anexo|beiliegend|Anbei sende ich dir … Muy usado en emails.
+w|die Anlage|el anexo|der Anhang|In der Anlage … (más formal)
+w|der Betreff|el asunto|das Thema der E-Mail|Campo «asunto» de un email.
+w|der Absender|el remitente||
+w|der Empfänger|el destinatario||
+w|der Adressat|el destinatario (formal)|der Empfänger|
+w|weiterleiten|reenviar, reenviar a otra persona||Ich leite die Info weiter.
+w|die Weiterleitung|el reenvío||
+w|beantworten|responder (algo)|antworten auf|Eine E-Mail beantworten.
+w|die Rückmeldung|la respuesta, el feedback|die Antwort|Ich freue mich auf deine Rückmeldung.
+w|der Bescheid|el aviso; la resolución oficial|die Information / der amtliche Entscheid|Gib mir Bescheid = avísame. Bescheid vom Amt = resolución.
+w|sich melden|ponerse en contacto, dar señales||Ich melde mich morgen.
+w|mitteilen|comunicar, informar|sagen, informieren|Hiermit teilen wir Ihnen mit …
+w|bestätigen|confirmar||Bitte bestätige den Termin.
+w|die Bestätigung|la confirmación||
+w|die Erinnerung|el recordatorio; el recuerdo||
+w|erinnern an|recordar algo a alguien||Ich wollte dich an … erinnern.
+w|nachfragen|volver a preguntar, consultar||Ich wollte kurz nachfragen, ob …
+w|die Anfrage|la consulta, la solicitud||Danke für Ihre Anfrage.
+w|anfragen|consultar, solicitar información||
+w|zusenden|enviar (a alguien)|schicken|Bitte senden Sie mir die Unterlagen zu.
+w|die Zusendung|el envío||
+w|zukommen lassen|hacer llegar|schicken|Ich lasse dir die Rechnung zukommen.
+w|die Unterlagen|los documentos, la documentación|die Dokumente|Siempre en plural.
+w|ausfüllen|rellenar (un formulario)||
+w|unterschreiben|firmar||
+w|die Unterschrift|la firma||
+w|ausdrucken|imprimir||
+w|einscannen|escanear||
+w|der Zeitraum|el período||
+w|rechtzeitig|a tiempo, con antelación||
+w|umgehend|de inmediato (formal)|sofort|
+w|baldig|pronto, próximo|bald|Um baldige Antwort wird gebeten.
+w|rasch|rápido|schnell|Danke für die rasche Antwort. Muy usado en Austria.
+w|gerne|con gusto; claro||Gerne! = ¡Con gusto!
+w|herzlich|cordial(mente)||Herzlichen Dank!
+w|freundlich|amable||Mit freundlichen Grüßen
+w|geehrt|estimado (formal)||Sehr geehrte Frau …
+w|die Verfügung|la disposición||zur Verfügung stehen = estar a disposición
+w|die Rücksicht|la consideración||Danke für deine Rücksichtnahme.
+w|der Hinweis|la indicación, el aviso||
+w|hinweisen auf|señalar, advertir sobre||Wir möchten Sie darauf hinweisen, dass …
+w|ausstehend|pendiente||ausstehende Details
+w|offen|abierto; pendiente|ausstehend|Die Rechnung ist noch offen.
+w|versehentlich|por error|irrtümlich|Ich habe versehentlich das falsche Datum eingetragen.
+w|irrtümlich|por equivocación|versehentlich|Falls Sie diese E-Mail irrtümlich erhalten haben …
+w|die Verzögerung|el retraso||
+w|die Unannehmlichkeit|la molestia||Entschuldigen Sie die Unannehmlichkeiten.
+w|sich entschuldigen|disculparse||
+w|bedauern|lamentar|leidtun|Wir bedauern, Ihnen mitteilen zu müssen …
+w|sich bedanken|dar las gracias||Ich bedanke mich für …
+w|die Empfehlung|la recomendación||auf Empfehlung von … = por recomendación de …
+w|die Einladung|la invitación||
+w|einladen|invitar||
+w|zusagen|aceptar, confirmar asistencia||
+w|absagen|cancelar, rechazar||
+w|die Absage|la cancelación, el rechazo||
+w|verschieben|aplazar, posponer||Können wir den Termin verschieben?
+w|vereinbaren|acordar, concertar||einen Termin vereinbaren
+w|der Termin|la cita, el plazo||En Austria también: Arzttermin, Amtstermin.
+w|die Telefonnummer|el número de teléfono||
+w|erreichbar|localizable, disponible||Ich bin ab 9 Uhr erreichbar.
+w|zurückrufen|devolver la llamada||
+w|der Rückruf|la devolución de llamada||Ich bitte um Rückruf.
+w|ersichtlich|visible, que se puede ver|sichtbar, erkennbar|Die Informationen sind unter dem Link ersichtlich.
+w|beigefügt|adjunto|beiliegend|die beigefügten Unterlagen
+w|nochmals|nuevamente, otra vez|noch einmal|Nochmals vielen Dank!
+w|bezüglich|con respecto a|wegen|bezüglich Ihrer Anfrage
+w|diesbezüglich|al respecto||
+w|hiermit|por la presente||Hiermit bestätige ich …
+w|der Spam-Ordner|la carpeta de spam||
+w|der Verteiler|la lista de distribución||
+w|abmelden|darse de baja; cerrar sesión||vom Newsletter abmelden
+p|Gib mir bitte kurz Bescheid.|Avísame brevemente, por favor.|Sag mir bitte kurz, wie es aussieht.|Muy frecuente en tus emails.
+p|Im Anhang findest du die Rechnung.|En el adjunto encontrarás la factura.||
+p|Falls du Fragen hast, melde dich.|Si tienes preguntas, escríbeme.|Bei Fragen melde dich gerne.|
+p|Bei Fragen stehe ich gerne zur Verfügung.|Para cualquier pregunta estoy a tu disposición.||Cierre típico de email.
+p|Wir freuen uns auf deine Antwort.|Esperamos tu respuesta con ilusión.||
+p|Danke für die rasche Antwort.|Gracias por la rápida respuesta.||«rasch» es muy austriaco.
+p|Lass es mich einfach wissen.|Simplemente házmelo saber.||
+p|Ich leite die Info gerne weiter.|Reenvío la información con gusto.||
+p|Danke für die kurze Info.|Gracias por la breve información.||
+p|Nochmals vielen Dank für deine Unterstützung.|Gracias de nuevo por tu apoyo.||
+p|Bitte um baldige Zusendung, danke.|Le ruego que me lo envíe pronto, gracias.||Formal y breve.
+p|Bitte antworten Sie nicht auf diese Nachricht.|Por favor, no responda a este mensaje.||Emails automáticos.
+p|Kannst du bitte im Spam-Ordner nachsehen?|¿Puedes mirar en la carpeta de spam, por favor?||
+p|Ich bitte um eine baldige telefonische Kontaktaufnahme.|Solicito que se ponga en contacto conmigo por teléfono pronto.|Bitte rufen Sie mich bald an.|Muy formal.
+p|Ich schreibe auf Empfehlung von einer Kollegin.|Escribo por recomendación de una colega.||
+p|Mein Name ist Eduardo, ich bin Webentwickler.|Me llamo Eduardo, soy desarrollador web.||Presentación.
+p|Ich wünsche dir noch ein schönes Wochenende.|Te deseo que pases un buen fin de semana.||
+p|Wir wünschen dir einen erfolgreichen Tag.|Te deseamos un día exitoso.||
+p|Danke für die schöne Einladung.|Gracias por la bonita invitación.||
+p|Danke für die nette Willkommensnachricht.|Gracias por el amable mensaje de bienvenida.||
+p|Ich melde mich im Herbst noch einmal.|Te vuelvo a escribir en otoño.||
+p|Sehr geehrte Damen und Herren,|Estimados señores:||Saludo formal sin nombre.
+p|Mit freundlichen Grüßen|Atentamente||Despedida formal estándar.
+p|Liebe Grüße aus Graz|Un abrazo desde Graz||Despedida cercana.
+p|Ich hoffe, es geht dir gut.|Espero que estés bien.||Inicio cordial de email.
+p|Entschuldige bitte die späte Antwort.|Perdona la respuesta tardía.||
+p|Ich entschuldige mich für die Verzögerung.|Pido disculpas por el retraso.||
+p|Entschuldigen Sie bitte die Unannehmlichkeiten.|Disculpe las molestias.||
+p|Ich bin ab Montag wieder erreichbar.|Vuelvo a estar disponible a partir del lunes.||Respuesta automática.
+p|Ich bin derzeit nicht im Büro.|Actualmente no estoy en la oficina.||Respuesta automática.
+p|Ich habe den Link leider nicht gesehen.|Lamentablemente no he visto el enlace.||
+p|Die Informationen sind unter dem Link ersichtlich.|La información se puede ver en el enlace.||
+p|Ich wollte kurz nachfragen, ob alles passt.|Quería preguntar brevemente si todo está bien.||«passen» = estar bien, encajar.
+p|Können Sie mir das bitte erneut zusenden?|¿Me lo puede volver a enviar, por favor?||
+p|Fühl dich gedrückt!|¡Un abrazo!|Ich umarme dich.|Informal. En vez del calco «Ich schicke dir eine große Umarmung».

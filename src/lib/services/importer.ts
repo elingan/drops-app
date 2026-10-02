@@ -1,5 +1,5 @@
 import type { ItemType } from '$lib/domain/types';
-import { isPhraseText } from './content-analysis';
+import { isPhraseText } from './content-analysis.ts';
 
 export interface ImportRow {
 	type: ItemType;

@@ -1,0 +1,49 @@
+# Alltag
+w|sich beschäftigen mit|ocuparse de, dedicarse a||
+w|sich beschweren|quejarse||
+w|sich beeilen|darse prisa||
+w|sich bemühen|esforzarse||
+w|sich verlassen auf|confiar en, contar con||
+w|sich verabschieden|despedirse||
+w|sich wundern|sorprenderse||
+w|sich Sorgen machen|preocuparse||
+w|sich auskennen|conocer bien, saber de algo||Ich kenne mich in Graz gut aus.
+w|sich entscheiden|decidirse||
+w|sich einigen|ponerse de acuerdo||
+w|sich lohnen|merecer la pena||
+w|ausprobieren|probar (algo nuevo)||
+w|vermeiden|evitar||
+w|verlangen|exigir, pedir||
+w|vergleichen|comparar||
+w|verwenden|utilizar||
+w|erwarten|esperar (expectativa)||
+w|ermöglichen|posibilitar||
+w|verhindern|impedir||
+w|zustimmen|estar de acuerdo||
+w|widersprechen|contradecir||
+w|überzeugen|convencer||
+w|überlegen|pensar, considerar||Ich überlege es mir.
+w|vorkommen|ocurrir; parecer||Das kommt öfter vor.
+w|auffallen|llamar la atención||
+w|ausreichen|bastar, ser suficiente||
+w|zunehmen / abnehmen|aumentar / disminuir; engordar / adelgazar||
+w|aufhören|dejar de, terminar||
+w|anfangen|empezar||
+w|wiederholen|repetir||
+w|üben|practicar||
+w|sich merken|recordar, memorizar||Das muss ich mir merken.
+w|nachdenken über|reflexionar sobre||
+w|zuverlässig|fiable||
+w|ehrlich|sincero||
+w|geduldig|paciente||
+w|selbstverständlich|por supuesto, evidente||
+w|zufrieden|satisfecho||
+w|enttäuscht|decepcionado||
+w|erleichtert|aliviado||
+w|aufgeregt|nervioso, emocionado||
+w|dringend|urgente||
+w|notwendig|necesario||
+w|möglich|posible||
+w|wichtig|importante||
+w|schwierig|difícil||
+w|einfach|sencillo||

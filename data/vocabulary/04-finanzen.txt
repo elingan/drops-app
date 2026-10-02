@@ -1,0 +1,82 @@
+# Finanzen
+w|die Rechnung|la factura; la cuenta (restaurante)||
+w|die Rechnungsnummer|el número de factura||
+w|die Dauerrechnung|la factura recurrente/anual||Austria: factura anual para pagos periódicos.
+w|der Betrag|el importe||
+w|der Gesamtbetrag|el importe total||
+w|offen|pendiente (de pago)||ein offener Betrag
+w|bezahlen|pagar||
+w|begleichen|saldar, pagar (formal)|bezahlen|eine Rechnung begleichen
+w|die Zahlung|el pago||
+w|die Überweisung|la transferencia||
+w|überweisen|transferir (dinero)||
+w|der Zahlschein|el recibo de pago bancario|der Überweisungsträger (DE)|Austria; antes «Erlagschein».
+w|der Erlagschein|el recibo de pago (en papel)|der Zahlschein|Austria, tradicional.
+w|der Bankomat|el cajero automático|der Geldautomat (DE)|Austria.
+w|die Bankomatkarte|la tarjeta de débito|die EC-Karte (DE)|Austria.
+w|das Konto|la cuenta bancaria||
+w|die IBAN|el IBAN||
+w|der Kontoauszug|el extracto bancario||
+w|die Mahnung|el requerimiento de pago||
+w|die Frist|el plazo||Zahlungsfrist
+w|fällig|vencido, a pagar||Die Rechnung ist am 15. fällig.
+w|die Gutschrift|el abono, la nota de crédito||
+w|die Erstattung|el reembolso||
+w|zurückerstatten|reembolsar||
+w|der Preis|el precio||
+w|die Kosten|los costes||
+w|kostenlos|gratis|gratis|
+w|der Rabatt|el descuento||
+w|die Umsatzsteuer|el IVA|die Mehrwertsteuer|En Austria se dice USt. (20 %).
+w|die Steuer|el impuesto||
+w|die Einkommensteuer|el impuesto sobre la renta||
+w|die Steuererklärung|la declaración de impuestos||
+w|der Steuerbescheid|la liquidación de impuestos||Lo envía el Finanzamt.
+w|das Finanzamt|la Agencia Tributaria||
+w|der Steuerberater|el asesor fiscal||
+w|der Buchhalter / die Buchhalterin|el/la contable||
+w|die Buchhaltung|la contabilidad||
+w|der Beleg|el comprobante|die Quittung|
+w|die Quittung|el recibo||
+w|die Einnahmen|los ingresos||
+w|die Ausgaben|los gastos||
+w|die Einkünfte|los ingresos, las rentas||Ich hatte keine Einkünfte.
+w|der Verlust|la pérdida||
+w|der Gewinn|la ganancia||
+w|das Quartal|el trimestre||
+w|monatlich|mensual(mente)||
+w|jährlich|anual(mente)||
+w|der Vertrag|el contrato||
+w|kündigen|rescindir (contrato); dimitir/despedir||
+w|die Kündigung|la rescisión; el despido||
+w|die Verlängerung|la renovación, la prórroga||
+w|der Beitrag|la cuota, la contribución||SVS-Beitrag
+w|die Herabsetzung|la reducción||Herabsetzung der Beiträge
+w|die Förderung|la subvención, la ayuda||
+w|der Zuschuss|la subvención, el subsidio||
+w|beantragen|solicitar (oficialmente)||
+w|sparen|ahorrar||
+w|ausgeben|gastar||
+w|die Versicherung|el seguro||
+w|die Kaution|la fianza||
+w|bar|en efectivo||Kann ich bar zahlen?
+p|Ich sende dir die korrigierte Rechnung.|Te envío la factura corregida.||
+p|Die Rechnung ist momentan noch offen.|La factura todavía está pendiente.||
+p|Ich habe die Überweisung bereits vorgenommen.|Ya he hecho la transferencia.||
+p|Danke für die Überweisung!|¡Gracias por la transferencia!||
+p|Die Dauerrechnung schicke ich dir bald.|Te envío pronto la factura recurrente.||
+p|Du kannst mir eine Quartalsrechnung schicken.|Puedes enviarme una factura trimestral.||
+p|Die Rechnungen findest du in meinem Ordner.|Encontrarás las facturas en mi carpeta.||
+p|Mein Buchhalter benötigt den genauen Bescheid.|Mi contable necesita la resolución exacta.||
+p|Ich brauche den Einkommensteuerbescheid für den Magistrat.|Necesito la liquidación del IRPF para el Magistrat.||Austria.
+p|Alternativ kannst du mir die Verlustrechnung schicken.|Como alternativa, puedes enviarme la cuenta de pérdidas.||
+p|Ich hatte in diesem Jahr keine Einkünfte.|Este año no tuve ingresos.||
+p|Ich bitte um eine Herabsetzung des Beitrags.|Solicito una reducción de la cuota.||Carta a la SVS.
+p|Ich zahle somit 30 Euro monatlich.|Así que pago 30 euros al mes.||
+p|Bis wann muss ich die Rechnung begleichen?|¿Hasta cuándo tengo que pagar la factura?||
+p|Kann ich mit Bankomatkarte zahlen?|¿Puedo pagar con tarjeta de débito?||Austria.
+p|Wo ist der nächste Bankomat?|¿Dónde está el cajero más cercano?||Austria.
+p|Der Betrag wurde noch nicht überwiesen.|El importe todavía no se ha transferido.||
+p|Ich möchte den Vertrag kündigen.|Quiero rescindir el contrato.||
+p|Somit brauchst du nichts zu bezahlen.|Así que no tienes que pagar nada.||
+p|Wir bedanken uns herzlich für Ihren Auftrag.|Le agradecemos cordialmente su pedido.||

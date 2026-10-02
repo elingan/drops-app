@@ -1,0 +1,67 @@
+# Familie
+w|die Ehefrau|la esposa||
+w|der Ehemann|el esposo||
+w|das Ehepaar|el matrimonio (pareja)||
+w|der Sohn|el hijo||
+w|die Tochter|la hija||
+w|der Bub|el niño, el chico|der Junge (DE)|Austria.
+w|das Mäderl|la niña|das Mädchen|Austria, coloquial.
+w|die Eltern|los padres||
+w|die Großeltern|los abuelos||
+w|die Oma / der Opa|la abuela / el abuelo||
+w|die Verwandten|los parientes||
+w|verwandt|emparentado||
+w|der Schwager / die Schwägerin|el cuñado / la cuñada||
+w|die Schwiegereltern|los suegros||
+w|der Onkel / die Tante|el tío / la tía||
+w|der Cousin / die Cousine|el primo / la prima||
+w|der Neffe / die Nichte|el sobrino / la sobrina||
+w|das Baby|el bebé||
+w|die Kinderkrippe|la guardería (0–3 años)||Austria.
+w|der Kindergarten|la guardería, el jardín de infancia||
+w|die Kindergartenpädagogin|la educadora infantil||Austria.
+w|die Volksschule|la escuela primaria||Austria (6–10 años).
+w|die Mittelschule|la escuela secundaria||Austria (10–14 años).
+w|das Gymnasium|el instituto de bachillerato||
+w|die Matura|la selectividad / el bachillerato|das Abitur (DE)|Austria.
+w|der Hort|el centro extraescolar||Austria/DE.
+w|die Nachmittagsbetreuung|el cuidado de tarde (después del cole)||Austria.
+w|die Schularbeit|el examen escrito en clase|die Klassenarbeit (DE)|Austria.
+w|die Hausübung|los deberes|die Hausaufgabe (DE)|Austria.
+w|das Zeugnis|las notas, el boletín||
+w|der Elternabend|la reunión de padres||
+w|die Ferien|las vacaciones escolares||
+w|die Semesterferien|las vacaciones de semestre (febrero)||Austria.
+w|die Jause|la merienda; el tentempié||Austria: Jause für die Schule.
+w|die Jausenbox|la fiambrera||Austria.
+w|abholen|recoger||das Kind abholen
+w|bringen|llevar||
+w|aufpassen auf|cuidar de, vigilar||
+w|der Babysitter|la niñera||
+w|erziehen|educar||
+w|die Erziehung|la educación (crianza)||
+w|streiten|discutir, pelearse||
+w|sich versöhnen|reconciliarse||
+w|der Geburtstag|el cumpleaños||
+w|die Hochzeit|la boda||
+w|der Hochzeitstag|el aniversario de boda||
+w|feiern|celebrar||
+w|das Geschenk|el regalo||
+w|die Taufe|el bautizo||
+w|zu Besuch|de visita||
+w|vorbeikommen|pasar (por casa)||
+p|Meine Frau ist leider noch krank.|Lamentablemente mi mujer sigue enferma.||
+p|Ich muss mich um unseren Sohn kümmern.|Tengo que ocuparme de nuestro hijo.||
+p|Ich hole den Kleinen vom Kindergarten ab.|Recojo al pequeño de la guardería.||
+p|Wer holt heute die Kinder ab?|¿Quién recoge hoy a los niños?||
+p|Unser Sohn hat morgen eine Schularbeit.|Nuestro hijo tiene mañana un examen.||Austria.
+p|Hast du deine Hausübung schon gemacht?|¿Ya has hecho los deberes?||Austria.
+p|Vergiss deine Jause nicht!|¡No te olvides la merienda!||Austria.
+p|Wir kommen am Sonntag vorbei.|Pasamos el domingo.||
+p|Alles Gute zum Geburtstag!|¡Feliz cumpleaños!||
+p|Danke für deine schönen Wünsche.|Gracias por tus bonitos deseos.||
+p|Kannst du heute Abend auf die Kinder aufpassen?|¿Puedes cuidar a los niños esta noche?||
+p|Morgen ist Elternabend in der Schule.|Mañana hay reunión de padres en la escuela.||
+p|Die Kinder streiten schon wieder.|Los niños vuelven a pelearse.||
+p|Wir feiern bei meinen Schwiegereltern.|Lo celebramos en casa de mis suegros.||
+p|Wann beginnen die Sommerferien?|¿Cuándo empiezan las vacaciones de verano?||

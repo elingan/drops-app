@@ -1,0 +1,114 @@
+# Alltag
+w|Grüß Gott|buenos días (saludo formal)|Guten Tag|Austria, saludo estándar.
+w|Servus|hola; adiós (informal)|Hallo / Tschüss|Austria, coloquial.
+w|Baba|chao|Tschüss|Austria, coloquial.
+w|Pfiat di|adiós (informal)|Tschüss|Austria/Steiermark, coloquial.
+w|heuer|este año|dieses Jahr|Austria.
+w|der Jänner|enero|der Januar (DE)|Austria.
+w|passt|vale, de acuerdo, perfecto|in Ordnung|Austria, muy frecuente.
+w|na eh|claro, por supuesto|natürlich|Austria, coloquial.
+w|leiwand|genial, guay|toll, super|Austria (Viena), coloquial.
+w|ur|súper, muy|sehr|Austria, coloquial juvenil: ur gut.
+w|a bissl|un poquito|ein bisschen|Austria, coloquial.
+w|eh|de todas formas, igualmente|sowieso|Austria: Das weiß ich eh.
+w|fesch|guapo, elegante|hübsch, schick|Austria.
+w|gscheit|listo, como es debido|gescheit, klug|Austria, coloquial.
+w|sudern|quejarse, refunfuñar|jammern|Austria, coloquial.
+w|raunzen|quejarse|nörgeln|Austria, coloquial.
+w|der Schmäh|la broma, el humor (vienés)|der Witz|Austria.
+w|die Gaudi|la diversión, el jolgorio|der Spaß|Austria/Baviera.
+w|patschert|torpe|ungeschickt|Austria, coloquial.
+w|ang'fressen|mosqueado, harto|verärgert|Austria, coloquial.
+w|eigentlich|en realidad||
+w|übrigens|por cierto||
+w|ohnehin|de todas formas|sowieso|
+w|sowieso|de todos modos||
+w|halt|pues, simplemente (partícula)||Das ist halt so.
+w|eben|precisamente; pues||
+w|ziemlich|bastante||
+w|ungefähr|aproximadamente||
+w|wahrscheinlich|probablemente||
+w|vielleicht|quizás||
+w|leider|lamentablemente||
+w|zum Glück|por suerte||
+w|trotzdem|a pesar de eso||
+w|deshalb|por eso||
+w|außerdem|además||
+w|stattdessen|en lugar de eso||
+w|inzwischen|mientras tanto; entretanto||
+w|zwischendurch|entre medias||
+w|vorhin|hace un rato||
+w|neulich|el otro día||
+w|demnächst|próximamente||
+w|rechtzeitig|a tiempo||
+w|pünktlich|puntual||
+w|sich verspäten|retrasarse||
+w|die Verspätung|el retraso||
+w|vorhaben|tener previsto, planear||Hast du was vor?
+w|sich kümmern um|ocuparse de||
+w|ausmachen|acordar; apagar||Wir haben 10 Uhr ausgemacht.
+w|erledigen|hacer, resolver (gestiones)||
+w|die Besorgung|el recado||Besorgungen machen
+w|aufräumen|ordenar||
+w|putzen|limpiar||
+w|waschen|lavar||
+w|bügeln|planchar||
+w|der Müll|la basura|der Mist (Austria)|
+w|der Mistkübel|el cubo de basura|der Mülleimer (DE)|Austria.
+w|der Kübel|el cubo|der Eimer (DE)|Austria.
+w|das Packerl|el paquetito|das Päckchen (DE)|Austria.
+w|das Tixo|la cinta adhesiva|der Tesafilm (DE)|Austria.
+w|der Kasten|el armario|der Schrank (DE)|Austria.
+w|der Sessel|la silla|der Stuhl (DE)|Austria. ¡Ojo! En DE «Sessel» = sillón.
+w|der Polster|el cojín, la almohada|das Kissen (DE)|Austria.
+w|die Stiege|la escalera|die Treppe (DE)|Austria.
+w|das Wetter|el tiempo (meteorológico)||
+w|der Regenschirm|el paraguas||
+w|die Hitze|el calor||
+w|kühl|fresco||
+w|sich erkälten|resfriarse||
+w|sich freuen auf|tener ganas de (algo futuro)||
+w|sich freuen über|alegrarse de (algo)||
+w|sich gewöhnen an|acostumbrarse a||
+w|sich vorstellen|presentarse; imaginarse||
+w|verstehen|entender||
+w|sich irren|equivocarse||
+w|der Unterschied|la diferencia||
+w|die Gelegenheit|la ocasión, la oportunidad||
+w|die Ahnung|la idea, la noción||Keine Ahnung!
+w|die Laune|el humor (estado de ánimo)||gute Laune
+w|müde|cansado||
+w|der Nachbar / die Nachbarin|el/la vecino/a||
+w|die Post|correos; el correo||
+w|das Paket|el paquete||
+w|abholen|recoger||ein Paket abholen
+w|die Abholstation|el punto de recogida||
+w|die Trafik|el estanco (tabaco, prensa, billetes)|der Kiosk|Austria.
+w|der Schlüssel|la llave||
+w|vergessen|olvidar||
+p|Das passt schon.|Está bien así.||Austria, muy frecuente.
+p|Na eh!|¡Claro que sí!|Natürlich!|Austria, coloquial.
+p|Das weiß ich eh.|Eso ya lo sé.|Das weiß ich sowieso.|Austria.
+p|Hast du heute schon was vor?|¿Tienes planes para hoy?||
+p|Wir haben 10 Uhr ausgemacht.|Quedamos a las 10.||ausmachen = acordar.
+p|Ich muss noch ein paar Besorgungen machen.|Todavía tengo que hacer unos recados.||
+p|Ich muss das Packerl bei der Post abholen.|Tengo que recoger el paquete en correos.||Austria.
+p|Keine Ahnung.|Ni idea.||
+p|Das ist halt so.|Es lo que hay.||
+p|Mir ist langweilig.|Me aburro.||
+p|Ich bin total müde.|Estoy agotado.||
+p|Ich habe mich im Datum geirrt.|Me he equivocado de fecha.||
+p|Ich habe versehentlich das falsche Datum eingetragen.|He puesto la fecha equivocada por error.||
+p|Kein Problem, das passiert.|No pasa nada, eso pasa.||
+p|Ich gewöhne mich langsam daran.|Me voy acostumbrando poco a poco.||
+p|Wie war dein Wochenende?|¿Qué tal tu fin de semana?||
+p|Schönes Wochenende!|¡Buen fin de semana!||
+p|Mahlzeit!|¡Buen provecho! / ¡Hola! (a mediodía)||Austria: saludo típico a la hora de comer.
+p|Wie geht's dir?|¿Qué tal estás?||
+p|Passt, bis später!|¡Vale, hasta luego!||Austria.
+p|Bitte schön! – Danke schön!|¡De nada! / ¡Aquí tiene! – ¡Muchas gracias!||
+p|Das ist mir wurscht.|Me da igual.|Das ist mir egal.|Austria, coloquial.
+p|Geht sich das aus?|¿Da tiempo? / ¿Alcanza?|Reicht das? / Schaffen wir das?|Austria, muy típico.
+p|Das geht sich leider nicht aus.|Lamentablemente no da tiempo / no alcanza.||Austria.
+p|Ich bin schon ganz ang'fressen.|Ya estoy harto.||Austria, coloquial.
+p|Sei nicht so patschert!|¡No seas tan torpe!||Austria, coloquial.

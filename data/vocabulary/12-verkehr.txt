@@ -1,0 +1,53 @@
+# Verkehr
+w|die Öffis|el transporte público|die öffentlichen Verkehrsmittel|Austria, coloquial.
+w|die Bim|el tranvía|die Straßenbahn|Austria (Graz, Viena), coloquial.
+w|die Straßenbahn|el tranvía||
+w|die Haltestelle|la parada||
+w|die Station|la estación, la parada||
+w|der Fahrplan|el horario (de transporte)||
+w|der Fahrschein|el billete|das Ticket|
+w|die Jahreskarte|el abono anual||Austria: KlimaTicket.
+w|das KlimaTicket|el abono nacional de transporte||Austria.
+w|entwerten|validar (billete)||
+w|der Kontrolleur|el revisor||
+w|die ÖBB|los ferrocarriles austriacos||Österreichische Bundesbahnen.
+w|der Bahnhof|la estación de tren||Graz Hauptbahnhof
+w|der Bahnsteig|el andén||
+w|das Gleis|la vía||
+w|umsteigen|hacer transbordo||
+w|die Verspätung|el retraso||
+w|ausfallen|cancelarse, no circular||Der Zug fällt aus.
+w|die Ersatzverbindung|la conexión alternativa||
+w|der Schienenersatzverkehr|el autobús sustituto del tren||
+w|das Auto|el coche||
+w|der Führerschein|el carnet de conducir||
+w|das Pickerl|la ITV; la pegatina||Austria: §57a-Überprüfung.
+w|die Vignette|la viñeta de autopista||Austria: obligatoria en autopistas.
+w|die Autobahn|la autopista||
+w|der Stau|el atasco||
+w|parken|aparcar||
+w|der Parkplatz|el aparcamiento||
+w|die Kurzparkzone|la zona de aparcamiento limitado||Austria («blaue Zone»).
+w|der Parkschein|el ticket de aparcamiento||
+w|die Tankstelle|la gasolinera||
+w|tanken|repostar||
+w|das Fahrrad|la bicicleta||
+w|der Radweg|el carril bici||
+w|der Zebrastreifen|el paso de cebra||
+w|die Ampel|el semáforo||
+w|die Kreuzung|el cruce||
+w|abbiegen|girar (dirección)||
+w|die Umleitung|el desvío||
+w|die Baustelle|las obras||
+w|der Strafzettel|la multa (de tráfico)||Austria también: Organstrafverfügung.
+w|der Flughafen|el aeropuerto||
+p|Wann fährt die nächste Bim?|¿Cuándo sale el próximo tranvía?||Austria, coloquial.
+p|Wo muss ich umsteigen?|¿Dónde tengo que hacer transbordo?||
+p|Der Zug fällt aus.|El tren está cancelado.||
+p|Ich stehe im Stau.|Estoy en un atasco.||
+p|Ich fahre mit den Öffis.|Voy en transporte público.||Austria.
+p|Ich brauche noch eine Vignette.|Todavía necesito una viñeta de autopista.||Austria.
+p|Mein Pickerl läuft im Mai ab.|Mi ITV caduca en mayo.||Austria.
+p|Wo kann ich hier parken?|¿Dónde puedo aparcar aquí?||
+p|Ist das die richtige Haltestelle?|¿Es esta la parada correcta?||
+p|Es gibt einen Schienenersatzverkehr.|Hay un autobús sustitutorio del tren.||

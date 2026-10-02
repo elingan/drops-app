@@ -1,0 +1,51 @@
+# Freizeit
+w|die Freizeit|el tiempo libre||
+w|das Wochenende|el fin de semana||
+w|der Ausflug|la excursión||
+w|wandern|hacer senderismo||
+w|die Wanderung|la caminata||
+w|die Hütte|el refugio de montaña||Austria: Almhütte.
+w|die Alm|el pasto alpino||Austria.
+w|der Berg|la montaña||
+w|der See|el lago||
+w|das Freibad|la piscina al aire libre||
+w|das Hallenbad|la piscina cubierta||
+w|Schi fahren|esquiar|Ski fahren|Austria escribe a menudo «Schi».
+w|rodeln|ir en trineo||Austria.
+w|der Schlepplift|el telearrastre||
+w|die Langlaufloipe|la pista de esquí de fondo||
+w|der Verein|la asociación, el club||
+w|das Mitglied|el miembro, el socio||
+w|der Sport|el deporte||
+w|trainieren|entrenar||
+w|das Fitnessstudio|el gimnasio||
+w|das Konzert|el concierto||
+w|die Veranstaltung|el evento||
+w|die Ausstellung|la exposición||
+w|das Theater|el teatro||
+w|das Kino|el cine||
+w|der Flohmarkt|el mercadillo||
+w|der Adventmarkt|el mercado navideño|der Weihnachtsmarkt (DE)|Austria.
+w|der Krampus|el Krampus (figura navideña)||Austria, 5 de diciembre.
+w|das Feuerwerk|los fuegos artificiales||
+w|die Reise|el viaje||
+w|der Urlaub|las vacaciones||
+w|die Unterkunft|el alojamiento||
+w|übernachten|pernoctar||
+w|Lust haben|tener ganas||
+w|sich treffen|quedar, verse||
+w|die Verabredung|la cita, el plan||
+w|spazieren gehen|ir a pasear||
+w|grillen|hacer barbacoa||
+w|die Gaudi|la diversión||Austria.
+w|gemütlich|acogedor, tranquilo||
+p|Hast du am Wochenende schon was vor?|¿Ya tienes planes para el finde?||
+p|Gehen wir am Sonntag wandern?|¿Vamos de senderismo el domingo?||
+p|Wir kehren auf einer Hütte ein.|Paramos a comer en un refugio.||Austria.
+p|Hast du Lust auf einen Kaffee?|¿Te apetece un café?||
+p|Treffen wir uns um sieben beim Hauptplatz?|¿Quedamos a las siete en la plaza mayor?||Graz: Hauptplatz.
+p|Das war eine Riesengaudi!|¡Fue una juerga tremenda!||Austria.
+p|Wir fahren heuer nach Kärnten an den See.|Este año vamos a un lago en Carintia.||Austria.
+p|Gehen wir zum Adventmarkt?|¿Vamos al mercado navideño?||Austria.
+p|Ich bin Mitglied in einem Verein.|Soy socio de una asociación.||
+p|Wir wünschen euch einen schönen Sommer.|Os deseamos un bonito verano.||

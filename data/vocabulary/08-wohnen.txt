@@ -1,0 +1,62 @@
+# Wohnen
+w|die Wohnung|el piso||
+w|die Mietwohnung|el piso de alquiler||
+w|die Eigentumswohnung|el piso en propiedad||
+w|die Genossenschaftswohnung|la vivienda de cooperativa||Austria, muy común.
+w|die Gemeindewohnung|la vivienda municipal||Austria.
+w|die Miete|el alquiler||
+w|mieten|alquilar (como inquilino)||
+w|vermieten|alquilar (como propietario)||
+w|der Vermieter / die Vermieterin|el/la casero/a||
+w|der Mieter / die Mieterin|el/la inquilino/a||
+w|der Mietvertrag|el contrato de alquiler||
+w|befristet|temporal, con fecha de fin||Austria: befristeter Mietvertrag (3 años).
+w|die Betriebskosten|los gastos de comunidad||Austria.
+w|die Hausverwaltung|la administración de la finca||
+w|der Hausbesorger|el portero, el conserje|der Hausmeister (DE)|Austria.
+w|die Kaution|la fianza||
+w|die Provision|la comisión (de agencia)||
+w|der Makler / die Maklerin|el/la agente inmobiliario/a||
+w|die Besichtigung|la visita (al piso)||
+w|einziehen|mudarse a (entrar)||
+w|ausziehen|mudarse de (salir)||
+w|umziehen|mudarse||
+w|der Umzug|la mudanza||
+w|die Hausordnung|las normas de la comunidad||
+w|das Stiegenhaus|la escalera (del edificio)|das Treppenhaus (DE)|Austria.
+w|der Stock|la planta, el piso||im zweiten Stock
+w|das Erdgeschoss|la planta baja||Austria también: Parterre.
+w|der Keller|el sótano, el trastero||
+w|der Dachboden|el desván||
+w|der Balkon|el balcón||
+w|die Heizung|la calefacción||
+w|heizen|calentar, encender la calefacción||
+w|lüften|ventilar||Austria: Stoßlüften.
+w|der Schimmel|el moho||
+w|der Wasserhahn|el grifo||
+w|tropfen|gotear||
+w|reparieren|reparar||
+w|der Installateur|el fontanero|der Klempner (DE)|Austria.
+w|der Elektriker|el electricista||
+w|der Rauchfangkehrer|el deshollinador|der Schornsteinfeger (DE)|Austria.
+w|der Strom|la electricidad||
+w|die Stromrechnung|la factura de la luz||
+w|der Zählerstand|la lectura del contador||
+w|die Mülltrennung|la separación de basura||
+w|der Biomüll|los residuos orgánicos||
+w|der Altpapiercontainer|el contenedor de papel||
+w|die Waschmaschine|la lavadora||
+w|der Geschirrspüler|el lavavajillas||
+w|die Abstellkammer|el trastero (dentro del piso)||
+w|möbliert|amueblado||
+w|die Garçonnière|el estudio (piso pequeño)|die Einzimmerwohnung|Austria.
+p|Die Heizung funktioniert nicht.|La calefacción no funciona.||
+p|Der Wasserhahn tropft seit gestern.|El grifo gotea desde ayer.||
+p|Wie hoch sind die Betriebskosten?|¿Cuánto son los gastos de comunidad?||Austria.
+p|Ist die Wohnung befristet vermietet?|¿El piso se alquila con contrato temporal?||
+p|Wann kann ich die Wohnung besichtigen?|¿Cuándo puedo ver el piso?||
+p|Wir ziehen nächsten Monat um.|Nos mudamos el mes que viene.||
+p|Ich muss das der Hausverwaltung melden.|Tengo que comunicárselo a la administración.||
+p|Wir wohnen im dritten Stock.|Vivimos en el tercer piso.||
+p|Bitte nicht vergessen, den Müll zu trennen.|No olvides separar la basura, por favor.||
+p|Können Sie einen Installateur schicken?|¿Puede enviar a un fontanero?||Austria.

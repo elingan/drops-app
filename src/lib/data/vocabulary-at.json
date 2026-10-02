@@ -1,0 +1,6961 @@
+[
+	{
+		"type": "word",
+		"german": "die Nachricht",
+		"category": "Korrespondenz",
+		"translation": "el mensaje"
+	},
+	{
+		"type": "word",
+		"german": "der Anhang",
+		"category": "Korrespondenz",
+		"translation": "el archivo adjunto",
+		"context": "Im Anhang findest du … = en el adjunto encontrarás…"
+	},
+	{
+		"type": "word",
+		"german": "anbei",
+		"category": "Korrespondenz",
+		"translation": "adjunto, en el anexo",
+		"alt": "beiliegend",
+		"context": "Anbei sende ich dir … Muy usado en emails."
+	},
+	{
+		"type": "word",
+		"german": "die Anlage",
+		"category": "Korrespondenz",
+		"translation": "el anexo",
+		"alt": "der Anhang",
+		"context": "In der Anlage … (más formal)"
+	},
+	{
+		"type": "word",
+		"german": "der Betreff",
+		"category": "Korrespondenz",
+		"translation": "el asunto",
+		"alt": "das Thema der E-Mail",
+		"context": "Campo «asunto» de un email."
+	},
+	{
+		"type": "word",
+		"german": "der Absender",
+		"category": "Korrespondenz",
+		"translation": "el remitente"
+	},
+	{
+		"type": "word",
+		"german": "der Empfänger",
+		"category": "Korrespondenz",
+		"translation": "el destinatario"
+	},
+	{
+		"type": "word",
+		"german": "der Adressat",
+		"category": "Korrespondenz",
+		"translation": "el destinatario (formal)",
+		"alt": "der Empfänger"
+	},
+	{
+		"type": "word",
+		"german": "weiterleiten",
+		"category": "Korrespondenz",
+		"translation": "reenviar, reenviar a otra persona",
+		"context": "Ich leite die Info weiter."
+	},
+	{
+		"type": "word",
+		"german": "die Weiterleitung",
+		"category": "Korrespondenz",
+		"translation": "el reenvío"
+	},
+	{
+		"type": "word",
+		"german": "beantworten",
+		"category": "Korrespondenz",
+		"translation": "responder (algo)",
+		"alt": "antworten auf",
+		"context": "Eine E-Mail beantworten."
+	},
+	{
+		"type": "word",
+		"german": "die Rückmeldung",
+		"category": "Korrespondenz",
+		"translation": "la respuesta, el feedback",
+		"alt": "die Antwort",
+		"context": "Ich freue mich auf deine Rückmeldung."
+	},
+	{
+		"type": "word",
+		"german": "der Bescheid",
+		"category": "Korrespondenz",
+		"translation": "el aviso; la resolución oficial",
+		"alt": "die Information / der amtliche Entscheid",
+		"context": "Gib mir Bescheid = avísame. Bescheid vom Amt = resolución."
+	},
+	{
+		"type": "word",
+		"german": "sich melden",
+		"category": "Korrespondenz",
+		"translation": "ponerse en contacto, dar señales",
+		"context": "Ich melde mich morgen."
+	},
+	{
+		"type": "word",
+		"german": "mitteilen",
+		"category": "Korrespondenz",
+		"translation": "comunicar, informar",
+		"alt": "sagen, informieren",
+		"context": "Hiermit teilen wir Ihnen mit …"
+	},
+	{
+		"type": "word",
+		"german": "bestätigen",
+		"category": "Korrespondenz",
+		"translation": "confirmar",
+		"context": "Bitte bestätige den Termin."
+	},
+	{
+		"type": "word",
+		"german": "die Bestätigung",
+		"category": "Korrespondenz",
+		"translation": "la confirmación; el certificado"
+	},
+	{
+		"type": "word",
+		"german": "die Erinnerung",
+		"category": "Korrespondenz",
+		"translation": "el recordatorio; el recuerdo"
+	},
+	{
+		"type": "word",
+		"german": "erinnern an",
+		"category": "Korrespondenz",
+		"translation": "recordar algo a alguien",
+		"context": "Ich wollte dich an … erinnern."
+	},
+	{
+		"type": "word",
+		"german": "nachfragen",
+		"category": "Korrespondenz",
+		"translation": "volver a preguntar, consultar",
+		"context": "Ich wollte kurz nachfragen, ob …"
+	},
+	{
+		"type": "word",
+		"german": "die Anfrage",
+		"category": "Korrespondenz",
+		"translation": "la consulta, la solicitud",
+		"context": "Danke für Ihre Anfrage."
+	},
+	{
+		"type": "word",
+		"german": "anfragen",
+		"category": "Korrespondenz",
+		"translation": "consultar, solicitar información"
+	},
+	{
+		"type": "word",
+		"german": "zusenden",
+		"category": "Korrespondenz",
+		"translation": "enviar (a alguien)",
+		"alt": "schicken",
+		"context": "Bitte senden Sie mir die Unterlagen zu."
+	},
+	{
+		"type": "word",
+		"german": "die Zusendung",
+		"category": "Korrespondenz",
+		"translation": "el envío"
+	},
+	{
+		"type": "word",
+		"german": "zukommen lassen",
+		"category": "Korrespondenz",
+		"translation": "hacer llegar",
+		"alt": "schicken",
+		"context": "Ich lasse dir die Rechnung zukommen."
+	},
+	{
+		"type": "word",
+		"german": "die Unterlagen",
+		"category": "Korrespondenz",
+		"translation": "los documentos, la documentación",
+		"alt": "die Dokumente",
+		"context": "Siempre en plural."
+	},
+	{
+		"type": "word",
+		"german": "ausfüllen",
+		"category": "Korrespondenz",
+		"translation": "rellenar (un formulario)"
+	},
+	{
+		"type": "word",
+		"german": "unterschreiben",
+		"category": "Korrespondenz",
+		"translation": "firmar"
+	},
+	{
+		"type": "word",
+		"german": "die Unterschrift",
+		"category": "Korrespondenz",
+		"translation": "la firma"
+	},
+	{
+		"type": "word",
+		"german": "ausdrucken",
+		"category": "Korrespondenz",
+		"translation": "imprimir"
+	},
+	{
+		"type": "word",
+		"german": "einscannen",
+		"category": "Korrespondenz",
+		"translation": "escanear"
+	},
+	{
+		"type": "word",
+		"german": "der Zeitraum",
+		"category": "Korrespondenz",
+		"translation": "el período"
+	},
+	{
+		"type": "word",
+		"german": "rechtzeitig",
+		"category": "Korrespondenz",
+		"translation": "a tiempo, con antelación"
+	},
+	{
+		"type": "word",
+		"german": "umgehend",
+		"category": "Korrespondenz",
+		"translation": "de inmediato (formal)",
+		"alt": "sofort"
+	},
+	{
+		"type": "word",
+		"german": "baldig",
+		"category": "Korrespondenz",
+		"translation": "pronto, próximo",
+		"alt": "bald",
+		"context": "Um baldige Antwort wird gebeten."
+	},
+	{
+		"type": "word",
+		"german": "rasch",
+		"category": "Korrespondenz",
+		"translation": "rápido",
+		"alt": "schnell",
+		"context": "Danke für die rasche Antwort. Muy usado en Austria."
+	},
+	{
+		"type": "word",
+		"german": "gerne",
+		"category": "Korrespondenz",
+		"translation": "con gusto; claro",
+		"context": "Gerne! = ¡Con gusto!"
+	},
+	{
+		"type": "word",
+		"german": "herzlich",
+		"category": "Korrespondenz",
+		"translation": "cordial(mente)",
+		"context": "Herzlichen Dank!"
+	},
+	{
+		"type": "word",
+		"german": "freundlich",
+		"category": "Korrespondenz",
+		"translation": "amable",
+		"context": "Mit freundlichen Grüßen"
+	},
+	{
+		"type": "word",
+		"german": "geehrt",
+		"category": "Korrespondenz",
+		"translation": "estimado (formal)",
+		"context": "Sehr geehrte Frau …"
+	},
+	{
+		"type": "word",
+		"german": "die Verfügung",
+		"category": "Korrespondenz",
+		"translation": "la disposición",
+		"context": "zur Verfügung stehen = estar a disposición"
+	},
+	{
+		"type": "word",
+		"german": "die Rücksicht",
+		"category": "Korrespondenz",
+		"translation": "la consideración",
+		"context": "Danke für deine Rücksichtnahme."
+	},
+	{
+		"type": "word",
+		"german": "der Hinweis",
+		"category": "Korrespondenz",
+		"translation": "la indicación, el aviso"
+	},
+	{
+		"type": "word",
+		"german": "hinweisen auf",
+		"category": "Korrespondenz",
+		"translation": "señalar, advertir sobre",
+		"context": "Wir möchten Sie darauf hinweisen, dass …"
+	},
+	{
+		"type": "word",
+		"german": "ausstehend",
+		"category": "Korrespondenz",
+		"translation": "pendiente",
+		"context": "ausstehende Details"
+	},
+	{
+		"type": "word",
+		"german": "offen",
+		"category": "Korrespondenz",
+		"translation": "abierto; pendiente; pendiente (de pago)",
+		"alt": "ausstehend",
+		"context": "Die Rechnung ist noch offen."
+	},
+	{
+		"type": "word",
+		"german": "versehentlich",
+		"category": "Korrespondenz",
+		"translation": "por error",
+		"alt": "irrtümlich",
+		"context": "Ich habe versehentlich das falsche Datum eingetragen."
+	},
+	{
+		"type": "word",
+		"german": "irrtümlich",
+		"category": "Korrespondenz",
+		"translation": "por equivocación",
+		"alt": "versehentlich",
+		"context": "Falls Sie diese E-Mail irrtümlich erhalten haben …"
+	},
+	{
+		"type": "word",
+		"german": "die Verzögerung",
+		"category": "Korrespondenz",
+		"translation": "el retraso"
+	},
+	{
+		"type": "word",
+		"german": "die Unannehmlichkeit",
+		"category": "Korrespondenz",
+		"translation": "la molestia",
+		"context": "Entschuldigen Sie die Unannehmlichkeiten."
+	},
+	{
+		"type": "word",
+		"german": "sich entschuldigen",
+		"category": "Korrespondenz",
+		"translation": "disculparse"
+	},
+	{
+		"type": "word",
+		"german": "bedauern",
+		"category": "Korrespondenz",
+		"translation": "lamentar",
+		"alt": "leidtun",
+		"context": "Wir bedauern, Ihnen mitteilen zu müssen …"
+	},
+	{
+		"type": "word",
+		"german": "sich bedanken",
+		"category": "Korrespondenz",
+		"translation": "dar las gracias",
+		"context": "Ich bedanke mich für …"
+	},
+	{
+		"type": "word",
+		"german": "die Empfehlung",
+		"category": "Korrespondenz",
+		"translation": "la recomendación",
+		"context": "auf Empfehlung von … = por recomendación de …"
+	},
+	{
+		"type": "word",
+		"german": "die Einladung",
+		"category": "Korrespondenz",
+		"translation": "la invitación"
+	},
+	{
+		"type": "word",
+		"german": "einladen",
+		"category": "Korrespondenz",
+		"translation": "invitar"
+	},
+	{
+		"type": "word",
+		"german": "zusagen",
+		"category": "Korrespondenz",
+		"translation": "aceptar, confirmar asistencia"
+	},
+	{
+		"type": "word",
+		"german": "absagen",
+		"category": "Korrespondenz",
+		"translation": "cancelar, rechazar"
+	},
+	{
+		"type": "word",
+		"german": "die Absage",
+		"category": "Korrespondenz",
+		"translation": "la cancelación, el rechazo"
+	},
+	{
+		"type": "word",
+		"german": "verschieben",
+		"category": "Korrespondenz",
+		"translation": "aplazar, posponer",
+		"context": "Können wir den Termin verschieben?"
+	},
+	{
+		"type": "word",
+		"german": "vereinbaren",
+		"category": "Korrespondenz",
+		"translation": "acordar, concertar",
+		"context": "einen Termin vereinbaren"
+	},
+	{
+		"type": "word",
+		"german": "der Termin",
+		"category": "Korrespondenz",
+		"translation": "la cita, el plazo",
+		"context": "En Austria también: Arzttermin, Amtstermin."
+	},
+	{
+		"type": "word",
+		"german": "die Telefonnummer",
+		"category": "Korrespondenz",
+		"translation": "el número de teléfono"
+	},
+	{
+		"type": "word",
+		"german": "erreichbar",
+		"category": "Korrespondenz",
+		"translation": "localizable, disponible",
+		"context": "Ich bin ab 9 Uhr erreichbar."
+	},
+	{
+		"type": "word",
+		"german": "zurückrufen",
+		"category": "Korrespondenz",
+		"translation": "devolver la llamada"
+	},
+	{
+		"type": "word",
+		"german": "der Rückruf",
+		"category": "Korrespondenz",
+		"translation": "la devolución de llamada",
+		"context": "Ich bitte um Rückruf."
+	},
+	{
+		"type": "word",
+		"german": "ersichtlich",
+		"category": "Korrespondenz",
+		"translation": "visible, que se puede ver",
+		"alt": "sichtbar, erkennbar",
+		"context": "Die Informationen sind unter dem Link ersichtlich."
+	},
+	{
+		"type": "word",
+		"german": "beigefügt",
+		"category": "Korrespondenz",
+		"translation": "adjunto",
+		"alt": "beiliegend",
+		"context": "die beigefügten Unterlagen"
+	},
+	{
+		"type": "word",
+		"german": "nochmals",
+		"category": "Korrespondenz",
+		"translation": "nuevamente, otra vez",
+		"alt": "noch einmal",
+		"context": "Nochmals vielen Dank!"
+	},
+	{
+		"type": "word",
+		"german": "bezüglich",
+		"category": "Korrespondenz",
+		"translation": "con respecto a",
+		"alt": "wegen",
+		"context": "bezüglich Ihrer Anfrage"
+	},
+	{
+		"type": "word",
+		"german": "diesbezüglich",
+		"category": "Korrespondenz",
+		"translation": "al respecto"
+	},
+	{
+		"type": "word",
+		"german": "hiermit",
+		"category": "Korrespondenz",
+		"translation": "por la presente",
+		"context": "Hiermit bestätige ich …"
+	},
+	{
+		"type": "word",
+		"german": "der Spam-Ordner",
+		"category": "Korrespondenz",
+		"translation": "la carpeta de spam"
+	},
+	{
+		"type": "word",
+		"german": "der Verteiler",
+		"category": "Korrespondenz",
+		"translation": "la lista de distribución"
+	},
+	{
+		"type": "word",
+		"german": "abmelden",
+		"category": "Korrespondenz",
+		"translation": "darse de baja; cerrar sesión",
+		"context": "vom Newsletter abmelden"
+	},
+	{
+		"type": "phrase",
+		"german": "Gib mir bitte kurz Bescheid.",
+		"category": "Korrespondenz",
+		"translation": "Avísame brevemente, por favor.",
+		"alt": "Sag mir bitte kurz, wie es aussieht.",
+		"context": "Muy frecuente en tus emails."
+	},
+	{
+		"type": "phrase",
+		"german": "Im Anhang findest du die Rechnung.",
+		"category": "Korrespondenz",
+		"translation": "En el adjunto encontrarás la factura."
+	},
+	{
+		"type": "phrase",
+		"german": "Falls du Fragen hast, melde dich.",
+		"category": "Korrespondenz",
+		"translation": "Si tienes preguntas, escríbeme.",
+		"alt": "Bei Fragen melde dich gerne."
+	},
+	{
+		"type": "phrase",
+		"german": "Bei Fragen stehe ich gerne zur Verfügung.",
+		"category": "Korrespondenz",
+		"translation": "Para cualquier pregunta estoy a tu disposición.",
+		"context": "Cierre típico de email."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir freuen uns auf deine Antwort.",
+		"category": "Korrespondenz",
+		"translation": "Esperamos tu respuesta con ilusión."
+	},
+	{
+		"type": "phrase",
+		"german": "Danke für die rasche Antwort.",
+		"category": "Korrespondenz",
+		"translation": "Gracias por la rápida respuesta.",
+		"context": "«rasch» es muy austriaco."
+	},
+	{
+		"type": "phrase",
+		"german": "Lass es mich einfach wissen.",
+		"category": "Korrespondenz",
+		"translation": "Simplemente házmelo saber."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich leite die Info gerne weiter.",
+		"category": "Korrespondenz",
+		"translation": "Reenvío la información con gusto."
+	},
+	{
+		"type": "phrase",
+		"german": "Danke für die kurze Info.",
+		"category": "Korrespondenz",
+		"translation": "Gracias por la breve información."
+	},
+	{
+		"type": "phrase",
+		"german": "Nochmals vielen Dank für deine Unterstützung.",
+		"category": "Korrespondenz",
+		"translation": "Gracias de nuevo por tu apoyo."
+	},
+	{
+		"type": "phrase",
+		"german": "Bitte um baldige Zusendung, danke.",
+		"category": "Korrespondenz",
+		"translation": "Le ruego que me lo envíe pronto, gracias.",
+		"context": "Formal y breve."
+	},
+	{
+		"type": "phrase",
+		"german": "Bitte antworten Sie nicht auf diese Nachricht.",
+		"category": "Korrespondenz",
+		"translation": "Por favor, no responda a este mensaje.",
+		"context": "Emails automáticos."
+	},
+	{
+		"type": "phrase",
+		"german": "Kannst du bitte im Spam-Ordner nachsehen?",
+		"category": "Korrespondenz",
+		"translation": "¿Puedes mirar en la carpeta de spam, por favor?"
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bitte um eine baldige telefonische Kontaktaufnahme.",
+		"category": "Korrespondenz",
+		"translation": "Solicito que se ponga en contacto conmigo por teléfono pronto.",
+		"alt": "Bitte rufen Sie mich bald an.",
+		"context": "Muy formal."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich schreibe auf Empfehlung von einer Kollegin.",
+		"category": "Korrespondenz",
+		"translation": "Escribo por recomendación de una colega."
+	},
+	{
+		"type": "phrase",
+		"german": "Mein Name ist Eduardo, ich bin Webentwickler.",
+		"category": "Korrespondenz",
+		"translation": "Me llamo Eduardo, soy desarrollador web.",
+		"context": "Presentación."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich wünsche dir noch ein schönes Wochenende.",
+		"category": "Korrespondenz",
+		"translation": "Te deseo que pases un buen fin de semana."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir wünschen dir einen erfolgreichen Tag.",
+		"category": "Korrespondenz",
+		"translation": "Te deseamos un día exitoso."
+	},
+	{
+		"type": "phrase",
+		"german": "Danke für die schöne Einladung.",
+		"category": "Korrespondenz",
+		"translation": "Gracias por la bonita invitación."
+	},
+	{
+		"type": "phrase",
+		"german": "Danke für die nette Willkommensnachricht.",
+		"category": "Korrespondenz",
+		"translation": "Gracias por el amable mensaje de bienvenida."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich melde mich im Herbst noch einmal.",
+		"category": "Korrespondenz",
+		"translation": "Te vuelvo a escribir en otoño."
+	},
+	{
+		"type": "phrase",
+		"german": "Sehr geehrte Damen und Herren,",
+		"category": "Korrespondenz",
+		"translation": "Estimados señores:",
+		"context": "Saludo formal sin nombre."
+	},
+	{
+		"type": "phrase",
+		"german": "Mit freundlichen Grüßen",
+		"category": "Korrespondenz",
+		"translation": "Atentamente",
+		"context": "Despedida formal estándar."
+	},
+	{
+		"type": "phrase",
+		"german": "Liebe Grüße aus Graz",
+		"category": "Korrespondenz",
+		"translation": "Un abrazo desde Graz",
+		"context": "Despedida cercana."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich hoffe, es geht dir gut.",
+		"category": "Korrespondenz",
+		"translation": "Espero que estés bien.",
+		"context": "Inicio cordial de email."
+	},
+	{
+		"type": "phrase",
+		"german": "Entschuldige bitte die späte Antwort.",
+		"category": "Korrespondenz",
+		"translation": "Perdona la respuesta tardía."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich entschuldige mich für die Verzögerung.",
+		"category": "Korrespondenz",
+		"translation": "Pido disculpas por el retraso."
+	},
+	{
+		"type": "phrase",
+		"german": "Entschuldigen Sie bitte die Unannehmlichkeiten.",
+		"category": "Korrespondenz",
+		"translation": "Disculpe las molestias."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin ab Montag wieder erreichbar.",
+		"category": "Korrespondenz",
+		"translation": "Vuelvo a estar disponible a partir del lunes.",
+		"context": "Respuesta automática."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin derzeit nicht im Büro.",
+		"category": "Korrespondenz",
+		"translation": "Actualmente no estoy en la oficina.",
+		"context": "Respuesta automática."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe den Link leider nicht gesehen.",
+		"category": "Korrespondenz",
+		"translation": "Lamentablemente no he visto el enlace."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Informationen sind unter dem Link ersichtlich.",
+		"category": "Korrespondenz",
+		"translation": "La información se puede ver en el enlace."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich wollte kurz nachfragen, ob alles passt.",
+		"category": "Korrespondenz",
+		"translation": "Quería preguntar brevemente si todo está bien.",
+		"context": "«passen» = estar bien, encajar."
+	},
+	{
+		"type": "phrase",
+		"german": "Können Sie mir das bitte erneut zusenden?",
+		"category": "Korrespondenz",
+		"translation": "¿Me lo puede volver a enviar, por favor?"
+	},
+	{
+		"type": "phrase",
+		"german": "Fühl dich gedrückt!",
+		"category": "Korrespondenz",
+		"translation": "¡Un abrazo!",
+		"alt": "Ich umarme dich.",
+		"context": "Informal. En vez del calco «Ich schicke dir eine große Umarmung»."
+	},
+	{
+		"type": "word",
+		"german": "der Kunde / die Kundin",
+		"category": "Arbeit",
+		"translation": "el cliente / la clienta"
+	},
+	{
+		"type": "word",
+		"german": "der Auftrag",
+		"category": "Arbeit",
+		"translation": "el encargo, el pedido",
+		"context": "Danke für Ihren Auftrag!"
+	},
+	{
+		"type": "word",
+		"german": "der Auftraggeber",
+		"category": "Arbeit",
+		"translation": "el cliente, quien encarga"
+	},
+	{
+		"type": "word",
+		"german": "das Angebot",
+		"category": "Arbeit",
+		"translation": "la oferta, el presupuesto",
+		"context": "ein Angebot erstellen"
+	},
+	{
+		"type": "word",
+		"german": "der Kostenvoranschlag",
+		"category": "Arbeit",
+		"translation": "el presupuesto (estimado)"
+	},
+	{
+		"type": "word",
+		"german": "die Lösung",
+		"category": "Arbeit",
+		"translation": "la solución"
+	},
+	{
+		"type": "word",
+		"german": "die Änderung",
+		"category": "Arbeit",
+		"translation": "el cambio, la modificación"
+	},
+	{
+		"type": "word",
+		"german": "ändern",
+		"category": "Arbeit",
+		"translation": "cambiar, modificar"
+	},
+	{
+		"type": "word",
+		"german": "anpassen",
+		"category": "Arbeit",
+		"translation": "ajustar, adaptar",
+		"context": "Dann passen wir die wichtigsten Sachen an."
+	},
+	{
+		"type": "word",
+		"german": "umsetzen",
+		"category": "Arbeit",
+		"translation": "implementar, llevar a cabo",
+		"alt": "realisieren",
+		"context": "Das lässt sich problemlos umsetzen."
+	},
+	{
+		"type": "word",
+		"german": "die Umsetzung",
+		"category": "Arbeit",
+		"translation": "la implementación"
+	},
+	{
+		"type": "word",
+		"german": "der Entwurf",
+		"category": "Arbeit",
+		"translation": "el borrador, el diseño preliminar"
+	},
+	{
+		"type": "word",
+		"german": "vorbereiten",
+		"category": "Arbeit",
+		"translation": "preparar"
+	},
+	{
+		"type": "word",
+		"german": "die Vorlage",
+		"category": "Arbeit",
+		"translation": "la plantilla"
+	},
+	{
+		"type": "word",
+		"german": "der Fortschritt",
+		"category": "Arbeit",
+		"translation": "el progreso"
+	},
+	{
+		"type": "word",
+		"german": "auf dem Laufenden halten",
+		"category": "Arbeit",
+		"translation": "mantener al tanto",
+		"context": "Ich halte dich auf dem Laufenden."
+	},
+	{
+		"type": "word",
+		"german": "die Zusammenarbeit",
+		"category": "Arbeit",
+		"translation": "la colaboración"
+	},
+	{
+		"type": "word",
+		"german": "zusammenarbeiten",
+		"category": "Arbeit",
+		"translation": "colaborar"
+	},
+	{
+		"type": "word",
+		"german": "das Projekt",
+		"category": "Arbeit",
+		"translation": "el proyecto"
+	},
+	{
+		"type": "word",
+		"german": "die Projektleitung",
+		"category": "Arbeit",
+		"translation": "la dirección del proyecto"
+	},
+	{
+		"type": "word",
+		"german": "der Schritt",
+		"category": "Arbeit",
+		"translation": "el paso",
+		"context": "der nächste Schritt"
+	},
+	{
+		"type": "word",
+		"german": "die Aufgabe",
+		"category": "Arbeit",
+		"translation": "la tarea"
+	},
+	{
+		"type": "word",
+		"german": "erledigen",
+		"category": "Arbeit",
+		"translation": "hacer, despachar, resolver; resolver (gestiones)",
+		"context": "Ich erledige das heute noch."
+	},
+	{
+		"type": "word",
+		"german": "abschließen",
+		"category": "Arbeit",
+		"translation": "terminar, cerrar (un proyecto, contrato)"
+	},
+	{
+		"type": "word",
+		"german": "fertig",
+		"category": "Arbeit",
+		"translation": "terminado, listo"
+	},
+	{
+		"type": "word",
+		"german": "die Frist",
+		"category": "Arbeit",
+		"translation": "el plazo; el plazo legal",
+		"context": "Die Frist endet am Freitag."
+	},
+	{
+		"type": "word",
+		"german": "der Abgabetermin",
+		"category": "Arbeit",
+		"translation": "la fecha de entrega",
+		"alt": "die Deadline"
+	},
+	{
+		"type": "word",
+		"german": "die Besprechung",
+		"category": "Arbeit",
+		"translation": "la reunión"
+	},
+	{
+		"type": "word",
+		"german": "besprechen",
+		"category": "Arbeit",
+		"translation": "hablar, tratar (un tema)"
+	},
+	{
+		"type": "word",
+		"german": "das Meeting",
+		"category": "Arbeit",
+		"translation": "la reunión (anglicismo)",
+		"alt": "die Besprechung"
+	},
+	{
+		"type": "word",
+		"german": "das Gespräch",
+		"category": "Arbeit",
+		"translation": "la conversación, la entrevista"
+	},
+	{
+		"type": "word",
+		"german": "das Kennenlernen",
+		"category": "Arbeit",
+		"translation": "la reunión para conocerse",
+		"context": "ein Termin zum Kennenlernen"
+	},
+	{
+		"type": "word",
+		"german": "der Vorschlag",
+		"category": "Arbeit",
+		"translation": "la propuesta"
+	},
+	{
+		"type": "word",
+		"german": "vorschlagen",
+		"category": "Arbeit",
+		"translation": "proponer"
+	},
+	{
+		"type": "word",
+		"german": "die Rückfrage",
+		"category": "Arbeit",
+		"translation": "la consulta, la pregunta de aclaración",
+		"context": "Bei Rückfragen …"
+	},
+	{
+		"type": "word",
+		"german": "klären",
+		"category": "Arbeit",
+		"translation": "aclarar",
+		"context": "Das müssen wir noch klären."
+	},
+	{
+		"type": "word",
+		"german": "der Aufwand",
+		"category": "Arbeit",
+		"translation": "el esfuerzo, el trabajo necesario",
+		"context": "Wie hoch ist der Aufwand?"
+	},
+	{
+		"type": "word",
+		"german": "der Stundensatz",
+		"category": "Arbeit",
+		"translation": "la tarifa por hora"
+	},
+	{
+		"type": "word",
+		"german": "die Stunde",
+		"category": "Arbeit",
+		"translation": "la hora"
+	},
+	{
+		"type": "word",
+		"german": "der Selbstständige",
+		"category": "Arbeit",
+		"translation": "el autónomo",
+		"context": "En Austria: Neue Selbstständige (SVS)."
+	},
+	{
+		"type": "word",
+		"german": "selbstständig",
+		"category": "Arbeit",
+		"translation": "autónomo, independiente",
+		"context": "Ich bin selbstständig."
+	},
+	{
+		"type": "word",
+		"german": "das Einzelunternehmen",
+		"category": "Arbeit",
+		"translation": "la empresa unipersonal",
+		"context": "En Austria: e.U. (eingetragenes Unternehmen)."
+	},
+	{
+		"type": "word",
+		"german": "das Unternehmen",
+		"category": "Arbeit",
+		"translation": "la empresa"
+	},
+	{
+		"type": "word",
+		"german": "der Betrieb",
+		"category": "Arbeit",
+		"translation": "la empresa, el negocio"
+	},
+	{
+		"type": "word",
+		"german": "die Firma",
+		"category": "Arbeit",
+		"translation": "la empresa"
+	},
+	{
+		"type": "word",
+		"german": "der Kollege / die Kollegin",
+		"category": "Arbeit",
+		"translation": "el/la colega"
+	},
+	{
+		"type": "word",
+		"german": "der Chef / die Chefin",
+		"category": "Arbeit",
+		"translation": "el jefe / la jefa"
+	},
+	{
+		"type": "word",
+		"german": "der Mitarbeiter / die Mitarbeiterin",
+		"category": "Arbeit",
+		"translation": "el empleado / la empleada"
+	},
+	{
+		"type": "word",
+		"german": "die Stelle",
+		"category": "Arbeit",
+		"translation": "el puesto de trabajo",
+		"context": "eine Stelle suchen"
+	},
+	{
+		"type": "word",
+		"german": "die Stellenanzeige",
+		"category": "Arbeit",
+		"translation": "el anuncio de empleo",
+		"alt": "das Jobangebot"
+	},
+	{
+		"type": "word",
+		"german": "die Bewerbung",
+		"category": "Arbeit",
+		"translation": "la candidatura, la solicitud de empleo"
+	},
+	{
+		"type": "word",
+		"german": "sich bewerben",
+		"category": "Arbeit",
+		"translation": "postularse, presentar candidatura",
+		"context": "Ich bewerbe mich als Webentwickler."
+	},
+	{
+		"type": "word",
+		"german": "der Lebenslauf",
+		"category": "Arbeit",
+		"translation": "el currículum"
+	},
+	{
+		"type": "word",
+		"german": "das Anschreiben",
+		"category": "Arbeit",
+		"translation": "la carta de presentación"
+	},
+	{
+		"type": "word",
+		"german": "das Vorstellungsgespräch",
+		"category": "Arbeit",
+		"translation": "la entrevista de trabajo"
+	},
+	{
+		"type": "word",
+		"german": "die Zusage",
+		"category": "Arbeit",
+		"translation": "la respuesta afirmativa"
+	},
+	{
+		"type": "word",
+		"german": "das Gehalt",
+		"category": "Arbeit",
+		"translation": "el sueldo"
+	},
+	{
+		"type": "word",
+		"german": "brutto / netto",
+		"category": "Arbeit",
+		"translation": "bruto / neto"
+	},
+	{
+		"type": "word",
+		"german": "Vollzeit / Teilzeit",
+		"category": "Arbeit",
+		"translation": "jornada completa / media jornada"
+	},
+	{
+		"type": "word",
+		"german": "das Homeoffice",
+		"category": "Arbeit",
+		"translation": "el teletrabajo"
+	},
+	{
+		"type": "word",
+		"german": "der Arbeitsplatz",
+		"category": "Arbeit",
+		"translation": "el puesto de trabajo, el lugar de trabajo"
+	},
+	{
+		"type": "word",
+		"german": "das Büro",
+		"category": "Arbeit",
+		"translation": "la oficina"
+	},
+	{
+		"type": "word",
+		"german": "die Arbeitszeit",
+		"category": "Arbeit",
+		"translation": "el horario laboral"
+	},
+	{
+		"type": "word",
+		"german": "der Urlaub",
+		"category": "Arbeit",
+		"translation": "las vacaciones",
+		"context": "Ich bin im Urlaub."
+	},
+	{
+		"type": "word",
+		"german": "der Krankenstand",
+		"category": "Arbeit",
+		"translation": "la baja por enfermedad",
+		"alt": "die Krankschreibung (DE)",
+		"context": "Austria: im Krankenstand sein."
+	},
+	{
+		"type": "word",
+		"german": "die Weiterbildung",
+		"category": "Arbeit",
+		"translation": "la formación continua"
+	},
+	{
+		"type": "word",
+		"german": "der Kurs",
+		"category": "Arbeit",
+		"translation": "el curso"
+	},
+	{
+		"type": "word",
+		"german": "die Erfahrung",
+		"category": "Arbeit",
+		"translation": "la experiencia"
+	},
+	{
+		"type": "word",
+		"german": "die Kenntnisse",
+		"category": "Arbeit",
+		"translation": "los conocimientos",
+		"context": "Deutschkenntnisse"
+	},
+	{
+		"type": "word",
+		"german": "zuständig",
+		"category": "Arbeit",
+		"translation": "responsable, competente",
+		"context": "Wer ist dafür zuständig?"
+	},
+	{
+		"type": "word",
+		"german": "verantwortlich",
+		"category": "Arbeit",
+		"translation": "responsable"
+	},
+	{
+		"type": "word",
+		"german": "die Verantwortung",
+		"category": "Arbeit",
+		"translation": "la responsabilidad"
+	},
+	{
+		"type": "word",
+		"german": "unterstützen",
+		"category": "Arbeit",
+		"translation": "apoyar, ayudar"
+	},
+	{
+		"type": "word",
+		"german": "die Unterstützung",
+		"category": "Arbeit",
+		"translation": "el apoyo"
+	},
+	{
+		"type": "word",
+		"german": "überprüfen",
+		"category": "Arbeit",
+		"translation": "revisar, verificar",
+		"context": "Ich habe die Fehler überprüft."
+	},
+	{
+		"type": "word",
+		"german": "prüfen",
+		"category": "Arbeit",
+		"translation": "comprobar, revisar"
+	},
+	{
+		"type": "word",
+		"german": "testen",
+		"category": "Arbeit",
+		"translation": "probar"
+	},
+	{
+		"type": "word",
+		"german": "beheben",
+		"category": "Arbeit",
+		"translation": "solucionar, corregir (un fallo)",
+		"context": "Das Problem ist behoben."
+	},
+	{
+		"type": "word",
+		"german": "das Problem",
+		"category": "Arbeit",
+		"translation": "el problema"
+	},
+	{
+		"type": "word",
+		"german": "problemlos",
+		"category": "Arbeit",
+		"translation": "sin problemas"
+	},
+	{
+		"type": "word",
+		"german": "der Fehler",
+		"category": "Arbeit",
+		"translation": "el error"
+	},
+	{
+		"type": "word",
+		"german": "einwandfrei",
+		"category": "Arbeit",
+		"translation": "perfectamente, sin fallos",
+		"context": "Die Seite läuft einwandfrei."
+	},
+	{
+		"type": "word",
+		"german": "funktionieren",
+		"category": "Arbeit",
+		"translation": "funcionar"
+	},
+	{
+		"type": "word",
+		"german": "die Funktion",
+		"category": "Arbeit",
+		"translation": "la función"
+	},
+	{
+		"type": "word",
+		"german": "integrieren",
+		"category": "Arbeit",
+		"translation": "integrar"
+	},
+	{
+		"type": "word",
+		"german": "entwickeln",
+		"category": "Arbeit",
+		"translation": "desarrollar"
+	},
+	{
+		"type": "word",
+		"german": "die Entwicklung",
+		"category": "Arbeit",
+		"translation": "el desarrollo"
+	},
+	{
+		"type": "word",
+		"german": "der Entwickler / die Entwicklerin",
+		"category": "Arbeit",
+		"translation": "el/la desarrollador/a"
+	},
+	{
+		"type": "word",
+		"german": "die Anforderung",
+		"category": "Arbeit",
+		"translation": "el requisito"
+	},
+	{
+		"type": "word",
+		"german": "die Vorstellung",
+		"category": "Arbeit",
+		"translation": "la idea, la expectativa; la presentación",
+		"context": "genaue Vorstellungen haben"
+	},
+	{
+		"type": "word",
+		"german": "die Priorität",
+		"category": "Arbeit",
+		"translation": "la prioridad"
+	},
+	{
+		"type": "word",
+		"german": "vorläufig",
+		"category": "Arbeit",
+		"translation": "provisional",
+		"context": "die vorläufige Version"
+	},
+	{
+		"type": "word",
+		"german": "endgültig",
+		"category": "Arbeit",
+		"translation": "definitivo"
+	},
+	{
+		"type": "word",
+		"german": "aktuell",
+		"category": "Arbeit",
+		"translation": "actual, vigente, al día",
+		"context": "die aktuelle Version = la versión vigente"
+	},
+	{
+		"type": "word",
+		"german": "derzeit",
+		"category": "Arbeit",
+		"translation": "actualmente",
+		"alt": "momentan"
+	},
+	{
+		"type": "word",
+		"german": "momentan",
+		"category": "Arbeit",
+		"translation": "en este momento",
+		"alt": "derzeit"
+	},
+	{
+		"type": "word",
+		"german": "demnächst",
+		"category": "Arbeit",
+		"translation": "próximamente",
+		"alt": "bald"
+	},
+	{
+		"type": "word",
+		"german": "bereits",
+		"category": "Arbeit",
+		"translation": "ya",
+		"alt": "schon"
+	},
+	{
+		"type": "word",
+		"german": "sobald",
+		"category": "Arbeit",
+		"translation": "en cuanto",
+		"context": "sobald alles fertig ist"
+	},
+	{
+		"type": "word",
+		"german": "spannend",
+		"category": "Arbeit",
+		"translation": "interesante, emocionante",
+		"context": "Das Angebot klingt spannend."
+	},
+	{
+		"type": "word",
+		"german": "der Einsatz",
+		"category": "Arbeit",
+		"translation": "el compromiso, la dedicación",
+		"context": "Danke für deinen tollen Einsatz."
+	},
+	{
+		"type": "word",
+		"german": "hackeln",
+		"category": "Arbeit",
+		"translation": "currar, trabajar duro",
+		"alt": "arbeiten",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "phrase",
+		"german": "Können wir einen Termin vereinbaren?",
+		"category": "Arbeit",
+		"translation": "¿Podemos acordar una cita?"
+	},
+	{
+		"type": "phrase",
+		"german": "Das lässt sich problemlos umsetzen.",
+		"category": "Arbeit",
+		"translation": "Eso se puede implementar sin problemas."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bereite einen ersten Entwurf vor.",
+		"category": "Arbeit",
+		"translation": "Preparo un primer borrador."
+	},
+	{
+		"type": "phrase",
+		"german": "Vielen Dank für die gute Zusammenarbeit.",
+		"category": "Arbeit",
+		"translation": "Muchas gracias por la buena colaboración."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich halte dich über die Änderungen auf dem Laufenden.",
+		"category": "Arbeit",
+		"translation": "Te mantengo al tanto de los cambios."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Änderungen lade ich heute hoch.",
+		"category": "Arbeit",
+		"translation": "Hoy subo los cambios."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe das Angebot genau gelesen.",
+		"category": "Arbeit",
+		"translation": "He leído la oferta detenidamente."
+	},
+	{
+		"type": "phrase",
+		"german": "Die ersten Punkte integriere ich kommende Woche.",
+		"category": "Arbeit",
+		"translation": "Los primeros puntos los integro la semana que viene."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich konnte die Fehler nicht reproduzieren.",
+		"category": "Arbeit",
+		"translation": "No he podido reproducir los errores."
+	},
+	{
+		"type": "phrase",
+		"german": "Kannst du die Probleme noch einmal testen?",
+		"category": "Arbeit",
+		"translation": "¿Puedes probar los problemas otra vez?"
+	},
+	{
+		"type": "phrase",
+		"german": "Schick mir bitte genaue Schritte.",
+		"category": "Arbeit",
+		"translation": "Envíame los pasos exactos, por favor."
+	},
+	{
+		"type": "phrase",
+		"german": "Das technische Problem ist bereits gelöst.",
+		"category": "Arbeit",
+		"translation": "El problema técnico ya está resuelto."
+	},
+	{
+		"type": "phrase",
+		"german": "Das ist eine komplett neue Funktion.",
+		"category": "Arbeit",
+		"translation": "Es una función completamente nueva."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir sprechen bald wieder darüber.",
+		"category": "Arbeit",
+		"translation": "Pronto volvemos a hablar de ello."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich beginne bald mit dem Aufbau.",
+		"category": "Arbeit",
+		"translation": "Pronto empiezo con la construcción."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe das Projekt speziell vorbereitet.",
+		"category": "Arbeit",
+		"translation": "He preparado el proyecto especialmente."
+	},
+	{
+		"type": "phrase",
+		"german": "Lass uns am Montag kurz reden.",
+		"category": "Arbeit",
+		"translation": "Hablemos brevemente el lunes."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich schau mir die Vorlagen sofort an.",
+		"category": "Arbeit",
+		"translation": "Miro las plantillas enseguida.",
+		"context": "«schau» = schaue (coloquial)."
+	},
+	{
+		"type": "phrase",
+		"german": "Das Jobangebot klingt sehr spannend.",
+		"category": "Arbeit",
+		"translation": "La oferta de trabajo suena muy interesante."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich finde dein Profil sehr interessant.",
+		"category": "Arbeit",
+		"translation": "Tu perfil me parece muy interesante."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich verbessere derzeit aktiv mein Deutsch.",
+		"category": "Arbeit",
+		"translation": "Actualmente estoy mejorando activamente mi alemán."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich schicke dir meinen Lebenslauf.",
+		"category": "Arbeit",
+		"translation": "Te envío mi currículum."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich kann gerne in euer Büro kommen.",
+		"category": "Arbeit",
+		"translation": "Puedo ir a vuestra oficina con gusto."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich verstehe die getroffene Entscheidung.",
+		"category": "Arbeit",
+		"translation": "Entiendo la decisión tomada."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin seit Jahren selbstständig im IT-Bereich.",
+		"category": "Arbeit",
+		"translation": "Llevo años como autónomo en el sector IT."
+	},
+	{
+		"type": "phrase",
+		"german": "Wie hoch ist der Aufwand dafür?",
+		"category": "Arbeit",
+		"translation": "¿Cuánto trabajo supone?"
+	},
+	{
+		"type": "phrase",
+		"german": "Das müssen wir noch klären.",
+		"category": "Arbeit",
+		"translation": "Eso todavía tenemos que aclararlo."
+	},
+	{
+		"type": "phrase",
+		"german": "Bis wann brauchst du das?",
+		"category": "Arbeit",
+		"translation": "¿Para cuándo lo necesitas?"
+	},
+	{
+		"type": "phrase",
+		"german": "Ich erledige das heute noch.",
+		"category": "Arbeit",
+		"translation": "Lo hago hoy mismo."
+	},
+	{
+		"type": "phrase",
+		"german": "Das kriegen wir heute noch hin.",
+		"category": "Arbeit",
+		"translation": "Lo conseguimos hoy mismo.",
+		"alt": "Wir schaffen das heute noch."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin morgen im Krankenstand.",
+		"category": "Arbeit",
+		"translation": "Mañana estoy de baja por enfermedad.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich komme morgen wieder in die Arbeit.",
+		"category": "Arbeit",
+		"translation": "Mañana vuelvo al trabajo."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich komme fünf Minuten zu spät.",
+		"category": "Arbeit",
+		"translation": "Llego cinco minutos tarde."
+	},
+	{
+		"type": "phrase",
+		"german": "Wer ist dafür zuständig?",
+		"category": "Arbeit",
+		"translation": "¿Quién es el responsable de esto?"
+	},
+	{
+		"type": "phrase",
+		"german": "Passt, dann bleibt es bei unserem Termin.",
+		"category": "Arbeit",
+		"translation": "Perfecto, entonces mantenemos nuestra cita.",
+		"context": "«Passt» = vale, perfecto (Austria)."
+	},
+	{
+		"type": "phrase",
+		"german": "Danke für deinen tollen Einsatz.",
+		"category": "Arbeit",
+		"translation": "Gracias por tu gran dedicación."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich freue mich, wenn es losgeht.",
+		"category": "Arbeit",
+		"translation": "Me alegro de que empiece."
+	},
+	{
+		"type": "phrase",
+		"german": "Das passt mir perfekt.",
+		"category": "Arbeit",
+		"translation": "Eso me va perfecto."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe heute viel zu hackeln.",
+		"category": "Arbeit",
+		"translation": "Hoy tengo mucho curro.",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "phrase",
+		"german": "Machen wir einen kurzen Call?",
+		"category": "Arbeit",
+		"translation": "¿Hacemos una llamada corta?",
+		"alt": "Telefonieren wir kurz?"
+	},
+	{
+		"type": "word",
+		"german": "die Webseite",
+		"category": "Technik",
+		"translation": "la página web",
+		"alt": "die Website"
+	},
+	{
+		"type": "word",
+		"german": "die Seite",
+		"category": "Technik",
+		"translation": "la página"
+	},
+	{
+		"type": "word",
+		"german": "der Link",
+		"category": "Technik",
+		"translation": "el enlace"
+	},
+	{
+		"type": "word",
+		"german": "verknüpfen",
+		"category": "Technik",
+		"translation": "vincular, enlazar",
+		"alt": "verbinden",
+		"context": "die Seite mit der Domain verknüpfen"
+	},
+	{
+		"type": "word",
+		"german": "die Domain",
+		"category": "Technik",
+		"translation": "el dominio"
+	},
+	{
+		"type": "word",
+		"german": "der Eintrag",
+		"category": "Technik",
+		"translation": "la entrada, el registro",
+		"context": "DNS-Einträge"
+	},
+	{
+		"type": "word",
+		"german": "eintragen",
+		"category": "Technik",
+		"translation": "anotar, registrar, introducir"
+	},
+	{
+		"type": "word",
+		"german": "der Zugang",
+		"category": "Technik",
+		"translation": "el acceso",
+		"context": "Ich brauche noch Zugang zu deinem Account."
+	},
+	{
+		"type": "word",
+		"german": "der Zugriff",
+		"category": "Technik",
+		"translation": "el acceso (a datos, cuenta)"
+	},
+	{
+		"type": "word",
+		"german": "die Zugangsdaten",
+		"category": "Technik",
+		"translation": "los datos de acceso"
+	},
+	{
+		"type": "word",
+		"german": "das Passwort",
+		"category": "Technik",
+		"translation": "la contraseña"
+	},
+	{
+		"type": "word",
+		"german": "das Konto",
+		"category": "Technik",
+		"translation": "la cuenta; la cuenta bancaria",
+		"context": "Benutzerkonto, Bankkonto"
+	},
+	{
+		"type": "word",
+		"german": "sich anmelden",
+		"category": "Technik",
+		"translation": "iniciar sesión; inscribirse; empadronarse"
+	},
+	{
+		"type": "word",
+		"german": "sich registrieren",
+		"category": "Technik",
+		"translation": "registrarse"
+	},
+	{
+		"type": "word",
+		"german": "hochladen",
+		"category": "Technik",
+		"translation": "subir (archivos)"
+	},
+	{
+		"type": "word",
+		"german": "herunterladen",
+		"category": "Technik",
+		"translation": "descargar"
+	},
+	{
+		"type": "word",
+		"german": "speichern",
+		"category": "Technik",
+		"translation": "guardar"
+	},
+	{
+		"type": "word",
+		"german": "löschen",
+		"category": "Technik",
+		"translation": "borrar"
+	},
+	{
+		"type": "word",
+		"german": "die Datei",
+		"category": "Technik",
+		"translation": "el archivo"
+	},
+	{
+		"type": "word",
+		"german": "der Ordner",
+		"category": "Technik",
+		"translation": "la carpeta"
+	},
+	{
+		"type": "word",
+		"german": "teilen",
+		"category": "Technik",
+		"translation": "compartir; dividir"
+	},
+	{
+		"type": "word",
+		"german": "die Freigabe",
+		"category": "Technik",
+		"translation": "el permiso de acceso compartido"
+	},
+	{
+		"type": "word",
+		"german": "freigeben",
+		"category": "Technik",
+		"translation": "compartir, autorizar"
+	},
+	{
+		"type": "word",
+		"german": "die Version",
+		"category": "Technik",
+		"translation": "la versión"
+	},
+	{
+		"type": "word",
+		"german": "aktualisieren",
+		"category": "Technik",
+		"translation": "actualizar"
+	},
+	{
+		"type": "word",
+		"german": "die Aktualisierung",
+		"category": "Technik",
+		"translation": "la actualización",
+		"alt": "das Update"
+	},
+	{
+		"type": "word",
+		"german": "einrichten",
+		"category": "Technik",
+		"translation": "configurar, instalar",
+		"context": "ein E-Mail-Konto einrichten"
+	},
+	{
+		"type": "word",
+		"german": "die Einstellung",
+		"category": "Technik",
+		"translation": "el ajuste, la configuración"
+	},
+	{
+		"type": "word",
+		"german": "die Konfiguration",
+		"category": "Technik",
+		"translation": "la configuración"
+	},
+	{
+		"type": "word",
+		"german": "laufen",
+		"category": "Technik",
+		"translation": "funcionar (un sistema)",
+		"context": "Die neue Version läuft ab morgen."
+	},
+	{
+		"type": "word",
+		"german": "der Server",
+		"category": "Technik",
+		"translation": "el servidor"
+	},
+	{
+		"type": "word",
+		"german": "die Sicherung",
+		"category": "Technik",
+		"translation": "la copia de seguridad",
+		"alt": "das Backup"
+	},
+	{
+		"type": "word",
+		"german": "wiederherstellen",
+		"category": "Technik",
+		"translation": "restaurar"
+	},
+	{
+		"type": "word",
+		"german": "der Umzug",
+		"category": "Technik",
+		"translation": "la mudanza; la migración",
+		"context": "Umzug auf einen neuen Server"
+	},
+	{
+		"type": "word",
+		"german": "übertragen",
+		"category": "Technik",
+		"translation": "transferir"
+	},
+	{
+		"type": "word",
+		"german": "die Schaltfläche",
+		"category": "Technik",
+		"translation": "el botón",
+		"alt": "der Button"
+	},
+	{
+		"type": "word",
+		"german": "anklicken",
+		"category": "Technik",
+		"translation": "hacer clic"
+	},
+	{
+		"type": "word",
+		"german": "der Bildschirm",
+		"category": "Technik",
+		"translation": "la pantalla"
+	},
+	{
+		"type": "word",
+		"german": "das Bildschirmfoto",
+		"category": "Technik",
+		"translation": "la captura de pantalla",
+		"alt": "der Screenshot"
+	},
+	{
+		"type": "word",
+		"german": "das Gerät",
+		"category": "Technik",
+		"translation": "el dispositivo"
+	},
+	{
+		"type": "word",
+		"german": "der Drucker",
+		"category": "Technik",
+		"translation": "la impresora"
+	},
+	{
+		"type": "word",
+		"german": "das Ladegerät",
+		"category": "Technik",
+		"translation": "el cargador"
+	},
+	{
+		"type": "word",
+		"german": "der Akku",
+		"category": "Technik",
+		"translation": "la batería"
+	},
+	{
+		"type": "word",
+		"german": "die Verbindung",
+		"category": "Technik",
+		"translation": "la conexión"
+	},
+	{
+		"type": "word",
+		"german": "das WLAN",
+		"category": "Technik",
+		"translation": "el wifi"
+	},
+	{
+		"type": "word",
+		"german": "der Datenschutz",
+		"category": "Technik",
+		"translation": "la protección de datos",
+		"context": "DSGVO = RGPD"
+	},
+	{
+		"type": "word",
+		"german": "das Impressum",
+		"category": "Technik",
+		"translation": "el aviso legal",
+		"context": "Obligatorio en webs en Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Benachrichtigung",
+		"category": "Technik",
+		"translation": "la notificación"
+	},
+	{
+		"type": "word",
+		"german": "automatisch",
+		"category": "Technik",
+		"translation": "automático"
+	},
+	{
+		"type": "word",
+		"german": "benutzerfreundlich",
+		"category": "Technik",
+		"translation": "fácil de usar"
+	},
+	{
+		"type": "word",
+		"german": "die Anleitung",
+		"category": "Technik",
+		"translation": "las instrucciones, el manual"
+	},
+	{
+		"type": "word",
+		"german": "die Suchmaschine",
+		"category": "Technik",
+		"translation": "el buscador"
+	},
+	{
+		"type": "word",
+		"german": "die Schriftgröße",
+		"category": "Technik",
+		"translation": "el tamaño de letra"
+	},
+	{
+		"type": "word",
+		"german": "das Formular",
+		"category": "Technik",
+		"translation": "el formulario"
+	},
+	{
+		"type": "word",
+		"german": "der Fehlercode",
+		"category": "Technik",
+		"translation": "el código de error"
+	},
+	{
+		"type": "word",
+		"german": "abstürzen",
+		"category": "Technik",
+		"translation": "colgarse, fallar (programa)"
+	},
+	{
+		"type": "word",
+		"german": "der Absturz",
+		"category": "Technik",
+		"translation": "el cuelgue, la caída"
+	},
+	{
+		"type": "word",
+		"german": "neu starten",
+		"category": "Technik",
+		"translation": "reiniciar"
+	},
+	{
+		"type": "word",
+		"german": "die Software",
+		"category": "Technik",
+		"translation": "el software"
+	},
+	{
+		"type": "word",
+		"german": "die Anwendung",
+		"category": "Technik",
+		"translation": "la aplicación"
+	},
+	{
+		"type": "word",
+		"german": "verfügbar",
+		"category": "Technik",
+		"translation": "disponible"
+	},
+	{
+		"type": "word",
+		"german": "die Sicherheit",
+		"category": "Technik",
+		"translation": "la seguridad"
+	},
+	{
+		"type": "phrase",
+		"german": "Hier ist der Link zur neuesten Version.",
+		"category": "Technik",
+		"translation": "Aquí está el enlace a la versión más reciente."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich verknüpfe die Seite mit deiner Domain.",
+		"category": "Technik",
+		"translation": "Vinculo la página con tu dominio."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich brauche noch Zugang zu deinem Account.",
+		"category": "Technik",
+		"translation": "Todavía necesito acceso a tu cuenta."
+	},
+	{
+		"type": "phrase",
+		"german": "Die neue Version läuft ab morgen.",
+		"category": "Technik",
+		"translation": "La nueva versión funciona a partir de mañana."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Domain läuft wieder einwandfrei.",
+		"category": "Technik",
+		"translation": "El dominio vuelve a funcionar perfectamente."
+	},
+	{
+		"type": "phrase",
+		"german": "Bitte bestätige mir, ob alles korrekt funktioniert.",
+		"category": "Technik",
+		"translation": "Confírmame, por favor, si todo funciona correctamente."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Bilder habe ich auch hochgeladen.",
+		"category": "Technik",
+		"translation": "También he subido las imágenes."
+	},
+	{
+		"type": "phrase",
+		"german": "Du brauchst dafür ein Google-Konto.",
+		"category": "Technik",
+		"translation": "Para eso necesitas una cuenta de Google."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich schicke dir einen Download-Link.",
+		"category": "Technik",
+		"translation": "Te envío un enlace de descarga."
+	},
+	{
+		"type": "phrase",
+		"german": "Den Ordner kann ich leider nicht teilen.",
+		"category": "Technik",
+		"translation": "Lamentablemente no puedo compartir la carpeta."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Schriftgrößen sind noch falsch.",
+		"category": "Technik",
+		"translation": "Los tamaños de letra todavía están mal."
+	},
+	{
+		"type": "phrase",
+		"german": "Der Effekt funktioniert noch nicht.",
+		"category": "Technik",
+		"translation": "El efecto todavía no funciona."
+	},
+	{
+		"type": "phrase",
+		"german": "Bitte lösch die alten Telefonnummern von der Website.",
+		"category": "Technik",
+		"translation": "Por favor, borra los números de teléfono antiguos de la web."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Verbesserung der SEO steht auf meiner Liste.",
+		"category": "Technik",
+		"translation": "La mejora del SEO está en mi lista."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Migration bereiten wir rechtzeitig vor.",
+		"category": "Technik",
+		"translation": "Preparamos la migración con antelación."
+	},
+	{
+		"type": "phrase",
+		"german": "Hast du schon versucht, das Gerät neu zu starten?",
+		"category": "Technik",
+		"translation": "¿Ya has intentado reiniciar el dispositivo?"
+	},
+	{
+		"type": "phrase",
+		"german": "Das Programm ist schon wieder abgestürzt.",
+		"category": "Technik",
+		"translation": "El programa se ha vuelto a colgar."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe kein WLAN hier.",
+		"category": "Technik",
+		"translation": "Aquí no tengo wifi."
+	},
+	{
+		"type": "phrase",
+		"german": "Kannst du mir einen Screenshot schicken?",
+		"category": "Technik",
+		"translation": "¿Puedes mandarme una captura de pantalla?"
+	},
+	{
+		"type": "phrase",
+		"german": "Bitte prüfe die Daten gründlich.",
+		"category": "Technik",
+		"translation": "Por favor, revisa los datos a fondo."
+	},
+	{
+		"type": "word",
+		"german": "die Rechnung",
+		"category": "Finanzen",
+		"translation": "la factura; la cuenta (restaurante)"
+	},
+	{
+		"type": "word",
+		"german": "die Rechnungsnummer",
+		"category": "Finanzen",
+		"translation": "el número de factura"
+	},
+	{
+		"type": "word",
+		"german": "die Dauerrechnung",
+		"category": "Finanzen",
+		"translation": "la factura recurrente/anual",
+		"context": "Austria: factura anual para pagos periódicos."
+	},
+	{
+		"type": "word",
+		"german": "der Betrag",
+		"category": "Finanzen",
+		"translation": "el importe"
+	},
+	{
+		"type": "word",
+		"german": "der Gesamtbetrag",
+		"category": "Finanzen",
+		"translation": "el importe total"
+	},
+	{
+		"type": "word",
+		"german": "bezahlen",
+		"category": "Finanzen",
+		"translation": "pagar"
+	},
+	{
+		"type": "word",
+		"german": "begleichen",
+		"category": "Finanzen",
+		"translation": "saldar, pagar (formal)",
+		"alt": "bezahlen",
+		"context": "eine Rechnung begleichen"
+	},
+	{
+		"type": "word",
+		"german": "die Zahlung",
+		"category": "Finanzen",
+		"translation": "el pago"
+	},
+	{
+		"type": "word",
+		"german": "die Überweisung",
+		"category": "Finanzen",
+		"translation": "la transferencia"
+	},
+	{
+		"type": "word",
+		"german": "überweisen",
+		"category": "Finanzen",
+		"translation": "transferir (dinero)"
+	},
+	{
+		"type": "word",
+		"german": "der Zahlschein",
+		"category": "Finanzen",
+		"translation": "el recibo de pago bancario",
+		"alt": "der Überweisungsträger (DE)",
+		"context": "Austria; antes «Erlagschein»."
+	},
+	{
+		"type": "word",
+		"german": "der Erlagschein",
+		"category": "Finanzen",
+		"translation": "el recibo de pago (en papel)",
+		"alt": "der Zahlschein",
+		"context": "Austria, tradicional."
+	},
+	{
+		"type": "word",
+		"german": "der Bankomat",
+		"category": "Finanzen",
+		"translation": "el cajero automático",
+		"alt": "der Geldautomat (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Bankomatkarte",
+		"category": "Finanzen",
+		"translation": "la tarjeta de débito",
+		"alt": "die EC-Karte (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die IBAN",
+		"category": "Finanzen",
+		"translation": "el IBAN"
+	},
+	{
+		"type": "word",
+		"german": "der Kontoauszug",
+		"category": "Finanzen",
+		"translation": "el extracto bancario"
+	},
+	{
+		"type": "word",
+		"german": "die Mahnung",
+		"category": "Finanzen",
+		"translation": "el requerimiento de pago"
+	},
+	{
+		"type": "word",
+		"german": "fällig",
+		"category": "Finanzen",
+		"translation": "vencido, a pagar",
+		"context": "Die Rechnung ist am 15. fällig."
+	},
+	{
+		"type": "word",
+		"german": "die Gutschrift",
+		"category": "Finanzen",
+		"translation": "el abono, la nota de crédito"
+	},
+	{
+		"type": "word",
+		"german": "die Erstattung",
+		"category": "Finanzen",
+		"translation": "el reembolso"
+	},
+	{
+		"type": "word",
+		"german": "zurückerstatten",
+		"category": "Finanzen",
+		"translation": "reembolsar"
+	},
+	{
+		"type": "word",
+		"german": "der Preis",
+		"category": "Finanzen",
+		"translation": "el precio"
+	},
+	{
+		"type": "word",
+		"german": "die Kosten",
+		"category": "Finanzen",
+		"translation": "los costes"
+	},
+	{
+		"type": "word",
+		"german": "kostenlos",
+		"category": "Finanzen",
+		"translation": "gratis",
+		"alt": "gratis"
+	},
+	{
+		"type": "word",
+		"german": "der Rabatt",
+		"category": "Finanzen",
+		"translation": "el descuento"
+	},
+	{
+		"type": "word",
+		"german": "die Umsatzsteuer",
+		"category": "Finanzen",
+		"translation": "el IVA",
+		"alt": "die Mehrwertsteuer",
+		"context": "En Austria se dice USt. (20 %)."
+	},
+	{
+		"type": "word",
+		"german": "die Steuer",
+		"category": "Finanzen",
+		"translation": "el impuesto"
+	},
+	{
+		"type": "word",
+		"german": "die Einkommensteuer",
+		"category": "Finanzen",
+		"translation": "el impuesto sobre la renta"
+	},
+	{
+		"type": "word",
+		"german": "die Steuererklärung",
+		"category": "Finanzen",
+		"translation": "la declaración de impuestos"
+	},
+	{
+		"type": "word",
+		"german": "der Steuerbescheid",
+		"category": "Finanzen",
+		"translation": "la liquidación de impuestos",
+		"context": "Lo envía el Finanzamt."
+	},
+	{
+		"type": "word",
+		"german": "das Finanzamt",
+		"category": "Finanzen",
+		"translation": "la Agencia Tributaria"
+	},
+	{
+		"type": "word",
+		"german": "der Steuerberater",
+		"category": "Finanzen",
+		"translation": "el asesor fiscal"
+	},
+	{
+		"type": "word",
+		"german": "der Buchhalter / die Buchhalterin",
+		"category": "Finanzen",
+		"translation": "el/la contable"
+	},
+	{
+		"type": "word",
+		"german": "die Buchhaltung",
+		"category": "Finanzen",
+		"translation": "la contabilidad"
+	},
+	{
+		"type": "word",
+		"german": "der Beleg",
+		"category": "Finanzen",
+		"translation": "el comprobante",
+		"alt": "die Quittung"
+	},
+	{
+		"type": "word",
+		"german": "die Quittung",
+		"category": "Finanzen",
+		"translation": "el recibo"
+	},
+	{
+		"type": "word",
+		"german": "die Einnahmen",
+		"category": "Finanzen",
+		"translation": "los ingresos"
+	},
+	{
+		"type": "word",
+		"german": "die Ausgaben",
+		"category": "Finanzen",
+		"translation": "los gastos"
+	},
+	{
+		"type": "word",
+		"german": "die Einkünfte",
+		"category": "Finanzen",
+		"translation": "los ingresos, las rentas",
+		"context": "Ich hatte keine Einkünfte."
+	},
+	{
+		"type": "word",
+		"german": "der Verlust",
+		"category": "Finanzen",
+		"translation": "la pérdida"
+	},
+	{
+		"type": "word",
+		"german": "der Gewinn",
+		"category": "Finanzen",
+		"translation": "la ganancia"
+	},
+	{
+		"type": "word",
+		"german": "das Quartal",
+		"category": "Finanzen",
+		"translation": "el trimestre"
+	},
+	{
+		"type": "word",
+		"german": "monatlich",
+		"category": "Finanzen",
+		"translation": "mensual(mente)"
+	},
+	{
+		"type": "word",
+		"german": "jährlich",
+		"category": "Finanzen",
+		"translation": "anual(mente)"
+	},
+	{
+		"type": "word",
+		"german": "der Vertrag",
+		"category": "Finanzen",
+		"translation": "el contrato"
+	},
+	{
+		"type": "word",
+		"german": "kündigen",
+		"category": "Finanzen",
+		"translation": "rescindir (contrato); dimitir/despedir"
+	},
+	{
+		"type": "word",
+		"german": "die Kündigung",
+		"category": "Finanzen",
+		"translation": "la rescisión; el despido"
+	},
+	{
+		"type": "word",
+		"german": "die Verlängerung",
+		"category": "Finanzen",
+		"translation": "la renovación, la prórroga"
+	},
+	{
+		"type": "word",
+		"german": "der Beitrag",
+		"category": "Finanzen",
+		"translation": "la cuota, la contribución",
+		"context": "SVS-Beitrag"
+	},
+	{
+		"type": "word",
+		"german": "die Herabsetzung",
+		"category": "Finanzen",
+		"translation": "la reducción",
+		"context": "Herabsetzung der Beiträge"
+	},
+	{
+		"type": "word",
+		"german": "die Förderung",
+		"category": "Finanzen",
+		"translation": "la subvención, la ayuda"
+	},
+	{
+		"type": "word",
+		"german": "der Zuschuss",
+		"category": "Finanzen",
+		"translation": "la subvención, el subsidio"
+	},
+	{
+		"type": "word",
+		"german": "beantragen",
+		"category": "Finanzen",
+		"translation": "solicitar (oficialmente)"
+	},
+	{
+		"type": "word",
+		"german": "sparen",
+		"category": "Finanzen",
+		"translation": "ahorrar"
+	},
+	{
+		"type": "word",
+		"german": "ausgeben",
+		"category": "Finanzen",
+		"translation": "gastar"
+	},
+	{
+		"type": "word",
+		"german": "die Versicherung",
+		"category": "Finanzen",
+		"translation": "el seguro"
+	},
+	{
+		"type": "word",
+		"german": "die Kaution",
+		"category": "Finanzen",
+		"translation": "la fianza"
+	},
+	{
+		"type": "word",
+		"german": "bar",
+		"category": "Finanzen",
+		"translation": "en efectivo",
+		"context": "Kann ich bar zahlen?"
+	},
+	{
+		"type": "phrase",
+		"german": "Ich sende dir die korrigierte Rechnung.",
+		"category": "Finanzen",
+		"translation": "Te envío la factura corregida."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Rechnung ist momentan noch offen.",
+		"category": "Finanzen",
+		"translation": "La factura todavía está pendiente."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe die Überweisung bereits vorgenommen.",
+		"category": "Finanzen",
+		"translation": "Ya he hecho la transferencia."
+	},
+	{
+		"type": "phrase",
+		"german": "Danke für die Überweisung!",
+		"category": "Finanzen",
+		"translation": "¡Gracias por la transferencia!"
+	},
+	{
+		"type": "phrase",
+		"german": "Die Dauerrechnung schicke ich dir bald.",
+		"category": "Finanzen",
+		"translation": "Te envío pronto la factura recurrente."
+	},
+	{
+		"type": "phrase",
+		"german": "Du kannst mir eine Quartalsrechnung schicken.",
+		"category": "Finanzen",
+		"translation": "Puedes enviarme una factura trimestral."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Rechnungen findest du in meinem Ordner.",
+		"category": "Finanzen",
+		"translation": "Encontrarás las facturas en mi carpeta."
+	},
+	{
+		"type": "phrase",
+		"german": "Mein Buchhalter benötigt den genauen Bescheid.",
+		"category": "Finanzen",
+		"translation": "Mi contable necesita la resolución exacta."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich brauche den Einkommensteuerbescheid für den Magistrat.",
+		"category": "Finanzen",
+		"translation": "Necesito la liquidación del IRPF para el Magistrat.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Alternativ kannst du mir die Verlustrechnung schicken.",
+		"category": "Finanzen",
+		"translation": "Como alternativa, puedes enviarme la cuenta de pérdidas."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich hatte in diesem Jahr keine Einkünfte.",
+		"category": "Finanzen",
+		"translation": "Este año no tuve ingresos."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bitte um eine Herabsetzung des Beitrags.",
+		"category": "Finanzen",
+		"translation": "Solicito una reducción de la cuota.",
+		"context": "Carta a la SVS."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich zahle somit 30 Euro monatlich.",
+		"category": "Finanzen",
+		"translation": "Así que pago 30 euros al mes."
+	},
+	{
+		"type": "phrase",
+		"german": "Bis wann muss ich die Rechnung begleichen?",
+		"category": "Finanzen",
+		"translation": "¿Hasta cuándo tengo que pagar la factura?"
+	},
+	{
+		"type": "phrase",
+		"german": "Kann ich mit Bankomatkarte zahlen?",
+		"category": "Finanzen",
+		"translation": "¿Puedo pagar con tarjeta de débito?",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Wo ist der nächste Bankomat?",
+		"category": "Finanzen",
+		"translation": "¿Dónde está el cajero más cercano?",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Der Betrag wurde noch nicht überwiesen.",
+		"category": "Finanzen",
+		"translation": "El importe todavía no se ha transferido."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich möchte den Vertrag kündigen.",
+		"category": "Finanzen",
+		"translation": "Quiero rescindir el contrato."
+	},
+	{
+		"type": "phrase",
+		"german": "Somit brauchst du nichts zu bezahlen.",
+		"category": "Finanzen",
+		"translation": "Así que no tienes que pagar nada."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir bedanken uns herzlich für Ihren Auftrag.",
+		"category": "Finanzen",
+		"translation": "Le agradecemos cordialmente su pedido."
+	},
+	{
+		"type": "word",
+		"german": "die Behörde",
+		"category": "Behörden",
+		"translation": "la autoridad, la administración pública"
+	},
+	{
+		"type": "word",
+		"german": "das Amt",
+		"category": "Behörden",
+		"translation": "la oficina pública"
+	},
+	{
+		"type": "word",
+		"german": "der Magistrat",
+		"category": "Behörden",
+		"translation": "el ayuntamiento (de ciudad estatutaria)",
+		"context": "Austria: Magistrat Graz. Es masculino."
+	},
+	{
+		"type": "word",
+		"german": "das Bürgerservice",
+		"category": "Behörden",
+		"translation": "la oficina de atención ciudadana",
+		"context": "Austria (Magistrat Graz)."
+	},
+	{
+		"type": "word",
+		"german": "die Bezirkshauptmannschaft",
+		"category": "Behörden",
+		"translation": "la jefatura de distrito",
+		"context": "Austria (BH), fuera de las grandes ciudades."
+	},
+	{
+		"type": "word",
+		"german": "die Gemeinde",
+		"category": "Behörden",
+		"translation": "el municipio"
+	},
+	{
+		"type": "word",
+		"german": "der Meldezettel",
+		"category": "Behörden",
+		"translation": "el certificado de empadronamiento",
+		"context": "Austria. Obligatorio al mudarse (3 días)."
+	},
+	{
+		"type": "word",
+		"german": "sich ummelden",
+		"category": "Behörden",
+		"translation": "cambiar el empadronamiento"
+	},
+	{
+		"type": "word",
+		"german": "der Hauptwohnsitz",
+		"category": "Behörden",
+		"translation": "el domicilio principal"
+	},
+	{
+		"type": "word",
+		"german": "der Antrag",
+		"category": "Behörden",
+		"translation": "la solicitud",
+		"context": "einen Antrag stellen"
+	},
+	{
+		"type": "word",
+		"german": "einen Antrag stellen",
+		"category": "Behörden",
+		"translation": "presentar una solicitud"
+	},
+	{
+		"type": "word",
+		"german": "die Bescheinigung",
+		"category": "Behörden",
+		"translation": "el certificado"
+	},
+	{
+		"type": "word",
+		"german": "der Nachweis",
+		"category": "Behörden",
+		"translation": "el justificante, la prueba",
+		"context": "Einkommensnachweis"
+	},
+	{
+		"type": "word",
+		"german": "die Beilage",
+		"category": "Behörden",
+		"translation": "el anexo (a una solicitud); la guarnición",
+		"alt": "die Anlage",
+		"context": "Austria: Beilagen zum Antrag."
+	},
+	{
+		"type": "word",
+		"german": "vorlegen",
+		"category": "Behörden",
+		"translation": "presentar (documentos)"
+	},
+	{
+		"type": "word",
+		"german": "einreichen",
+		"category": "Behörden",
+		"translation": "presentar, entregar (oficialmente)"
+	},
+	{
+		"type": "word",
+		"german": "nachreichen",
+		"category": "Behörden",
+		"translation": "entregar posteriormente"
+	},
+	{
+		"type": "word",
+		"german": "die Sozialversicherung",
+		"category": "Behörden",
+		"translation": "la seguridad social"
+	},
+	{
+		"type": "word",
+		"german": "die SVS",
+		"category": "Behörden",
+		"translation": "la seguridad social de autónomos",
+		"context": "Austria: Sozialversicherung der Selbständigen."
+	},
+	{
+		"type": "word",
+		"german": "die ÖGK",
+		"category": "Behörden",
+		"translation": "la caja de salud austriaca",
+		"context": "Österreichische Gesundheitskasse."
+	},
+	{
+		"type": "word",
+		"german": "die Sozialversicherungsnummer",
+		"category": "Behörden",
+		"translation": "el número de la seguridad social",
+		"context": "Austria: SV-Nummer (10 dígitos)."
+	},
+	{
+		"type": "word",
+		"german": "die E-Card",
+		"category": "Behörden",
+		"translation": "la tarjeta sanitaria",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das AMS",
+		"category": "Behörden",
+		"translation": "el servicio público de empleo",
+		"context": "Austria: Arbeitsmarktservice."
+	},
+	{
+		"type": "word",
+		"german": "die Aufenthaltsbewilligung",
+		"category": "Behörden",
+		"translation": "el permiso de residencia",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Aufenthaltstitel",
+		"category": "Behörden",
+		"translation": "el título de residencia"
+	},
+	{
+		"type": "word",
+		"german": "die Staatsbürgerschaft",
+		"category": "Behörden",
+		"translation": "la nacionalidad"
+	},
+	{
+		"type": "word",
+		"german": "der Reisepass",
+		"category": "Behörden",
+		"translation": "el pasaporte"
+	},
+	{
+		"type": "word",
+		"german": "der Personalausweis",
+		"category": "Behörden",
+		"translation": "el DNI",
+		"alt": "der Ausweis"
+	},
+	{
+		"type": "word",
+		"german": "der Führerschein",
+		"category": "Behörden",
+		"translation": "el carnet de conducir",
+		"context": "Austria oficial: Lenkberechtigung."
+	},
+	{
+		"type": "word",
+		"german": "die Familienbeihilfe",
+		"category": "Behörden",
+		"translation": "la prestación familiar por hijos",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Kinderbetreuungsgeld",
+		"category": "Behörden",
+		"translation": "la prestación por cuidado de hijos",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Wohnbeihilfe",
+		"category": "Behörden",
+		"translation": "la ayuda para la vivienda",
+		"context": "Austria (Steiermark)."
+	},
+	{
+		"type": "word",
+		"german": "der Zuständigkeitsbereich",
+		"category": "Behörden",
+		"translation": "el ámbito de competencia"
+	},
+	{
+		"type": "word",
+		"german": "die Abteilung",
+		"category": "Behörden",
+		"translation": "el departamento"
+	},
+	{
+		"type": "word",
+		"german": "der Sachbearbeiter / die Sachbearbeiterin",
+		"category": "Behörden",
+		"translation": "el/la funcionario/a que lleva el caso"
+	},
+	{
+		"type": "word",
+		"german": "die Sprechstunde",
+		"category": "Behörden",
+		"translation": "el horario de atención"
+	},
+	{
+		"type": "word",
+		"german": "die Öffnungszeiten",
+		"category": "Behörden",
+		"translation": "el horario de apertura"
+	},
+	{
+		"type": "word",
+		"german": "die Wartenummer",
+		"category": "Behörden",
+		"translation": "el número de turno"
+	},
+	{
+		"type": "word",
+		"german": "die Gebühr",
+		"category": "Behörden",
+		"translation": "la tasa"
+	},
+	{
+		"type": "word",
+		"german": "gebührenfrei",
+		"category": "Behörden",
+		"translation": "exento de tasas"
+	},
+	{
+		"type": "word",
+		"german": "die Strafe",
+		"category": "Behörden",
+		"translation": "la multa, la sanción"
+	},
+	{
+		"type": "word",
+		"german": "der Einspruch",
+		"category": "Behörden",
+		"translation": "el recurso, la reclamación"
+	},
+	{
+		"type": "word",
+		"german": "die Beschwerde",
+		"category": "Behörden",
+		"translation": "la queja; el recurso"
+	},
+	{
+		"type": "word",
+		"german": "genehmigen",
+		"category": "Behörden",
+		"translation": "aprobar, autorizar"
+	},
+	{
+		"type": "word",
+		"german": "die Genehmigung",
+		"category": "Behörden",
+		"translation": "la autorización"
+	},
+	{
+		"type": "word",
+		"german": "ablehnen",
+		"category": "Behörden",
+		"translation": "rechazar"
+	},
+	{
+		"type": "word",
+		"german": "bewilligen",
+		"category": "Behörden",
+		"translation": "conceder (una solicitud)",
+		"context": "Austria: bewilligt = concedido."
+	},
+	{
+		"type": "word",
+		"german": "der Wohnsitz",
+		"category": "Behörden",
+		"translation": "el domicilio"
+	},
+	{
+		"type": "word",
+		"german": "ausstellen",
+		"category": "Behörden",
+		"translation": "expedir (un documento)"
+	},
+	{
+		"type": "word",
+		"german": "beglaubigt",
+		"category": "Behörden",
+		"translation": "compulsado, legalizado",
+		"context": "eine beglaubigte Kopie"
+	},
+	{
+		"type": "word",
+		"german": "die Übersetzung",
+		"category": "Behörden",
+		"translation": "la traducción"
+	},
+	{
+		"type": "word",
+		"german": "der Dolmetscher",
+		"category": "Behörden",
+		"translation": "el intérprete"
+	},
+	{
+		"type": "word",
+		"german": "FinanzOnline",
+		"category": "Behörden",
+		"translation": "portal online de Hacienda",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die ID Austria",
+		"category": "Behörden",
+		"translation": "la identidad digital austriaca",
+		"context": "Austria: firma digital (antes Handy-Signatur)."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich möchte einen Antrag stellen.",
+		"category": "Behörden",
+		"translation": "Quiero presentar una solicitud."
+	},
+	{
+		"type": "phrase",
+		"german": "Welche Unterlagen muss ich mitbringen?",
+		"category": "Behörden",
+		"translation": "¿Qué documentos tengo que traer?"
+	},
+	{
+		"type": "phrase",
+		"german": "Ich muss meinen Wohnsitz ummelden.",
+		"category": "Behörden",
+		"translation": "Tengo que cambiar mi empadronamiento.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Wo bekomme ich einen Meldezettel?",
+		"category": "Behörden",
+		"translation": "¿Dónde consigo un certificado de empadronamiento?",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Könnten Sie mir den Bescheid erneut zusenden?",
+		"category": "Behörden",
+		"translation": "¿Podría volver a enviarme la resolución?"
+	},
+	{
+		"type": "phrase",
+		"german": "Leider konnte ich das Dokument nicht finden.",
+		"category": "Behörden",
+		"translation": "Lamentablemente no he podido encontrar el documento."
+	},
+	{
+		"type": "phrase",
+		"german": "Wie lange dauert die Bearbeitung?",
+		"category": "Behörden",
+		"translation": "¿Cuánto tarda la tramitación?"
+	},
+	{
+		"type": "phrase",
+		"german": "Wir leben im gemeinsamen Haushalt.",
+		"category": "Behörden",
+		"translation": "Vivimos en el mismo hogar."
+	},
+	{
+		"type": "phrase",
+		"german": "Wie sollen meine Frau und ich das beantragen?",
+		"category": "Behörden",
+		"translation": "¿Cómo debemos solicitarlo mi mujer y yo?"
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe einen Termin beim Magistrat.",
+		"category": "Behörden",
+		"translation": "Tengo una cita en el Magistrat.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Bis wann muss ich den Antrag einreichen?",
+		"category": "Behörden",
+		"translation": "¿Hasta cuándo tengo que presentar la solicitud?"
+	},
+	{
+		"type": "phrase",
+		"german": "Brauche ich eine beglaubigte Übersetzung?",
+		"category": "Behörden",
+		"translation": "¿Necesito una traducción jurada?"
+	},
+	{
+		"type": "phrase",
+		"german": "Meine Frau übersetzt mir dann alles.",
+		"category": "Behörden",
+		"translation": "Mi mujer me lo traduce todo luego."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich verstehe die aktuelle Situation vollkommen.",
+		"category": "Behörden",
+		"translation": "Entiendo perfectamente la situación actual."
+	},
+	{
+		"type": "phrase",
+		"german": "Vielen Dank für Ihre Rücksichtnahme.",
+		"category": "Behörden",
+		"translation": "Muchas gracias por su consideración."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich möchte gegen den Bescheid Einspruch erheben.",
+		"category": "Behörden",
+		"translation": "Quiero recurrir la resolución."
+	},
+	{
+		"type": "phrase",
+		"german": "Kann ich das auch online erledigen?",
+		"category": "Behörden",
+		"translation": "¿Puedo hacerlo también online?"
+	},
+	{
+		"type": "phrase",
+		"german": "Die Wartezeit beträgt etwa eine Stunde.",
+		"category": "Behörden",
+		"translation": "El tiempo de espera es de una hora aproximadamente."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe mich mit der ID Austria angemeldet.",
+		"category": "Behörden",
+		"translation": "He iniciado sesión con la ID Austria.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Mein Aufenthaltstitel läuft bald ab.",
+		"category": "Behörden",
+		"translation": "Mi permiso de residencia caduca pronto."
+	},
+	{
+		"type": "word",
+		"german": "Grüß Gott",
+		"category": "Alltag",
+		"translation": "buenos días (saludo formal)",
+		"alt": "Guten Tag",
+		"context": "Austria, saludo estándar."
+	},
+	{
+		"type": "word",
+		"german": "Servus",
+		"category": "Alltag",
+		"translation": "hola; adiós (informal)",
+		"alt": "Hallo / Tschüss",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "Baba",
+		"category": "Alltag",
+		"translation": "chao",
+		"alt": "Tschüss",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "Pfiat di",
+		"category": "Alltag",
+		"translation": "adiós (informal)",
+		"alt": "Tschüss",
+		"context": "Austria/Steiermark, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "heuer",
+		"category": "Alltag",
+		"translation": "este año",
+		"alt": "dieses Jahr",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Jänner",
+		"category": "Alltag",
+		"translation": "enero",
+		"alt": "der Januar (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "passt",
+		"category": "Alltag",
+		"translation": "vale, de acuerdo, perfecto",
+		"alt": "in Ordnung",
+		"context": "Austria, muy frecuente."
+	},
+	{
+		"type": "word",
+		"german": "na eh",
+		"category": "Alltag",
+		"translation": "claro, por supuesto",
+		"alt": "natürlich",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "leiwand",
+		"category": "Alltag",
+		"translation": "genial, guay",
+		"alt": "toll, super",
+		"context": "Austria (Viena), coloquial."
+	},
+	{
+		"type": "word",
+		"german": "ur",
+		"category": "Alltag",
+		"translation": "súper, muy",
+		"alt": "sehr",
+		"context": "Austria, coloquial juvenil: ur gut."
+	},
+	{
+		"type": "word",
+		"german": "a bissl",
+		"category": "Alltag",
+		"translation": "un poquito",
+		"alt": "ein bisschen",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "eh",
+		"category": "Alltag",
+		"translation": "de todas formas, igualmente",
+		"alt": "sowieso",
+		"context": "Austria: Das weiß ich eh."
+	},
+	{
+		"type": "word",
+		"german": "fesch",
+		"category": "Alltag",
+		"translation": "guapo, elegante",
+		"alt": "hübsch, schick",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "gscheit",
+		"category": "Alltag",
+		"translation": "listo, como es debido",
+		"alt": "gescheit, klug",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "sudern",
+		"category": "Alltag",
+		"translation": "quejarse, refunfuñar",
+		"alt": "jammern",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "raunzen",
+		"category": "Alltag",
+		"translation": "quejarse",
+		"alt": "nörgeln",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "der Schmäh",
+		"category": "Alltag",
+		"translation": "la broma, el humor (vienés)",
+		"alt": "der Witz",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Gaudi",
+		"category": "Alltag",
+		"translation": "la diversión, el jolgorio",
+		"alt": "der Spaß",
+		"context": "Austria/Baviera."
+	},
+	{
+		"type": "word",
+		"german": "patschert",
+		"category": "Alltag",
+		"translation": "torpe",
+		"alt": "ungeschickt",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "ang'fressen",
+		"category": "Alltag",
+		"translation": "mosqueado, harto",
+		"alt": "verärgert",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "eigentlich",
+		"category": "Alltag",
+		"translation": "en realidad"
+	},
+	{
+		"type": "word",
+		"german": "übrigens",
+		"category": "Alltag",
+		"translation": "por cierto"
+	},
+	{
+		"type": "word",
+		"german": "ohnehin",
+		"category": "Alltag",
+		"translation": "de todas formas",
+		"alt": "sowieso"
+	},
+	{
+		"type": "word",
+		"german": "sowieso",
+		"category": "Alltag",
+		"translation": "de todos modos"
+	},
+	{
+		"type": "word",
+		"german": "halt",
+		"category": "Alltag",
+		"translation": "pues, simplemente (partícula)",
+		"context": "Das ist halt so."
+	},
+	{
+		"type": "word",
+		"german": "eben",
+		"category": "Alltag",
+		"translation": "precisamente; pues"
+	},
+	{
+		"type": "word",
+		"german": "ziemlich",
+		"category": "Alltag",
+		"translation": "bastante"
+	},
+	{
+		"type": "word",
+		"german": "ungefähr",
+		"category": "Alltag",
+		"translation": "aproximadamente"
+	},
+	{
+		"type": "word",
+		"german": "wahrscheinlich",
+		"category": "Alltag",
+		"translation": "probablemente"
+	},
+	{
+		"type": "word",
+		"german": "vielleicht",
+		"category": "Alltag",
+		"translation": "quizás"
+	},
+	{
+		"type": "word",
+		"german": "leider",
+		"category": "Alltag",
+		"translation": "lamentablemente"
+	},
+	{
+		"type": "word",
+		"german": "zum Glück",
+		"category": "Alltag",
+		"translation": "por suerte"
+	},
+	{
+		"type": "word",
+		"german": "trotzdem",
+		"category": "Alltag",
+		"translation": "a pesar de eso"
+	},
+	{
+		"type": "word",
+		"german": "deshalb",
+		"category": "Alltag",
+		"translation": "por eso"
+	},
+	{
+		"type": "word",
+		"german": "außerdem",
+		"category": "Alltag",
+		"translation": "además"
+	},
+	{
+		"type": "word",
+		"german": "stattdessen",
+		"category": "Alltag",
+		"translation": "en lugar de eso"
+	},
+	{
+		"type": "word",
+		"german": "inzwischen",
+		"category": "Alltag",
+		"translation": "mientras tanto; entretanto"
+	},
+	{
+		"type": "word",
+		"german": "zwischendurch",
+		"category": "Alltag",
+		"translation": "entre medias"
+	},
+	{
+		"type": "word",
+		"german": "vorhin",
+		"category": "Alltag",
+		"translation": "hace un rato"
+	},
+	{
+		"type": "word",
+		"german": "neulich",
+		"category": "Alltag",
+		"translation": "el otro día"
+	},
+	{
+		"type": "word",
+		"german": "pünktlich",
+		"category": "Alltag",
+		"translation": "puntual"
+	},
+	{
+		"type": "word",
+		"german": "sich verspäten",
+		"category": "Alltag",
+		"translation": "retrasarse"
+	},
+	{
+		"type": "word",
+		"german": "die Verspätung",
+		"category": "Alltag",
+		"translation": "el retraso"
+	},
+	{
+		"type": "word",
+		"german": "vorhaben",
+		"category": "Alltag",
+		"translation": "tener previsto, planear",
+		"context": "Hast du was vor?"
+	},
+	{
+		"type": "word",
+		"german": "sich kümmern um",
+		"category": "Alltag",
+		"translation": "ocuparse de"
+	},
+	{
+		"type": "word",
+		"german": "ausmachen",
+		"category": "Alltag",
+		"translation": "acordar; apagar",
+		"context": "Wir haben 10 Uhr ausgemacht."
+	},
+	{
+		"type": "word",
+		"german": "die Besorgung",
+		"category": "Alltag",
+		"translation": "el recado",
+		"context": "Besorgungen machen"
+	},
+	{
+		"type": "word",
+		"german": "aufräumen",
+		"category": "Alltag",
+		"translation": "ordenar"
+	},
+	{
+		"type": "word",
+		"german": "putzen",
+		"category": "Alltag",
+		"translation": "limpiar"
+	},
+	{
+		"type": "word",
+		"german": "waschen",
+		"category": "Alltag",
+		"translation": "lavar"
+	},
+	{
+		"type": "word",
+		"german": "bügeln",
+		"category": "Alltag",
+		"translation": "planchar"
+	},
+	{
+		"type": "word",
+		"german": "der Müll",
+		"category": "Alltag",
+		"translation": "la basura",
+		"alt": "der Mist (Austria)"
+	},
+	{
+		"type": "word",
+		"german": "der Mistkübel",
+		"category": "Alltag",
+		"translation": "el cubo de basura",
+		"alt": "der Mülleimer (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Kübel",
+		"category": "Alltag",
+		"translation": "el cubo",
+		"alt": "der Eimer (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Packerl",
+		"category": "Alltag",
+		"translation": "el paquetito",
+		"alt": "das Päckchen (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Tixo",
+		"category": "Alltag",
+		"translation": "la cinta adhesiva",
+		"alt": "der Tesafilm (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Kasten",
+		"category": "Alltag",
+		"translation": "el armario",
+		"alt": "der Schrank (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Sessel",
+		"category": "Alltag",
+		"translation": "la silla",
+		"alt": "der Stuhl (DE)",
+		"context": "Austria. ¡Ojo! En DE «Sessel» = sillón."
+	},
+	{
+		"type": "word",
+		"german": "der Polster",
+		"category": "Alltag",
+		"translation": "el cojín, la almohada",
+		"alt": "das Kissen (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Stiege",
+		"category": "Alltag",
+		"translation": "la escalera",
+		"alt": "die Treppe (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Wetter",
+		"category": "Alltag",
+		"translation": "el tiempo (meteorológico)"
+	},
+	{
+		"type": "word",
+		"german": "der Regenschirm",
+		"category": "Alltag",
+		"translation": "el paraguas"
+	},
+	{
+		"type": "word",
+		"german": "die Hitze",
+		"category": "Alltag",
+		"translation": "el calor"
+	},
+	{
+		"type": "word",
+		"german": "kühl",
+		"category": "Alltag",
+		"translation": "fresco"
+	},
+	{
+		"type": "word",
+		"german": "sich erkälten",
+		"category": "Alltag",
+		"translation": "resfriarse"
+	},
+	{
+		"type": "word",
+		"german": "sich freuen auf",
+		"category": "Alltag",
+		"translation": "tener ganas de (algo futuro)"
+	},
+	{
+		"type": "word",
+		"german": "sich freuen über",
+		"category": "Alltag",
+		"translation": "alegrarse de (algo)"
+	},
+	{
+		"type": "word",
+		"german": "sich gewöhnen an",
+		"category": "Alltag",
+		"translation": "acostumbrarse a"
+	},
+	{
+		"type": "word",
+		"german": "sich vorstellen",
+		"category": "Alltag",
+		"translation": "presentarse; imaginarse"
+	},
+	{
+		"type": "word",
+		"german": "verstehen",
+		"category": "Alltag",
+		"translation": "entender"
+	},
+	{
+		"type": "word",
+		"german": "sich irren",
+		"category": "Alltag",
+		"translation": "equivocarse"
+	},
+	{
+		"type": "word",
+		"german": "der Unterschied",
+		"category": "Alltag",
+		"translation": "la diferencia"
+	},
+	{
+		"type": "word",
+		"german": "die Gelegenheit",
+		"category": "Alltag",
+		"translation": "la ocasión, la oportunidad"
+	},
+	{
+		"type": "word",
+		"german": "die Ahnung",
+		"category": "Alltag",
+		"translation": "la idea, la noción",
+		"context": "Keine Ahnung!"
+	},
+	{
+		"type": "word",
+		"german": "die Laune",
+		"category": "Alltag",
+		"translation": "el humor (estado de ánimo)",
+		"context": "gute Laune"
+	},
+	{
+		"type": "word",
+		"german": "müde",
+		"category": "Alltag",
+		"translation": "cansado"
+	},
+	{
+		"type": "word",
+		"german": "der Nachbar / die Nachbarin",
+		"category": "Alltag",
+		"translation": "el/la vecino/a"
+	},
+	{
+		"type": "word",
+		"german": "die Post",
+		"category": "Alltag",
+		"translation": "correos; el correo"
+	},
+	{
+		"type": "word",
+		"german": "das Paket",
+		"category": "Alltag",
+		"translation": "el paquete"
+	},
+	{
+		"type": "word",
+		"german": "abholen",
+		"category": "Alltag",
+		"translation": "recoger",
+		"context": "ein Paket abholen"
+	},
+	{
+		"type": "word",
+		"german": "die Abholstation",
+		"category": "Alltag",
+		"translation": "el punto de recogida"
+	},
+	{
+		"type": "word",
+		"german": "die Trafik",
+		"category": "Alltag",
+		"translation": "el estanco (tabaco, prensa, billetes)",
+		"alt": "der Kiosk",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Schlüssel",
+		"category": "Alltag",
+		"translation": "la llave"
+	},
+	{
+		"type": "word",
+		"german": "vergessen",
+		"category": "Alltag",
+		"translation": "olvidar"
+	},
+	{
+		"type": "phrase",
+		"german": "Das passt schon.",
+		"category": "Alltag",
+		"translation": "Está bien así.",
+		"context": "Austria, muy frecuente."
+	},
+	{
+		"type": "phrase",
+		"german": "Na eh!",
+		"category": "Alltag",
+		"translation": "¡Claro que sí!",
+		"alt": "Natürlich!",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "phrase",
+		"german": "Das weiß ich eh.",
+		"category": "Alltag",
+		"translation": "Eso ya lo sé.",
+		"alt": "Das weiß ich sowieso.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Hast du heute schon was vor?",
+		"category": "Alltag",
+		"translation": "¿Tienes planes para hoy?"
+	},
+	{
+		"type": "phrase",
+		"german": "Wir haben 10 Uhr ausgemacht.",
+		"category": "Alltag",
+		"translation": "Quedamos a las 10.",
+		"context": "ausmachen = acordar."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich muss noch ein paar Besorgungen machen.",
+		"category": "Alltag",
+		"translation": "Todavía tengo que hacer unos recados."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich muss das Packerl bei der Post abholen.",
+		"category": "Alltag",
+		"translation": "Tengo que recoger el paquete en correos.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Keine Ahnung.",
+		"category": "Alltag",
+		"translation": "Ni idea."
+	},
+	{
+		"type": "phrase",
+		"german": "Das ist halt so.",
+		"category": "Alltag",
+		"translation": "Es lo que hay."
+	},
+	{
+		"type": "phrase",
+		"german": "Mir ist langweilig.",
+		"category": "Alltag",
+		"translation": "Me aburro."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin total müde.",
+		"category": "Alltag",
+		"translation": "Estoy agotado."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe mich im Datum geirrt.",
+		"category": "Alltag",
+		"translation": "Me he equivocado de fecha."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe versehentlich das falsche Datum eingetragen.",
+		"category": "Alltag",
+		"translation": "He puesto la fecha equivocada por error."
+	},
+	{
+		"type": "phrase",
+		"german": "Kein Problem, das passiert.",
+		"category": "Alltag",
+		"translation": "No pasa nada, eso pasa."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich gewöhne mich langsam daran.",
+		"category": "Alltag",
+		"translation": "Me voy acostumbrando poco a poco."
+	},
+	{
+		"type": "phrase",
+		"german": "Wie war dein Wochenende?",
+		"category": "Alltag",
+		"translation": "¿Qué tal tu fin de semana?"
+	},
+	{
+		"type": "phrase",
+		"german": "Schönes Wochenende!",
+		"category": "Alltag",
+		"translation": "¡Buen fin de semana!"
+	},
+	{
+		"type": "phrase",
+		"german": "Mahlzeit!",
+		"category": "Alltag",
+		"translation": "¡Buen provecho! / ¡Hola! (a mediodía)",
+		"context": "Austria: saludo típico a la hora de comer."
+	},
+	{
+		"type": "phrase",
+		"german": "Wie geht's dir?",
+		"category": "Alltag",
+		"translation": "¿Qué tal estás?"
+	},
+	{
+		"type": "phrase",
+		"german": "Passt, bis später!",
+		"category": "Alltag",
+		"translation": "¡Vale, hasta luego!",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Bitte schön! – Danke schön!",
+		"category": "Alltag",
+		"translation": "¡De nada! / ¡Aquí tiene! – ¡Muchas gracias!"
+	},
+	{
+		"type": "phrase",
+		"german": "Das ist mir wurscht.",
+		"category": "Alltag",
+		"translation": "Me da igual.",
+		"alt": "Das ist mir egal.",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "phrase",
+		"german": "Geht sich das aus?",
+		"category": "Alltag",
+		"translation": "¿Da tiempo? / ¿Alcanza?",
+		"alt": "Reicht das? / Schaffen wir das?",
+		"context": "Austria, muy típico."
+	},
+	{
+		"type": "phrase",
+		"german": "Das geht sich leider nicht aus.",
+		"category": "Alltag",
+		"translation": "Lamentablemente no da tiempo / no alcanza.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin schon ganz ang'fressen.",
+		"category": "Alltag",
+		"translation": "Ya estoy harto.",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "phrase",
+		"german": "Sei nicht so patschert!",
+		"category": "Alltag",
+		"translation": "¡No seas tan torpe!",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "die Ehefrau",
+		"category": "Familie",
+		"translation": "la esposa"
+	},
+	{
+		"type": "word",
+		"german": "der Ehemann",
+		"category": "Familie",
+		"translation": "el esposo"
+	},
+	{
+		"type": "word",
+		"german": "das Ehepaar",
+		"category": "Familie",
+		"translation": "el matrimonio (pareja)"
+	},
+	{
+		"type": "word",
+		"german": "der Sohn",
+		"category": "Familie",
+		"translation": "el hijo"
+	},
+	{
+		"type": "word",
+		"german": "die Tochter",
+		"category": "Familie",
+		"translation": "la hija"
+	},
+	{
+		"type": "word",
+		"german": "der Bub",
+		"category": "Familie",
+		"translation": "el niño, el chico",
+		"alt": "der Junge (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Mäderl",
+		"category": "Familie",
+		"translation": "la niña",
+		"alt": "das Mädchen",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "die Eltern",
+		"category": "Familie",
+		"translation": "los padres"
+	},
+	{
+		"type": "word",
+		"german": "die Großeltern",
+		"category": "Familie",
+		"translation": "los abuelos"
+	},
+	{
+		"type": "word",
+		"german": "die Oma / der Opa",
+		"category": "Familie",
+		"translation": "la abuela / el abuelo"
+	},
+	{
+		"type": "word",
+		"german": "die Verwandten",
+		"category": "Familie",
+		"translation": "los parientes"
+	},
+	{
+		"type": "word",
+		"german": "verwandt",
+		"category": "Familie",
+		"translation": "emparentado"
+	},
+	{
+		"type": "word",
+		"german": "der Schwager / die Schwägerin",
+		"category": "Familie",
+		"translation": "el cuñado / la cuñada"
+	},
+	{
+		"type": "word",
+		"german": "die Schwiegereltern",
+		"category": "Familie",
+		"translation": "los suegros"
+	},
+	{
+		"type": "word",
+		"german": "der Onkel / die Tante",
+		"category": "Familie",
+		"translation": "el tío / la tía"
+	},
+	{
+		"type": "word",
+		"german": "der Cousin / die Cousine",
+		"category": "Familie",
+		"translation": "el primo / la prima"
+	},
+	{
+		"type": "word",
+		"german": "der Neffe / die Nichte",
+		"category": "Familie",
+		"translation": "el sobrino / la sobrina"
+	},
+	{
+		"type": "word",
+		"german": "das Baby",
+		"category": "Familie",
+		"translation": "el bebé"
+	},
+	{
+		"type": "word",
+		"german": "die Kinderkrippe",
+		"category": "Familie",
+		"translation": "la guardería (0–3 años)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Kindergarten",
+		"category": "Familie",
+		"translation": "la guardería, el jardín de infancia"
+	},
+	{
+		"type": "word",
+		"german": "die Kindergartenpädagogin",
+		"category": "Familie",
+		"translation": "la educadora infantil",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Volksschule",
+		"category": "Familie",
+		"translation": "la escuela primaria",
+		"context": "Austria (6–10 años)."
+	},
+	{
+		"type": "word",
+		"german": "die Mittelschule",
+		"category": "Familie",
+		"translation": "la escuela secundaria",
+		"context": "Austria (10–14 años)."
+	},
+	{
+		"type": "word",
+		"german": "das Gymnasium",
+		"category": "Familie",
+		"translation": "el instituto de bachillerato"
+	},
+	{
+		"type": "word",
+		"german": "die Matura",
+		"category": "Familie",
+		"translation": "la selectividad / el bachillerato",
+		"alt": "das Abitur (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Hort",
+		"category": "Familie",
+		"translation": "el centro extraescolar",
+		"context": "Austria/DE."
+	},
+	{
+		"type": "word",
+		"german": "die Nachmittagsbetreuung",
+		"category": "Familie",
+		"translation": "el cuidado de tarde (después del cole)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Schularbeit",
+		"category": "Familie",
+		"translation": "el examen escrito en clase",
+		"alt": "die Klassenarbeit (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Hausübung",
+		"category": "Familie",
+		"translation": "los deberes",
+		"alt": "die Hausaufgabe (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Zeugnis",
+		"category": "Familie",
+		"translation": "las notas, el boletín"
+	},
+	{
+		"type": "word",
+		"german": "der Elternabend",
+		"category": "Familie",
+		"translation": "la reunión de padres"
+	},
+	{
+		"type": "word",
+		"german": "die Ferien",
+		"category": "Familie",
+		"translation": "las vacaciones escolares"
+	},
+	{
+		"type": "word",
+		"german": "die Semesterferien",
+		"category": "Familie",
+		"translation": "las vacaciones de semestre (febrero)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Jause",
+		"category": "Familie",
+		"translation": "la merienda; el tentempié",
+		"context": "Austria: Jause für die Schule."
+	},
+	{
+		"type": "word",
+		"german": "die Jausenbox",
+		"category": "Familie",
+		"translation": "la fiambrera",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "bringen",
+		"category": "Familie",
+		"translation": "llevar"
+	},
+	{
+		"type": "word",
+		"german": "aufpassen auf",
+		"category": "Familie",
+		"translation": "cuidar de, vigilar"
+	},
+	{
+		"type": "word",
+		"german": "der Babysitter",
+		"category": "Familie",
+		"translation": "la niñera"
+	},
+	{
+		"type": "word",
+		"german": "erziehen",
+		"category": "Familie",
+		"translation": "educar"
+	},
+	{
+		"type": "word",
+		"german": "die Erziehung",
+		"category": "Familie",
+		"translation": "la educación (crianza)"
+	},
+	{
+		"type": "word",
+		"german": "streiten",
+		"category": "Familie",
+		"translation": "discutir, pelearse"
+	},
+	{
+		"type": "word",
+		"german": "sich versöhnen",
+		"category": "Familie",
+		"translation": "reconciliarse"
+	},
+	{
+		"type": "word",
+		"german": "der Geburtstag",
+		"category": "Familie",
+		"translation": "el cumpleaños"
+	},
+	{
+		"type": "word",
+		"german": "die Hochzeit",
+		"category": "Familie",
+		"translation": "la boda"
+	},
+	{
+		"type": "word",
+		"german": "der Hochzeitstag",
+		"category": "Familie",
+		"translation": "el aniversario de boda"
+	},
+	{
+		"type": "word",
+		"german": "feiern",
+		"category": "Familie",
+		"translation": "celebrar"
+	},
+	{
+		"type": "word",
+		"german": "das Geschenk",
+		"category": "Familie",
+		"translation": "el regalo"
+	},
+	{
+		"type": "word",
+		"german": "die Taufe",
+		"category": "Familie",
+		"translation": "el bautizo"
+	},
+	{
+		"type": "word",
+		"german": "zu Besuch",
+		"category": "Familie",
+		"translation": "de visita"
+	},
+	{
+		"type": "word",
+		"german": "vorbeikommen",
+		"category": "Familie",
+		"translation": "pasar (por casa)"
+	},
+	{
+		"type": "phrase",
+		"german": "Meine Frau ist leider noch krank.",
+		"category": "Familie",
+		"translation": "Lamentablemente mi mujer sigue enferma."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich muss mich um unseren Sohn kümmern.",
+		"category": "Familie",
+		"translation": "Tengo que ocuparme de nuestro hijo."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich hole den Kleinen vom Kindergarten ab.",
+		"category": "Familie",
+		"translation": "Recojo al pequeño de la guardería."
+	},
+	{
+		"type": "phrase",
+		"german": "Wer holt heute die Kinder ab?",
+		"category": "Familie",
+		"translation": "¿Quién recoge hoy a los niños?"
+	},
+	{
+		"type": "phrase",
+		"german": "Unser Sohn hat morgen eine Schularbeit.",
+		"category": "Familie",
+		"translation": "Nuestro hijo tiene mañana un examen.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Hast du deine Hausübung schon gemacht?",
+		"category": "Familie",
+		"translation": "¿Ya has hecho los deberes?",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Vergiss deine Jause nicht!",
+		"category": "Familie",
+		"translation": "¡No te olvides la merienda!",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir kommen am Sonntag vorbei.",
+		"category": "Familie",
+		"translation": "Pasamos el domingo."
+	},
+	{
+		"type": "phrase",
+		"german": "Alles Gute zum Geburtstag!",
+		"category": "Familie",
+		"translation": "¡Feliz cumpleaños!"
+	},
+	{
+		"type": "phrase",
+		"german": "Danke für deine schönen Wünsche.",
+		"category": "Familie",
+		"translation": "Gracias por tus bonitos deseos."
+	},
+	{
+		"type": "phrase",
+		"german": "Kannst du heute Abend auf die Kinder aufpassen?",
+		"category": "Familie",
+		"translation": "¿Puedes cuidar a los niños esta noche?"
+	},
+	{
+		"type": "phrase",
+		"german": "Morgen ist Elternabend in der Schule.",
+		"category": "Familie",
+		"translation": "Mañana hay reunión de padres en la escuela."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Kinder streiten schon wieder.",
+		"category": "Familie",
+		"translation": "Los niños vuelven a pelearse."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir feiern bei meinen Schwiegereltern.",
+		"category": "Familie",
+		"translation": "Lo celebramos en casa de mis suegros."
+	},
+	{
+		"type": "phrase",
+		"german": "Wann beginnen die Sommerferien?",
+		"category": "Familie",
+		"translation": "¿Cuándo empiezan las vacaciones de verano?"
+	},
+	{
+		"type": "word",
+		"german": "die Wohnung",
+		"category": "Wohnen",
+		"translation": "el piso"
+	},
+	{
+		"type": "word",
+		"german": "die Mietwohnung",
+		"category": "Wohnen",
+		"translation": "el piso de alquiler"
+	},
+	{
+		"type": "word",
+		"german": "die Eigentumswohnung",
+		"category": "Wohnen",
+		"translation": "el piso en propiedad"
+	},
+	{
+		"type": "word",
+		"german": "die Genossenschaftswohnung",
+		"category": "Wohnen",
+		"translation": "la vivienda de cooperativa",
+		"context": "Austria, muy común."
+	},
+	{
+		"type": "word",
+		"german": "die Gemeindewohnung",
+		"category": "Wohnen",
+		"translation": "la vivienda municipal",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Miete",
+		"category": "Wohnen",
+		"translation": "el alquiler"
+	},
+	{
+		"type": "word",
+		"german": "mieten",
+		"category": "Wohnen",
+		"translation": "alquilar (como inquilino)"
+	},
+	{
+		"type": "word",
+		"german": "vermieten",
+		"category": "Wohnen",
+		"translation": "alquilar (como propietario)"
+	},
+	{
+		"type": "word",
+		"german": "der Vermieter / die Vermieterin",
+		"category": "Wohnen",
+		"translation": "el/la casero/a"
+	},
+	{
+		"type": "word",
+		"german": "der Mieter / die Mieterin",
+		"category": "Wohnen",
+		"translation": "el/la inquilino/a"
+	},
+	{
+		"type": "word",
+		"german": "der Mietvertrag",
+		"category": "Wohnen",
+		"translation": "el contrato de alquiler"
+	},
+	{
+		"type": "word",
+		"german": "befristet",
+		"category": "Wohnen",
+		"translation": "temporal, con fecha de fin",
+		"context": "Austria: befristeter Mietvertrag (3 años)."
+	},
+	{
+		"type": "word",
+		"german": "die Betriebskosten",
+		"category": "Wohnen",
+		"translation": "los gastos de comunidad",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Hausverwaltung",
+		"category": "Wohnen",
+		"translation": "la administración de la finca"
+	},
+	{
+		"type": "word",
+		"german": "der Hausbesorger",
+		"category": "Wohnen",
+		"translation": "el portero, el conserje",
+		"alt": "der Hausmeister (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Provision",
+		"category": "Wohnen",
+		"translation": "la comisión (de agencia)"
+	},
+	{
+		"type": "word",
+		"german": "der Makler / die Maklerin",
+		"category": "Wohnen",
+		"translation": "el/la agente inmobiliario/a"
+	},
+	{
+		"type": "word",
+		"german": "die Besichtigung",
+		"category": "Wohnen",
+		"translation": "la visita (al piso)"
+	},
+	{
+		"type": "word",
+		"german": "einziehen",
+		"category": "Wohnen",
+		"translation": "mudarse a (entrar)"
+	},
+	{
+		"type": "word",
+		"german": "ausziehen",
+		"category": "Wohnen",
+		"translation": "mudarse de (salir)"
+	},
+	{
+		"type": "word",
+		"german": "umziehen",
+		"category": "Wohnen",
+		"translation": "mudarse"
+	},
+	{
+		"type": "word",
+		"german": "die Hausordnung",
+		"category": "Wohnen",
+		"translation": "las normas de la comunidad"
+	},
+	{
+		"type": "word",
+		"german": "das Stiegenhaus",
+		"category": "Wohnen",
+		"translation": "la escalera (del edificio)",
+		"alt": "das Treppenhaus (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Stock",
+		"category": "Wohnen",
+		"translation": "la planta, el piso",
+		"context": "im zweiten Stock"
+	},
+	{
+		"type": "word",
+		"german": "das Erdgeschoss",
+		"category": "Wohnen",
+		"translation": "la planta baja",
+		"context": "Austria también: Parterre."
+	},
+	{
+		"type": "word",
+		"german": "der Keller",
+		"category": "Wohnen",
+		"translation": "el sótano, el trastero"
+	},
+	{
+		"type": "word",
+		"german": "der Dachboden",
+		"category": "Wohnen",
+		"translation": "el desván"
+	},
+	{
+		"type": "word",
+		"german": "der Balkon",
+		"category": "Wohnen",
+		"translation": "el balcón"
+	},
+	{
+		"type": "word",
+		"german": "die Heizung",
+		"category": "Wohnen",
+		"translation": "la calefacción"
+	},
+	{
+		"type": "word",
+		"german": "heizen",
+		"category": "Wohnen",
+		"translation": "calentar, encender la calefacción"
+	},
+	{
+		"type": "word",
+		"german": "lüften",
+		"category": "Wohnen",
+		"translation": "ventilar",
+		"context": "Austria: Stoßlüften."
+	},
+	{
+		"type": "word",
+		"german": "der Schimmel",
+		"category": "Wohnen",
+		"translation": "el moho"
+	},
+	{
+		"type": "word",
+		"german": "der Wasserhahn",
+		"category": "Wohnen",
+		"translation": "el grifo"
+	},
+	{
+		"type": "word",
+		"german": "tropfen",
+		"category": "Wohnen",
+		"translation": "gotear"
+	},
+	{
+		"type": "word",
+		"german": "reparieren",
+		"category": "Wohnen",
+		"translation": "reparar"
+	},
+	{
+		"type": "word",
+		"german": "der Installateur",
+		"category": "Wohnen",
+		"translation": "el fontanero",
+		"alt": "der Klempner (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Elektriker",
+		"category": "Wohnen",
+		"translation": "el electricista"
+	},
+	{
+		"type": "word",
+		"german": "der Rauchfangkehrer",
+		"category": "Wohnen",
+		"translation": "el deshollinador",
+		"alt": "der Schornsteinfeger (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Strom",
+		"category": "Wohnen",
+		"translation": "la electricidad"
+	},
+	{
+		"type": "word",
+		"german": "die Stromrechnung",
+		"category": "Wohnen",
+		"translation": "la factura de la luz"
+	},
+	{
+		"type": "word",
+		"german": "der Zählerstand",
+		"category": "Wohnen",
+		"translation": "la lectura del contador"
+	},
+	{
+		"type": "word",
+		"german": "die Mülltrennung",
+		"category": "Wohnen",
+		"translation": "la separación de basura"
+	},
+	{
+		"type": "word",
+		"german": "der Biomüll",
+		"category": "Wohnen",
+		"translation": "los residuos orgánicos"
+	},
+	{
+		"type": "word",
+		"german": "der Altpapiercontainer",
+		"category": "Wohnen",
+		"translation": "el contenedor de papel"
+	},
+	{
+		"type": "word",
+		"german": "die Waschmaschine",
+		"category": "Wohnen",
+		"translation": "la lavadora"
+	},
+	{
+		"type": "word",
+		"german": "der Geschirrspüler",
+		"category": "Wohnen",
+		"translation": "el lavavajillas"
+	},
+	{
+		"type": "word",
+		"german": "die Abstellkammer",
+		"category": "Wohnen",
+		"translation": "el trastero (dentro del piso)"
+	},
+	{
+		"type": "word",
+		"german": "möbliert",
+		"category": "Wohnen",
+		"translation": "amueblado"
+	},
+	{
+		"type": "word",
+		"german": "die Garçonnière",
+		"category": "Wohnen",
+		"translation": "el estudio (piso pequeño)",
+		"alt": "die Einzimmerwohnung",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Heizung funktioniert nicht.",
+		"category": "Wohnen",
+		"translation": "La calefacción no funciona."
+	},
+	{
+		"type": "phrase",
+		"german": "Der Wasserhahn tropft seit gestern.",
+		"category": "Wohnen",
+		"translation": "El grifo gotea desde ayer."
+	},
+	{
+		"type": "phrase",
+		"german": "Wie hoch sind die Betriebskosten?",
+		"category": "Wohnen",
+		"translation": "¿Cuánto son los gastos de comunidad?",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Ist die Wohnung befristet vermietet?",
+		"category": "Wohnen",
+		"translation": "¿El piso se alquila con contrato temporal?"
+	},
+	{
+		"type": "phrase",
+		"german": "Wann kann ich die Wohnung besichtigen?",
+		"category": "Wohnen",
+		"translation": "¿Cuándo puedo ver el piso?"
+	},
+	{
+		"type": "phrase",
+		"german": "Wir ziehen nächsten Monat um.",
+		"category": "Wohnen",
+		"translation": "Nos mudamos el mes que viene."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich muss das der Hausverwaltung melden.",
+		"category": "Wohnen",
+		"translation": "Tengo que comunicárselo a la administración."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir wohnen im dritten Stock.",
+		"category": "Wohnen",
+		"translation": "Vivimos en el tercer piso."
+	},
+	{
+		"type": "phrase",
+		"german": "Bitte nicht vergessen, den Müll zu trennen.",
+		"category": "Wohnen",
+		"translation": "No olvides separar la basura, por favor."
+	},
+	{
+		"type": "phrase",
+		"german": "Können Sie einen Installateur schicken?",
+		"category": "Wohnen",
+		"translation": "¿Puede enviar a un fontanero?",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Hausarzt / die Hausärztin",
+		"category": "Gesundheit",
+		"translation": "el/la médico/a de cabecera"
+	},
+	{
+		"type": "word",
+		"german": "der Facharzt",
+		"category": "Gesundheit",
+		"translation": "el especialista"
+	},
+	{
+		"type": "word",
+		"german": "die Ordination",
+		"category": "Gesundheit",
+		"translation": "la consulta médica",
+		"alt": "die Praxis (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Ordinationszeiten",
+		"category": "Gesundheit",
+		"translation": "el horario de consulta",
+		"alt": "die Sprechstunden (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Spital",
+		"category": "Gesundheit",
+		"translation": "el hospital",
+		"alt": "das Krankenhaus",
+		"context": "Austria/Suiza."
+	},
+	{
+		"type": "word",
+		"german": "das LKH",
+		"category": "Gesundheit",
+		"translation": "el hospital regional",
+		"context": "Austria: Landeskrankenhaus (LKH Graz)."
+	},
+	{
+		"type": "word",
+		"german": "die Ambulanz",
+		"category": "Gesundheit",
+		"translation": "las urgencias / consultas externas del hospital",
+		"alt": "die Notaufnahme (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Rettung",
+		"category": "Gesundheit",
+		"translation": "la ambulancia",
+		"alt": "der Krankenwagen (DE)",
+		"context": "Austria. Teléfono 144."
+	},
+	{
+		"type": "word",
+		"german": "der Notarzt",
+		"category": "Gesundheit",
+		"translation": "el médico de urgencias"
+	},
+	{
+		"type": "word",
+		"german": "die Apotheke",
+		"category": "Gesundheit",
+		"translation": "la farmacia"
+	},
+	{
+		"type": "word",
+		"german": "das Rezept",
+		"category": "Gesundheit",
+		"translation": "la receta"
+	},
+	{
+		"type": "word",
+		"german": "die Rezeptgebühr",
+		"category": "Gesundheit",
+		"translation": "la tasa por receta",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Medikament",
+		"category": "Gesundheit",
+		"translation": "el medicamento"
+	},
+	{
+		"type": "word",
+		"german": "die Tablette",
+		"category": "Gesundheit",
+		"translation": "la pastilla"
+	},
+	{
+		"type": "word",
+		"german": "einnehmen",
+		"category": "Gesundheit",
+		"translation": "tomar (medicamento)"
+	},
+	{
+		"type": "word",
+		"german": "die Überweisung zum Facharzt",
+		"category": "Gesundheit",
+		"translation": "el volante para el especialista",
+		"context": "Austria: la da el médico de cabecera."
+	},
+	{
+		"type": "word",
+		"german": "die Krankmeldung",
+		"category": "Gesundheit",
+		"translation": "la baja médica"
+	},
+	{
+		"type": "word",
+		"german": "krankgeschrieben",
+		"category": "Gesundheit",
+		"translation": "de baja médica"
+	},
+	{
+		"type": "word",
+		"german": "die Untersuchung",
+		"category": "Gesundheit",
+		"translation": "el examen médico"
+	},
+	{
+		"type": "word",
+		"german": "die Impfung",
+		"category": "Gesundheit",
+		"translation": "la vacuna"
+	},
+	{
+		"type": "word",
+		"german": "der Befund",
+		"category": "Gesundheit",
+		"translation": "el resultado (médico)",
+		"context": "Austria: den Befund abholen."
+	},
+	{
+		"type": "word",
+		"german": "die Blutabnahme",
+		"category": "Gesundheit",
+		"translation": "la extracción de sangre"
+	},
+	{
+		"type": "word",
+		"german": "die Beschwerden",
+		"category": "Gesundheit",
+		"translation": "las molestias"
+	},
+	{
+		"type": "word",
+		"german": "der Schmerz",
+		"category": "Gesundheit",
+		"translation": "el dolor"
+	},
+	{
+		"type": "word",
+		"german": "weh tun",
+		"category": "Gesundheit",
+		"translation": "doler"
+	},
+	{
+		"type": "word",
+		"german": "das Fieber",
+		"category": "Gesundheit",
+		"translation": "la fiebre"
+	},
+	{
+		"type": "word",
+		"german": "der Husten",
+		"category": "Gesundheit",
+		"translation": "la tos"
+	},
+	{
+		"type": "word",
+		"german": "der Schnupfen",
+		"category": "Gesundheit",
+		"translation": "el resfriado (mocos)"
+	},
+	{
+		"type": "word",
+		"german": "die Grippe",
+		"category": "Gesundheit",
+		"translation": "la gripe"
+	},
+	{
+		"type": "word",
+		"german": "die Erkältung",
+		"category": "Gesundheit",
+		"translation": "el resfriado"
+	},
+	{
+		"type": "word",
+		"german": "die Verkühlung",
+		"category": "Gesundheit",
+		"translation": "el resfriado",
+		"alt": "die Erkältung",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "sich verkühlen",
+		"category": "Gesundheit",
+		"translation": "resfriarse",
+		"alt": "sich erkälten",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "schwindelig",
+		"category": "Gesundheit",
+		"translation": "mareado"
+	},
+	{
+		"type": "word",
+		"german": "übel",
+		"category": "Gesundheit",
+		"translation": "con náuseas",
+		"context": "Mir ist übel."
+	},
+	{
+		"type": "word",
+		"german": "die Allergie",
+		"category": "Gesundheit",
+		"translation": "la alergia"
+	},
+	{
+		"type": "word",
+		"german": "verletzt",
+		"category": "Gesundheit",
+		"translation": "herido"
+	},
+	{
+		"type": "word",
+		"german": "der Unfall",
+		"category": "Gesundheit",
+		"translation": "el accidente"
+	},
+	{
+		"type": "word",
+		"german": "der Arbeitsunfall",
+		"category": "Gesundheit",
+		"translation": "el accidente laboral"
+	},
+	{
+		"type": "word",
+		"german": "sich erholen",
+		"category": "Gesundheit",
+		"translation": "recuperarse"
+	},
+	{
+		"type": "word",
+		"german": "gesund",
+		"category": "Gesundheit",
+		"translation": "sano"
+	},
+	{
+		"type": "word",
+		"german": "die Gesundheit",
+		"category": "Gesundheit",
+		"translation": "la salud"
+	},
+	{
+		"type": "word",
+		"german": "der Zahnarzt",
+		"category": "Gesundheit",
+		"translation": "el dentista"
+	},
+	{
+		"type": "word",
+		"german": "der Gips",
+		"category": "Gesundheit",
+		"translation": "la escayola"
+	},
+	{
+		"type": "word",
+		"german": "der Wahlarzt",
+		"category": "Gesundheit",
+		"translation": "médico privado (con reembolso parcial)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Kassenarzt",
+		"category": "Gesundheit",
+		"translation": "médico de la seguridad social",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Gesundheitshotline 1450",
+		"category": "Gesundheit",
+		"translation": "línea de salud 1450",
+		"context": "Austria: consultas por teléfono."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich brauche einen Termin beim Hausarzt.",
+		"category": "Gesundheit",
+		"translation": "Necesito una cita con el médico de cabecera."
+	},
+	{
+		"type": "phrase",
+		"german": "Wann hat die Ordination offen?",
+		"category": "Gesundheit",
+		"translation": "¿Cuándo abre la consulta?",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Mir tut der Kopf weh.",
+		"category": "Gesundheit",
+		"translation": "Me duele la cabeza."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe seit gestern Fieber.",
+		"category": "Gesundheit",
+		"translation": "Tengo fiebre desde ayer."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe mich verkühlt.",
+		"category": "Gesundheit",
+		"translation": "Me he resfriado.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Mir ist schwindelig.",
+		"category": "Gesundheit",
+		"translation": "Estoy mareado."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin bis Freitag krankgeschrieben.",
+		"category": "Gesundheit",
+		"translation": "Estoy de baja hasta el viernes."
+	},
+	{
+		"type": "phrase",
+		"german": "Brauche ich dafür eine Überweisung?",
+		"category": "Gesundheit",
+		"translation": "¿Necesito un volante para eso?"
+	},
+	{
+		"type": "phrase",
+		"german": "Bitte bringen Sie Ihre E-Card mit.",
+		"category": "Gesundheit",
+		"translation": "Traiga su tarjeta sanitaria, por favor.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Den Befund bekommen Sie nächste Woche.",
+		"category": "Gesundheit",
+		"translation": "Recibirá los resultados la semana que viene."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich hatte leider einen kleinen Arbeitsunfall.",
+		"category": "Gesundheit",
+		"translation": "Lamentablemente tuve un pequeño accidente laboral."
+	},
+	{
+		"type": "phrase",
+		"german": "Gute Besserung!",
+		"category": "Gesundheit",
+		"translation": "¡Que te mejores!"
+	},
+	{
+		"type": "phrase",
+		"german": "Ruf die Rettung an!",
+		"category": "Gesundheit",
+		"translation": "¡Llama a la ambulancia!",
+		"context": "Austria: 144."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin gegen Penicillin allergisch.",
+		"category": "Gesundheit",
+		"translation": "Soy alérgico a la penicilina."
+	},
+	{
+		"type": "phrase",
+		"german": "Wie oft soll ich die Tabletten einnehmen?",
+		"category": "Gesundheit",
+		"translation": "¿Cada cuánto tengo que tomar las pastillas?"
+	},
+	{
+		"type": "word",
+		"german": "das Sackerl",
+		"category": "Einkaufen",
+		"translation": "la bolsa",
+		"alt": "die Tüte (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Kassa",
+		"category": "Einkaufen",
+		"translation": "la caja (para pagar)",
+		"alt": "die Kasse (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Kassabon",
+		"category": "Einkaufen",
+		"translation": "el ticket de compra",
+		"alt": "der Kassenbon (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Geschäft",
+		"category": "Einkaufen",
+		"translation": "la tienda"
+	},
+	{
+		"type": "word",
+		"german": "der Supermarkt",
+		"category": "Einkaufen",
+		"translation": "el supermercado"
+	},
+	{
+		"type": "word",
+		"german": "der Markt",
+		"category": "Einkaufen",
+		"translation": "el mercado",
+		"context": "Bauernmarkt = mercado de productores."
+	},
+	{
+		"type": "word",
+		"german": "der Bauernmarkt",
+		"category": "Einkaufen",
+		"translation": "el mercado de productores",
+		"context": "Austria: Kaiser-Josef-Markt en Graz."
+	},
+	{
+		"type": "word",
+		"german": "die Drogerie",
+		"category": "Einkaufen",
+		"translation": "la droguería"
+	},
+	{
+		"type": "word",
+		"german": "die Aktion",
+		"category": "Einkaufen",
+		"translation": "la promoción, la oferta",
+		"alt": "das Sonderangebot",
+		"context": "Austria: «in Aktion»."
+	},
+	{
+		"type": "word",
+		"german": "reduziert",
+		"category": "Einkaufen",
+		"translation": "rebajado"
+	},
+	{
+		"type": "word",
+		"german": "der Ausverkauf",
+		"category": "Einkaufen",
+		"translation": "las rebajas, la liquidación"
+	},
+	{
+		"type": "word",
+		"german": "die Größe",
+		"category": "Einkaufen",
+		"translation": "la talla"
+	},
+	{
+		"type": "word",
+		"german": "anprobieren",
+		"category": "Einkaufen",
+		"translation": "probarse (ropa)"
+	},
+	{
+		"type": "word",
+		"german": "die Umkleidekabine",
+		"category": "Einkaufen",
+		"translation": "el probador"
+	},
+	{
+		"type": "word",
+		"german": "umtauschen",
+		"category": "Einkaufen",
+		"translation": "cambiar (un producto)"
+	},
+	{
+		"type": "word",
+		"german": "zurückgeben",
+		"category": "Einkaufen",
+		"translation": "devolver"
+	},
+	{
+		"type": "word",
+		"german": "die Rücksendung",
+		"category": "Einkaufen",
+		"translation": "la devolución (envío)",
+		"alt": "die Retoure"
+	},
+	{
+		"type": "word",
+		"german": "die Bestellung",
+		"category": "Einkaufen",
+		"translation": "el pedido"
+	},
+	{
+		"type": "word",
+		"german": "bestellen",
+		"category": "Einkaufen",
+		"translation": "pedir, encargar"
+	},
+	{
+		"type": "word",
+		"german": "die Lieferung",
+		"category": "Einkaufen",
+		"translation": "la entrega"
+	},
+	{
+		"type": "word",
+		"german": "liefern",
+		"category": "Einkaufen",
+		"translation": "entregar, repartir"
+	},
+	{
+		"type": "word",
+		"german": "das Lieferdatum",
+		"category": "Einkaufen",
+		"translation": "la fecha de entrega"
+	},
+	{
+		"type": "word",
+		"german": "voraussichtlich",
+		"category": "Einkaufen",
+		"translation": "previsiblemente, estimado",
+		"context": "das voraussichtliche Lieferdatum"
+	},
+	{
+		"type": "word",
+		"german": "die Versandkosten",
+		"category": "Einkaufen",
+		"translation": "los gastos de envío"
+	},
+	{
+		"type": "word",
+		"german": "die Garantie",
+		"category": "Einkaufen",
+		"translation": "la garantía"
+	},
+	{
+		"type": "word",
+		"german": "kaputt",
+		"category": "Einkaufen",
+		"translation": "roto"
+	},
+	{
+		"type": "word",
+		"german": "der Gutschein",
+		"category": "Einkaufen",
+		"translation": "el vale, el cupón"
+	},
+	{
+		"type": "word",
+		"german": "die Filiale",
+		"category": "Einkaufen",
+		"translation": "la sucursal"
+	},
+	{
+		"type": "word",
+		"german": "geöffnet / geschlossen",
+		"category": "Einkaufen",
+		"translation": "abierto / cerrado"
+	},
+	{
+		"type": "word",
+		"german": "der Feiertag",
+		"category": "Einkaufen",
+		"translation": "el día festivo",
+		"context": "Austria: tiendas cerradas en festivos y domingos."
+	},
+	{
+		"type": "word",
+		"german": "das Pfand",
+		"category": "Einkaufen",
+		"translation": "el depósito (de envases)",
+		"context": "Austria: Pfand desde 2025."
+	},
+	{
+		"type": "word",
+		"german": "die Pfandflasche",
+		"category": "Einkaufen",
+		"translation": "la botella retornable"
+	},
+	{
+		"type": "word",
+		"german": "die Semmel",
+		"category": "Einkaufen",
+		"translation": "el panecillo",
+		"alt": "das Brötchen (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Kipferl",
+		"category": "Einkaufen",
+		"translation": "el croissant (tipo cuerno)",
+		"alt": "das Hörnchen (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Topfen",
+		"category": "Einkaufen",
+		"translation": "el requesón",
+		"alt": "der Quark (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Schlagobers",
+		"category": "Einkaufen",
+		"translation": "la nata montada",
+		"alt": "die Sahne (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Obers",
+		"category": "Einkaufen",
+		"translation": "la nata líquida",
+		"alt": "die Sahne (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Erdäpfel",
+		"category": "Einkaufen",
+		"translation": "las patatas",
+		"alt": "die Kartoffeln (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Karfiol",
+		"category": "Einkaufen",
+		"translation": "la coliflor",
+		"alt": "der Blumenkohl (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Fisolen",
+		"category": "Einkaufen",
+		"translation": "las judías verdes",
+		"alt": "die grünen Bohnen (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Kren",
+		"category": "Einkaufen",
+		"translation": "el rábano picante",
+		"alt": "der Meerrettich (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Marille",
+		"category": "Einkaufen",
+		"translation": "el albaricoque",
+		"alt": "die Aprikose (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Ribisel",
+		"category": "Einkaufen",
+		"translation": "la grosella",
+		"alt": "die Johannisbeere (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Kukuruz",
+		"category": "Einkaufen",
+		"translation": "el maíz",
+		"alt": "der Mais (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Melanzani",
+		"category": "Einkaufen",
+		"translation": "la berenjena",
+		"alt": "die Aubergine (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Faschierte",
+		"category": "Einkaufen",
+		"translation": "la carne picada",
+		"alt": "das Hackfleisch (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Kürbiskernöl",
+		"category": "Einkaufen",
+		"translation": "el aceite de pepitas de calabaza",
+		"context": "Austria/Steiermark, típico."
+	},
+	{
+		"type": "word",
+		"german": "der Bäcker",
+		"category": "Einkaufen",
+		"translation": "la panadería; el panadero",
+		"context": "Austria: zum Bäcker gehen."
+	},
+	{
+		"type": "word",
+		"german": "das Stück",
+		"category": "Einkaufen",
+		"translation": "la pieza, la unidad"
+	},
+	{
+		"type": "word",
+		"german": "das Deka",
+		"category": "Einkaufen",
+		"translation": "10 gramos",
+		"alt": "zehn Gramm",
+		"context": "Austria: 10 Deka Schinken."
+	},
+	{
+		"type": "phrase",
+		"german": "Brauchen Sie ein Sackerl?",
+		"category": "Einkaufen",
+		"translation": "¿Necesita una bolsa?",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich zahle mit Karte.",
+		"category": "Einkaufen",
+		"translation": "Pago con tarjeta."
+	},
+	{
+		"type": "phrase",
+		"german": "Kann ich das umtauschen?",
+		"category": "Einkaufen",
+		"translation": "¿Puedo cambiarlo?"
+	},
+	{
+		"type": "phrase",
+		"german": "Haben Sie das eine Nummer größer?",
+		"category": "Einkaufen",
+		"translation": "¿Lo tiene una talla más grande?"
+	},
+	{
+		"type": "phrase",
+		"german": "Ich schaue nur, danke.",
+		"category": "Einkaufen",
+		"translation": "Solo estoy mirando, gracias."
+	},
+	{
+		"type": "phrase",
+		"german": "Das ist gerade in Aktion.",
+		"category": "Einkaufen",
+		"translation": "Eso está ahora en oferta.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Zehn Deka Schinken, bitte.",
+		"category": "Einkaufen",
+		"translation": "Cien gramos de jamón, por favor.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Zwei Semmeln, bitte.",
+		"category": "Einkaufen",
+		"translation": "Dos panecillos, por favor.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Sendung befindet sich auf dem Versandweg.",
+		"category": "Einkaufen",
+		"translation": "El envío está en camino."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Lieferung hat sich leider verzögert.",
+		"category": "Einkaufen",
+		"translation": "Lamentablemente la entrega se ha retrasado."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich möchte den Artikel zurückschicken.",
+		"category": "Einkaufen",
+		"translation": "Quiero devolver el artículo."
+	},
+	{
+		"type": "phrase",
+		"german": "Am Sonntag haben die Geschäfte zu.",
+		"category": "Einkaufen",
+		"translation": "El domingo las tiendas están cerradas.",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Gasthaus",
+		"category": "Restaurant",
+		"translation": "el restaurante tradicional, la fonda",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Beisl",
+		"category": "Restaurant",
+		"translation": "el bar-restaurante sencillo",
+		"alt": "die Kneipe (DE)",
+		"context": "Austria (Viena)."
+	},
+	{
+		"type": "word",
+		"german": "der Heurige",
+		"category": "Restaurant",
+		"translation": "la taberna de vino nuevo",
+		"context": "Austria: vino de la cosecha del año."
+	},
+	{
+		"type": "word",
+		"german": "die Buschenschank",
+		"category": "Restaurant",
+		"translation": "la taberna de viñedo",
+		"context": "Austria/Steiermark, típico."
+	},
+	{
+		"type": "word",
+		"german": "das Kaffeehaus",
+		"category": "Restaurant",
+		"translation": "el café tradicional",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Speisekarte",
+		"category": "Restaurant",
+		"translation": "la carta"
+	},
+	{
+		"type": "word",
+		"german": "das Mittagsmenü",
+		"category": "Restaurant",
+		"translation": "el menú del día"
+	},
+	{
+		"type": "word",
+		"german": "die Vorspeise",
+		"category": "Restaurant",
+		"translation": "el entrante"
+	},
+	{
+		"type": "word",
+		"german": "die Hauptspeise",
+		"category": "Restaurant",
+		"translation": "el plato principal",
+		"alt": "das Hauptgericht (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Nachspeise",
+		"category": "Restaurant",
+		"translation": "el postre",
+		"alt": "der Nachtisch (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Mehlspeise",
+		"category": "Restaurant",
+		"translation": "el dulce, el pastel",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Kellner / die Kellnerin",
+		"category": "Restaurant",
+		"translation": "el/la camarero/a",
+		"context": "Austria también: Herr Ober."
+	},
+	{
+		"type": "word",
+		"german": "reservieren",
+		"category": "Restaurant",
+		"translation": "reservar"
+	},
+	{
+		"type": "word",
+		"german": "das Trinkgeld",
+		"category": "Restaurant",
+		"translation": "la propina",
+		"context": "Austria: se redondea (5–10 %)."
+	},
+	{
+		"type": "word",
+		"german": "zahlen",
+		"category": "Restaurant",
+		"translation": "pagar",
+		"context": "Zahlen, bitte!"
+	},
+	{
+		"type": "word",
+		"german": "getrennt",
+		"category": "Restaurant",
+		"translation": "por separado",
+		"context": "getrennt zahlen"
+	},
+	{
+		"type": "word",
+		"german": "zusammen",
+		"category": "Restaurant",
+		"translation": "junto"
+	},
+	{
+		"type": "word",
+		"german": "der Gespritzte",
+		"category": "Restaurant",
+		"translation": "vino con agua con gas",
+		"alt": "die Weinschorle (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Almdudler",
+		"category": "Restaurant",
+		"translation": "refresco de hierbas",
+		"context": "Austria, típico."
+	},
+	{
+		"type": "word",
+		"german": "das Krügerl",
+		"category": "Restaurant",
+		"translation": "la jarra de cerveza (0,5 l)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Seidl",
+		"category": "Restaurant",
+		"translation": "la caña de cerveza (0,3 l)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Verlängerte",
+		"category": "Restaurant",
+		"translation": "café americano",
+		"context": "Austria: espresso alargado."
+	},
+	{
+		"type": "word",
+		"german": "die Melange",
+		"category": "Restaurant",
+		"translation": "café con leche espumosa",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Häferl",
+		"category": "Restaurant",
+		"translation": "la taza grande",
+		"alt": "der Becher (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Wiener Schnitzel",
+		"category": "Restaurant",
+		"translation": "el escalope vienés"
+	},
+	{
+		"type": "word",
+		"german": "das Backhendl",
+		"category": "Restaurant",
+		"translation": "el pollo empanado",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Tafelspitz",
+		"category": "Restaurant",
+		"translation": "la carne de ternera hervida",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "die Palatschinke",
+		"category": "Restaurant",
+		"translation": "el crep",
+		"alt": "der Pfannkuchen (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Kaiserschmarrn",
+		"category": "Restaurant",
+		"translation": "tortilla dulce troceada",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Strudel",
+		"category": "Restaurant",
+		"translation": "el strudel"
+	},
+	{
+		"type": "word",
+		"german": "der Sterz",
+		"category": "Restaurant",
+		"translation": "plato de harina (polenta)",
+		"context": "Austria/Steiermark."
+	},
+	{
+		"type": "word",
+		"german": "das Leitungswasser",
+		"category": "Restaurant",
+		"translation": "el agua del grifo"
+	},
+	{
+		"type": "word",
+		"german": "vegetarisch",
+		"category": "Restaurant",
+		"translation": "vegetariano"
+	},
+	{
+		"type": "word",
+		"german": "scharf",
+		"category": "Restaurant",
+		"translation": "picante"
+	},
+	{
+		"type": "word",
+		"german": "g'schmackig",
+		"category": "Restaurant",
+		"translation": "sabroso",
+		"alt": "lecker",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "satt",
+		"category": "Restaurant",
+		"translation": "lleno (de comida)"
+	},
+	{
+		"type": "word",
+		"german": "der Stammtisch",
+		"category": "Restaurant",
+		"translation": "la mesa de los habituales"
+	},
+	{
+		"type": "word",
+		"german": "das Mittagessen",
+		"category": "Restaurant",
+		"translation": "la comida (del mediodía)"
+	},
+	{
+		"type": "word",
+		"german": "das Abendessen",
+		"category": "Restaurant",
+		"translation": "la cena"
+	},
+	{
+		"type": "word",
+		"german": "das Frühstück",
+		"category": "Restaurant",
+		"translation": "el desayuno"
+	},
+	{
+		"type": "phrase",
+		"german": "Wir hätten gern die Rechnung.",
+		"category": "Restaurant",
+		"translation": "Nos trae la cuenta, por favor."
+	},
+	{
+		"type": "phrase",
+		"german": "Zahlen, bitte!",
+		"category": "Restaurant",
+		"translation": "¡La cuenta, por favor!",
+		"context": "Austria, muy habitual."
+	},
+	{
+		"type": "phrase",
+		"german": "Getrennt oder zusammen?",
+		"category": "Restaurant",
+		"translation": "¿Por separado o junto?"
+	},
+	{
+		"type": "phrase",
+		"german": "Ist hier noch frei?",
+		"category": "Restaurant",
+		"translation": "¿Está libre?"
+	},
+	{
+		"type": "phrase",
+		"german": "Ich hätte gern einen Verlängerten.",
+		"category": "Restaurant",
+		"translation": "Querría un café americano.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Ein Krügerl, bitte.",
+		"category": "Restaurant",
+		"translation": "Una jarra de cerveza, por favor.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Was können Sie empfehlen?",
+		"category": "Restaurant",
+		"translation": "¿Qué me recomienda?"
+	},
+	{
+		"type": "phrase",
+		"german": "Haben Sie auch etwas Vegetarisches?",
+		"category": "Restaurant",
+		"translation": "¿Tiene también algo vegetariano?"
+	},
+	{
+		"type": "phrase",
+		"german": "Stimmt so.",
+		"category": "Restaurant",
+		"translation": "Quédese con el cambio.",
+		"context": "Al dejar propina."
+	},
+	{
+		"type": "phrase",
+		"german": "Das war sehr g'schmackig!",
+		"category": "Restaurant",
+		"translation": "¡Estaba muy rico!",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "die Öffis",
+		"category": "Verkehr",
+		"translation": "el transporte público",
+		"alt": "die öffentlichen Verkehrsmittel",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "word",
+		"german": "die Bim",
+		"category": "Verkehr",
+		"translation": "el tranvía",
+		"alt": "die Straßenbahn",
+		"context": "Austria (Graz, Viena), coloquial."
+	},
+	{
+		"type": "word",
+		"german": "die Straßenbahn",
+		"category": "Verkehr",
+		"translation": "el tranvía"
+	},
+	{
+		"type": "word",
+		"german": "die Haltestelle",
+		"category": "Verkehr",
+		"translation": "la parada"
+	},
+	{
+		"type": "word",
+		"german": "die Station",
+		"category": "Verkehr",
+		"translation": "la estación, la parada"
+	},
+	{
+		"type": "word",
+		"german": "der Fahrplan",
+		"category": "Verkehr",
+		"translation": "el horario (de transporte)"
+	},
+	{
+		"type": "word",
+		"german": "der Fahrschein",
+		"category": "Verkehr",
+		"translation": "el billete",
+		"alt": "das Ticket"
+	},
+	{
+		"type": "word",
+		"german": "die Jahreskarte",
+		"category": "Verkehr",
+		"translation": "el abono anual",
+		"context": "Austria: KlimaTicket."
+	},
+	{
+		"type": "word",
+		"german": "das KlimaTicket",
+		"category": "Verkehr",
+		"translation": "el abono nacional de transporte",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "entwerten",
+		"category": "Verkehr",
+		"translation": "validar (billete)"
+	},
+	{
+		"type": "word",
+		"german": "der Kontrolleur",
+		"category": "Verkehr",
+		"translation": "el revisor"
+	},
+	{
+		"type": "word",
+		"german": "die ÖBB",
+		"category": "Verkehr",
+		"translation": "los ferrocarriles austriacos",
+		"context": "Österreichische Bundesbahnen."
+	},
+	{
+		"type": "word",
+		"german": "der Bahnhof",
+		"category": "Verkehr",
+		"translation": "la estación de tren",
+		"context": "Graz Hauptbahnhof"
+	},
+	{
+		"type": "word",
+		"german": "der Bahnsteig",
+		"category": "Verkehr",
+		"translation": "el andén"
+	},
+	{
+		"type": "word",
+		"german": "das Gleis",
+		"category": "Verkehr",
+		"translation": "la vía"
+	},
+	{
+		"type": "word",
+		"german": "umsteigen",
+		"category": "Verkehr",
+		"translation": "hacer transbordo"
+	},
+	{
+		"type": "word",
+		"german": "ausfallen",
+		"category": "Verkehr",
+		"translation": "cancelarse, no circular",
+		"context": "Der Zug fällt aus."
+	},
+	{
+		"type": "word",
+		"german": "die Ersatzverbindung",
+		"category": "Verkehr",
+		"translation": "la conexión alternativa"
+	},
+	{
+		"type": "word",
+		"german": "der Schienenersatzverkehr",
+		"category": "Verkehr",
+		"translation": "el autobús sustituto del tren"
+	},
+	{
+		"type": "word",
+		"german": "das Auto",
+		"category": "Verkehr",
+		"translation": "el coche"
+	},
+	{
+		"type": "word",
+		"german": "das Pickerl",
+		"category": "Verkehr",
+		"translation": "la ITV; la pegatina",
+		"context": "Austria: §57a-Überprüfung."
+	},
+	{
+		"type": "word",
+		"german": "die Vignette",
+		"category": "Verkehr",
+		"translation": "la viñeta de autopista",
+		"context": "Austria: obligatoria en autopistas."
+	},
+	{
+		"type": "word",
+		"german": "die Autobahn",
+		"category": "Verkehr",
+		"translation": "la autopista"
+	},
+	{
+		"type": "word",
+		"german": "der Stau",
+		"category": "Verkehr",
+		"translation": "el atasco"
+	},
+	{
+		"type": "word",
+		"german": "parken",
+		"category": "Verkehr",
+		"translation": "aparcar"
+	},
+	{
+		"type": "word",
+		"german": "der Parkplatz",
+		"category": "Verkehr",
+		"translation": "el aparcamiento"
+	},
+	{
+		"type": "word",
+		"german": "die Kurzparkzone",
+		"category": "Verkehr",
+		"translation": "la zona de aparcamiento limitado",
+		"context": "Austria («blaue Zone»)."
+	},
+	{
+		"type": "word",
+		"german": "der Parkschein",
+		"category": "Verkehr",
+		"translation": "el ticket de aparcamiento"
+	},
+	{
+		"type": "word",
+		"german": "die Tankstelle",
+		"category": "Verkehr",
+		"translation": "la gasolinera"
+	},
+	{
+		"type": "word",
+		"german": "tanken",
+		"category": "Verkehr",
+		"translation": "repostar"
+	},
+	{
+		"type": "word",
+		"german": "das Fahrrad",
+		"category": "Verkehr",
+		"translation": "la bicicleta"
+	},
+	{
+		"type": "word",
+		"german": "der Radweg",
+		"category": "Verkehr",
+		"translation": "el carril bici"
+	},
+	{
+		"type": "word",
+		"german": "der Zebrastreifen",
+		"category": "Verkehr",
+		"translation": "el paso de cebra"
+	},
+	{
+		"type": "word",
+		"german": "die Ampel",
+		"category": "Verkehr",
+		"translation": "el semáforo"
+	},
+	{
+		"type": "word",
+		"german": "die Kreuzung",
+		"category": "Verkehr",
+		"translation": "el cruce"
+	},
+	{
+		"type": "word",
+		"german": "abbiegen",
+		"category": "Verkehr",
+		"translation": "girar (dirección)"
+	},
+	{
+		"type": "word",
+		"german": "die Umleitung",
+		"category": "Verkehr",
+		"translation": "el desvío"
+	},
+	{
+		"type": "word",
+		"german": "die Baustelle",
+		"category": "Verkehr",
+		"translation": "las obras"
+	},
+	{
+		"type": "word",
+		"german": "der Strafzettel",
+		"category": "Verkehr",
+		"translation": "la multa (de tráfico)",
+		"context": "Austria también: Organstrafverfügung."
+	},
+	{
+		"type": "word",
+		"german": "der Flughafen",
+		"category": "Verkehr",
+		"translation": "el aeropuerto"
+	},
+	{
+		"type": "phrase",
+		"german": "Wann fährt die nächste Bim?",
+		"category": "Verkehr",
+		"translation": "¿Cuándo sale el próximo tranvía?",
+		"context": "Austria, coloquial."
+	},
+	{
+		"type": "phrase",
+		"german": "Wo muss ich umsteigen?",
+		"category": "Verkehr",
+		"translation": "¿Dónde tengo que hacer transbordo?"
+	},
+	{
+		"type": "phrase",
+		"german": "Der Zug fällt aus.",
+		"category": "Verkehr",
+		"translation": "El tren está cancelado."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich stehe im Stau.",
+		"category": "Verkehr",
+		"translation": "Estoy en un atasco."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich fahre mit den Öffis.",
+		"category": "Verkehr",
+		"translation": "Voy en transporte público.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich brauche noch eine Vignette.",
+		"category": "Verkehr",
+		"translation": "Todavía necesito una viñeta de autopista.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Mein Pickerl läuft im Mai ab.",
+		"category": "Verkehr",
+		"translation": "Mi ITV caduca en mayo.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Wo kann ich hier parken?",
+		"category": "Verkehr",
+		"translation": "¿Dónde puedo aparcar aquí?"
+	},
+	{
+		"type": "phrase",
+		"german": "Ist das die richtige Haltestelle?",
+		"category": "Verkehr",
+		"translation": "¿Es esta la parada correcta?"
+	},
+	{
+		"type": "phrase",
+		"german": "Es gibt einen Schienenersatzverkehr.",
+		"category": "Verkehr",
+		"translation": "Hay un autobús sustitutorio del tren."
+	},
+	{
+		"type": "word",
+		"german": "die Freizeit",
+		"category": "Freizeit",
+		"translation": "el tiempo libre"
+	},
+	{
+		"type": "word",
+		"german": "das Wochenende",
+		"category": "Freizeit",
+		"translation": "el fin de semana"
+	},
+	{
+		"type": "word",
+		"german": "der Ausflug",
+		"category": "Freizeit",
+		"translation": "la excursión"
+	},
+	{
+		"type": "word",
+		"german": "wandern",
+		"category": "Freizeit",
+		"translation": "hacer senderismo"
+	},
+	{
+		"type": "word",
+		"german": "die Wanderung",
+		"category": "Freizeit",
+		"translation": "la caminata"
+	},
+	{
+		"type": "word",
+		"german": "die Hütte",
+		"category": "Freizeit",
+		"translation": "el refugio de montaña",
+		"context": "Austria: Almhütte."
+	},
+	{
+		"type": "word",
+		"german": "die Alm",
+		"category": "Freizeit",
+		"translation": "el pasto alpino",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Berg",
+		"category": "Freizeit",
+		"translation": "la montaña"
+	},
+	{
+		"type": "word",
+		"german": "der See",
+		"category": "Freizeit",
+		"translation": "el lago"
+	},
+	{
+		"type": "word",
+		"german": "das Freibad",
+		"category": "Freizeit",
+		"translation": "la piscina al aire libre"
+	},
+	{
+		"type": "word",
+		"german": "das Hallenbad",
+		"category": "Freizeit",
+		"translation": "la piscina cubierta"
+	},
+	{
+		"type": "word",
+		"german": "Schi fahren",
+		"category": "Freizeit",
+		"translation": "esquiar",
+		"alt": "Ski fahren",
+		"context": "Austria escribe a menudo «Schi»."
+	},
+	{
+		"type": "word",
+		"german": "rodeln",
+		"category": "Freizeit",
+		"translation": "ir en trineo",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Schlepplift",
+		"category": "Freizeit",
+		"translation": "el telearrastre"
+	},
+	{
+		"type": "word",
+		"german": "die Langlaufloipe",
+		"category": "Freizeit",
+		"translation": "la pista de esquí de fondo"
+	},
+	{
+		"type": "word",
+		"german": "der Verein",
+		"category": "Freizeit",
+		"translation": "la asociación, el club"
+	},
+	{
+		"type": "word",
+		"german": "das Mitglied",
+		"category": "Freizeit",
+		"translation": "el miembro, el socio"
+	},
+	{
+		"type": "word",
+		"german": "der Sport",
+		"category": "Freizeit",
+		"translation": "el deporte"
+	},
+	{
+		"type": "word",
+		"german": "trainieren",
+		"category": "Freizeit",
+		"translation": "entrenar"
+	},
+	{
+		"type": "word",
+		"german": "das Fitnessstudio",
+		"category": "Freizeit",
+		"translation": "el gimnasio"
+	},
+	{
+		"type": "word",
+		"german": "das Konzert",
+		"category": "Freizeit",
+		"translation": "el concierto"
+	},
+	{
+		"type": "word",
+		"german": "die Veranstaltung",
+		"category": "Freizeit",
+		"translation": "el evento"
+	},
+	{
+		"type": "word",
+		"german": "die Ausstellung",
+		"category": "Freizeit",
+		"translation": "la exposición"
+	},
+	{
+		"type": "word",
+		"german": "das Theater",
+		"category": "Freizeit",
+		"translation": "el teatro"
+	},
+	{
+		"type": "word",
+		"german": "das Kino",
+		"category": "Freizeit",
+		"translation": "el cine"
+	},
+	{
+		"type": "word",
+		"german": "der Flohmarkt",
+		"category": "Freizeit",
+		"translation": "el mercadillo"
+	},
+	{
+		"type": "word",
+		"german": "der Adventmarkt",
+		"category": "Freizeit",
+		"translation": "el mercado navideño",
+		"alt": "der Weihnachtsmarkt (DE)",
+		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "der Krampus",
+		"category": "Freizeit",
+		"translation": "el Krampus (figura navideña)",
+		"context": "Austria, 5 de diciembre."
+	},
+	{
+		"type": "word",
+		"german": "das Feuerwerk",
+		"category": "Freizeit",
+		"translation": "los fuegos artificiales"
+	},
+	{
+		"type": "word",
+		"german": "die Reise",
+		"category": "Freizeit",
+		"translation": "el viaje"
+	},
+	{
+		"type": "word",
+		"german": "die Unterkunft",
+		"category": "Freizeit",
+		"translation": "el alojamiento"
+	},
+	{
+		"type": "word",
+		"german": "übernachten",
+		"category": "Freizeit",
+		"translation": "pernoctar"
+	},
+	{
+		"type": "word",
+		"german": "Lust haben",
+		"category": "Freizeit",
+		"translation": "tener ganas"
+	},
+	{
+		"type": "word",
+		"german": "sich treffen",
+		"category": "Freizeit",
+		"translation": "quedar, verse"
+	},
+	{
+		"type": "word",
+		"german": "die Verabredung",
+		"category": "Freizeit",
+		"translation": "la cita, el plan"
+	},
+	{
+		"type": "word",
+		"german": "spazieren gehen",
+		"category": "Freizeit",
+		"translation": "ir a pasear"
+	},
+	{
+		"type": "word",
+		"german": "grillen",
+		"category": "Freizeit",
+		"translation": "hacer barbacoa"
+	},
+	{
+		"type": "word",
+		"german": "gemütlich",
+		"category": "Freizeit",
+		"translation": "acogedor, tranquilo"
+	},
+	{
+		"type": "phrase",
+		"german": "Hast du am Wochenende schon was vor?",
+		"category": "Freizeit",
+		"translation": "¿Ya tienes planes para el finde?"
+	},
+	{
+		"type": "phrase",
+		"german": "Gehen wir am Sonntag wandern?",
+		"category": "Freizeit",
+		"translation": "¿Vamos de senderismo el domingo?"
+	},
+	{
+		"type": "phrase",
+		"german": "Wir kehren auf einer Hütte ein.",
+		"category": "Freizeit",
+		"translation": "Paramos a comer en un refugio.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Hast du Lust auf einen Kaffee?",
+		"category": "Freizeit",
+		"translation": "¿Te apetece un café?"
+	},
+	{
+		"type": "phrase",
+		"german": "Treffen wir uns um sieben beim Hauptplatz?",
+		"category": "Freizeit",
+		"translation": "¿Quedamos a las siete en la plaza mayor?",
+		"context": "Graz: Hauptplatz."
+	},
+	{
+		"type": "phrase",
+		"german": "Das war eine Riesengaudi!",
+		"category": "Freizeit",
+		"translation": "¡Fue una juerga tremenda!",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir fahren heuer nach Kärnten an den See.",
+		"category": "Freizeit",
+		"translation": "Este año vamos a un lago en Carintia.",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Gehen wir zum Adventmarkt?",
+		"category": "Freizeit",
+		"translation": "¿Vamos al mercado navideño?",
+		"context": "Austria."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin Mitglied in einem Verein.",
+		"category": "Freizeit",
+		"translation": "Soy socio de una asociación."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir wünschen euch einen schönen Sommer.",
+		"category": "Freizeit",
+		"translation": "Os deseamos un bonito verano."
+	},
+	{
+		"type": "word",
+		"german": "Bescheid geben",
+		"category": "Redewendungen",
+		"translation": "avisar",
+		"context": "Gib mir Bescheid."
+	},
+	{
+		"type": "word",
+		"german": "zur Verfügung stehen",
+		"category": "Redewendungen",
+		"translation": "estar a disposición"
+	},
+	{
+		"type": "word",
+		"german": "in Ordnung sein",
+		"category": "Redewendungen",
+		"translation": "estar bien",
+		"context": "Ist alles in Ordnung?"
+	},
+	{
+		"type": "word",
+		"german": "auf dem Laufenden sein",
+		"category": "Redewendungen",
+		"translation": "estar al día"
+	},
+	{
+		"type": "word",
+		"german": "im Griff haben",
+		"category": "Redewendungen",
+		"translation": "tener bajo control",
+		"context": "die Finanzen im Griff haben"
+	},
+	{
+		"type": "word",
+		"german": "unter Druck stehen",
+		"category": "Redewendungen",
+		"translation": "estar bajo presión"
+	},
+	{
+		"type": "word",
+		"german": "Rücksicht nehmen auf",
+		"category": "Redewendungen",
+		"translation": "tener consideración con"
+	},
+	{
+		"type": "word",
+		"german": "in Frage kommen",
+		"category": "Redewendungen",
+		"translation": "entrar en consideración",
+		"context": "Das kommt nicht in Frage."
+	},
+	{
+		"type": "word",
+		"german": "zur Sprache bringen",
+		"category": "Redewendungen",
+		"translation": "sacar un tema"
+	},
+	{
+		"type": "word",
+		"german": "Bescheid wissen",
+		"category": "Redewendungen",
+		"translation": "estar al tanto"
+	},
+	{
+		"type": "word",
+		"german": "den Kopf verlieren",
+		"category": "Redewendungen",
+		"translation": "perder la cabeza"
+	},
+	{
+		"type": "word",
+		"german": "die Daumen drücken",
+		"category": "Redewendungen",
+		"translation": "cruzar los dedos"
+	},
+	{
+		"type": "word",
+		"german": "sich Zeit lassen",
+		"category": "Redewendungen",
+		"translation": "tomarse su tiempo"
+	},
+	{
+		"type": "word",
+		"german": "auf die Nerven gehen",
+		"category": "Redewendungen",
+		"translation": "poner de los nervios"
+	},
+	{
+		"type": "word",
+		"german": "ins Fettnäpfchen treten",
+		"category": "Redewendungen",
+		"translation": "meter la pata"
+	},
+	{
+		"type": "word",
+		"german": "Schwein haben",
+		"category": "Redewendungen",
+		"translation": "tener suerte"
+	},
+	{
+		"type": "word",
+		"german": "um die Ecke denken",
+		"category": "Redewendungen",
+		"translation": "pensar de forma lateral"
+	},
+	{
+		"type": "word",
+		"german": "etwas auf die lange Bank schieben",
+		"category": "Redewendungen",
+		"translation": "dejar algo para más tarde"
+	},
+	{
+		"type": "word",
+		"german": "den Nagel auf den Kopf treffen",
+		"category": "Redewendungen",
+		"translation": "dar en el clavo"
+	},
+	{
+		"type": "word",
+		"german": "Tomaten auf den Augen haben",
+		"category": "Redewendungen",
+		"translation": "no ver lo evidente"
+	},
+	{
+		"type": "phrase",
+		"german": "Ich verstehe nur Bahnhof.",
+		"category": "Redewendungen",
+		"translation": "No entiendo nada.",
+		"alt": "Ich verstehe gar nichts.",
+		"context": "Coloquial."
+	},
+	{
+		"type": "phrase",
+		"german": "Das ist nicht mein Bier.",
+		"category": "Redewendungen",
+		"translation": "No es asunto mío.",
+		"alt": "Das geht mich nichts an.",
+		"context": "Coloquial."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich drücke dir die Daumen!",
+		"category": "Redewendungen",
+		"translation": "¡Cruzo los dedos por ti!"
+	},
+	{
+		"type": "phrase",
+		"german": "Das kommt nicht in Frage.",
+		"category": "Redewendungen",
+		"translation": "Eso ni hablar."
+	},
+	{
+		"type": "phrase",
+		"german": "Lass dir ruhig Zeit.",
+		"category": "Redewendungen",
+		"translation": "Tómate tu tiempo tranquilamente."
+	},
+	{
+		"type": "phrase",
+		"german": "Du hast den Nagel auf den Kopf getroffen.",
+		"category": "Redewendungen",
+		"translation": "Has dado en el clavo."
+	},
+	{
+		"type": "phrase",
+		"german": "Da hast du Schwein gehabt!",
+		"category": "Redewendungen",
+		"translation": "¡Has tenido suerte!"
+	},
+	{
+		"type": "phrase",
+		"german": "Das geht mir auf die Nerven.",
+		"category": "Redewendungen",
+		"translation": "Eso me pone de los nervios."
+	},
+	{
+		"type": "phrase",
+		"german": "Jetzt schieben wir das nicht länger auf die lange Bank.",
+		"category": "Redewendungen",
+		"translation": "No lo dejemos más para después."
+	},
+	{
+		"type": "phrase",
+		"german": "Alles im grünen Bereich.",
+		"category": "Redewendungen",
+		"translation": "Todo bajo control.",
+		"alt": "Alles in Ordnung."
+	},
+	{
+		"type": "phrase",
+		"german": "Das ist ein Klacks.",
+		"category": "Redewendungen",
+		"translation": "Eso es pan comido.",
+		"alt": "Das ist ganz einfach."
+	},
+	{
+		"type": "phrase",
+		"german": "Das hat sich ausgezahlt.",
+		"category": "Redewendungen",
+		"translation": "Ha valido la pena."
+	},
+	{
+		"type": "phrase",
+		"german": "Mir fällt ein Stein vom Herzen.",
+		"category": "Redewendungen",
+		"translation": "Me quito un peso de encima."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich bin ganz Ohr.",
+		"category": "Redewendungen",
+		"translation": "Soy todo oídos."
+	},
+	{
+		"type": "phrase",
+		"german": "Das ist Schnee von gestern.",
+		"category": "Redewendungen",
+		"translation": "Eso es agua pasada."
+	},
+	{
+		"type": "phrase",
+		"german": "Jetzt mal langsam!",
+		"category": "Redewendungen",
+		"translation": "¡Más despacio! / ¡Calma!"
+	},
+	{
+		"type": "phrase",
+		"german": "Es ist höchste Zeit.",
+		"category": "Redewendungen",
+		"translation": "Ya es hora."
+	},
+	{
+		"type": "phrase",
+		"german": "Ende gut, alles gut.",
+		"category": "Redewendungen",
+		"translation": "Bien está lo que bien acaba."
+	},
+	{
+		"type": "phrase",
+		"german": "Das ist mir Wurst.",
+		"category": "Redewendungen",
+		"translation": "Me da igual.",
+		"alt": "Das ist mir egal.",
+		"context": "Coloquial."
+	},
+	{
+		"type": "phrase",
+		"german": "Ich habe Tomaten auf den Augen gehabt.",
+		"category": "Redewendungen",
+		"translation": "No he visto lo evidente."
+	},
+	{
+		"type": "word",
+		"german": "sich beschäftigen mit",
+		"category": "Alltag",
+		"translation": "ocuparse de, dedicarse a"
+	},
+	{
+		"type": "word",
+		"german": "sich beschweren",
+		"category": "Alltag",
+		"translation": "quejarse"
+	},
+	{
+		"type": "word",
+		"german": "sich beeilen",
+		"category": "Alltag",
+		"translation": "darse prisa"
+	},
+	{
+		"type": "word",
+		"german": "sich bemühen",
+		"category": "Alltag",
+		"translation": "esforzarse"
+	},
+	{
+		"type": "word",
+		"german": "sich verlassen auf",
+		"category": "Alltag",
+		"translation": "confiar en, contar con"
+	},
+	{
+		"type": "word",
+		"german": "sich verabschieden",
+		"category": "Alltag",
+		"translation": "despedirse"
+	},
+	{
+		"type": "word",
+		"german": "sich wundern",
+		"category": "Alltag",
+		"translation": "sorprenderse"
+	},
+	{
+		"type": "word",
+		"german": "sich Sorgen machen",
+		"category": "Alltag",
+		"translation": "preocuparse"
+	},
+	{
+		"type": "word",
+		"german": "sich auskennen",
+		"category": "Alltag",
+		"translation": "conocer bien, saber de algo",
+		"context": "Ich kenne mich in Graz gut aus."
+	},
+	{
+		"type": "word",
+		"german": "sich entscheiden",
+		"category": "Alltag",
+		"translation": "decidirse"
+	},
+	{
+		"type": "word",
+		"german": "sich einigen",
+		"category": "Alltag",
+		"translation": "ponerse de acuerdo"
+	},
+	{
+		"type": "word",
+		"german": "sich lohnen",
+		"category": "Alltag",
+		"translation": "merecer la pena"
+	},
+	{
+		"type": "word",
+		"german": "ausprobieren",
+		"category": "Alltag",
+		"translation": "probar (algo nuevo)"
+	},
+	{
+		"type": "word",
+		"german": "vermeiden",
+		"category": "Alltag",
+		"translation": "evitar"
+	},
+	{
+		"type": "word",
+		"german": "verlangen",
+		"category": "Alltag",
+		"translation": "exigir, pedir"
+	},
+	{
+		"type": "word",
+		"german": "vergleichen",
+		"category": "Alltag",
+		"translation": "comparar"
+	},
+	{
+		"type": "word",
+		"german": "verwenden",
+		"category": "Alltag",
+		"translation": "utilizar"
+	},
+	{
+		"type": "word",
+		"german": "erwarten",
+		"category": "Alltag",
+		"translation": "esperar (expectativa)"
+	},
+	{
+		"type": "word",
+		"german": "ermöglichen",
+		"category": "Alltag",
+		"translation": "posibilitar"
+	},
+	{
+		"type": "word",
+		"german": "verhindern",
+		"category": "Alltag",
+		"translation": "impedir"
+	},
+	{
+		"type": "word",
+		"german": "zustimmen",
+		"category": "Alltag",
+		"translation": "estar de acuerdo"
+	},
+	{
+		"type": "word",
+		"german": "widersprechen",
+		"category": "Alltag",
+		"translation": "contradecir"
+	},
+	{
+		"type": "word",
+		"german": "überzeugen",
+		"category": "Alltag",
+		"translation": "convencer"
+	},
+	{
+		"type": "word",
+		"german": "überlegen",
+		"category": "Alltag",
+		"translation": "pensar, considerar",
+		"context": "Ich überlege es mir."
+	},
+	{
+		"type": "word",
+		"german": "vorkommen",
+		"category": "Alltag",
+		"translation": "ocurrir; parecer",
+		"context": "Das kommt öfter vor."
+	},
+	{
+		"type": "word",
+		"german": "auffallen",
+		"category": "Alltag",
+		"translation": "llamar la atención"
+	},
+	{
+		"type": "word",
+		"german": "ausreichen",
+		"category": "Alltag",
+		"translation": "bastar, ser suficiente"
+	},
+	{
+		"type": "word",
+		"german": "zunehmen / abnehmen",
+		"category": "Alltag",
+		"translation": "aumentar / disminuir; engordar / adelgazar"
+	},
+	{
+		"type": "word",
+		"german": "aufhören",
+		"category": "Alltag",
+		"translation": "dejar de, terminar"
+	},
+	{
+		"type": "word",
+		"german": "anfangen",
+		"category": "Alltag",
+		"translation": "empezar"
+	},
+	{
+		"type": "word",
+		"german": "wiederholen",
+		"category": "Alltag",
+		"translation": "repetir"
+	},
+	{
+		"type": "word",
+		"german": "üben",
+		"category": "Alltag",
+		"translation": "practicar"
+	},
+	{
+		"type": "word",
+		"german": "sich merken",
+		"category": "Alltag",
+		"translation": "recordar, memorizar",
+		"context": "Das muss ich mir merken."
+	},
+	{
+		"type": "word",
+		"german": "nachdenken über",
+		"category": "Alltag",
+		"translation": "reflexionar sobre"
+	},
+	{
+		"type": "word",
+		"german": "zuverlässig",
+		"category": "Alltag",
+		"translation": "fiable"
+	},
+	{
+		"type": "word",
+		"german": "ehrlich",
+		"category": "Alltag",
+		"translation": "sincero"
+	},
+	{
+		"type": "word",
+		"german": "geduldig",
+		"category": "Alltag",
+		"translation": "paciente"
+	},
+	{
+		"type": "word",
+		"german": "selbstverständlich",
+		"category": "Alltag",
+		"translation": "por supuesto, evidente"
+	},
+	{
+		"type": "word",
+		"german": "zufrieden",
+		"category": "Alltag",
+		"translation": "satisfecho"
+	},
+	{
+		"type": "word",
+		"german": "enttäuscht",
+		"category": "Alltag",
+		"translation": "decepcionado"
+	},
+	{
+		"type": "word",
+		"german": "erleichtert",
+		"category": "Alltag",
+		"translation": "aliviado"
+	},
+	{
+		"type": "word",
+		"german": "aufgeregt",
+		"category": "Alltag",
+		"translation": "nervioso, emocionado"
+	},
+	{
+		"type": "word",
+		"german": "dringend",
+		"category": "Alltag",
+		"translation": "urgente"
+	},
+	{
+		"type": "word",
+		"german": "notwendig",
+		"category": "Alltag",
+		"translation": "necesario"
+	},
+	{
+		"type": "word",
+		"german": "möglich",
+		"category": "Alltag",
+		"translation": "posible"
+	},
+	{
+		"type": "word",
+		"german": "wichtig",
+		"category": "Alltag",
+		"translation": "importante"
+	},
+	{
+		"type": "word",
+		"german": "schwierig",
+		"category": "Alltag",
+		"translation": "difícil"
+	},
+	{
+		"type": "word",
+		"german": "einfach",
+		"category": "Alltag",
+		"translation": "sencillo"
+	}
+]

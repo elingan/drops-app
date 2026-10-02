@@ -1,0 +1,63 @@
+# Gesundheit
+w|der Hausarzt / die Hausärztin|el/la médico/a de cabecera||
+w|der Facharzt|el especialista||
+w|die Ordination|la consulta médica|die Praxis (DE)|Austria.
+w|die Ordinationszeiten|el horario de consulta|die Sprechstunden (DE)|Austria.
+w|das Spital|el hospital|das Krankenhaus|Austria/Suiza.
+w|das LKH|el hospital regional||Austria: Landeskrankenhaus (LKH Graz).
+w|die Ambulanz|las urgencias / consultas externas del hospital|die Notaufnahme (DE)|Austria.
+w|die Rettung|la ambulancia|der Krankenwagen (DE)|Austria. Teléfono 144.
+w|der Notarzt|el médico de urgencias||
+w|die Apotheke|la farmacia||
+w|das Rezept|la receta||
+w|die Rezeptgebühr|la tasa por receta||Austria.
+w|das Medikament|el medicamento||
+w|die Tablette|la pastilla||
+w|einnehmen|tomar (medicamento)||
+w|die Überweisung zum Facharzt|el volante para el especialista||Austria: la da el médico de cabecera.
+w|die Krankmeldung|la baja médica||
+w|krankgeschrieben|de baja médica||
+w|der Krankenstand|la baja por enfermedad||Austria.
+w|die Untersuchung|el examen médico||
+w|die Impfung|la vacuna||
+w|der Befund|el resultado (médico)||Austria: den Befund abholen.
+w|die Blutabnahme|la extracción de sangre||
+w|die Beschwerden|las molestias||
+w|der Schmerz|el dolor||
+w|weh tun|doler||
+w|das Fieber|la fiebre||
+w|der Husten|la tos||
+w|der Schnupfen|el resfriado (mocos)||
+w|die Grippe|la gripe||
+w|die Erkältung|el resfriado||
+w|die Verkühlung|el resfriado|die Erkältung|Austria.
+w|sich verkühlen|resfriarse|sich erkälten|Austria.
+w|schwindelig|mareado||
+w|übel|con náuseas||Mir ist übel.
+w|die Allergie|la alergia||
+w|verletzt|herido||
+w|der Unfall|el accidente||
+w|der Arbeitsunfall|el accidente laboral||
+w|sich erholen|recuperarse||
+w|gesund|sano||
+w|die Gesundheit|la salud||
+w|der Zahnarzt|el dentista||
+w|der Gips|la escayola||
+w|der Wahlarzt|médico privado (con reembolso parcial)||Austria.
+w|der Kassenarzt|médico de la seguridad social||Austria.
+w|die Gesundheitshotline 1450|línea de salud 1450||Austria: consultas por teléfono.
+p|Ich brauche einen Termin beim Hausarzt.|Necesito una cita con el médico de cabecera.||
+p|Wann hat die Ordination offen?|¿Cuándo abre la consulta?||Austria.
+p|Mir tut der Kopf weh.|Me duele la cabeza.||
+p|Ich habe seit gestern Fieber.|Tengo fiebre desde ayer.||
+p|Ich habe mich verkühlt.|Me he resfriado.||Austria.
+p|Mir ist schwindelig.|Estoy mareado.||
+p|Ich bin bis Freitag krankgeschrieben.|Estoy de baja hasta el viernes.||
+p|Brauche ich dafür eine Überweisung?|¿Necesito un volante para eso?||
+p|Bitte bringen Sie Ihre E-Card mit.|Traiga su tarjeta sanitaria, por favor.||Austria.
+p|Den Befund bekommen Sie nächste Woche.|Recibirá los resultados la semana que viene.||
+p|Ich hatte leider einen kleinen Arbeitsunfall.|Lamentablemente tuve un pequeño accidente laboral.||
+p|Gute Besserung!|¡Que te mejores!||
+p|Ruf die Rettung an!|¡Llama a la ambulancia!||Austria: 144.
+p|Ich bin gegen Penicillin allergisch.|Soy alérgico a la penicilina.||
+p|Wie oft soll ich die Tabletten einnehmen?|¿Cada cuánto tengo que tomar las pastillas?||

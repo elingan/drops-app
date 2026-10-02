@@ -1,8 +1,9 @@
 import type { CategoryTone } from '$lib/domain/types';
 
 /**
- * Development seed. Real vocabulary (≈2,000 words + 250 phrases) is meant
- * to be loaded through the JSON/CSV importer, which uses the same shape.
+ * Built-in content: a small hand-picked starter set plus the Austria-focused
+ * vocabulary (≈800 words + 260 phrases) in vocabulary-at.json. Users can add
+ * more through the JSON/CSV importer, which uses the same shape.
  */
 export interface SeedCategory {
 	id: string;
@@ -29,8 +30,23 @@ export const SEED_CATEGORIES: SeedCategory[] = [
 	{ id: 'verkehr', name: 'Verkehr', description: 'Transporte', tone: 1 },
 	{ id: 'gesundheit', name: 'Gesundheit', description: 'Salud', tone: 0 },
 	{ id: 'freizeit', name: 'Freizeit', description: 'Tiempo libre', tone: 1 },
-	{ id: 'redewendungen', name: 'Redewendungen', description: 'Expresiones hechas', tone: 0 }
+	{ id: 'redewendungen', name: 'Redewendungen', description: 'Expresiones hechas', tone: 0 },
+	{ id: 'korrespondenz', name: 'Korrespondenz', description: 'Emails y cartas', tone: 1 },
+	{ id: 'technik', name: 'Technik', description: 'Web, IT y dispositivos', tone: 0 },
+	{ id: 'finanzen', name: 'Finanzen', description: 'Facturas, banco e impuestos', tone: 1 },
+	{ id: 'behoerden', name: 'Behörden', description: 'Trámites y administración en Austria', tone: 0 },
+	{ id: 'wohnen', name: 'Wohnen', description: 'Vivienda y alquiler', tone: 1 }
 ];
+
+/**
+ * Bump when the bundled vocabulary changes: existing installs then get the
+ * new items (duplicates are skipped, progress is untouched).
+ */
+export const SEED_VERSION = 2;
+
+/** Main dataset (data/vocabulary/*.txt → npm run vocab:build). Loaded lazily. */
+export const loadVocabulary = async (): Promise<SeedItem[]> =>
+	(await import('./vocabulary-at.json')).default as SeedItem[];
 
 export const SEED_ITEMS: SeedItem[] = [
 	// Alltag

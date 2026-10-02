@@ -1,0 +1,83 @@
+# Technik
+w|die Webseite|la página web|die Website|
+w|die Seite|la página||
+w|der Link|el enlace||
+w|verknüpfen|vincular, enlazar|verbinden|die Seite mit der Domain verknüpfen
+w|die Domain|el dominio||
+w|der Eintrag|la entrada, el registro||DNS-Einträge
+w|eintragen|anotar, registrar, introducir||
+w|der Zugang|el acceso||Ich brauche noch Zugang zu deinem Account.
+w|der Zugriff|el acceso (a datos, cuenta)||
+w|die Zugangsdaten|los datos de acceso||
+w|das Passwort|la contraseña||
+w|das Konto|la cuenta||Benutzerkonto, Bankkonto
+w|sich anmelden|iniciar sesión; inscribirse||
+w|sich registrieren|registrarse||
+w|hochladen|subir (archivos)||
+w|herunterladen|descargar||
+w|speichern|guardar||
+w|löschen|borrar||
+w|die Datei|el archivo||
+w|der Ordner|la carpeta||
+w|teilen|compartir; dividir||
+w|die Freigabe|el permiso de acceso compartido||
+w|freigeben|compartir, autorizar||
+w|die Version|la versión||
+w|aktualisieren|actualizar||
+w|die Aktualisierung|la actualización|das Update|
+w|einrichten|configurar, instalar||ein E-Mail-Konto einrichten
+w|die Einstellung|el ajuste, la configuración||
+w|die Konfiguration|la configuración||
+w|laufen|funcionar (un sistema)||Die neue Version läuft ab morgen.
+w|der Server|el servidor||
+w|die Sicherung|la copia de seguridad|das Backup|
+w|wiederherstellen|restaurar||
+w|der Umzug|la mudanza; la migración||Umzug auf einen neuen Server
+w|übertragen|transferir||
+w|die Schaltfläche|el botón|der Button|
+w|anklicken|hacer clic||
+w|der Bildschirm|la pantalla||
+w|das Bildschirmfoto|la captura de pantalla|der Screenshot|
+w|das Gerät|el dispositivo||
+w|der Drucker|la impresora||
+w|das Ladegerät|el cargador||
+w|der Akku|la batería||
+w|die Verbindung|la conexión||
+w|das WLAN|el wifi||
+w|der Datenschutz|la protección de datos||DSGVO = RGPD
+w|das Impressum|el aviso legal||Obligatorio en webs en Austria.
+w|die Benachrichtigung|la notificación||
+w|automatisch|automático||
+w|benutzerfreundlich|fácil de usar||
+w|die Anleitung|las instrucciones, el manual||
+w|die Suchmaschine|el buscador||
+w|die Schriftgröße|el tamaño de letra||
+w|das Formular|el formulario||
+w|der Fehlercode|el código de error||
+w|abstürzen|colgarse, fallar (programa)||
+w|der Absturz|el cuelgue, la caída||
+w|neu starten|reiniciar||
+w|die Software|el software||
+w|die Anwendung|la aplicación||
+w|verfügbar|disponible||
+w|die Sicherheit|la seguridad||
+p|Hier ist der Link zur neuesten Version.|Aquí está el enlace a la versión más reciente.||
+p|Ich verknüpfe die Seite mit deiner Domain.|Vinculo la página con tu dominio.||
+p|Ich brauche noch Zugang zu deinem Account.|Todavía necesito acceso a tu cuenta.||
+p|Die neue Version läuft ab morgen.|La nueva versión funciona a partir de mañana.||
+p|Die Domain läuft wieder einwandfrei.|El dominio vuelve a funcionar perfectamente.||
+p|Bitte bestätige mir, ob alles korrekt funktioniert.|Confírmame, por favor, si todo funciona correctamente.||
+p|Die Bilder habe ich auch hochgeladen.|También he subido las imágenes.||
+p|Du brauchst dafür ein Google-Konto.|Para eso necesitas una cuenta de Google.||
+p|Ich schicke dir einen Download-Link.|Te envío un enlace de descarga.||
+p|Den Ordner kann ich leider nicht teilen.|Lamentablemente no puedo compartir la carpeta.||
+p|Die Schriftgrößen sind noch falsch.|Los tamaños de letra todavía están mal.||
+p|Der Effekt funktioniert noch nicht.|El efecto todavía no funciona.||
+p|Bitte lösch die alten Telefonnummern von der Website.|Por favor, borra los números de teléfono antiguos de la web.||
+p|Die Verbesserung der SEO steht auf meiner Liste.|La mejora del SEO está en mi lista.||
+p|Die Migration bereiten wir rechtzeitig vor.|Preparamos la migración con antelación.||
+p|Hast du schon versucht, das Gerät neu zu starten?|¿Ya has intentado reiniciar el dispositivo?||
+p|Das Programm ist schon wieder abgestürzt.|El programa se ha vuelto a colgar.||
+p|Ich habe kein WLAN hier.|Aquí no tengo wifi.||
+p|Kannst du mir einen Screenshot schicken?|¿Puedes mandarme una captura de pantalla?||
+p|Bitte prüfe die Daten gründlich.|Por favor, revisa los datos a fondo.||

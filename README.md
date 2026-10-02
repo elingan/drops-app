@@ -92,10 +92,17 @@ word,heuer,este año,Alltag,dieses Jahr,Austriaco
 
 `type` is optional (inferred), `alt` (German paraphrase) and `context` are optional.
 
+## Built-in vocabulary
+
+`data/vocabulary/*.txt` (one file per category) is the editable source of the bundled
+dataset: ~800 words + ~260 phrases at B1 level, built from the analysis of 10 years of
+personal emails (filtered for names, addresses and personal data) and completed with
+Austrian German (Austriacisms carry the German-German equivalent in `alt` and "Austria"
+in `context`). Rebuild with `npm run vocab:build` and bump `SEED_VERSION` in
+`src/lib/data/seed.ts` so existing installs receive new items (progress is kept).
+
 ## Notes / limits of the MVP
 
 - Learning data lives in the browser (IndexedDB): no cross-device sync yet. The repository
   layer is ready for a server-backed implementation.
-- The dev dataset has ~45 items in 9 categories; the full 2,000 words / 250 phrases are meant
-  to be imported.
 - PWA-ready (manifest, offline-capable data); a service worker is not included yet.

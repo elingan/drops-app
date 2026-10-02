@@ -1,0 +1,41 @@
+# Redewendungen
+w|Bescheid geben|avisar||Gib mir Bescheid.
+w|zur Verfügung stehen|estar a disposición||
+w|in Ordnung sein|estar bien||Ist alles in Ordnung?
+w|auf dem Laufenden sein|estar al día||
+w|im Griff haben|tener bajo control||die Finanzen im Griff haben
+w|unter Druck stehen|estar bajo presión||
+w|Rücksicht nehmen auf|tener consideración con||
+w|in Frage kommen|entrar en consideración||Das kommt nicht in Frage.
+w|zur Sprache bringen|sacar un tema||
+w|Bescheid wissen|estar al tanto||
+w|den Kopf verlieren|perder la cabeza||
+w|die Daumen drücken|cruzar los dedos||
+w|sich Zeit lassen|tomarse su tiempo||
+w|auf die Nerven gehen|poner de los nervios||
+w|ins Fettnäpfchen treten|meter la pata||
+w|Schwein haben|tener suerte||
+w|um die Ecke denken|pensar de forma lateral||
+w|etwas auf die lange Bank schieben|dejar algo para más tarde||
+w|den Nagel auf den Kopf treffen|dar en el clavo||
+w|Tomaten auf den Augen haben|no ver lo evidente||
+p|Ich verstehe nur Bahnhof.|No entiendo nada.|Ich verstehe gar nichts.|Coloquial.
+p|Das ist nicht mein Bier.|No es asunto mío.|Das geht mich nichts an.|Coloquial.
+p|Ich drücke dir die Daumen!|¡Cruzo los dedos por ti!||
+p|Das kommt nicht in Frage.|Eso ni hablar.||
+p|Lass dir ruhig Zeit.|Tómate tu tiempo tranquilamente.||
+p|Du hast den Nagel auf den Kopf getroffen.|Has dado en el clavo.||
+p|Da hast du Schwein gehabt!|¡Has tenido suerte!||
+p|Das geht mir auf die Nerven.|Eso me pone de los nervios.||
+p|Jetzt schieben wir das nicht länger auf die lange Bank.|No lo dejemos más para después.||
+p|Alles im grünen Bereich.|Todo bajo control.|Alles in Ordnung.|
+p|Das ist ein Klacks.|Eso es pan comido.|Das ist ganz einfach.|
+p|Das hat sich ausgezahlt.|Ha valido la pena.||
+p|Mir fällt ein Stein vom Herzen.|Me quito un peso de encima.||
+p|Ich bin ganz Ohr.|Soy todo oídos.||
+p|Das ist Schnee von gestern.|Eso es agua pasada.||
+p|Jetzt mal langsam!|¡Más despacio! / ¡Calma!||
+p|Es ist höchste Zeit.|Ya es hora.||
+p|Ende gut, alles gut.|Bien está lo que bien acaba.||
+p|Das ist mir Wurst.|Me da igual.|Das ist mir egal.|Coloquial.
+p|Ich habe Tomaten auf den Augen gehabt.|No he visto lo evidente.||

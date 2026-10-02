@@ -1,0 +1,80 @@
+# Behörden
+w|die Behörde|la autoridad, la administración pública||
+w|das Amt|la oficina pública||
+w|der Magistrat|el ayuntamiento (de ciudad estatutaria)||Austria: Magistrat Graz. Es masculino.
+w|das Bürgerservice|la oficina de atención ciudadana||Austria (Magistrat Graz).
+w|die Bezirkshauptmannschaft|la jefatura de distrito||Austria (BH), fuera de las grandes ciudades.
+w|die Gemeinde|el municipio||
+w|der Meldezettel|el certificado de empadronamiento||Austria. Obligatorio al mudarse (3 días).
+w|sich anmelden|empadronarse; inscribirse||Austria: den Wohnsitz anmelden.
+w|sich ummelden|cambiar el empadronamiento||
+w|der Hauptwohnsitz|el domicilio principal||
+w|der Antrag|la solicitud||einen Antrag stellen
+w|einen Antrag stellen|presentar una solicitud||
+w|das Formular|el formulario||
+w|der Bescheid|la resolución oficial||Ein Bescheid kommt per Post oder FinanzOnline.
+w|die Frist|el plazo legal||
+w|die Bestätigung|el certificado, la confirmación||Meldebestätigung
+w|die Bescheinigung|el certificado||
+w|der Nachweis|el justificante, la prueba||Einkommensnachweis
+w|die Beilage|el anexo (a una solicitud)|die Anlage|Austria: Beilagen zum Antrag.
+w|vorlegen|presentar (documentos)||
+w|einreichen|presentar, entregar (oficialmente)||
+w|nachreichen|entregar posteriormente||
+w|die Sozialversicherung|la seguridad social||
+w|die SVS|la seguridad social de autónomos||Austria: Sozialversicherung der Selbständigen.
+w|die ÖGK|la caja de salud austriaca||Österreichische Gesundheitskasse.
+w|die Sozialversicherungsnummer|el número de la seguridad social||Austria: SV-Nummer (10 dígitos).
+w|die E-Card|la tarjeta sanitaria||Austria.
+w|das AMS|el servicio público de empleo||Austria: Arbeitsmarktservice.
+w|die Aufenthaltsbewilligung|el permiso de residencia||Austria.
+w|der Aufenthaltstitel|el título de residencia||
+w|die Staatsbürgerschaft|la nacionalidad||
+w|der Reisepass|el pasaporte||
+w|der Personalausweis|el DNI|der Ausweis|
+w|der Führerschein|el carnet de conducir||Austria oficial: Lenkberechtigung.
+w|die Familienbeihilfe|la prestación familiar por hijos||Austria.
+w|das Kinderbetreuungsgeld|la prestación por cuidado de hijos||Austria.
+w|die Wohnbeihilfe|la ayuda para la vivienda||Austria (Steiermark).
+w|der Zuständigkeitsbereich|el ámbito de competencia||
+w|die Abteilung|el departamento||
+w|der Sachbearbeiter / die Sachbearbeiterin|el/la funcionario/a que lleva el caso||
+w|die Sprechstunde|el horario de atención||
+w|die Öffnungszeiten|el horario de apertura||
+w|die Wartenummer|el número de turno||
+w|die Gebühr|la tasa||
+w|gebührenfrei|exento de tasas||
+w|die Strafe|la multa, la sanción||
+w|der Einspruch|el recurso, la reclamación||
+w|die Beschwerde|la queja; el recurso||
+w|genehmigen|aprobar, autorizar||
+w|die Genehmigung|la autorización||
+w|ablehnen|rechazar||
+w|bewilligen|conceder (una solicitud)||Austria: bewilligt = concedido.
+w|der Wohnsitz|el domicilio||
+w|ausstellen|expedir (un documento)||
+w|beglaubigt|compulsado, legalizado||eine beglaubigte Kopie
+w|die Übersetzung|la traducción||
+w|der Dolmetscher|el intérprete||
+w|FinanzOnline|portal online de Hacienda||Austria.
+w|die ID Austria|la identidad digital austriaca||Austria: firma digital (antes Handy-Signatur).
+p|Ich möchte einen Antrag stellen.|Quiero presentar una solicitud.||
+p|Welche Unterlagen muss ich mitbringen?|¿Qué documentos tengo que traer?||
+p|Ich muss meinen Wohnsitz ummelden.|Tengo que cambiar mi empadronamiento.||Austria.
+p|Wo bekomme ich einen Meldezettel?|¿Dónde consigo un certificado de empadronamiento?||Austria.
+p|Könnten Sie mir den Bescheid erneut zusenden?|¿Podría volver a enviarme la resolución?||
+p|Leider konnte ich das Dokument nicht finden.|Lamentablemente no he podido encontrar el documento.||
+p|Wie lange dauert die Bearbeitung?|¿Cuánto tarda la tramitación?||
+p|Wir leben im gemeinsamen Haushalt.|Vivimos en el mismo hogar.||
+p|Wie sollen meine Frau und ich das beantragen?|¿Cómo debemos solicitarlo mi mujer y yo?||
+p|Ich habe einen Termin beim Magistrat.|Tengo una cita en el Magistrat.||Austria.
+p|Bis wann muss ich den Antrag einreichen?|¿Hasta cuándo tengo que presentar la solicitud?||
+p|Brauche ich eine beglaubigte Übersetzung?|¿Necesito una traducción jurada?||
+p|Meine Frau übersetzt mir dann alles.|Mi mujer me lo traduce todo luego.||
+p|Ich verstehe die aktuelle Situation vollkommen.|Entiendo perfectamente la situación actual.||
+p|Vielen Dank für Ihre Rücksichtnahme.|Muchas gracias por su consideración.||
+p|Ich möchte gegen den Bescheid Einspruch erheben.|Quiero recurrir la resolución.||
+p|Kann ich das auch online erledigen?|¿Puedo hacerlo también online?||
+p|Die Wartezeit beträgt etwa eine Stunde.|El tiempo de espera es de una hora aproximadamente.||
+p|Ich habe mich mit der ID Austria angemeldet.|He iniciado sesión con la ID Austria.||Austria.
+p|Mein Aufenthaltstitel läuft bald ab.|Mi permiso de residencia caduca pronto.||
