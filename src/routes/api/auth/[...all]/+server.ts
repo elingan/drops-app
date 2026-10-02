@@ -1,7 +1,8 @@
-import { auth } from '$lib/server/auth';
+import { getAuth } from '$lib/server/auth';
 import type { RequestHandler } from './$types';
 
-const handler: RequestHandler = ({ request }) => auth.handler(request);
+// Normally answered in hooks.server.ts; kept as an explicit endpoint fallback.
+const handler: RequestHandler = async ({ request }) => (await getAuth()).handler(request);
 
 export const GET = handler;
 export const POST = handler;

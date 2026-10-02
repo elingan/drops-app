@@ -11,12 +11,29 @@ export default defineConfig({
 			outdir: './src/lib/paraglide',
 			// SPA: the UI locale is a user preference, not part of the URL.
 			strategy: ['localStorage', 'preferredLanguage', 'baseLocale']
-		}),
-		svelteTesting()
+		})
 	],
 	test: {
-		include: ['src/**/*.{test,spec}.{js,ts}'],
-		environment: 'jsdom',
-		setupFiles: ['./vitest-setup.ts']
+		projects: [
+			{
+				extends: true,
+				plugins: [svelteTesting()],
+				test: {
+					name: 'client',
+					include: ['src/**/*.{test,spec}.{js,ts}'],
+					exclude: ['src/lib/server/**'],
+					environment: 'jsdom',
+					setupFiles: ['./vitest-setup.ts']
+				}
+			},
+			{
+				extends: true,
+				test: {
+					name: 'server',
+					include: ['src/lib/server/**/*.{test,spec}.{js,ts}'],
+					environment: 'node'
+				}
+			}
+		]
 	}
 });
