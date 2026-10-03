@@ -10,6 +10,8 @@ import type {
 import { SimpleScheduler, type ReviewScheduler } from './review-scheduler';
 
 const DAY = 86_400_000;
+/** New items the user created outrank bundled new items (but not due reviews). */
+const USER_ITEM_BOOST = 30;
 
 export interface PriorityInfo {
 	itemId: string;
@@ -89,7 +91,12 @@ export class LearningEngine {
 
 		const byId = new Map(pool.map((i) => [i.id, i]));
 		const scored = pool
-			.map((i) => this.calculatePriority(this.progressFor(i.id, progress), now))
+			.map((i) => {
+				const info = this.calculatePriority(this.progressFor(i.id, progress), now);
+				// Words the user added themselves come before bundled new content.
+				if (info.reason === 'new' && i.userCreated) info.priority += USER_ITEM_BOOST;
+				return info;
+			})
 			// Small jitter keeps equal-priority cards from always coming in the same order.
 			.map((s) => ({ ...s, priority: s.priority + random() * 4 }))
 			.sort((a, b) => b.priority - a.priority);

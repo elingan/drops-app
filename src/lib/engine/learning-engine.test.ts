@@ -96,6 +96,15 @@ describe('generateLearningRoute', () => {
 		expect(route.entries.every((e) => e.reason === 'new')).toBe(true);
 	});
 
+	it('puts new user-added items ahead of bundled new items', () => {
+		const items = library();
+		const mine = { ...item('verkehr', 'phrase'), userCreated: true };
+		for (let seed = 1; seed <= 20; seed++) {
+			const route = engine.generateLearningRoute([...items, mine], new Map(), { now, random: seeded(seed) });
+			expect(route.entries.map((e) => e.itemId)).toContain(mine.id);
+		}
+	});
+
 	it('filters by category', () => {
 		const items = library();
 		const route = engine.generateLearningRoute(items, new Map(), { now, categoryId: 'verkehr', random: seeded(2) });

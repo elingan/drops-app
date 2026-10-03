@@ -117,8 +117,16 @@
 		overflow: hidden;
 		cursor: pointer;
 		user-select: none;
+		-webkit-user-select: none;
+		-webkit-touch-callout: none;
 		transition: transform 0.26s var(--ease-out), opacity 0.22s;
 	}
+	/*
+	 * touch-action is not inherited: nested scroll areas (the card body) would
+	 * otherwise claim horizontal pans and the browser cancels the swipe
+	 * (pointercancel). Allow only vertical scrolling anywhere inside the card.
+	 */
+	.card :global(*) { touch-action: pan-y; }
 	.grab { cursor: grab; }
 	.dragging { cursor: grabbing; }
 	.entering { opacity: 0; }
