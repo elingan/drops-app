@@ -35,14 +35,15 @@ export const SEED_CATEGORIES: SeedCategory[] = [
 	{ id: 'technik', name: 'Technik', description: 'Web, IT y dispositivos', tone: 0 },
 	{ id: 'finanzen', name: 'Finanzen', description: 'Facturas, banco e impuestos', tone: 1 },
 	{ id: 'behoerden', name: 'Behörden', description: 'Trámites y administración en Austria', tone: 0 },
-	{ id: 'wohnen', name: 'Wohnen', description: 'Vivienda y alquiler', tone: 1 }
+	{ id: 'wohnen', name: 'Wohnen', description: 'Vivienda y alquiler', tone: 1 },
+	{ id: 'sumaq', name: 'Sumaq', description: 'Explicar el producto Sumaq (webs para autónomos)', tone: 0 }
 ];
 
 /**
  * Bump when the bundled vocabulary changes: existing installs then get the
  * new items (duplicates are skipped, progress is untouched).
  */
-export const SEED_VERSION = 2;
+export const SEED_VERSION = 3;
 
 /** Main dataset (data/vocabulary/*.txt → npm run vocab:build). Loaded lazily. */
 export const loadVocabulary = async (): Promise<SeedItem[]> =>

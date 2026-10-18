@@ -79,7 +79,7 @@ export class LearningState {
 
 	// ── Routes & results ──────────────────────────────────────────────
 
-	route(opts: { categoryId?: string; avoidFirst?: string; size?: number } = {}): LearningRoute {
+	route(opts: { categoryId?: string; avoidFirst?: string; size?: number; maxNew?: number; exclude?: ReadonlySet<string> } = {}): LearningRoute {
 		return this.services.engine.generateLearningRoute(this.items, this.progress, { now: new Date(), ...opts });
 	}
 

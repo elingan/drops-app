@@ -31,11 +31,13 @@ export class SessionEngine {
 	private pos = 0;
 	private shownAt: Date;
 	readonly results: SessionItem[] = [];
+	/** Every card that has been in the queue; refills avoid them to keep rotating. */
+	private readonly shown = new Set<string>();
 
 	constructor(
 		route: RouteEntry[],
 		private readonly meta: (itemId: string) => CardMeta | undefined,
-		private readonly refill: (avoidFirst: string | undefined) => RouteEntry[],
+		private readonly refill: (avoidFirst: string | undefined, shown: ReadonlySet<string>) => RouteEntry[],
 		now: Date,
 		opts: { id?: string; targetDuration?: number; categoryId?: string } = {}
 	) {
@@ -52,7 +54,8 @@ export class SessionEngine {
 			completed: false,
 			categoryId: opts.categoryId
 		};
-		if (this.queue.length === 0) this.queue.push(...this.refill(undefined));
+		if (this.queue.length === 0) this.queue.push(...this.refill(undefined, this.shown));
+		for (const e of this.queue) this.shown.add(e.itemId);
 	}
 
 	get elapsed(): number {
@@ -121,10 +124,11 @@ export class SessionEngine {
 		const last = this.getCurrentCard()?.itemId;
 		this.pos++;
 		if (this.pos >= this.queue.length) {
-			const more = this.refill(last);
+			const more = this.refill(last, this.shown);
 			// Never show the same card twice in a row.
 			if (more[0]?.itemId === last && more.length > 1) more.push(more.shift()!);
 			this.queue.push(...more);
+			for (const e of more) this.shown.add(e.itemId);
 		}
 		return this.getCurrentCard();
 	}

@@ -6957,5 +6957,424 @@
 		"german": "einfach",
 		"category": "Alltag",
 		"translation": "sencillo"
+	},
+	{
+		"type": "word",
+		"german": "die Selbstständige",
+		"category": "Sumaq",
+		"translation": "la autónoma (trabajadora por cuenta propia)",
+		"alt": "der Selbstständige (m.)"
+	},
+	{
+		"type": "word",
+		"german": "die Visitenkarte im Netz",
+		"category": "Sumaq",
+		"translation": "la tarjeta de visita en internet"
+	},
+	{
+		"type": "word",
+		"german": "das Hosting",
+		"category": "Sumaq",
+		"translation": "el alojamiento web"
+	},
+	{
+		"type": "word",
+		"german": "der Kundenbereich",
+		"category": "Sumaq",
+		"translation": "el área de cliente",
+		"context": "Sumaq Bereich"
+	},
+	{
+		"type": "word",
+		"german": "das Postfach",
+		"category": "Sumaq",
+		"translation": "el buzón de correo"
+	},
+	{
+		"type": "word",
+		"german": "die Besuchsstatistik",
+		"category": "Sumaq",
+		"translation": "las estadísticas de visitas"
+	},
+	{
+		"type": "word",
+		"german": "die Terminbuchung",
+		"category": "Sumaq",
+		"translation": "la reserva de citas",
+		"alt": "die Online-Buchung"
+	},
+	{
+		"type": "word",
+		"german": "die Leistung",
+		"category": "Sumaq",
+		"translation": "el servicio, la prestación"
+	},
+	{
+		"type": "word",
+		"german": "die Einrichtung",
+		"category": "Sumaq",
+		"translation": "la puesta en marcha, la configuración"
+	},
+	{
+		"type": "word",
+		"german": "die Wartung",
+		"category": "Sumaq",
+		"translation": "el mantenimiento"
+	},
+	{
+		"type": "word",
+		"german": "die Betreuung",
+		"category": "Sumaq",
+		"translation": "la atención, el cuidado continuo"
+	},
+	{
+		"type": "word",
+		"german": "die Korrekturschleife",
+		"category": "Sumaq",
+		"translation": "la ronda de correcciones"
+	},
+	{
+		"type": "word",
+		"german": "die Veröffentlichung",
+		"category": "Sumaq",
+		"translation": "la publicación"
+	},
+	{
+		"type": "word",
+		"german": "veröffentlichen",
+		"category": "Sumaq",
+		"translation": "publicar"
+	},
+	{
+		"type": "word",
+		"german": "die Suchmaschinenoptimierung",
+		"category": "Sumaq",
+		"translation": "la optimización para buscadores (SEO)",
+		"alt": "SEO"
+	},
+	{
+		"type": "word",
+		"german": "die Platzierung",
+		"category": "Sumaq",
+		"translation": "la posición (en el ranking)"
+	},
+	{
+		"type": "word",
+		"german": "die Besucherzahl",
+		"category": "Sumaq",
+		"translation": "el número de visitantes"
+	},
+	{
+		"type": "word",
+		"german": "der Onlineshop",
+		"category": "Sumaq",
+		"translation": "la tienda online"
+	},
+	{
+		"type": "word",
+		"german": "die Grundausstattung",
+		"category": "Sumaq",
+		"translation": "el paquete básico",
+		"alt": "das Basispaket"
+	},
+	{
+		"type": "word",
+		"german": "einmalig",
+		"category": "Sumaq",
+		"translation": "único, una sola vez"
+	},
+	{
+		"type": "word",
+		"german": "inklusive",
+		"category": "Sumaq",
+		"translation": "incluido",
+		"alt": "inkl."
+	},
+	{
+		"type": "word",
+		"german": "nutzerfreundlich",
+		"category": "Sumaq",
+		"translation": "fácil de usar",
+		"alt": "einfach zu bedienen"
+	},
+	{
+		"type": "word",
+		"german": "datenschutzfreundlich",
+		"category": "Sumaq",
+		"translation": "respetuoso con la privacidad"
+	},
+	{
+		"type": "word",
+		"german": "die Verschlüsselung",
+		"category": "Sumaq",
+		"translation": "el cifrado",
+		"alt": "HTTPS"
+	},
+	{
+		"type": "word",
+		"german": "das Kontaktformular",
+		"category": "Sumaq",
+		"translation": "el formulario de contacto"
+	},
+	{
+		"type": "word",
+		"german": "die Impressumspflicht",
+		"category": "Sumaq",
+		"translation": "la obligación de aviso legal",
+		"context": "Austria"
+	},
+	{
+		"type": "phrase",
+		"german": "Wir gestalten Websites für Selbstständige.",
+		"category": "Sumaq",
+		"translation": "Diseñamos sitios web para autónomos."
+	},
+	{
+		"type": "phrase",
+		"german": "Persönlich gestaltet, einfach gepflegt.",
+		"category": "Sumaq",
+		"translation": "Diseñado a medida, fácil de mantener.",
+		"context": "Lema de Sumaq"
+	},
+	{
+		"type": "phrase",
+		"german": "Du musst dich um nichts Technisches kümmern.",
+		"category": "Sumaq",
+		"translation": "No tienes que ocuparte de nada técnico."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir übernehmen Gestaltung, Aufbau und Hosting.",
+		"category": "Sumaq",
+		"translation": "Nos encargamos del diseño, la construcción y el alojamiento."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Seite sieht auch am Handy gut aus.",
+		"category": "Sumaq",
+		"translation": "La página se ve bien también en el móvil."
+	},
+	{
+		"type": "phrase",
+		"german": "Du bekommst eine eigene Domain.",
+		"category": "Sumaq",
+		"translation": "Recibes tu propio dominio."
+	},
+	{
+		"type": "phrase",
+		"german": "Deine E-Mails werden an dein bestehendes Postfach weitergeleitet.",
+		"category": "Sumaq",
+		"translation": "Tus correos se reenvían a tu buzón actual.",
+		"context": "Sin buzón nuevo"
+	},
+	{
+		"type": "phrase",
+		"german": "Ein eigenes Postfach ist nicht enthalten.",
+		"category": "Sumaq",
+		"translation": "Un buzón propio no está incluido."
+	},
+	{
+		"type": "phrase",
+		"german": "Der Server steht in Europa.",
+		"category": "Sumaq",
+		"translation": "El servidor está en Europa."
+	},
+	{
+		"type": "phrase",
+		"german": "Du kannst Texte und Bilder selbst ändern.",
+		"category": "Sumaq",
+		"translation": "Puedes cambiar textos e imágenes tú mismo."
+	},
+	{
+		"type": "phrase",
+		"german": "Im Kundenbereich pflegst du Öffnungszeiten und Leistungen.",
+		"category": "Sumaq",
+		"translation": "En el área de cliente gestionas horarios y servicios."
+	},
+	{
+		"type": "phrase",
+		"german": "Das ist kein komplizierter Website-Baukasten.",
+		"category": "Sumaq",
+		"translation": "No es un constructor de webs complicado."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Statistik ist einfach und ohne unnötiges Tracking.",
+		"category": "Sumaq",
+		"translation": "Las estadísticas son sencillas y sin rastreo innecesario."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Online-Terminbuchung ist optional.",
+		"category": "Sumaq",
+		"translation": "La reserva de citas online es opcional."
+	},
+	{
+		"type": "phrase",
+		"german": "Du musst Texte und Bilder nicht vorher haben.",
+		"category": "Sumaq",
+		"translation": "No necesitas tener textos ni imágenes de antemano."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir führen dich Schritt für Schritt durch den Prozess.",
+		"category": "Sumaq",
+		"translation": "Te guiamos paso a paso por el proceso."
+	},
+	{
+		"type": "phrase",
+		"german": "Du brauchst keine technischen Kenntnisse.",
+		"category": "Sumaq",
+		"translation": "No necesitas conocimientos técnicos."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir sprechen zuerst über dein Angebot.",
+		"category": "Sumaq",
+		"translation": "Primero hablamos de tu oferta."
+	},
+	{
+		"type": "phrase",
+		"german": "Du prüfst das Ergebnis in Ruhe.",
+		"category": "Sumaq",
+		"translation": "Revisas el resultado con calma."
+	},
+	{
+		"type": "phrase",
+		"german": "Eine Korrekturrunde ist im Basispaket enthalten.",
+		"category": "Sumaq",
+		"translation": "Una ronda de correcciones está incluida en el paquete básico."
+	},
+	{
+		"type": "phrase",
+		"german": "Erst nach deiner Freigabe gehen wir online.",
+		"category": "Sumaq",
+		"translation": "Solo salimos online tras tu aprobación."
+	},
+	{
+		"type": "phrase",
+		"german": "Die erste Version ist oft in ein bis drei Tagen fertig.",
+		"category": "Sumaq",
+		"translation": "La primera versión suele estar lista en uno a tres días."
+	},
+	{
+		"type": "phrase",
+		"german": "Sobald alle Informationen da sind, geht es schnell.",
+		"category": "Sumaq",
+		"translation": "En cuanto tenemos toda la información, va rápido."
+	},
+	{
+		"type": "phrase",
+		"german": "Du kannst mit einer bestehenden Website starten.",
+		"category": "Sumaq",
+		"translation": "Puedes empezar con una web existente."
+	},
+	{
+		"type": "phrase",
+		"german": "Du kannst auch ganz von vorne anfangen.",
+		"category": "Sumaq",
+		"translation": "También puedes empezar desde cero."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir verwenden KI für Vorschläge und Struktur.",
+		"category": "Sumaq",
+		"translation": "Usamos IA para propuestas y estructura."
+	},
+	{
+		"type": "phrase",
+		"german": "Jede Seite wird persönlich geprüft.",
+		"category": "Sumaq",
+		"translation": "Cada página se revisa personalmente."
+	},
+	{
+		"type": "phrase",
+		"german": "Nichts wird ungeprüft veröffentlicht.",
+		"category": "Sumaq",
+		"translation": "Nada se publica sin revisar."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Erstellung kostet ab 500 Euro einmalig.",
+		"category": "Sumaq",
+		"translation": "La creación cuesta desde 500 euros, pago único."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Betreuung kostet 120 Euro pro Jahr.",
+		"category": "Sumaq",
+		"translation": "El mantenimiento cuesta 120 euros al año."
+	},
+	{
+		"type": "phrase",
+		"german": "Alle Preise verstehen sich inklusive 20 % Umsatzsteuer.",
+		"category": "Sumaq",
+		"translation": "Todos los precios incluyen un 20 % de IVA."
+	},
+	{
+		"type": "phrase",
+		"german": "Sonderwünsche besprechen wir vorher.",
+		"category": "Sumaq",
+		"translation": "Los deseos especiales los hablamos antes."
+	},
+	{
+		"type": "phrase",
+		"german": "Im Preis sind Hosting und technische Wartung enthalten.",
+		"category": "Sumaq",
+		"translation": "En el precio están incluidos el alojamiento y el mantenimiento técnico."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir können keine Platzierung bei Google garantieren.",
+		"category": "Sumaq",
+		"translation": "No podemos garantizar una posición en Google."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir sorgen für eine saubere technische Basis.",
+		"category": "Sumaq",
+		"translation": "Nos ocupamos de una base técnica limpia."
+	},
+	{
+		"type": "phrase",
+		"german": "Die Seite ist per HTTPS gesichert.",
+		"category": "Sumaq",
+		"translation": "La página está protegida con HTTPS."
+	},
+	{
+		"type": "phrase",
+		"german": "Für große Shops ist das Angebot weniger geeignet.",
+		"category": "Sumaq",
+		"translation": "La oferta es menos adecuada para tiendas grandes."
+	},
+	{
+		"type": "phrase",
+		"german": "Das passt gut für Einzelunternehmer.",
+		"category": "Sumaq",
+		"translation": "Encaja bien para autónomos individuales."
+	},
+	{
+		"type": "phrase",
+		"german": "Erzähl uns von deinem Angebot.",
+		"category": "Sumaq",
+		"translation": "Cuéntanos sobre tu oferta."
+	},
+	{
+		"type": "phrase",
+		"german": "Schreib uns über das Kontaktformular.",
+		"category": "Sumaq",
+		"translation": "Escríbenos a través del formulario de contacto."
+	},
+	{
+		"type": "phrase",
+		"german": "Wir sitzen in Graz.",
+		"category": "Sumaq",
+		"translation": "Estamos en Graz."
+	},
+	{
+		"type": "phrase",
+		"german": "Melde dich im Kundenbereich an.",
+		"category": "Sumaq",
+		"translation": "Inicia sesión en el área de cliente."
 	}
 ]

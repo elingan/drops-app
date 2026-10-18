@@ -91,7 +91,7 @@ export class SessionState {
 				const it = this.data.itemsById.get(id);
 				return it && { categoryId: it.categoryId, itemType: it.type };
 			},
-			(avoidFirst) => this.data.route({ categoryId: opts.categoryId, avoidFirst }).entries,
+			(avoidFirst, exclude) => this.data.route({ categoryId: opts.categoryId, avoidFirst, exclude }).entries,
 			now,
 			{ targetDuration: this.target, categoryId: opts.categoryId }
 		);

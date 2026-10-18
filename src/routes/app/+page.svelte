@@ -97,6 +97,10 @@
 			</span>
 			<span class="play" aria-hidden="true"><Icon name="play" size={30} /></span>
 		</button>
+		<button class="walk" onclick={() => goto('/walk')}>
+			<span class="wi" aria-hidden="true"><Icon name="volume" size={22} /></span>
+			<span class="col"><span class="t">{m.walk_start()}</span><span class="s">{m.walk_start_sub()}</span></span>
+		</button>
 	</div>
 </div>
 
@@ -167,6 +171,9 @@
 	}
 	.start:hover { background: var(--color-accent-600); }
 	.start:active { background: var(--color-accent-700); transform: scale(0.98); }
+	.walk { border: 0; display: flex; align-items: center; gap: 14px; text-align: left; min-height: 68px; padding: 10px 20px; border-radius: 999px; background: var(--color-accent-2-200); color: var(--color-accent-2-800); }
+	.walk:active { background: var(--color-accent-2-300); }
+	.walk .s { color: inherit; opacity: 0.85; }
 	.big { font-family: var(--font-heading); font-size: 34px; line-height: 1; }
 	.meta { font-size: 16px; font-weight: 600; opacity: 0.92; margin-top: 6px; }
 	.play { width: 76px; height: 76px; flex: none; border-radius: 50%; background: var(--color-neutral-100); color: var(--color-accent-600); display: grid; place-items: center; padding-left: 4px; }

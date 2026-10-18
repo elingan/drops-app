@@ -132,3 +132,58 @@ describe('generateLearningRoute', () => {
 		expect(engine.routePreview(route)).toEqual({ new: 1, difficult: 1, review: 1 });
 	});
 });
+
+describe('rotation', () => {
+	it('leaves out cards already shown when enough others exist', () => {
+		const items = library();
+		const first = engine.generateLearningRoute(items, new Map(), { now, size: 20, maxNew: 20, random: seeded(4) });
+		const exclude = new Set(first.entries.map((e) => e.itemId));
+		const next = engine.generateLearningRoute(items, new Map(), { now, size: 20, maxNew: 20, random: seeded(9), exclude });
+		expect(next.entries).toHaveLength(20);
+		expect(next.entries.some((e) => exclude.has(e.itemId))).toBe(false);
+	});
+
+	it('falls back to the whole pool when everything was shown', () => {
+		const items = library().slice(0, 6);
+		const exclude = new Set(items.map((i) => i.id));
+		const route = engine.generateLearningRoute(items, new Map(), { now, exclude, random: seeded(2) });
+		expect(route.entries).toHaveLength(6);
+	});
+
+	it('keeps just-reviewed cards out of a route that has fresh material', () => {
+		const items = library();
+		const progress = new Map<string, LearningProgress>();
+		const recent = items.slice(0, 20);
+		for (const it of recent) {
+			progress.set(it.id, engine.recordResult(engine.scheduler.initial(it.id), 'remembered', new Date(now.getTime() - 10 * 60_000)));
+		}
+		const route = engine.generateLearningRoute(items, progress, { now, size: 30, random: seeded(6) });
+		const recentIds = new Set(recent.map((i) => i.id));
+		expect(route.entries.filter((e) => recentIds.has(e.itemId))).toHaveLength(0);
+		expect(route.entries.length).toBeGreaterThanOrEqual(8);
+	});
+
+	it('still builds a route when everything was reviewed moments ago', () => {
+		const items = library().slice(0, 12);
+		const progress = new Map<string, LearningProgress>();
+		for (const it of items) progress.set(it.id, engine.recordResult(engine.scheduler.initial(it.id), 'remembered', new Date(now.getTime() - 60_000)));
+		const route = engine.generateLearningRoute(items, progress, { now, random: seeded(3) });
+		expect(route.entries.length).toBe(8);
+	});
+
+	it('a long listening run covers the library before repeating', () => {
+		const items = library();
+		const exclude = new Set<string>();
+		const heard: string[] = [];
+		let rnd = seeded(11);
+		while (heard.length < 100) {
+			const route = engine.generateLearningRoute(items, new Map(), { now, size: 20, maxNew: 20, random: rnd, exclude });
+			for (const e of route.entries) {
+				heard.push(e.itemId);
+				exclude.add(e.itemId);
+			}
+		}
+		expect(new Set(heard).size).toBe(heard.length);
+	});
+});
+

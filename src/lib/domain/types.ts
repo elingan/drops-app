@@ -98,6 +98,8 @@ export interface AudioSource {
 	url?: string;
 	text: string;
 	lang: string;
+	/** Speech-synthesis rate (1 = normal); ignored for audio files. */
+	rate?: number;
 }
 
 export type RouteReason = 'new' | 'review' | 'difficult' | 'forgotten' | 'mastered';
