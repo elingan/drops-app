@@ -30,7 +30,7 @@ export default defineConfig({
 				extends: true,
 				test: {
 					name: 'server',
-					include: ['src/lib/server/**/*.{test,spec}.{js,ts}'],
+					include: ['src/lib/server/**/*.{test,spec}.{js,ts}', 'scripts/**/*.{test,spec}.ts'],
 					environment: 'node'
 				}
 			}

@@ -13,7 +13,8 @@
     "test:watch": "vitest",
     "auth:migrate": "node --experimental-strip-types scripts/migrate.ts",
     "seed:user": "node --experimental-strip-types scripts/seed-user.ts",
-    "vocab:build": "node --experimental-strip-types scripts/build-vocabulary.ts"
+    "vocab:build": "node --experimental-strip-types scripts/build-vocabulary.ts",
+    "audio:build": "node --experimental-strip-types scripts/build-audio.ts"
   },
   "engines": {
     "node": ">=22"
