@@ -69,7 +69,10 @@ src/routes/                /login /app /learn /vocabulary /categories /categorie
 - **Routes**: due cards first, then low-accuracy/forgotten, then a capped number of new cards
   (progressive introduction), category-balanced and interleaved so categories alternate and
   words/phrases mix. Failed cards return 4 positions later; the route refills while time remains.
-- **Audio**: native URL → recorded clip → generated URL → browser speech synthesis (`de-DE`).
+- **Audio**: native URL → recorded clip → generated MP3 (ElevenLabs, see [Audio](#audio)) → browser
+  speech synthesis (`de-DE` / `es-ES`), which also takes over when an MP3 fails to load.
+  Revealing a card says the word, its Spanish translation and the example sentence, in that order
+  (`AudioService.playSequence`); walk mode follows the same order.
 - **Speech-to-text**: `SpeechRecognitionService` (Web Speech API by default; hidden when unsupported).
 - **AI**: `AIService` / `ContentAnalysisService` interfaces; MVP uses rules + existing vocabulary.
 
@@ -86,20 +89,65 @@ Settings (avatar on Home) → *Import vocabulary*. JSON or CSV (`,` or `;`), val
 ```
 
 ```csv
-type,german,translation,category,alt,context
-word,heuer,este año,Alltag,dieses Jahr,Austriaco
+type,german,translation,category,alt,context,example,exampleTranslation
+word,heuer,este año,Alltag,dieses Jahr,Austriaco,Heuer fahren wir nach Kroatien.,Este año vamos a Croacia.
 ```
 
-`type` is optional (inferred), `alt` (German paraphrase) and `context` are optional.
+`type` is optional (inferred); `alt` (German paraphrase), `context`, `example` (a short German sentence
+that uses the word) and `exampleTranslation` are optional.
 
 ## Built-in vocabulary
 
 `data/vocabulary/*.txt` (one file per category) is the editable source of the bundled
-dataset: ~800 words + ~260 phrases at B1 level, built from the analysis of 10 years of
+dataset: ~850 words + ~300 phrases at B1 level, built from the analysis of 10 years of
 personal emails (filtered for names, addresses and personal data) and completed with
 Austrian German (Austriacisms carry the German-German equivalent in `alt` and "Austria"
-in `context`). Rebuild with `npm run vocab:build` and bump `SEED_VERSION` in
-`src/lib/data/seed.ts` so existing installs receive new items (progress is kept).
+in `context`). Every word also has a short B1 example sentence with its Spanish translation
+(`example` / `exampleTranslation`; the phrases have none). Rebuild with `npm run vocab:build` and bump
+`SEED_VERSION` in `src/lib/data/seed.ts` so existing installs receive new items, example sentences and
+audio (progress is kept; items the user created or reworded are left alone).
+
+## Audio
+
+Pronunciation comes from MP3 files generated once with [ElevenLabs](https://elevenlabs.io) and served
+from `static/audio/` (nothing is called at runtime). Three clips per entry:
+
+| Clip | Text | Field |
+| --- | --- | --- |
+| German word or phrase | `german` | `audioUrl` |
+| Spanish translation (first meaning, notes removed) | `translation` | `translationAudioUrl` |
+| Example sentence | `example` | `exampleAudioUrl` |
+
+```bash
+export ELEVENLABS_API_KEY=...        # or put it in .env (never commit it, never paste it in a chat)
+npm run audio:build                  # estimate only: characters per voice, clips, size
+npm run audio:build -- --limit 8     # test batch: 8 entries spread over the vocabulary
+npm run audio:build -- --all         # everything that is still missing
+npm run audio:build -- --all --type word    # words only (skips the phrases)
+```
+
+- **Idempotent**: files are named after a hash of voice + model + output format + language + text, and an
+  existing file is never requested again. Editing a text or changing voice/model only generates what changed.
+  The result is linked through `data/audio-manifest.json` and written into `src/lib/data/vocabulary-at.json`;
+  `npm run vocab:build` keeps the links (a reworded text drops its stale audio).
+  After regenerating, bump `SEED_VERSION` so installed apps pick up the new URLs.
+- **Voices**: looked up by name among the voices of your account (`GET /v1/voices`, exact name,
+  case-insensitive; «Livia» also matches «Livia - Expressive & Dynamic»). The default is **Matilda** for German
+  and Spanish, a premade voice that works on the free plan. «Livia» (German) and «Marina» (Spanish) are
+  library voices: ElevenLabs only lets paid plans use them through the API. If a voice is not found or is
+  ambiguous the script stops; it never picks another one.
+- **Environment**: `ELEVENLABS_API_KEY` (required, only needs the *voices* and *text to speech*
+  permissions); `ELEVENLABS_VOICE_DE`, `ELEVENLABS_VOICE_ES` (name or voice id, e.g. `Livia` / `Marina`);
+  `ELEVENLABS_MODEL` (default `eleven_multilingual_v2`); `ELEVENLABS_OUTPUT_FORMAT` (default `mp3_24000_48`,
+  ~6 KB/s); `ELEVENLABS_CONCURRENCY` (default 3). The language is pinned with `language_code` on every request.
+- **Cost**: ElevenLabs bills per character. Each run prints the characters per voice (total and pending)
+  before generating anything. The full dataset is about 55,000 German + 22,000 Spanish characters and
+  ~30 MB of MP3 in `static/audio/`; if that grows too much for the repo, upload the folder to Vercel Blob
+  and point `audioUrlBase` in `scripts/build-audio.ts` at it.
+- **App**: on reveal a card says the word, the translation and the example (`autoPlayAudio`, on by default,
+  can be turned off in Settings; the speaker button replays the sequence). The example and its translation
+  are shown on the card. Walk mode plays word → translation → example → word again; each part can be
+  switched off. Browser speech takes over for any clip without an MP3 or whose MP3 fails to load.
 
 ## Notes / limits of the MVP
 

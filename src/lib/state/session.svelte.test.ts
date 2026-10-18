@@ -1,4 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
+import type { AudioSource } from '$lib/domain/types';
+import type { PlaybackState } from '$lib/services/audio';
 import { createMemoryRepositories } from '$lib/repositories/memory';
 import { createServices } from './context';
 import { LearningState } from './learning.svelte';
@@ -8,6 +10,8 @@ async function setup() {
 	const services = createServices(createMemoryRepositories());
 	const data = new LearningState(() => services);
 	await data.load();
+	// The state-machine tests are about phases, not sound: a real clip would keep the card in AUDIO.
+	data.settings.autoPlayAudio = false;
 	return { data, s: new SessionState(data) };
 }
 
@@ -109,6 +113,72 @@ describe('SessionState (state machine)', () => {
 		const ids = data.route({ size: 200, categoryId: added.categoryId }).entries.map((e) => e.itemId);
 		expect(ids).toContain(added.id);
 		expect(cat).toBeDefined();
+		s.dispose();
+	});
+});
+
+describe('SessionState audio on reveal', () => {
+	beforeEach(() => vi.useFakeTimers());
+
+	const clips: AudioSource[] = [
+		{ kind: 'generated', text: 'heuer', lang: 'de-DE', url: '/audio/de.mp3' },
+		{ kind: 'generated', text: 'este año', lang: 'es-ES', url: '/audio/es.mp3' },
+		{ kind: 'generated', text: 'Heuer fahren wir nach Kroatien.', lang: 'de-DE', url: '/audio/ex.mp3' }
+	];
+
+	/** A session whose audio service records the sequences it is asked to play. */
+	async function withStubAudio(autoPlay: boolean) {
+		const { data, s } = await setup();
+		data.settings.autoPlayAudio = autoPlay;
+		const played: AudioSource[][] = [];
+		let finish: ((s: PlaybackState) => void) | undefined;
+		Object.assign(data.services.audio, {
+			resolveReveal: async () => clips,
+			playSequence: async (queue: AudioSource[], onState: (s: PlaybackState) => void) => {
+				played.push(queue);
+				finish = onState;
+				onState('playing');
+			},
+			stop: () => {}
+		});
+		return { s, played, end: (st: PlaybackState = 'idle') => finish?.(st) };
+	}
+
+	it('plays word → translation → example when the answer is revealed', async () => {
+		const { s, played, end } = await withStubAudio(true);
+		s.start({ animate: false });
+		await vi.advanceTimersByTimeAsync(0);
+		expect(s.audioSource).toEqual(clips[0]);
+		expect(played).toHaveLength(0); // nothing before the answer
+		s.reveal();
+		expect(played).toHaveLength(1);
+		expect(played[0]!.map((c) => c.url)).toEqual(['/audio/de.mp3', '/audio/es.mp3', '/audio/ex.mp3']);
+		expect(s.phase).toBe('AUDIO');
+		expect(s.audioState).toBe('playing');
+		end();
+		expect(s.phase).toBe('WAITING_FOR_RATING');
+		s.dispose();
+	});
+
+	it('can be rated while the audio is still playing', async () => {
+		const { s } = await withStubAudio(true);
+		s.start({ animate: false });
+		await vi.advanceTimersByTimeAsync(0);
+		s.reveal();
+		s.answer('remembered');
+		expect(s.answered).toBe(1);
+		s.dispose();
+	});
+
+	it('does not play on reveal when auto-play is off, but the button plays the same sequence', async () => {
+		const { s, played } = await withStubAudio(false);
+		s.start({ animate: false });
+		await vi.advanceTimersByTimeAsync(0);
+		s.reveal();
+		expect(played).toHaveLength(0);
+		expect(s.phase).toBe('WAITING_FOR_RATING');
+		await s.playAudio();
+		expect(played[0]!.map((c) => c.lang)).toEqual(['de-DE', 'es-ES', 'de-DE']);
 		s.dispose();
 	});
 });
