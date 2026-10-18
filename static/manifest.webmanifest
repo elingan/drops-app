@@ -3,6 +3,7 @@
 	"short_name": "Deutsch 10",
 	"start_url": "/app",
 	"display": "standalone",
+	"orientation": "portrait",
 	"background_color": "#f5ead8",
 	"theme_color": "#f5ead8",
 	"icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]

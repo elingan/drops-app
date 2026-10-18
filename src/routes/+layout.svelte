@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import AppShell from '$lib/components/AppShell.svelte';
@@ -8,6 +9,7 @@
 	import { getLocale } from '$lib/paraglide/runtime.js';
 	import { auth } from '$lib/state/auth.svelte';
 	import { learning } from '$lib/state/learning.svelte';
+	import { lockPortrait } from '$lib/utils/orientation';
 
 	let { children } = $props();
 
@@ -15,6 +17,8 @@
 	const path = $derived(page.url.pathname);
 	const isPublic = $derived(path === '/login');
 	const showNav = $derived(NAV_ROUTES.some((r) => path === r || path.startsWith(r + '/')));
+
+	onMount(() => void lockPortrait());
 
 	document.documentElement.lang = getLocale();
 	void auth.check();
