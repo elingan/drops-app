@@ -65,3 +65,5 @@ p|Morgen ist Elternabend in der Schule.|Mañana hay reunión de padres en la esc
 p|Die Kinder streiten schon wieder.|Los niños vuelven a pelearse.||
 p|Wir feiern bei meinen Schwiegereltern.|Lo celebramos en casa de mis suegros.||
 p|Wann beginnen die Sommerferien?|¿Cuándo empiezan las vacaciones de verano?||
+w|die Schwiegermutter|la suegra|die Mutter des Ehepartners||Meine Schwiegermutter kocht sehr gut.|Mi suegra cocina muy bien.
+w|die Geschwister|los hermanos|||Ich habe drei Geschwister.|Tengo tres hermanos.

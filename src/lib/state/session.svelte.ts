@@ -34,7 +34,10 @@ export class SessionState {
 	entry = $state<RouteEntry | undefined>(undefined);
 	exitDirection = $state<ReviewResult | null>(null);
 	audioState = $state<PlaybackState>('idle');
+	/** The German word: what the audio button is built on. */
 	audioSource = $state<AudioSource | undefined>(undefined);
+	/** What a revealed card says, in order: word, translation, example. */
+	audioQueue = $state<AudioSource[]>([]);
 	summary = $state<SessionSummary | null>(null);
 	categoryId = $state<string | undefined>(undefined);
 
@@ -114,6 +117,7 @@ export class SessionState {
 		this.rememberLeft = this.rememberTotal;
 		this.stopAudio();
 		this.audioSource = undefined;
+		this.audioQueue = [];
 		this.phase = 'SHOW_CARD';
 		engine.markShown(now);
 		void this.resolveAudio();
@@ -124,8 +128,10 @@ export class SessionState {
 	private async resolveAudio() {
 		const card = this.card;
 		if (!card) return;
-		const src = await this.data.services.audio.resolve(card.item);
-		if (this.card?.item.id === card.item.id) this.audioSource = src;
+		const queue = await this.data.services.audio.resolveReveal(card.item);
+		if (this.card?.item.id !== card.item.id) return;
+		this.audioQueue = queue;
+		this.audioSource = queue[0];
 	}
 
 	private loop = () => {
@@ -157,15 +163,16 @@ export class SessionState {
 		if (this.phase !== 'WAITING_FOR_RECALL' && this.phase !== 'SHOW_CARD') return;
 		this.phase = 'REVEAL_ANSWER';
 		this.rememberLeft = 0;
-		if (this.data.settings.autoPlayAudio && this.audioSource) void this.playAudio();
+		if (this.data.settings.autoPlayAudio && this.audioQueue.length) void this.playAudio();
 		else this.phase = 'WAITING_FOR_RATING';
 	}
 
+	/** Plays word → translation → example (whatever the card has), once the answer is shown. */
 	async playAudio(): Promise<void> {
-		const src = this.audioSource;
-		if (!src) return;
+		const queue = this.audioQueue;
+		if (!queue.length) return;
 		if (this.revealed) this.phase = 'AUDIO';
-		await this.data.services.audio.play(src, (s) => {
+		await this.data.services.audio.playSequence(queue, (s) => {
 			this.audioState = s;
 			if ((s === 'idle' || s === 'error') && this.phase === 'AUDIO') this.phase = 'WAITING_FOR_RATING';
 		});

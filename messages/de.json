@@ -221,6 +221,7 @@
 	"walk_options": "Optionen des Spaziergang-Modus",
 	"walk_opt_spanish": "Bedeutung auf Spanisch",
 	"walk_opt_repeat": "Deutsch wiederholen",
+	"walk_opt_example": "Beispielsatz",
 	"walk_speed": "Tempo",
 	"walk_speed_slow": "Langsam",
 	"walk_speed_normal": "Normal",

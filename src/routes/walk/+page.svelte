@@ -25,7 +25,8 @@
 	];
 
 	const item = $derived(walk.item);
-	const showSpanish = $derived(walk.step === 'spanish' || walk.step === 'again' || walk.step === 'gap' || walk.status === 'paused');
+	const showSpanish = $derived(walk.step !== 'german' || walk.status === 'paused');
+	const showExample = $derived(walk.step === 'example' || walk.step === 'again' || walk.step === 'gap' || walk.status === 'paused');
 	const playing = $derived(walk.status === 'playing');
 	const finished = $derived(walk.status === 'finished');
 	const clock = $derived(`${Math.floor(walk.remaining / 60)}:${String(walk.remaining % 60).padStart(2, '0')}`);
@@ -96,6 +97,12 @@
 			{#key item.id}
 				<p class="de" lang="de" class:phrase={item.type === 'phrase'} class:long={item.german.length > 30}>{item.german}</p>
 				<p class="es" class:shown={showSpanish && !!item.translation}>{item.translation ?? ''}</p>
+				{#if item.example}
+					<div class="ex" class:shown={showExample}>
+						<p class="exde" lang="de">{item.example}</p>
+						{#if item.exampleTranslation}<p class="exes" lang="es">{item.exampleTranslation}</p>{/if}
+					</div>
+				{/if}
 			{/key}
 		</div>
 
@@ -110,6 +117,7 @@
 		<section class="opts" aria-label={m.walk_options()}>
 			<div class="toggles">
 				<button class="chip" aria-pressed={walk.settings.spanish} onclick={() => walk.update({ spanish: !walk.settings.spanish })}>{m.walk_opt_spanish()}</button>
+				<button class="chip" aria-pressed={walk.settings.example} onclick={() => walk.update({ example: !walk.settings.example })}>{m.walk_opt_example()}</button>
 				<button class="chip" aria-pressed={walk.settings.repeat} onclick={() => walk.update({ repeat: !walk.settings.repeat })}>{m.walk_opt_repeat()}</button>
 			</div>
 			<div class="group" role="group" aria-label={m.walk_speed()}>
@@ -140,6 +148,10 @@
 	.de.long { font-size: 27px; }
 	.es { margin: 0; font-size: 22px; color: var(--color-accent-2-800); min-height: 1.3em; opacity: 0; transition: opacity 0.3s; }
 	.es.shown { opacity: 1; }
+	.ex { display: flex; flex-direction: column; gap: 4px; opacity: 0; transition: opacity 0.3s; }
+	.ex.shown { opacity: 1; }
+	.exde { margin: 0; font-size: 19px; font-weight: 600; line-height: 1.3; text-wrap: balance; }
+	.exes { margin: 0; font-size: 16px; color: var(--color-neutral-700); line-height: 1.3; }
 	.transport { display: flex; flex-direction: column; align-items: center; gap: 10px; }
 	.state { font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-2-700); }
 	.buttons { display: flex; align-items: center; gap: 18px; }

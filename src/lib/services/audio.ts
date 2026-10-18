@@ -1,17 +1,22 @@
 import type { AudioSource, LearningItem } from '$lib/domain/types';
 import type { MediaRepository } from '$lib/repositories/interfaces';
+import { spokenGerman, spokenSpanish } from '$lib/utils/speech-text';
 
 export type PlaybackState = 'idle' | 'loading' | 'playing' | 'paused' | 'error';
 
 /**
  * Resolves and plays pronunciation. Priority: native URL → recorded clip
- * (MediaRepository) → generated audio URL → browser speech synthesis.
+ * (MediaRepository) → generated audio URL (ElevenLabs MP3) → browser speech
+ * synthesis, which also takes over when an audio file fails to load.
+ * On reveal a card says: German word → Spanish translation → example sentence.
  */
 export class AudioService {
 	private audio: HTMLAudioElement | null = null;
 	private objectUrls = new Map<string, string>();
 	private listener: ((s: PlaybackState) => void) | null = null;
 	private current: string | null = null;
+	/** Bumped whenever playback is started or stopped from outside, so a running sequence gives up. */
+	private sequence = 0;
 
 	constructor(private readonly media: MediaRepository) {}
 
@@ -20,7 +25,7 @@ export class AudioService {
 	}
 
 	async resolve(item: LearningItem): Promise<AudioSource | undefined> {
-		const base = { text: item.german, lang: 'de-DE' };
+		const base = { text: spokenGerman(item.german), lang: 'de-DE' };
 		if (item.nativeAudioUrl) return { ...base, kind: 'native', url: item.nativeAudioUrl };
 		if (item.nativeAudioId) {
 			const url = await this.objectUrl(item.nativeAudioId);
@@ -29,6 +34,29 @@ export class AudioService {
 		if (item.audioUrl) return { ...base, kind: 'generated', url: item.audioUrl };
 		if (AudioService.hasSpeechSynthesis()) return { ...base, kind: 'generated' };
 		return undefined;
+	}
+
+	/** The Spanish translation (first meaning), as an MP3 or, failing that, browser speech. */
+	resolveTranslation(item: LearningItem): AudioSource | undefined {
+		const text = item.translation ? spokenSpanish(item.translation) : '';
+		return text ? this.generated(text, 'es-ES', item.translationAudioUrl) : undefined;
+	}
+
+	/** The example sentence, as an MP3 or, failing that, browser speech. */
+	resolveExample(item: LearningItem): AudioSource | undefined {
+		const text = item.example ? spokenGerman(item.example) : '';
+		return text ? this.generated(text, 'de-DE', item.exampleAudioUrl) : undefined;
+	}
+
+	/** What a revealed card says, in order: word, translation, example. Missing parts are skipped. */
+	async resolveReveal(item: LearningItem): Promise<AudioSource[]> {
+		const word = await this.resolve(item);
+		return [word, this.resolveTranslation(item), this.resolveExample(item)].filter((s): s is AudioSource => !!s);
+	}
+
+	private generated(text: string, lang: string, url?: string): AudioSource | undefined {
+		if (url) return { kind: 'generated', text, lang, url };
+		return AudioService.hasSpeechSynthesis() ? { kind: 'generated', text, lang } : undefined;
 	}
 
 	private async objectUrl(id: string): Promise<string | undefined> {
@@ -43,7 +71,12 @@ export class AudioService {
 
 	/** Plays a source; `onState` receives every state change of this playback. */
 	async play(src: AudioSource, onState: (s: PlaybackState) => void): Promise<void> {
-		this.stop();
+		this.sequence++;
+		return this.start(src, onState);
+	}
+
+	private async start(src: AudioSource, onState: (s: PlaybackState) => void): Promise<void> {
+		this.halt();
 		this.listener = onState;
 		const token = crypto.randomUUID();
 		this.current = token;
@@ -54,22 +87,55 @@ export class AudioService {
 		emit('loading');
 		const a = new Audio(src.url);
 		this.audio = a;
+		// A file that cannot be loaded or played is read by the browser voice instead.
+		let fellBack = false;
+		const fallback = () => {
+			if (fellBack || this.current !== token) return;
+			fellBack = true;
+			a.onplaying = a.onpause = a.onended = a.onerror = null;
+			this.audio = null;
+			this.speak({ ...src, url: undefined }, emit);
+		};
 		a.onplaying = () => emit('playing');
 		a.onpause = () => emit(a.ended ? 'idle' : 'paused');
 		a.onended = () => emit('idle');
-		a.onerror = () => emit('error');
+		a.onerror = fallback;
 		try {
 			await a.play();
 		} catch {
-			emit('error');
+			fallback();
 		}
 	}
 
 	/** Plays a source and resolves when it ends (or fails, or is stopped). */
-	playToEnd(src: AudioSource): Promise<void> {
+	playToEnd(src: AudioSource, onState?: (s: PlaybackState) => void): Promise<void> {
 		return new Promise((resolve) => {
-			void this.play(src, (s) => (s === 'idle' || s === 'error') && resolve());
+			void this.start(src, (s) => {
+				onState?.(s);
+				if (s === 'idle' || s === 'error') resolve();
+			});
 		});
+	}
+
+	/**
+	 * Plays the sources one after the other. `onState` follows the clip being
+	 * played and only reports `idle` (or `error`, if nothing could be played)
+	 * once the whole sequence is over. Starting other audio or stopping ends it.
+	 */
+	async playSequence(sources: AudioSource[], onState: (s: PlaybackState) => void): Promise<void> {
+		const run = ++this.sequence;
+		const alive = () => this.sequence === run;
+		let failed = 0;
+		for (const src of sources) {
+			if (!alive()) return;
+			let clipFailed = false;
+			await this.playToEnd(src, (s) => {
+				if (s === 'error') clipFailed = true;
+				else if (s !== 'idle' && alive()) onState(s);
+			});
+			if (clipFailed) failed++;
+		}
+		if (alive()) onState(sources.length > 0 && failed === sources.length ? 'error' : 'idle');
 	}
 
 	private speak(src: AudioSource, emit: (s: PlaybackState) => void) {
@@ -99,6 +165,11 @@ export class AudioService {
 	}
 
 	stop(): void {
+		this.sequence++;
+		this.halt();
+	}
+
+	private halt(): void {
 		const prev = this.listener;
 		this.current = null;
 		this.listener = null;

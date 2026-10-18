@@ -142,7 +142,7 @@ export const DEFAULT_SETTINGS: Settings = {
 	rememberSeconds: 5,
 	showSpanish: true,
 	imageTiming: 'after',
-	autoPlayAudio: false
+	autoPlayAudio: true
 };
 
 export const SESSION_SECONDS = 600;

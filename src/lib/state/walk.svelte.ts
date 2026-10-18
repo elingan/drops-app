@@ -1,11 +1,13 @@
-import type { AudioSource, LearningItem, RouteEntry } from '$lib/domain/types';
+import type { LearningItem, RouteEntry } from '$lib/domain/types';
 import { learning, type LearningState } from './learning.svelte';
 
-export type WalkStep = 'german' | 'spanish' | 'again' | 'gap';
+export type WalkStep = 'german' | 'spanish' | 'example' | 'again' | 'gap';
 
 export interface WalkSettings {
 	/** Read the Spanish meaning after the German. */
 	spanish: boolean;
+	/** Read the example sentence after the Spanish meaning (words that have one). */
+	example: boolean;
 	/** Say the German a second time at the end. */
 	repeat: boolean;
 	/** Speech rate for generated voices. */
@@ -14,7 +16,7 @@ export interface WalkSettings {
 	gap: number;
 }
 
-export const WALK_DEFAULTS: WalkSettings = { spanish: true, repeat: true, rate: 0.85, gap: 3 };
+export const WALK_DEFAULTS: WalkSettings = { spanish: true, example: true, repeat: true, rate: 0.85, gap: 3 };
 const STORAGE_KEY = 'd10.walk';
 const HISTORY_KEY = 'd10.walk.heard';
 /** Length of one walk session, in seconds of playback. */
@@ -27,7 +29,8 @@ const BATCH_NEW = 20;
 const wait = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
 /**
- * Hands-free "walk" mode: plays German → Spanish → German card after card
+ * Hands-free "walk" mode: plays German → Spanish → example sentence → German
+ * (the same order as a revealed card) card after card
  * without any interaction. It reuses the learning engine's route (due and
  * difficult cards first, categories interleaved) and excludes cards already
  * heard, so a long walk keeps moving through new material.
@@ -130,7 +133,7 @@ export class WalkState {
 		while (alive()) {
 			const item = this.item ?? this.advance();
 			if (!item) return this.stop();
-			const { spanish, repeat, rate, gap } = this.settings;
+			const { spanish, example, repeat, rate, gap } = this.settings;
 
 			this.step = 'german';
 			const de = await audio.resolve(item);
@@ -142,7 +145,16 @@ export class WalkState {
 				await wait(900);
 				if (!alive()) return;
 				this.step = 'spanish';
-				await audio.playToEnd(this.spanishSource(item.translation, rate));
+				const es = audio.resolveTranslation(item);
+				if (es) await audio.playToEnd({ ...es, rate });
+				if (!alive()) return;
+			}
+			if (example && item.example) {
+				await wait(900);
+				if (!alive()) return;
+				this.step = 'example';
+				const sentence = audio.resolveExample(item);
+				if (sentence) await audio.playToEnd({ ...sentence, rate });
 				if (!alive()) return;
 			}
 			if (repeat && de) {
@@ -196,12 +208,6 @@ export class WalkState {
 			this.saveHistory();
 		}
 		return new Set(this.history);
-	}
-
-	private spanishSource(text: string, rate: number): AudioSource {
-		// «a; b» / «a, b»: reading every synonym drags on, the first meaning is enough.
-		const first = text.split(/[;·]/)[0]!.trim();
-		return { kind: 'generated', text: first, lang: 'es-ES', rate };
 	}
 
 	/** Moves to the next card of the playlist, refilling it when empty. */

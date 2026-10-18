@@ -18,6 +18,12 @@ export interface SeedItem {
 	alt?: string;
 	translation: string;
 	context?: string;
+	example?: string;
+	exampleTranslation?: string;
+	/** Generated MP3s (npm run audio:build). */
+	audioUrl?: string;
+	translationAudioUrl?: string;
+	exampleAudioUrl?: string;
 	category: string;
 }
 
@@ -41,9 +47,10 @@ export const SEED_CATEGORIES: SeedCategory[] = [
 
 /**
  * Bump when the bundled vocabulary changes: existing installs then get the
- * new items (duplicates are skipped, progress is untouched).
+ * new items (duplicates are skipped, progress is untouched) and the example
+ * sentences and audio of the items they already have.
  */
-export const SEED_VERSION = 3;
+export const SEED_VERSION = 4;
 
 /** Main dataset (data/vocabulary/*.txt → npm run vocab:build). Loaded lazily. */
 export const loadVocabulary = async (): Promise<SeedItem[]> =>

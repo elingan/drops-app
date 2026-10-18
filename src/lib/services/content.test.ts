@@ -51,4 +51,82 @@ describe('ContentService', () => {
 		expect(await repos.items.get(it1.id)).toBeUndefined();
 		expect(await repos.progress.get(it1.id)).toBeUndefined();
 	});
+
+	it('installs example sentences with the built-in items', async () => {
+		const svc = new ContentService(createMemoryRepositories());
+		await svc.seedIfEmpty();
+		const items = await svc.listItems();
+		const words = items.filter((i) => i.type === 'word');
+		// Every word has its example (also the hand-picked ones that predate the dataset).
+		expect(words.filter((i) => !i.example)).toEqual([]);
+		expect(words.every((i) => i.exampleTranslation)).toBe(true);
+		// The existing phrases keep no example.
+		expect(items.find((i) => i.german === 'Servus!')?.example).toBeUndefined();
+		expect(items.find((i) => i.german === 'erledigen')?.example).toBeTruthy();
+	});
+
+	it('gives an install of the previous version the examples and audio of its items, keeping progress', async () => {
+		const repos = createMemoryRepositories();
+		const svc = new ContentService(repos);
+		await repos.user.setFlag('seedVersion', '3');
+		await repos.categories.put({ id: 'einkaufen', name: 'Einkaufen', tone: 1, createdAt: new Date(0) });
+		const old = await svc.importRows([{ type: 'word', german: 'der Rabatt', translation: 'el descuento', category: 'Einkaufen' }]);
+		expect(old).toBe(1);
+		const [before] = await svc.listItems();
+		const progress = { itemId: before!.id, level: 2, mastery: 0.4, difficulty: 0.2, reviewCount: 3, correctCount: 3, incorrectCount: 0 };
+		await repos.progress.put(progress);
+		expect(before!.example).toBeUndefined();
+
+		await svc.seedIfEmpty();
+		const rabatt = (await svc.listItems()).filter((i) => i.german === 'der Rabatt');
+		expect(rabatt).toHaveLength(1);
+		expect(rabatt[0]).toMatchObject({ id: before!.id, example: expect.any(String), exampleTranslation: expect.any(String) });
+		expect(rabatt[0]!.audioUrl).toMatch(/^\/audio\/.+\.mp3$/);
+		expect(rabatt[0]!.translationAudioUrl).toMatch(/^\/audio\//);
+		expect(rabatt[0]!.exampleAudioUrl).toMatch(/^\/audio\//);
+		expect(await repos.progress.get(before!.id)).toEqual(progress);
+	});
+
+	it('does not touch items the user created or reworded when enriching', async () => {
+		const repos = createMemoryRepositories();
+		const svc = new ContentService(repos);
+		const row = {
+			type: 'word' as const,
+			german: 'Haus',
+			translation: 'casa',
+			category: 'Alltag',
+			example: 'Das Haus ist alt.',
+			exampleTranslation: 'La casa es vieja.',
+			audioUrl: '/audio/a.mp3',
+			translationAudioUrl: '/audio/b.mp3',
+			exampleAudioUrl: '/audio/c.mp3'
+		};
+		await svc.importRows([{ type: 'word', german: 'Haus', translation: 'vivienda', category: 'Alltag' }]);
+		expect(await svc.enrichSeeded([row])).toBe(1);
+		let [item] = await svc.listItems();
+		// The translation was reworded: its audio would say something else, so it is not linked.
+		expect(item).toMatchObject({ example: 'Das Haus ist alt.', audioUrl: '/audio/a.mp3', exampleAudioUrl: '/audio/c.mp3' });
+		expect(item!.translationAudioUrl).toBeUndefined();
+
+		const mine = await svc.saveItem({ german: 'Boot', translation: 'barco', categoryId: 'alltag' });
+		expect(await svc.enrichSeeded([{ ...row, german: 'Boot', translation: 'barco' }])).toBe(0);
+		expect((await repos.items.get(mine.id))!.example).toBeUndefined();
+		expect(await svc.enrichSeeded([row])).toBe(0); // idempotent
+		[item] = await svc.listItems();
+		expect(item!.example).toBe('Das Haus ist alt.');
+	});
+
+	it('drops generated audio when the text it was made from is edited', async () => {
+		const repos = createMemoryRepositories();
+		const svc = new ContentService(repos);
+		const created = await svc.saveItem({ german: 'Haus', translation: 'casa', categoryId: 'alltag' });
+		await repos.items.put({ ...created, audioUrl: '/audio/a.mp3', translationAudioUrl: '/audio/b.mp3' });
+		const same = await svc.saveItem({ german: 'Haus', translation: 'casa', categoryId: 'alltag' }, created.id);
+		expect(same).toMatchObject({ audioUrl: '/audio/a.mp3', translationAudioUrl: '/audio/b.mp3' });
+		const edited = await svc.saveItem({ german: 'Haus', translation: 'hogar', categoryId: 'alltag' }, created.id);
+		expect(edited.audioUrl).toBe('/audio/a.mp3');
+		expect(edited.translationAudioUrl).toBeUndefined();
+		const renamed = await svc.saveItem({ german: 'Häuser', translation: 'hogar', categoryId: 'alltag' }, created.id);
+		expect(renamed.audioUrl).toBeUndefined();
+	});
 });

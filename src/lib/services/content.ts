@@ -1,6 +1,6 @@
 import type { Category, ItemType, LearningItem } from '$lib/domain/types';
 import type { Repositories } from '$lib/repositories/interfaces';
-import { loadVocabulary, SEED_CATEGORIES, SEED_ITEMS, SEED_VERSION } from '$lib/data/seed';
+import { loadVocabulary, SEED_CATEGORIES, SEED_ITEMS, SEED_VERSION, type SeedItem } from '$lib/data/seed';
 import { CategoryService } from './category';
 import { isPhraseText } from './content-analysis';
 import type { ImportRow } from './importer';
@@ -15,6 +15,8 @@ export interface ItemInput {
 	imageId?: string | null;
 	nativeAudioId?: string | null;
 }
+
+const typed = (s: SeedItem): ImportRow => ({ ...s, type: s.type ?? (isPhraseText(s.german) ? 'phrase' : 'word') });
 
 const trimOrUndef = (s: string | undefined, max: number) => {
 	const t = s?.trim();
@@ -48,11 +50,9 @@ export class ContentService {
 			(c) => !existing.some((e) => e.id === c.id || e.name.toLowerCase() === c.name.toLowerCase())
 		).map((c, i) => ({ ...c, createdAt: new Date(now + i) }) satisfies Category);
 		await this.repos.categories.putMany(missing);
-		const rows = [...(version === 0 ? SEED_ITEMS : []), ...(await loadVocabulary())];
-		const added = await this.importRows(
-			rows.map((s) => ({ ...s, type: s.type ?? (isPhraseText(s.german) ? 'phrase' : 'word') })),
-			false
-		);
+		const vocabulary = (await loadVocabulary()).map(typed);
+		const added = await this.importRows([...(version === 0 ? SEED_ITEMS.map(typed) : []), ...vocabulary], false);
+		await this.enrichSeeded(vocabulary);
 		await this.repos.user.setFlag('seeded', '1');
 		await this.repos.user.setFlag('seedVersion', String(SEED_VERSION));
 		return added;
@@ -81,6 +81,9 @@ export class ContentService {
 			nativeAudioId: input.nativeAudioId === null ? undefined : (input.nativeAudioId ?? prev?.nativeAudioId),
 			updatedAt: now
 		} as LearningItem;
+		// Generated audio belongs to the text it was made from.
+		if (prev && prev.german !== item.german) delete item.audioUrl;
+		if (prev && prev.translation !== item.translation) delete item.translationAudioUrl;
 		// Drop replaced media.
 		if (prev?.imageId && prev.imageId !== item.imageId) await this.repos.media.delete(prev.imageId);
 		if (prev?.nativeAudioId && prev.nativeAudioId !== item.nativeAudioId) await this.repos.media.delete(prev.nativeAudioId);
@@ -113,6 +116,11 @@ export class ContentService {
 				translation: r.translation,
 				alt: r.alt,
 				context: r.context,
+				example: r.example,
+				exampleTranslation: r.exampleTranslation,
+				audioUrl: r.audioUrl,
+				translationAudioUrl: r.translationAudioUrl,
+				exampleAudioUrl: r.exampleAudioUrl,
 				categoryId: cat.id,
 				userCreated,
 				createdAt: now,
@@ -121,5 +129,31 @@ export class ContentService {
 		}
 		await this.repos.items.putMany(items);
 		return items.length;
+	}
+
+	/**
+	 * Gives the built-in items an install already has their example sentence
+	 * and audio (new in the bundled dataset). Matching is by German text; items
+	 * the user created or reworded are left alone, and an audio file is only
+	 * linked when it was generated from the text the item still has.
+	 */
+	async enrichSeeded(rows: ImportRow[]): Promise<number> {
+		const byGerman = new Map(rows.map((r) => [r.german.toLowerCase(), r]));
+		const changed: LearningItem[] = [];
+		for (const item of await this.repos.items.all()) {
+			const row = byGerman.get(item.german.trim().toLowerCase());
+			if (!row || item.userCreated) continue;
+			const next: LearningItem = { ...item };
+			if (!next.example && row.example) {
+				next.example = row.example;
+				next.exampleTranslation = row.exampleTranslation;
+			}
+			if (row.audioUrl && next.german === row.german) next.audioUrl = row.audioUrl;
+			if (row.translationAudioUrl && next.translation === row.translation) next.translationAudioUrl = row.translationAudioUrl;
+			if (row.exampleAudioUrl && next.example === row.example) next.exampleAudioUrl = row.exampleAudioUrl;
+			if (JSON.stringify(next) !== JSON.stringify(item)) changed.push({ ...next, updatedAt: new Date() });
+		}
+		await this.repos.items.putMany(changed);
+		return changed.length;
 	}
 }

@@ -5256,6 +5256,23 @@
 	},
 	{
 		"type": "word",
+		"german": "die Schwiegermutter",
+		"category": "Familie",
+		"translation": "la suegra",
+		"alt": "die Mutter des Ehepartners",
+		"example": "Meine Schwiegermutter kocht sehr gut.",
+		"exampleTranslation": "Mi suegra cocina muy bien."
+	},
+	{
+		"type": "word",
+		"german": "die Geschwister",
+		"category": "Familie",
+		"translation": "los hermanos",
+		"example": "Ich habe drei Geschwister.",
+		"exampleTranslation": "Tengo tres hermanos."
+	},
+	{
+		"type": "word",
 		"german": "die Wohnung",
 		"category": "Wohnen",
 		"translation": "el piso",
@@ -6734,6 +6751,24 @@
 		"category": "Einkaufen",
 		"translation": "El domingo las tiendas están cerradas.",
 		"context": "Austria."
+	},
+	{
+		"type": "word",
+		"german": "das Sonderangebot",
+		"category": "Einkaufen",
+		"translation": "la oferta",
+		"example": "Dieses Sonderangebot gilt nur bis Samstag.",
+		"exampleTranslation": "Esta oferta especial solo vale hasta el sábado."
+	},
+	{
+		"type": "word",
+		"german": "der Paradeiser",
+		"category": "Einkaufen",
+		"translation": "el tomate",
+		"alt": "die Tomate",
+		"context": "Austriaco.",
+		"example": "Für den Salat brauche ich drei Paradeiser.",
+		"exampleTranslation": "Para la ensalada necesito tres tomates."
 	},
 	{
 		"type": "word",
@@ -8221,6 +8256,24 @@
 		"german": "Ich habe Tomaten auf den Augen gehabt.",
 		"category": "Redewendungen",
 		"translation": "No he visto lo evidente."
+	},
+	{
+		"type": "word",
+		"german": "Daumen drücken",
+		"category": "Redewendungen",
+		"translation": "cruzar los dedos",
+		"example": "Ich drücke dir morgen die Daumen.",
+		"exampleTranslation": "Mañana cruzo los dedos por ti."
+	},
+	{
+		"type": "word",
+		"german": "Schmäh führen",
+		"category": "Redewendungen",
+		"translation": "bromear",
+		"alt": "Witze machen",
+		"context": "Austriaco (Viena).",
+		"example": "Er führt immer gern einen Schmäh.",
+		"exampleTranslation": "A él siempre le gusta bromear."
 	},
 	{
 		"type": "word",

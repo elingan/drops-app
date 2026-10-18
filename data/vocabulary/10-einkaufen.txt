@@ -62,3 +62,5 @@ p|Die Sendung befindet sich auf dem Versandweg.|El envío está en camino.||
 p|Die Lieferung hat sich leider verzögert.|Lamentablemente la entrega se ha retrasado.||
 p|Ich möchte den Artikel zurückschicken.|Quiero devolver el artículo.||
 p|Am Sonntag haben die Geschäfte zu.|El domingo las tiendas están cerradas.||Austria.
+w|das Sonderangebot|la oferta|||Dieses Sonderangebot gilt nur bis Samstag.|Esta oferta especial solo vale hasta el sábado.
+w|der Paradeiser|el tomate|die Tomate|Austriaco.|Für den Salat brauche ich drei Paradeiser.|Para la ensalada necesito tres tomates.

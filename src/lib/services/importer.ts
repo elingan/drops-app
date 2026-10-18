@@ -57,7 +57,10 @@ export function validateEntries(entries: unknown[]): ImportResult {
 		const context = clean(r.context, LIMITS.context);
 		const example = clean(r.example, LIMITS.example);
 		const exampleTranslation = clean(r.exampleTranslation, LIMITS.example);
-		if ([german, category, translation, alt, context, example, exampleTranslation].includes(null)) {
+		if (
+			german === null || category === null || translation === null || alt === null ||
+			context === null || example === null || exampleTranslation === null
+		) {
 			errors.push({ row, message: 'too_long' });
 			return;
 		}

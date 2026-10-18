@@ -39,3 +39,5 @@ p|Es ist höchste Zeit.|Ya es hora.||
 p|Ende gut, alles gut.|Bien está lo que bien acaba.||
 p|Das ist mir Wurst.|Me da igual.|Das ist mir egal.|Coloquial.
 p|Ich habe Tomaten auf den Augen gehabt.|No he visto lo evidente.||
+w|Daumen drücken|cruzar los dedos|||Ich drücke dir morgen die Daumen.|Mañana cruzo los dedos por ti.
+w|Schmäh führen|bromear|Witze machen|Austriaco (Viena).|Er führt immer gern einen Schmäh.|A él siempre le gusta bromear.
