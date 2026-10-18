@@ -1,91 +1,91 @@
 # Alltag
-w|Grüß Gott|buenos días (saludo formal)|Guten Tag|Austria, saludo estándar.
-w|Servus|hola; adiós (informal)|Hallo / Tschüss|Austria, coloquial.
-w|Baba|chao|Tschüss|Austria, coloquial.
-w|Pfiat di|adiós (informal)|Tschüss|Austria/Steiermark, coloquial.
-w|heuer|este año|dieses Jahr|Austria.
-w|der Jänner|enero|der Januar (DE)|Austria.
-w|passt|vale, de acuerdo, perfecto|in Ordnung|Austria, muy frecuente.
-w|na eh|claro, por supuesto|natürlich|Austria, coloquial.
-w|leiwand|genial, guay|toll, super|Austria (Viena), coloquial.
-w|ur|súper, muy|sehr|Austria, coloquial juvenil: ur gut.
-w|a bissl|un poquito|ein bisschen|Austria, coloquial.
-w|eh|de todas formas, igualmente|sowieso|Austria: Das weiß ich eh.
-w|fesch|guapo, elegante|hübsch, schick|Austria.
-w|gscheit|listo, como es debido|gescheit, klug|Austria, coloquial.
-w|sudern|quejarse, refunfuñar|jammern|Austria, coloquial.
-w|raunzen|quejarse|nörgeln|Austria, coloquial.
-w|der Schmäh|la broma, el humor (vienés)|der Witz|Austria.
-w|die Gaudi|la diversión, el jolgorio|der Spaß|Austria/Baviera.
-w|patschert|torpe|ungeschickt|Austria, coloquial.
-w|ang'fressen|mosqueado, harto|verärgert|Austria, coloquial.
-w|eigentlich|en realidad||
-w|übrigens|por cierto||
-w|ohnehin|de todas formas|sowieso|
-w|sowieso|de todos modos||
-w|halt|pues, simplemente (partícula)||Das ist halt so.
-w|eben|precisamente; pues||
-w|ziemlich|bastante||
-w|ungefähr|aproximadamente||
-w|wahrscheinlich|probablemente||
-w|vielleicht|quizás||
-w|leider|lamentablemente||
-w|zum Glück|por suerte||
-w|trotzdem|a pesar de eso||
-w|deshalb|por eso||
-w|außerdem|además||
-w|stattdessen|en lugar de eso||
-w|inzwischen|mientras tanto; entretanto||
-w|zwischendurch|entre medias||
-w|vorhin|hace un rato||
-w|neulich|el otro día||
+w|Grüß Gott|buenos días (saludo formal)|Guten Tag|Austria, saludo estándar.|Grüß Gott, Frau Maier, wie geht es Ihnen?|Buenos días, señora Maier, ¿cómo está usted?
+w|Servus|hola; adiós (informal)|Hallo / Tschüss|Austria, coloquial.|Servus, Peter! Lange nicht gesehen!|¡Hola, Peter! ¡Cuánto tiempo sin verte!
+w|Baba|chao|Tschüss|Austria, coloquial.|Baba, bis morgen!|¡Chao, hasta mañana!
+w|Pfiat di|adiós (informal)|Tschüss|Austria/Steiermark, coloquial.|Pfiat di, und komm gut heim!|Adiós, ¡y que llegues bien a casa!
+w|heuer|este año|dieses Jahr|Austria.|Heuer fahren wir im Sommer ans Meer.|Este año nos vamos en verano a la playa.
+w|der Jänner|enero|der Januar (DE)|Austria.|Im Jänner liegt bei uns oft Schnee.|En enero suele haber nieve por aquí.
+w|passt|vale, de acuerdo, perfecto|in Ordnung|Austria, muy frecuente.|Morgen um acht? Passt, bis dann!|¿Mañana a las ocho? Vale, ¡hasta entonces!
+w|na eh|claro, por supuesto|natürlich|Austria, coloquial.|Kommst du auch? – Na eh!|¿Tú también vienes? – ¡Claro!
+w|leiwand|genial, guay|toll, super|Austria (Viena), coloquial.|Das Konzert gestern war echt leiwand.|El concierto de ayer estuvo genial.
+w|ur|súper, muy|sehr|Austria, coloquial juvenil: ur gut.|Der Kuchen ist ur gut!|¡La tarta está súper buena!
+w|a bissl|un poquito|ein bisschen|Austria, coloquial.|Ich bin heute a bissl müde.|Hoy estoy un poquito cansado.
+w|eh|de todas formas, igualmente|sowieso|Austria: Das weiß ich eh.|Ich muss eh in die Stadt, ich bringe dir das mit.|De todas formas tengo que ir a la ciudad, te lo traigo.
+w|fesch|guapo, elegante|hübsch, schick|Austria.|Du siehst heute richtig fesch aus!|¡Hoy estás muy guapo!
+w|gscheit|listo, como es debido|gescheit, klug|Austria, coloquial.|Mach das bitte gscheit, nicht nur schnell.|Hazlo como es debido, por favor, no solo rápido.
+w|sudern|quejarse, refunfuñar|jammern|Austria, coloquial.|Hör auf zu sudern und hilf mir lieber!|¡Deja de quejarte y mejor ayúdame!
+w|raunzen|quejarse|nörgeln|Austria, coloquial.|Die Kinder raunzen schon den ganzen Tag.|Los niños llevan todo el día quejándose.
+w|der Schmäh|la broma, el humor (vienés)|der Witz|Austria.|Er hat einen super Schmäh, man lacht immer mit ihm.|Tiene un humor estupendo, siempre te ríes con él.
+w|die Gaudi|la diversión, el jolgorio|der Spaß|Austria/Baviera.|Auf der Feier hatten wir eine Riesengaudi.|En la fiesta nos lo pasamos en grande.
+w|patschert|torpe|ungeschickt|Austria, coloquial.|Ich bin heute so patschert, mir fällt alles runter.|Hoy estoy tan torpe que se me cae todo.
+w|ang'fressen|mosqueado, harto|verärgert|Austria, coloquial.|Er ist ang'fressen, weil niemand angerufen hat.|Está mosqueado porque nadie ha llamado.
+w|eigentlich|en realidad|||Eigentlich wollte ich heute früher heimgehen.|En realidad quería irme a casa antes hoy.
+w|übrigens|por cierto|||Übrigens, hast du morgen Zeit?|Por cierto, ¿tienes tiempo mañana?
+w|ohnehin|de todas formas|sowieso||Ich fahre ohnehin in die Stadt, ich nehme dich mit.|De todas formas voy a la ciudad, te llevo.
+w|sowieso|de todos modos|||Das weiß ich sowieso schon.|Eso ya lo sé de todos modos.
+w|halt|pues, simplemente (partícula)||Das ist halt so.|Da kann man halt nichts machen.|Ahí, pues, no se puede hacer nada.
+w|eben|precisamente; pues|||Genau, das habe ich eben gemeint.|Exacto, eso es precisamente lo que quería decir.
+w|ziemlich|bastante|||Es ist heute ziemlich kalt.|Hoy hace bastante frío.
+w|ungefähr|aproximadamente|||Der Weg dauert ungefähr zehn Minuten.|El camino dura aproximadamente diez minutos.
+w|wahrscheinlich|probablemente|||Er kommt wahrscheinlich erst am Abend.|Probablemente no llegue hasta la noche.
+w|vielleicht|quizás|||Vielleicht gehen wir am Wochenende wandern.|Quizás vayamos de excursión el fin de semana.
+w|leider|lamentablemente|||Leider habe ich heute keine Zeit.|Lamentablemente hoy no tengo tiempo.
+w|zum Glück|por suerte|||Zum Glück hat es nicht geregnet.|Por suerte no llovió.
+w|trotzdem|a pesar de eso|||Es regnet, aber wir gehen trotzdem spazieren.|Llueve, pero salimos a pasear a pesar de eso.
+w|deshalb|por eso|||Ich bin müde, deshalb gehe ich früh schlafen.|Estoy cansado, por eso me acuesto temprano.
+w|außerdem|además|||Das Hotel ist günstig, und außerdem liegt es im Zentrum.|El hotel es barato y, además, está en el centro.
+w|stattdessen|en lugar de eso|||Das Kino ist zu, wir gehen stattdessen essen.|El cine está cerrado, vamos a comer en lugar de eso.
+w|inzwischen|mientras tanto; entretanto|||Ich koche, und du deckst inzwischen den Tisch.|Yo cocino y tú pones la mesa mientras tanto.
+w|zwischendurch|entre medias|||Zwischendurch mache ich eine kurze Pause.|De vez en cuando hago una pausa corta.
+w|vorhin|hace un rato|||Vorhin hat mich meine Schwester angerufen.|Hace un rato me ha llamado mi hermana.
+w|neulich|el otro día|||Neulich habe ich einen alten Freund getroffen.|El otro día me encontré con un viejo amigo.
 w|demnächst|próximamente||
 w|rechtzeitig|a tiempo||
-w|pünktlich|puntual||
-w|sich verspäten|retrasarse||
-w|die Verspätung|el retraso||
-w|vorhaben|tener previsto, planear||Hast du was vor?
-w|sich kümmern um|ocuparse de||
-w|ausmachen|acordar; apagar||Wir haben 10 Uhr ausgemacht.
+w|pünktlich|puntual|||Bitte komm morgen pünktlich.|Por favor, llega puntual mañana.
+w|sich verspäten|retrasarse|||Der Zug verspätet sich um zehn Minuten.|El tren se retrasa diez minutos.
+w|die Verspätung|el retraso|||Entschuldige die Verspätung, es war viel Verkehr.|Perdona el retraso, había mucho tráfico.
+w|vorhaben|tener previsto, planear||Hast du was vor?|Was hast du am Wochenende vor?|¿Qué tienes previsto para el fin de semana?
+w|sich kümmern um|ocuparse de|||Ich kümmere mich um die Getränke.|Yo me ocupo de las bebidas.
+w|ausmachen|acordar; apagar||Wir haben 10 Uhr ausgemacht.|Wir machen einen Termin für nächste Woche aus.|Acordamos una cita para la semana que viene.
 w|erledigen|hacer, resolver (gestiones)||
-w|die Besorgung|el recado||Besorgungen machen
-w|aufräumen|ordenar||
-w|putzen|limpiar||
-w|waschen|lavar||
-w|bügeln|planchar||
-w|der Müll|la basura|der Mist (Austria)|
-w|der Mistkübel|el cubo de basura|der Mülleimer (DE)|Austria.
-w|der Kübel|el cubo|der Eimer (DE)|Austria.
-w|das Packerl|el paquetito|das Päckchen (DE)|Austria.
-w|das Tixo|la cinta adhesiva|der Tesafilm (DE)|Austria.
-w|der Kasten|el armario|der Schrank (DE)|Austria.
-w|der Sessel|la silla|der Stuhl (DE)|Austria. ¡Ojo! En DE «Sessel» = sillón.
-w|der Polster|el cojín, la almohada|das Kissen (DE)|Austria.
-w|die Stiege|la escalera|die Treppe (DE)|Austria.
-w|das Wetter|el tiempo (meteorológico)||
-w|der Regenschirm|el paraguas||
-w|die Hitze|el calor||
-w|kühl|fresco||
-w|sich erkälten|resfriarse||
-w|sich freuen auf|tener ganas de (algo futuro)||
-w|sich freuen über|alegrarse de (algo)||
-w|sich gewöhnen an|acostumbrarse a||
-w|sich vorstellen|presentarse; imaginarse||
-w|verstehen|entender||
-w|sich irren|equivocarse||
-w|der Unterschied|la diferencia||
-w|die Gelegenheit|la ocasión, la oportunidad||
-w|die Ahnung|la idea, la noción||Keine Ahnung!
-w|die Laune|el humor (estado de ánimo)||gute Laune
-w|müde|cansado||
-w|der Nachbar / die Nachbarin|el/la vecino/a||
-w|die Post|correos; el correo||
-w|das Paket|el paquete||
-w|abholen|recoger||ein Paket abholen
-w|die Abholstation|el punto de recogida||
-w|die Trafik|el estanco (tabaco, prensa, billetes)|der Kiosk|Austria.
-w|der Schlüssel|la llave||
-w|vergessen|olvidar||
+w|die Besorgung|el recado||Besorgungen machen|Ich muss noch ein paar Besorgungen machen.|Todavía tengo que hacer unos recados.
+w|aufräumen|ordenar|||Ich muss noch die Wohnung aufräumen.|Todavía tengo que ordenar el piso.
+w|putzen|limpiar|||Am Samstag putzen wir die ganze Wohnung.|El sábado limpiamos todo el piso.
+w|waschen|lavar|||Ich muss noch die Wäsche waschen.|Todavía tengo que lavar la ropa.
+w|bügeln|planchar|||Ich hasse es, Hemden zu bügeln.|Odio planchar camisas.
+w|der Müll|la basura|der Mist (Austria)||Bring bitte den Müll hinunter.|Baja la basura, por favor.
+w|der Mistkübel|el cubo de basura|der Mülleimer (DE)|Austria.|Der Mistkübel in der Küche ist schon voll.|El cubo de basura de la cocina ya está lleno.
+w|der Kübel|el cubo|der Eimer (DE)|Austria.|Gib das Wasser bitte in den Kübel.|Echa el agua en el cubo, por favor.
+w|das Packerl|el paquetito|das Päckchen (DE)|Austria.|Ich habe ein Packerl für dich bei der Nachbarin abgegeben.|Dejé un paquetito para ti en casa de la vecina.
+w|das Tixo|la cinta adhesiva|der Tesafilm (DE)|Austria.|Hast du ein Tixo? Ich muss das Paket zukleben.|¿Tienes cinta adhesiva? Tengo que cerrar el paquete.
+w|der Kasten|el armario|der Schrank (DE)|Austria.|Die Jacke hängt im Kasten im Vorzimmer.|La chaqueta está en el armario del recibidor.
+w|der Sessel|la silla|der Stuhl (DE)|Austria. ¡Ojo! En DE «Sessel» = sillón.|Nimm dir einen Sessel und setz dich zu uns.|Coge una silla y siéntate con nosotros.
+w|der Polster|el cojín, la almohada|das Kissen (DE)|Austria.|Gibst du mir bitte einen Polster für das Sofa?|¿Me das un cojín para el sofá, por favor?
+w|die Stiege|la escalera|die Treppe (DE)|Austria.|Wir wohnen im dritten Stock, Stiege zwei.|Vivimos en el tercer piso, escalera dos.
+w|das Wetter|el tiempo (meteorológico)|||Wie ist das Wetter bei euch?|¿Qué tiempo hace por ahí?
+w|der Regenschirm|el paraguas|||Nimm einen Regenschirm mit, es regnet bald.|Llévate un paraguas, pronto lloverá.
+w|die Hitze|el calor|||Bei dieser Hitze kann ich nicht schlafen.|Con este calor no puedo dormir.
+w|kühl|fresco|||Am Abend wird es schon kühl.|Por la tarde ya refresca.
+w|sich erkälten|resfriarse|||Zieh dich warm an, sonst erkältest du dich.|Abrígate, si no, te resfriarás.
+w|sich freuen auf|tener ganas de (algo futuro)|||Ich freue mich schon auf den Urlaub.|Ya tengo ganas de las vacaciones.
+w|sich freuen über|alegrarse de (algo)|||Sie hat sich sehr über das Geschenk gefreut.|Se alegró mucho del regalo.
+w|sich gewöhnen an|acostumbrarse a|||Ich muss mich noch an das Klima gewöhnen.|Todavía tengo que acostumbrarme al clima.
+w|sich vorstellen|presentarse; imaginarse|||Darf ich mich vorstellen? Ich heiße Ana.|¿Me permite presentarme? Me llamo Ana.
+w|verstehen|entender|||Entschuldigung, ich habe das nicht verstanden.|Perdona, no he entendido eso.
+w|sich irren|equivocarse|||Ich habe mich geirrt, es war am Dienstag.|Me he equivocado, fue el martes.
+w|der Unterschied|la diferencia|||Was ist der Unterschied zwischen den beiden?|¿Cuál es la diferencia entre los dos?
+w|die Gelegenheit|la ocasión, la oportunidad|||Bei Gelegenheit zeige ich dir meine Fotos.|En cuanto tenga ocasión, te enseñaré mis fotos.
+w|die Ahnung|la idea, la noción||Keine Ahnung!|Ich habe keine Ahnung, wo er wohnt.|No tengo ni idea de dónde vive.
+w|die Laune|el humor (estado de ánimo)||gute Laune|Heute habe ich richtig gute Laune.|Hoy estoy de muy buen humor.
+w|müde|cansado|||Nach der Arbeit bin ich immer müde.|Después del trabajo siempre estoy cansado.
+w|der Nachbar / die Nachbarin|el/la vecino/a|||Unsere Nachbarin gießt die Blumen, wenn wir weg sind.|Nuestra vecina riega las flores cuando no estamos.
+w|die Post|correos; el correo|||Die Post macht um fünf Uhr zu.|Correos cierra a las cinco.
+w|das Paket|el paquete|||Das Paket ist heute angekommen.|El paquete ha llegado hoy.
+w|abholen|recoger||ein Paket abholen|Ich hole dich um acht vom Bahnhof ab.|Te recojo a las ocho en la estación.
+w|die Abholstation|el punto de recogida|||Das Paket liegt in der Abholstation beim Supermarkt.|El paquete está en el punto de recogida junto al supermercado.
+w|die Trafik|el estanco (tabaco, prensa, billetes)|der Kiosk|Austria.|Ich kaufe in der Trafik eine Zeitung.|Voy a comprar el periódico al estanco.
+w|der Schlüssel|la llave|||Wo ist mein Schlüssel?|¿Dónde está mi llave?
+w|vergessen|olvidar|||Ich habe den Termin ganz vergessen.|Se me ha olvidado completamente la cita.
 p|Das passt schon.|Está bien así.||Austria, muy frecuente.
 p|Na eh!|¡Claro que sí!|Natürlich!|Austria, coloquial.
 p|Das weiß ich eh.|Eso ya lo sé.|Das weiß ich sowieso.|Austria.

@@ -1,55 +1,55 @@
 # Familie
-w|die Ehefrau|la esposa||
-w|der Ehemann|el esposo||
-w|das Ehepaar|el matrimonio (pareja)||
-w|der Sohn|el hijo||
-w|die Tochter|la hija||
-w|der Bub|el niño, el chico|der Junge (DE)|Austria.
-w|das Mäderl|la niña|das Mädchen|Austria, coloquial.
-w|die Eltern|los padres||
-w|die Großeltern|los abuelos||
-w|die Oma / der Opa|la abuela / el abuelo||
-w|die Verwandten|los parientes||
-w|verwandt|emparentado||
-w|der Schwager / die Schwägerin|el cuñado / la cuñada||
-w|die Schwiegereltern|los suegros||
-w|der Onkel / die Tante|el tío / la tía||
-w|der Cousin / die Cousine|el primo / la prima||
-w|der Neffe / die Nichte|el sobrino / la sobrina||
-w|das Baby|el bebé||
-w|die Kinderkrippe|la guardería (0–3 años)||Austria.
-w|der Kindergarten|la guardería, el jardín de infancia||
-w|die Kindergartenpädagogin|la educadora infantil||Austria.
-w|die Volksschule|la escuela primaria||Austria (6–10 años).
-w|die Mittelschule|la escuela secundaria||Austria (10–14 años).
-w|das Gymnasium|el instituto de bachillerato||
-w|die Matura|la selectividad / el bachillerato|das Abitur (DE)|Austria.
-w|der Hort|el centro extraescolar||Austria/DE.
-w|die Nachmittagsbetreuung|el cuidado de tarde (después del cole)||Austria.
-w|die Schularbeit|el examen escrito en clase|die Klassenarbeit (DE)|Austria.
-w|die Hausübung|los deberes|die Hausaufgabe (DE)|Austria.
-w|das Zeugnis|las notas, el boletín||
-w|der Elternabend|la reunión de padres||
-w|die Ferien|las vacaciones escolares||
-w|die Semesterferien|las vacaciones de semestre (febrero)||Austria.
-w|die Jause|la merienda; el tentempié||Austria: Jause für die Schule.
-w|die Jausenbox|la fiambrera||Austria.
+w|die Ehefrau|la esposa|||Seine Ehefrau arbeitet als Lehrerin.|Su esposa trabaja de profesora.
+w|der Ehemann|el esposo|||Ihr Ehemann kocht sehr gern.|A su marido le encanta cocinar.
+w|das Ehepaar|el matrimonio (pareja)|||Das Ehepaar wohnt seit dreißig Jahren hier.|El matrimonio vive aquí desde hace treinta años.
+w|der Sohn|el hijo|||Unser Sohn geht schon in die Schule.|Nuestro hijo ya va al colegio.
+w|die Tochter|la hija|||Meine Tochter lernt gerade Klavier.|Mi hija está aprendiendo piano ahora.
+w|der Bub|el niño, el chico|der Junge (DE)|Austria.|Der Bub spielt im Garten Fußball.|El chico juega al fútbol en el jardín.
+w|das Mäderl|la niña|das Mädchen|Austria, coloquial.|Das Mäderl hat sich ein neues Fahrrad gewünscht.|La niña quería una bicicleta nueva.
+w|die Eltern|los padres|||Meine Eltern wohnen in Spanien.|Mis padres viven en España.
+w|die Großeltern|los abuelos|||Am Sonntag besuchen wir die Großeltern.|El domingo visitamos a los abuelos.
+w|die Oma / der Opa|la abuela / el abuelo|||Die Oma backt jedes Wochenende einen Kuchen.|La abuela hace una tarta cada fin de semana.
+w|die Verwandten|los parientes|||Zu Weihnachten kommen alle Verwandten zu uns.|En Navidad vienen a casa todos los parientes.
+w|verwandt|emparentado|||Wir sind nicht miteinander verwandt.|No tenemos parentesco entre nosotros.
+w|der Schwager / die Schwägerin|el cuñado / la cuñada|||Mein Schwager hilft uns bei der Übersiedlung.|Mi cuñado nos ayuda con la mudanza.
+w|die Schwiegereltern|los suegros|||Wir essen heute bei den Schwiegereltern.|Hoy comemos en casa de los suegros.
+w|der Onkel / die Tante|el tío / la tía|||Meine Tante lebt in Salzburg.|Mi tía vive en Salzburgo.
+w|der Cousin / die Cousine|el primo / la prima|||Mein Cousin heiratet im Sommer.|Mi primo se casa en verano.
+w|der Neffe / die Nichte|el sobrino / la sobrina|||Meine Nichte feiert morgen ihren fünften Geburtstag.|Mi sobrina celebra mañana su quinto cumpleaños.
+w|das Baby|el bebé|||Das Baby schläft jetzt endlich.|El bebé por fin se ha dormido.
+w|die Kinderkrippe|la guardería (0–3 años)||Austria.|Unsere Tochter geht seit Herbst in die Kinderkrippe.|Nuestra hija va a la guardería desde otoño.
+w|der Kindergarten|la guardería, el jardín de infancia|||Der Kindergarten beginnt um sieben Uhr.|El jardín de infancia empieza a las siete.
+w|die Kindergartenpädagogin|la educadora infantil||Austria.|Die Kindergartenpädagogin singt viel mit den Kindern.|La educadora infantil canta mucho con los niños.
+w|die Volksschule|la escuela primaria||Austria (6–10 años).|In der Volksschule lernt man lesen und schreiben.|En la escuela primaria se aprende a leer y escribir.
+w|die Mittelschule|la escuela secundaria||Austria (10–14 años).|Nach der Volksschule kommt die Mittelschule.|Después de la primaria viene la secundaria.
+w|das Gymnasium|el instituto de bachillerato|||Er geht ins Gymnasium und will studieren.|Va al instituto y quiere estudiar en la universidad.
+w|die Matura|la selectividad / el bachillerato|das Abitur (DE)|Austria.|Nächstes Jahr hat sie die Matura.|El año que viene tiene el bachillerato.
+w|der Hort|el centro extraescolar||Austria/DE.|Nach der Schule geht er in den Hort.|Después del colegio va al centro extraescolar.
+w|die Nachmittagsbetreuung|el cuidado de tarde (después del cole)||Austria.|Für die Nachmittagsbetreuung muss man sich anmelden.|Para el cuidado de tarde hay que inscribirse.
+w|die Schularbeit|el examen escrito en clase|die Klassenarbeit (DE)|Austria.|Morgen schreiben wir eine Schularbeit in Mathe.|Mañana tenemos un examen de mates en clase.
+w|die Hausübung|los deberes|die Hausaufgabe (DE)|Austria.|Hast du deine Hausübung schon gemacht?|¿Ya has hecho tus deberes?
+w|das Zeugnis|las notas, el boletín|||Im Zeugnis hat er nur gute Noten.|En el boletín solo tiene buenas notas.
+w|der Elternabend|la reunión de padres|||Am Donnerstag ist Elternabend in der Schule.|El jueves hay reunión de padres en el colegio.
+w|die Ferien|las vacaciones escolares|||In den Ferien fahren wir zu den Großeltern.|En las vacaciones vamos a casa de los abuelos.
+w|die Semesterferien|las vacaciones de semestre (febrero)||Austria.|In den Semesterferien gehen wir Ski fahren.|En las vacaciones de semestre vamos a esquiar.
+w|die Jause|la merienda; el tentempié||Austria: Jause für die Schule.|Zur Jause gibt es Brot mit Käse.|Para merendar hay pan con queso.
+w|die Jausenbox|la fiambrera||Austria.|Vergiss deine Jausenbox nicht!|¡No olvides tu fiambrera!
 w|abholen|recoger||das Kind abholen
-w|bringen|llevar||
-w|aufpassen auf|cuidar de, vigilar||
-w|der Babysitter|la niñera||
-w|erziehen|educar||
-w|die Erziehung|la educación (crianza)||
-w|streiten|discutir, pelearse||
-w|sich versöhnen|reconciliarse||
-w|der Geburtstag|el cumpleaños||
-w|die Hochzeit|la boda||
-w|der Hochzeitstag|el aniversario de boda||
-w|feiern|celebrar||
-w|das Geschenk|el regalo||
-w|die Taufe|el bautizo||
-w|zu Besuch|de visita||
-w|vorbeikommen|pasar (por casa)||
+w|bringen|llevar|||Ich bringe die Kinder um acht in die Schule.|Llevo a los niños al colegio a las ocho.
+w|aufpassen auf|cuidar de, vigilar|||Kannst du kurz auf den Kleinen aufpassen?|¿Puedes cuidar un momento del pequeño?
+w|der Babysitter|la niñera|||Heute Abend kommt der Babysitter.|Esta noche viene la niñera.
+w|erziehen|educar|||Es ist nicht leicht, Kinder zu erziehen.|No es fácil educar a los niños.
+w|die Erziehung|la educación (crianza)|||Eine gute Erziehung ist uns wichtig.|Una buena educación es importante para nosotros.
+w|streiten|discutir, pelearse|||Die Geschwister streiten sich oft.|Los hermanos se pelean a menudo.
+w|sich versöhnen|reconciliarse|||Nach dem Streit haben sie sich schnell versöhnt.|Después de la discusión se reconciliaron enseguida.
+w|der Geburtstag|el cumpleaños|||Morgen habe ich Geburtstag.|Mañana es mi cumpleaños.
+w|die Hochzeit|la boda|||Die Hochzeit findet im September statt.|La boda es en septiembre.
+w|der Hochzeitstag|el aniversario de boda|||Heute ist unser zehnter Hochzeitstag.|Hoy es nuestro décimo aniversario de boda.
+w|feiern|celebrar|||Wir feiern am Samstag im Garten.|El sábado celebramos en el jardín.
+w|das Geschenk|el regalo|||Ich muss noch ein Geschenk für Oma kaufen.|Todavía tengo que comprar un regalo para la abuela.
+w|die Taufe|el bautizo|||Die Taufe findet in der kleinen Kirche statt.|El bautizo es en la iglesia pequeña.
+w|zu Besuch|de visita|||Meine Eltern sind diese Woche zu Besuch.|Mis padres están de visita esta semana.
+w|vorbeikommen|pasar (por casa)|||Komm doch morgen auf einen Kaffee vorbei!|¡Pásate mañana a tomar un café!
 p|Meine Frau ist leider noch krank.|Lamentablemente mi mujer sigue enferma.||
 p|Ich muss mich um unseren Sohn kümmern.|Tengo que ocuparme de nuestro hijo.||
 p|Ich hole den Kleinen vom Kindergarten ab.|Recojo al pequeño de la guardería.||
