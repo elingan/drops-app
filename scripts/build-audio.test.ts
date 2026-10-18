@@ -88,6 +88,17 @@ describe('planning', () => {
 		expect(planJobs(ROWS as never, { type: 'phrase' })).toHaveLength(2);
 	});
 
+	it('restricts the plan to one category, by name and type', () => {
+		const rows = [
+			{ type: 'word', german: 'a', translation: 'x', category: 'Restaurant' },
+			{ type: 'phrase', german: 'Zahlen, bitte!', translation: 'y', category: 'Restaurant' },
+			{ type: 'word', german: 'b', translation: 'z', category: 'Verkehr' }
+		];
+		expect(planJobs(rows as never, { category: 'restaurant' }).map((j) => j.text)).toEqual(['a', 'x', 'Zahlen, bitte!', 'y']);
+		expect(planJobs(rows as never, { category: 'Restaurant', type: 'word' }).map((j) => j.text)).toEqual(['a', 'x']);
+		expect(planJobs(rows as never, { category: 'Nope' })).toEqual([]);
+	});
+
 	it('samples evenly and de-duplicates identical texts', () => {
 		expect(sample([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5)).toEqual([2, 4, 6, 8, 10]);
 		const dup = [
@@ -219,7 +230,7 @@ describe('run', () => {
 
 describe('cli', () => {
 	it('parses options and reads configuration from the environment', () => {
-		expect(parseArgs(['--limit', '8', '--type', 'word'])).toEqual({ all: false, dryRun: false, limit: 8, type: 'word' });
+		expect(parseArgs(['--limit', '8', '--type', 'word', '--category', 'Restaurant'])).toEqual({ all: false, dryRun: false, limit: 8, type: 'word', category: 'Restaurant' });
 		expect(() => parseArgs(['--limit', 'x'])).toThrow();
 		expect(() => parseArgs(['--nope'])).toThrow('Unknown option');
 		const cfg = configFromEnv({ ELEVENLABS_API_KEY: ' k ', ELEVENLABS_VOICE_ES: 'Sarah' });

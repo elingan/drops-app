@@ -2681,7 +2681,8 @@
 		"category": "Finanzen",
 		"translation": "pagar",
 		"example": "Ich bezahle die Rechnung heute noch.",
-		"exampleTranslation": "Pago la factura hoy mismo."
+		"exampleTranslation": "Pago la factura hoy mismo.",
+		"translationAudioUrl": "/audio/9ef5ac9aec9f20a54d72.mp3"
 	},
 	{
 		"type": "word",
@@ -6777,7 +6778,10 @@
 		"translation": "el restaurante tradicional, la fonda",
 		"context": "Austria.",
 		"example": "Im Gasthaus am Dorfplatz gibt es gutes Essen.",
-		"exampleTranslation": "En el restaurante de la plaza del pueblo se come bien."
+		"exampleTranslation": "En el restaurante de la plaza del pueblo se come bien.",
+		"audioUrl": "/audio/c36b0b56c477a78531e5.mp3",
+		"translationAudioUrl": "/audio/250006c2f08e086c0501.mp3",
+		"exampleAudioUrl": "/audio/e2b05334765e7af48f1f.mp3"
 	},
 	{
 		"type": "word",
@@ -6787,7 +6791,10 @@
 		"alt": "die Kneipe (DE)",
 		"context": "Austria (Viena).",
 		"example": "Nach der Arbeit gehen wir oft in ein Beisl.",
-		"exampleTranslation": "Después del trabajo solemos ir a un bar-restaurante."
+		"exampleTranslation": "Después del trabajo solemos ir a un bar-restaurante.",
+		"audioUrl": "/audio/c141ebd59febd07e3da3.mp3",
+		"translationAudioUrl": "/audio/2d6829994808ab349c00.mp3",
+		"exampleAudioUrl": "/audio/e42a291d32f387143124.mp3"
 	},
 	{
 		"type": "word",
@@ -6796,7 +6803,10 @@
 		"translation": "la taberna de vino nuevo",
 		"context": "Austria: vino de la cosecha del año.",
 		"example": "Am Wochenende gehen wir zum Heurigen.",
-		"exampleTranslation": "El fin de semana vamos a una taberna de vino nuevo."
+		"exampleTranslation": "El fin de semana vamos a una taberna de vino nuevo.",
+		"audioUrl": "/audio/b914b126bb9dcd4d9984.mp3",
+		"translationAudioUrl": "/audio/d2e1a92c19356f611f4c.mp3",
+		"exampleAudioUrl": "/audio/6a90f3d88f0f06817c55.mp3"
 	},
 	{
 		"type": "word",
@@ -6805,7 +6815,10 @@
 		"translation": "la taberna de viñedo",
 		"context": "Austria/Steiermark, típico.",
 		"example": "Die Buschenschank hat nur im Sommer offen.",
-		"exampleTranslation": "La taberna de viñedo solo abre en verano."
+		"exampleTranslation": "La taberna de viñedo solo abre en verano.",
+		"audioUrl": "/audio/c7d3c86f96b5abe4965c.mp3",
+		"translationAudioUrl": "/audio/7365210385b0cdf01834.mp3",
+		"exampleAudioUrl": "/audio/35730e14e71b59f492fb.mp3"
 	},
 	{
 		"type": "word",
@@ -6814,7 +6827,10 @@
 		"translation": "el café tradicional",
 		"context": "Austria.",
 		"example": "Im Kaffeehaus kann man stundenlang Zeitung lesen.",
-		"exampleTranslation": "En el café tradicional se puede leer el periódico durante horas."
+		"exampleTranslation": "En el café tradicional se puede leer el periódico durante horas.",
+		"audioUrl": "/audio/1940e1374d4922c06a5e.mp3",
+		"translationAudioUrl": "/audio/cb7477dcb1acd73b8e8f.mp3",
+		"exampleAudioUrl": "/audio/4647113db6c7e166c73f.mp3"
 	},
 	{
 		"type": "word",
@@ -6822,7 +6838,10 @@
 		"category": "Restaurant",
 		"translation": "la carta",
 		"example": "Können wir bitte die Speisekarte haben?",
-		"exampleTranslation": "¿Nos puede traer la carta, por favor?"
+		"exampleTranslation": "¿Nos puede traer la carta, por favor?",
+		"audioUrl": "/audio/34d09adf19c39a44fdb8.mp3",
+		"translationAudioUrl": "/audio/460a06026d99d3f0cb6a.mp3",
+		"exampleAudioUrl": "/audio/6a59f064c5f9aeeee868.mp3"
 	},
 	{
 		"type": "word",
@@ -6830,7 +6849,10 @@
 		"category": "Restaurant",
 		"translation": "el menú del día",
 		"example": "Das Mittagsmenü kostet nur neun Euro.",
-		"exampleTranslation": "El menú del día cuesta solo nueve euros."
+		"exampleTranslation": "El menú del día cuesta solo nueve euros.",
+		"audioUrl": "/audio/a3b4eeffe66c6c126e70.mp3",
+		"translationAudioUrl": "/audio/f370b775d0af4d4080de.mp3",
+		"exampleAudioUrl": "/audio/af4cfabc9dacc0f3db31.mp3"
 	},
 	{
 		"type": "word",
@@ -6838,7 +6860,10 @@
 		"category": "Restaurant",
 		"translation": "el entrante",
 		"example": "Als Vorspeise nehme ich eine Suppe.",
-		"exampleTranslation": "De entrante tomo una sopa."
+		"exampleTranslation": "De entrante tomo una sopa.",
+		"audioUrl": "/audio/9ba0a4c5d762c9e341ed.mp3",
+		"translationAudioUrl": "/audio/8df8efbead1604953ac9.mp3",
+		"exampleAudioUrl": "/audio/e363a1dabb3b38be09b5.mp3"
 	},
 	{
 		"type": "word",
@@ -6848,7 +6873,10 @@
 		"alt": "das Hauptgericht (DE)",
 		"context": "Austria.",
 		"example": "Als Hauptspeise empfehle ich den Fisch.",
-		"exampleTranslation": "De plato principal les recomiendo el pescado."
+		"exampleTranslation": "De plato principal les recomiendo el pescado.",
+		"audioUrl": "/audio/04691bd81363ae34cbba.mp3",
+		"translationAudioUrl": "/audio/8a826b18df897e87de53.mp3",
+		"exampleAudioUrl": "/audio/f3b28f4dc2e4b265a020.mp3"
 	},
 	{
 		"type": "word",
@@ -6858,7 +6886,10 @@
 		"alt": "der Nachtisch (DE)",
 		"context": "Austria.",
 		"example": "Als Nachspeise gibt es einen Apfelstrudel.",
-		"exampleTranslation": "De postre hay un strudel de manzana."
+		"exampleTranslation": "De postre hay un strudel de manzana.",
+		"audioUrl": "/audio/fbc654e8593a03085f0b.mp3",
+		"translationAudioUrl": "/audio/0caa2b73a8279dac4b48.mp3",
+		"exampleAudioUrl": "/audio/a0aae58fb9095f822172.mp3"
 	},
 	{
 		"type": "word",
@@ -6867,7 +6898,10 @@
 		"translation": "el dulce, el pastel",
 		"context": "Austria.",
 		"example": "Meine Lieblingsmehlspeise ist der Kaiserschmarrn.",
-		"exampleTranslation": "Mi dulce favorito es el Kaiserschmarrn."
+		"exampleTranslation": "Mi dulce favorito es el Kaiserschmarrn.",
+		"audioUrl": "/audio/a260226bb8521dfc88d3.mp3",
+		"translationAudioUrl": "/audio/70db8ff14acd82cc258b.mp3",
+		"exampleAudioUrl": "/audio/131e2379e85d1e1d82ec.mp3"
 	},
 	{
 		"type": "word",
@@ -6876,7 +6910,10 @@
 		"translation": "el/la camarero/a",
 		"context": "Austria también: Herr Ober.",
 		"example": "Die Kellnerin bringt gleich die Getränke.",
-		"exampleTranslation": "La camarera trae enseguida las bebidas."
+		"exampleTranslation": "La camarera trae enseguida las bebidas.",
+		"audioUrl": "/audio/b914ee04a7019fee3ff6.mp3",
+		"translationAudioUrl": "/audio/23d78b33f5391ff9e8b4.mp3",
+		"exampleAudioUrl": "/audio/221b14f9f806b59e5d05.mp3"
 	},
 	{
 		"type": "word",
@@ -6884,7 +6921,10 @@
 		"category": "Restaurant",
 		"translation": "reservar",
 		"example": "Ich habe einen Tisch für vier Personen reserviert.",
-		"exampleTranslation": "He reservado una mesa para cuatro personas."
+		"exampleTranslation": "He reservado una mesa para cuatro personas.",
+		"audioUrl": "/audio/c709e133933f244f3ead.mp3",
+		"translationAudioUrl": "/audio/25a0ee86bb9137b1dd8c.mp3",
+		"exampleAudioUrl": "/audio/b75bc17ec0ce0adfb381.mp3"
 	},
 	{
 		"type": "word",
@@ -6893,7 +6933,10 @@
 		"translation": "la propina",
 		"context": "Austria: se redondea (5–10 %).",
 		"example": "In Österreich gibt man etwa zehn Prozent Trinkgeld.",
-		"exampleTranslation": "En Austria se da una propina de alrededor del diez por ciento."
+		"exampleTranslation": "En Austria se da una propina de alrededor del diez por ciento.",
+		"audioUrl": "/audio/a35ec4ef9fbadff70c22.mp3",
+		"translationAudioUrl": "/audio/4436ceb6c367157d42ab.mp3",
+		"exampleAudioUrl": "/audio/b16c2a1867c2d8b3a7dc.mp3"
 	},
 	{
 		"type": "word",
@@ -6902,7 +6945,10 @@
 		"translation": "pagar",
 		"context": "Zahlen, bitte!",
 		"example": "Zahlen, bitte!",
-		"exampleTranslation": "¡La cuenta, por favor!"
+		"exampleTranslation": "¡La cuenta, por favor!",
+		"audioUrl": "/audio/05a866ecc014958e131e.mp3",
+		"translationAudioUrl": "/audio/9ef5ac9aec9f20a54d72.mp3",
+		"exampleAudioUrl": "/audio/183cd4ecb55e48d3d10d.mp3"
 	},
 	{
 		"type": "word",
@@ -6911,7 +6957,10 @@
 		"translation": "por separado",
 		"context": "getrennt zahlen",
 		"example": "Wir zahlen getrennt, bitte.",
-		"exampleTranslation": "Pagamos por separado, por favor."
+		"exampleTranslation": "Pagamos por separado, por favor.",
+		"audioUrl": "/audio/642ad1bab52239a99fad.mp3",
+		"translationAudioUrl": "/audio/750d9d54ec039eddb29c.mp3",
+		"exampleAudioUrl": "/audio/c7be9deb4f9fc1630c80.mp3"
 	},
 	{
 		"type": "word",
@@ -6919,7 +6968,10 @@
 		"category": "Restaurant",
 		"translation": "junto",
 		"example": "Zahlen Sie zusammen oder getrennt?",
-		"exampleTranslation": "¿Pagan juntos o por separado?"
+		"exampleTranslation": "¿Pagan juntos o por separado?",
+		"audioUrl": "/audio/5309d3bf319a6c1fc1f5.mp3",
+		"translationAudioUrl": "/audio/04b9b84a752fcd5b8ce1.mp3",
+		"exampleAudioUrl": "/audio/b2d72f376ded88151938.mp3"
 	},
 	{
 		"type": "word",
@@ -6929,7 +6981,10 @@
 		"alt": "die Weinschorle (DE)",
 		"context": "Austria.",
 		"example": "Ich nehme einen Gespritzten, bitte.",
-		"exampleTranslation": "Tomaré un vino con agua con gas, por favor."
+		"exampleTranslation": "Tomaré un vino con agua con gas, por favor.",
+		"audioUrl": "/audio/c1c8871abc385c6a3056.mp3",
+		"translationAudioUrl": "/audio/dffed43b8b9446ab66a7.mp3",
+		"exampleAudioUrl": "/audio/daf6e283b1ba314fef3c.mp3"
 	},
 	{
 		"type": "word",
@@ -6938,7 +6993,10 @@
 		"translation": "refresco de hierbas",
 		"context": "Austria, típico.",
 		"example": "Die Kinder trinken einen Almdudler.",
-		"exampleTranslation": "Los niños beben un Almdudler."
+		"exampleTranslation": "Los niños beben un Almdudler.",
+		"audioUrl": "/audio/6da1961f4f5df4a77269.mp3",
+		"translationAudioUrl": "/audio/d2e3a5be72c6970237ce.mp3",
+		"exampleAudioUrl": "/audio/0837c83ad0d9dc6741ff.mp3"
 	},
 	{
 		"type": "word",
@@ -6947,7 +7005,10 @@
 		"translation": "la jarra de cerveza (0,5 l)",
 		"context": "Austria.",
 		"example": "Ein Krügerl Bier, bitte!",
-		"exampleTranslation": "¡Una jarra de cerveza, por favor!"
+		"exampleTranslation": "¡Una jarra de cerveza, por favor!",
+		"audioUrl": "/audio/f71e613c924cbb23c6b8.mp3",
+		"translationAudioUrl": "/audio/1c20452ef412b8b8e072.mp3",
+		"exampleAudioUrl": "/audio/073c4851b779c1ff997f.mp3"
 	},
 	{
 		"type": "word",
@@ -6956,7 +7017,10 @@
 		"translation": "la caña de cerveza (0,3 l)",
 		"context": "Austria.",
 		"example": "Nach der Wanderung trinke ich ein Seidl.",
-		"exampleTranslation": "Después de la excursión me tomo una caña."
+		"exampleTranslation": "Después de la excursión me tomo una caña.",
+		"audioUrl": "/audio/0de4ecc2b2b6a0cae23f.mp3",
+		"translationAudioUrl": "/audio/339599930d748b40019b.mp3",
+		"exampleAudioUrl": "/audio/15c817d9a62d90d3f58b.mp3"
 	},
 	{
 		"type": "word",
@@ -6965,7 +7029,10 @@
 		"translation": "café americano",
 		"context": "Austria: espresso alargado.",
 		"example": "Einen Verlängerten und ein Glas Wasser, bitte.",
-		"exampleTranslation": "Un café americano y un vaso de agua, por favor."
+		"exampleTranslation": "Un café americano y un vaso de agua, por favor.",
+		"audioUrl": "/audio/8b3d5a354721a1cf5812.mp3",
+		"translationAudioUrl": "/audio/dc87ed1c0121b3ccc2cb.mp3",
+		"exampleAudioUrl": "/audio/56bc9d1e44e14ad7edfc.mp3"
 	},
 	{
 		"type": "word",
@@ -6974,7 +7041,10 @@
 		"translation": "café con leche espumosa",
 		"context": "Austria.",
 		"example": "Zum Frühstück trinke ich immer eine Melange.",
-		"exampleTranslation": "En el desayuno siempre tomo una Melange."
+		"exampleTranslation": "En el desayuno siempre tomo una Melange.",
+		"audioUrl": "/audio/fffb4a3e4554930a9601.mp3",
+		"translationAudioUrl": "/audio/07224019e29a92dd9251.mp3",
+		"exampleAudioUrl": "/audio/02e739f66b51c02fc19b.mp3"
 	},
 	{
 		"type": "word",
@@ -6984,7 +7054,10 @@
 		"alt": "der Becher (DE)",
 		"context": "Austria.",
 		"example": "Das Häferl Tee wärmt schön die Hände.",
-		"exampleTranslation": "La taza grande de té calienta bien las manos."
+		"exampleTranslation": "La taza grande de té calienta bien las manos.",
+		"audioUrl": "/audio/d77419972c1de66ce93e.mp3",
+		"translationAudioUrl": "/audio/cfc1ff3fa4175067c7a6.mp3",
+		"exampleAudioUrl": "/audio/f24ab2b729baea98cfb1.mp3"
 	},
 	{
 		"type": "word",
@@ -6992,7 +7065,10 @@
 		"category": "Restaurant",
 		"translation": "el escalope vienés",
 		"example": "Das Wiener Schnitzel ist hier besonders groß.",
-		"exampleTranslation": "El escalope vienés aquí es especialmente grande."
+		"exampleTranslation": "El escalope vienés aquí es especialmente grande.",
+		"audioUrl": "/audio/e18aded862093d0c96b2.mp3",
+		"translationAudioUrl": "/audio/db89267e84d34f7d9c7e.mp3",
+		"exampleAudioUrl": "/audio/e5770e143de479ad7109.mp3"
 	},
 	{
 		"type": "word",
@@ -7001,7 +7077,10 @@
 		"translation": "el pollo empanado",
 		"context": "Austria.",
 		"example": "Zu Mittag gab es Backhendl mit Erdäpfelsalat.",
-		"exampleTranslation": "A mediodía hubo pollo empanado con ensalada de patata."
+		"exampleTranslation": "A mediodía hubo pollo empanado con ensalada de patata.",
+		"audioUrl": "/audio/a2d4b5bb9257fba8b990.mp3",
+		"translationAudioUrl": "/audio/bbc357badca8a73d9d32.mp3",
+		"exampleAudioUrl": "/audio/e76b630971b95cbc2149.mp3"
 	},
 	{
 		"type": "word",
@@ -7010,7 +7089,10 @@
 		"translation": "la carne de ternera hervida",
 		"context": "Austria.",
 		"example": "Der Tafelspitz kommt mit Kren und Rösti.",
-		"exampleTranslation": "El tafelspitz viene con rábano picante y rösti."
+		"exampleTranslation": "El tafelspitz viene con rábano picante y rösti.",
+		"audioUrl": "/audio/d36e0a87ad3d8ac1f66f.mp3",
+		"translationAudioUrl": "/audio/f7520f7a0458895b3d6c.mp3",
+		"exampleAudioUrl": "/audio/99c236efc01af2f28bd2.mp3"
 	},
 	{
 		"type": "word",
@@ -7020,7 +7102,10 @@
 		"alt": "der Pfannkuchen (DE)",
 		"context": "Austria.",
 		"example": "Meine Mutter macht Palatschinken mit Marmelade.",
-		"exampleTranslation": "Mi madre hace crepes con mermelada."
+		"exampleTranslation": "Mi madre hace crepes con mermelada.",
+		"audioUrl": "/audio/6f1e20e6c570c456ade2.mp3",
+		"translationAudioUrl": "/audio/48eb54daef3212a7a10b.mp3",
+		"exampleAudioUrl": "/audio/d67b5085b1b1e5573f8c.mp3"
 	},
 	{
 		"type": "word",
@@ -7029,7 +7114,10 @@
 		"translation": "tortilla dulce troceada",
 		"context": "Austria.",
 		"example": "Zum Kaiserschmarrn gibt es Zwetschkenröster.",
-		"exampleTranslation": "El Kaiserschmarrn se sirve con compota de ciruelas."
+		"exampleTranslation": "El Kaiserschmarrn se sirve con compota de ciruelas.",
+		"audioUrl": "/audio/9b323c52f62aafe6a538.mp3",
+		"translationAudioUrl": "/audio/149469668c3836fbff62.mp3",
+		"exampleAudioUrl": "/audio/7858d5628e6a42ce6332.mp3"
 	},
 	{
 		"type": "word",
@@ -7037,7 +7125,10 @@
 		"category": "Restaurant",
 		"translation": "el strudel",
 		"example": "Der Apfelstrudel ist noch warm.",
-		"exampleTranslation": "El strudel de manzana todavía está caliente."
+		"exampleTranslation": "El strudel de manzana todavía está caliente.",
+		"audioUrl": "/audio/0c6ad45624628cf27d04.mp3",
+		"translationAudioUrl": "/audio/acb017e92047a989f864.mp3",
+		"exampleAudioUrl": "/audio/7fe9a9fc21716cba806c.mp3"
 	},
 	{
 		"type": "word",
@@ -7046,7 +7137,10 @@
 		"translation": "plato de harina (polenta)",
 		"context": "Austria/Steiermark.",
 		"example": "In der Steiermark isst man gern Sterz.",
-		"exampleTranslation": "En Estiria se come mucho el sterz."
+		"exampleTranslation": "En Estiria se come mucho el sterz.",
+		"audioUrl": "/audio/622a328d63aa30bd2090.mp3",
+		"translationAudioUrl": "/audio/a61e9436f294b8d11a3b.mp3",
+		"exampleAudioUrl": "/audio/52e1d46aef925348cd1e.mp3"
 	},
 	{
 		"type": "word",
@@ -7054,7 +7148,10 @@
 		"category": "Restaurant",
 		"translation": "el agua del grifo",
 		"example": "Leitungswasser ist in Wien sehr gut.",
-		"exampleTranslation": "El agua del grifo en Viena es muy buena."
+		"exampleTranslation": "El agua del grifo en Viena es muy buena.",
+		"audioUrl": "/audio/1bfff6386e2c531f586f.mp3",
+		"translationAudioUrl": "/audio/a07c21ad1c4b2a23219d.mp3",
+		"exampleAudioUrl": "/audio/8e3dead60d9c9ded348e.mp3"
 	},
 	{
 		"type": "word",
@@ -7062,7 +7159,10 @@
 		"category": "Restaurant",
 		"translation": "vegetariano",
 		"example": "Gibt es auch ein vegetarisches Gericht?",
-		"exampleTranslation": "¿Hay también un plato vegetariano?"
+		"exampleTranslation": "¿Hay también un plato vegetariano?",
+		"audioUrl": "/audio/028e18d66bf7e8cdbadf.mp3",
+		"translationAudioUrl": "/audio/e6b031a695040272132e.mp3",
+		"exampleAudioUrl": "/audio/b270b9e15fb3bd6af1dd.mp3"
 	},
 	{
 		"type": "word",
@@ -7070,7 +7170,10 @@
 		"category": "Restaurant",
 		"translation": "picante",
 		"example": "Die Suppe ist mir zu scharf.",
-		"exampleTranslation": "La sopa me resulta demasiado picante."
+		"exampleTranslation": "La sopa me resulta demasiado picante.",
+		"audioUrl": "/audio/612e36f74ae048404dff.mp3",
+		"translationAudioUrl": "/audio/0e9edff93dc94228a7aa.mp3",
+		"exampleAudioUrl": "/audio/bcb5cf0f09e91b036ce2.mp3"
 	},
 	{
 		"type": "word",
@@ -7080,7 +7183,10 @@
 		"alt": "lecker",
 		"context": "Austria, coloquial.",
 		"example": "Der Braten war richtig g'schmackig.",
-		"exampleTranslation": "El asado estaba realmente sabroso."
+		"exampleTranslation": "El asado estaba realmente sabroso.",
+		"audioUrl": "/audio/af86f2b0904258854822.mp3",
+		"translationAudioUrl": "/audio/574b2a388aa429ed46d9.mp3",
+		"exampleAudioUrl": "/audio/619333026c34232fbf71.mp3"
 	},
 	{
 		"type": "word",
@@ -7088,7 +7194,10 @@
 		"category": "Restaurant",
 		"translation": "lleno (de comida)",
 		"example": "Danke, ich bin schon satt.",
-		"exampleTranslation": "Gracias, ya estoy lleno."
+		"exampleTranslation": "Gracias, ya estoy lleno.",
+		"audioUrl": "/audio/c72281cd1b76830dd0b0.mp3",
+		"translationAudioUrl": "/audio/04f3530728f128c7953b.mp3",
+		"exampleAudioUrl": "/audio/28115fc51fb432b45e77.mp3"
 	},
 	{
 		"type": "word",
@@ -7096,7 +7205,10 @@
 		"category": "Restaurant",
 		"translation": "la mesa de los habituales",
 		"example": "Am Freitag treffen wir uns am Stammtisch.",
-		"exampleTranslation": "El viernes quedamos en la mesa de los habituales."
+		"exampleTranslation": "El viernes quedamos en la mesa de los habituales.",
+		"audioUrl": "/audio/08c79b62f4247b437395.mp3",
+		"translationAudioUrl": "/audio/89ca90b65ec5856e824d.mp3",
+		"exampleAudioUrl": "/audio/ff3dcd121fee7351d25c.mp3"
 	},
 	{
 		"type": "word",
@@ -7104,7 +7216,10 @@
 		"category": "Restaurant",
 		"translation": "la comida (del mediodía)",
 		"example": "Das Mittagessen ist um halb eins.",
-		"exampleTranslation": "La comida es a las doce y media."
+		"exampleTranslation": "La comida es a las doce y media.",
+		"audioUrl": "/audio/3eb337d1cfaa830c3f1d.mp3",
+		"translationAudioUrl": "/audio/0c8d3574fe04d55e5729.mp3",
+		"exampleAudioUrl": "/audio/a76e599ede886c4e5b69.mp3"
 	},
 	{
 		"type": "word",
@@ -7112,7 +7227,10 @@
 		"category": "Restaurant",
 		"translation": "la cena",
 		"example": "Das Abendessen bereite ich schon vor.",
-		"exampleTranslation": "Ya voy preparando la cena."
+		"exampleTranslation": "Ya voy preparando la cena.",
+		"audioUrl": "/audio/78d51c4882ac0f910ea5.mp3",
+		"translationAudioUrl": "/audio/07c23b8b6d3d29d80e36.mp3",
+		"exampleAudioUrl": "/audio/a1adb467c2ddfa8867b1.mp3"
 	},
 	{
 		"type": "word",
@@ -7120,7 +7238,10 @@
 		"category": "Restaurant",
 		"translation": "el desayuno",
 		"example": "Das Frühstück ist im Hotel inklusive.",
-		"exampleTranslation": "El desayuno está incluido en el hotel."
+		"exampleTranslation": "El desayuno está incluido en el hotel.",
+		"audioUrl": "/audio/335ea556bdc229c527dd.mp3",
+		"translationAudioUrl": "/audio/57aad5f96ef84c982edc.mp3",
+		"exampleAudioUrl": "/audio/e55eaef92a7a7789b4d2.mp3"
 	},
 	{
 		"type": "phrase",
@@ -7133,7 +7254,8 @@
 		"german": "Zahlen, bitte!",
 		"category": "Restaurant",
 		"translation": "¡La cuenta, por favor!",
-		"context": "Austria, muy habitual."
+		"context": "Austria, muy habitual.",
+		"audioUrl": "/audio/183cd4ecb55e48d3d10d.mp3"
 	},
 	{
 		"type": "phrase",

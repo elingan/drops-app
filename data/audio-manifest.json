@@ -1,4 +1,276 @@
 {
+	"bezahlen": {
+		"translation": {
+			"text": "pagar",
+			"url": "/audio/9ef5ac9aec9f20a54d72.mp3"
+		}
+	},
+	"das abendessen": {
+		"audio": {
+			"text": "das Abendessen",
+			"url": "/audio/78d51c4882ac0f910ea5.mp3"
+		},
+		"translation": {
+			"text": "la cena",
+			"url": "/audio/07c23b8b6d3d29d80e36.mp3"
+		},
+		"example": {
+			"text": "Das Abendessen bereite ich schon vor.",
+			"url": "/audio/a1adb467c2ddfa8867b1.mp3"
+		}
+	},
+	"das backhendl": {
+		"audio": {
+			"text": "das Backhendl",
+			"url": "/audio/a2d4b5bb9257fba8b990.mp3"
+		},
+		"translation": {
+			"text": "el pollo empanado",
+			"url": "/audio/bbc357badca8a73d9d32.mp3"
+		},
+		"example": {
+			"text": "Zu Mittag gab es Backhendl mit Erdäpfelsalat.",
+			"url": "/audio/e76b630971b95cbc2149.mp3"
+		}
+	},
+	"das beisl": {
+		"audio": {
+			"text": "das Beisl",
+			"url": "/audio/c141ebd59febd07e3da3.mp3"
+		},
+		"translation": {
+			"text": "el bar-restaurante sencillo",
+			"url": "/audio/2d6829994808ab349c00.mp3"
+		},
+		"example": {
+			"text": "Nach der Arbeit gehen wir oft in ein Beisl.",
+			"url": "/audio/e42a291d32f387143124.mp3"
+		}
+	},
+	"das frühstück": {
+		"audio": {
+			"text": "das Frühstück",
+			"url": "/audio/335ea556bdc229c527dd.mp3"
+		},
+		"translation": {
+			"text": "el desayuno",
+			"url": "/audio/57aad5f96ef84c982edc.mp3"
+		},
+		"example": {
+			"text": "Das Frühstück ist im Hotel inklusive.",
+			"url": "/audio/e55eaef92a7a7789b4d2.mp3"
+		}
+	},
+	"das gasthaus": {
+		"audio": {
+			"text": "das Gasthaus",
+			"url": "/audio/c36b0b56c477a78531e5.mp3"
+		},
+		"translation": {
+			"text": "el restaurante tradicional, la fonda",
+			"url": "/audio/250006c2f08e086c0501.mp3"
+		},
+		"example": {
+			"text": "Im Gasthaus am Dorfplatz gibt es gutes Essen.",
+			"url": "/audio/e2b05334765e7af48f1f.mp3"
+		}
+	},
+	"das häferl": {
+		"audio": {
+			"text": "das Häferl",
+			"url": "/audio/d77419972c1de66ce93e.mp3"
+		},
+		"translation": {
+			"text": "la taza grande",
+			"url": "/audio/cfc1ff3fa4175067c7a6.mp3"
+		},
+		"example": {
+			"text": "Das Häferl Tee wärmt schön die Hände.",
+			"url": "/audio/f24ab2b729baea98cfb1.mp3"
+		}
+	},
+	"das kaffeehaus": {
+		"audio": {
+			"text": "das Kaffeehaus",
+			"url": "/audio/1940e1374d4922c06a5e.mp3"
+		},
+		"translation": {
+			"text": "el café tradicional",
+			"url": "/audio/cb7477dcb1acd73b8e8f.mp3"
+		},
+		"example": {
+			"text": "Im Kaffeehaus kann man stundenlang Zeitung lesen.",
+			"url": "/audio/4647113db6c7e166c73f.mp3"
+		}
+	},
+	"das krügerl": {
+		"audio": {
+			"text": "das Krügerl",
+			"url": "/audio/f71e613c924cbb23c6b8.mp3"
+		},
+		"translation": {
+			"text": "la jarra de cerveza",
+			"url": "/audio/1c20452ef412b8b8e072.mp3"
+		},
+		"example": {
+			"text": "Ein Krügerl Bier, bitte!",
+			"url": "/audio/073c4851b779c1ff997f.mp3"
+		}
+	},
+	"das leitungswasser": {
+		"audio": {
+			"text": "das Leitungswasser",
+			"url": "/audio/1bfff6386e2c531f586f.mp3"
+		},
+		"translation": {
+			"text": "el agua del grifo",
+			"url": "/audio/a07c21ad1c4b2a23219d.mp3"
+		},
+		"example": {
+			"text": "Leitungswasser ist in Wien sehr gut.",
+			"url": "/audio/8e3dead60d9c9ded348e.mp3"
+		}
+	},
+	"das mittagessen": {
+		"audio": {
+			"text": "das Mittagessen",
+			"url": "/audio/3eb337d1cfaa830c3f1d.mp3"
+		},
+		"translation": {
+			"text": "la comida",
+			"url": "/audio/0c8d3574fe04d55e5729.mp3"
+		},
+		"example": {
+			"text": "Das Mittagessen ist um halb eins.",
+			"url": "/audio/a76e599ede886c4e5b69.mp3"
+		}
+	},
+	"das mittagsmenü": {
+		"audio": {
+			"text": "das Mittagsmenü",
+			"url": "/audio/a3b4eeffe66c6c126e70.mp3"
+		},
+		"translation": {
+			"text": "el menú del día",
+			"url": "/audio/f370b775d0af4d4080de.mp3"
+		},
+		"example": {
+			"text": "Das Mittagsmenü kostet nur neun Euro.",
+			"url": "/audio/af4cfabc9dacc0f3db31.mp3"
+		}
+	},
+	"das seidl": {
+		"audio": {
+			"text": "das Seidl",
+			"url": "/audio/0de4ecc2b2b6a0cae23f.mp3"
+		},
+		"translation": {
+			"text": "la caña de cerveza",
+			"url": "/audio/339599930d748b40019b.mp3"
+		},
+		"example": {
+			"text": "Nach der Wanderung trinke ich ein Seidl.",
+			"url": "/audio/15c817d9a62d90d3f58b.mp3"
+		}
+	},
+	"das trinkgeld": {
+		"audio": {
+			"text": "das Trinkgeld",
+			"url": "/audio/a35ec4ef9fbadff70c22.mp3"
+		},
+		"translation": {
+			"text": "la propina",
+			"url": "/audio/4436ceb6c367157d42ab.mp3"
+		},
+		"example": {
+			"text": "In Österreich gibt man etwa zehn Prozent Trinkgeld.",
+			"url": "/audio/b16c2a1867c2d8b3a7dc.mp3"
+		}
+	},
+	"das wiener schnitzel": {
+		"audio": {
+			"text": "das Wiener Schnitzel",
+			"url": "/audio/e18aded862093d0c96b2.mp3"
+		},
+		"translation": {
+			"text": "el escalope vienés",
+			"url": "/audio/db89267e84d34f7d9c7e.mp3"
+		},
+		"example": {
+			"text": "Das Wiener Schnitzel ist hier besonders groß.",
+			"url": "/audio/e5770e143de479ad7109.mp3"
+		}
+	},
+	"der almdudler": {
+		"audio": {
+			"text": "der Almdudler",
+			"url": "/audio/6da1961f4f5df4a77269.mp3"
+		},
+		"translation": {
+			"text": "refresco de hierbas",
+			"url": "/audio/d2e3a5be72c6970237ce.mp3"
+		},
+		"example": {
+			"text": "Die Kinder trinken einen Almdudler.",
+			"url": "/audio/0837c83ad0d9dc6741ff.mp3"
+		}
+	},
+	"der gespritzte": {
+		"audio": {
+			"text": "der Gespritzte",
+			"url": "/audio/c1c8871abc385c6a3056.mp3"
+		},
+		"translation": {
+			"text": "vino con agua con gas",
+			"url": "/audio/dffed43b8b9446ab66a7.mp3"
+		},
+		"example": {
+			"text": "Ich nehme einen Gespritzten, bitte.",
+			"url": "/audio/daf6e283b1ba314fef3c.mp3"
+		}
+	},
+	"der heurige": {
+		"audio": {
+			"text": "der Heurige",
+			"url": "/audio/b914b126bb9dcd4d9984.mp3"
+		},
+		"translation": {
+			"text": "la taberna de vino nuevo",
+			"url": "/audio/d2e1a92c19356f611f4c.mp3"
+		},
+		"example": {
+			"text": "Am Wochenende gehen wir zum Heurigen.",
+			"url": "/audio/6a90f3d88f0f06817c55.mp3"
+		}
+	},
+	"der kaiserschmarrn": {
+		"audio": {
+			"text": "der Kaiserschmarrn",
+			"url": "/audio/9b323c52f62aafe6a538.mp3"
+		},
+		"translation": {
+			"text": "tortilla dulce troceada",
+			"url": "/audio/149469668c3836fbff62.mp3"
+		},
+		"example": {
+			"text": "Zum Kaiserschmarrn gibt es Zwetschkenröster.",
+			"url": "/audio/7858d5628e6a42ce6332.mp3"
+		}
+	},
+	"der kellner / die kellnerin": {
+		"audio": {
+			"text": "der Kellner, die Kellnerin",
+			"url": "/audio/b914ee04a7019fee3ff6.mp3"
+		},
+		"translation": {
+			"text": "el/la camarero/a",
+			"url": "/audio/23d78b33f5391ff9e8b4.mp3"
+		},
+		"example": {
+			"text": "Die Kellnerin bringt gleich die Getränke.",
+			"url": "/audio/221b14f9f806b59e5d05.mp3"
+		}
+	},
 	"der rabatt": {
 		"audio": {
 			"text": "der Rabatt",
@@ -11,6 +283,34 @@
 		"example": {
 			"text": "Ich habe zehn Prozent Rabatt bekommen.",
 			"url": "/audio/824d7501ad715b9baa03.mp3"
+		}
+	},
+	"der stammtisch": {
+		"audio": {
+			"text": "der Stammtisch",
+			"url": "/audio/08c79b62f4247b437395.mp3"
+		},
+		"translation": {
+			"text": "la mesa de los habituales",
+			"url": "/audio/89ca90b65ec5856e824d.mp3"
+		},
+		"example": {
+			"text": "Am Freitag treffen wir uns am Stammtisch.",
+			"url": "/audio/ff3dcd121fee7351d25c.mp3"
+		}
+	},
+	"der sterz": {
+		"audio": {
+			"text": "der Sterz",
+			"url": "/audio/622a328d63aa30bd2090.mp3"
+		},
+		"translation": {
+			"text": "plato de harina",
+			"url": "/audio/a61e9436f294b8d11a3b.mp3"
+		},
+		"example": {
+			"text": "In der Steiermark isst man gern Sterz.",
+			"url": "/audio/52e1d46aef925348cd1e.mp3"
 		}
 	},
 	"der strafzettel": {
@@ -27,6 +327,62 @@
 			"url": "/audio/e06310908b63cc95201b.mp3"
 		}
 	},
+	"der strudel": {
+		"audio": {
+			"text": "der Strudel",
+			"url": "/audio/0c6ad45624628cf27d04.mp3"
+		},
+		"translation": {
+			"text": "el strudel",
+			"url": "/audio/acb017e92047a989f864.mp3"
+		},
+		"example": {
+			"text": "Der Apfelstrudel ist noch warm.",
+			"url": "/audio/7fe9a9fc21716cba806c.mp3"
+		}
+	},
+	"der tafelspitz": {
+		"audio": {
+			"text": "der Tafelspitz",
+			"url": "/audio/d36e0a87ad3d8ac1f66f.mp3"
+		},
+		"translation": {
+			"text": "la carne de ternera hervida",
+			"url": "/audio/f7520f7a0458895b3d6c.mp3"
+		},
+		"example": {
+			"text": "Der Tafelspitz kommt mit Kren und Rösti.",
+			"url": "/audio/99c236efc01af2f28bd2.mp3"
+		}
+	},
+	"der verlängerte": {
+		"audio": {
+			"text": "der Verlängerte",
+			"url": "/audio/8b3d5a354721a1cf5812.mp3"
+		},
+		"translation": {
+			"text": "café americano",
+			"url": "/audio/dc87ed1c0121b3ccc2cb.mp3"
+		},
+		"example": {
+			"text": "Einen Verlängerten und ein Glas Wasser, bitte.",
+			"url": "/audio/56bc9d1e44e14ad7edfc.mp3"
+		}
+	},
+	"die buschenschank": {
+		"audio": {
+			"text": "die Buschenschank",
+			"url": "/audio/c7d3c86f96b5abe4965c.mp3"
+		},
+		"translation": {
+			"text": "la taberna de viñedo",
+			"url": "/audio/7365210385b0cdf01834.mp3"
+		},
+		"example": {
+			"text": "Die Buschenschank hat nur im Sommer offen.",
+			"url": "/audio/35730e14e71b59f492fb.mp3"
+		}
+	},
 	"die drogerie": {
 		"audio": {
 			"text": "die Drogerie",
@@ -39,6 +395,132 @@
 		"example": {
 			"text": "In der Drogerie kaufe ich Shampoo und Zahnpasta.",
 			"url": "/audio/113a94658899853019e7.mp3"
+		}
+	},
+	"die hauptspeise": {
+		"audio": {
+			"text": "die Hauptspeise",
+			"url": "/audio/04691bd81363ae34cbba.mp3"
+		},
+		"translation": {
+			"text": "el plato principal",
+			"url": "/audio/8a826b18df897e87de53.mp3"
+		},
+		"example": {
+			"text": "Als Hauptspeise empfehle ich den Fisch.",
+			"url": "/audio/f3b28f4dc2e4b265a020.mp3"
+		}
+	},
+	"die mehlspeise": {
+		"audio": {
+			"text": "die Mehlspeise",
+			"url": "/audio/a260226bb8521dfc88d3.mp3"
+		},
+		"translation": {
+			"text": "el dulce, el pastel",
+			"url": "/audio/70db8ff14acd82cc258b.mp3"
+		},
+		"example": {
+			"text": "Meine Lieblingsmehlspeise ist der Kaiserschmarrn.",
+			"url": "/audio/131e2379e85d1e1d82ec.mp3"
+		}
+	},
+	"die melange": {
+		"audio": {
+			"text": "die Melange",
+			"url": "/audio/fffb4a3e4554930a9601.mp3"
+		},
+		"translation": {
+			"text": "café con leche espumosa",
+			"url": "/audio/07224019e29a92dd9251.mp3"
+		},
+		"example": {
+			"text": "Zum Frühstück trinke ich immer eine Melange.",
+			"url": "/audio/02e739f66b51c02fc19b.mp3"
+		}
+	},
+	"die nachspeise": {
+		"audio": {
+			"text": "die Nachspeise",
+			"url": "/audio/fbc654e8593a03085f0b.mp3"
+		},
+		"translation": {
+			"text": "el postre",
+			"url": "/audio/0caa2b73a8279dac4b48.mp3"
+		},
+		"example": {
+			"text": "Als Nachspeise gibt es einen Apfelstrudel.",
+			"url": "/audio/a0aae58fb9095f822172.mp3"
+		}
+	},
+	"die palatschinke": {
+		"audio": {
+			"text": "die Palatschinke",
+			"url": "/audio/6f1e20e6c570c456ade2.mp3"
+		},
+		"translation": {
+			"text": "el crep",
+			"url": "/audio/48eb54daef3212a7a10b.mp3"
+		},
+		"example": {
+			"text": "Meine Mutter macht Palatschinken mit Marmelade.",
+			"url": "/audio/d67b5085b1b1e5573f8c.mp3"
+		}
+	},
+	"die speisekarte": {
+		"audio": {
+			"text": "die Speisekarte",
+			"url": "/audio/34d09adf19c39a44fdb8.mp3"
+		},
+		"translation": {
+			"text": "la carta",
+			"url": "/audio/460a06026d99d3f0cb6a.mp3"
+		},
+		"example": {
+			"text": "Können wir bitte die Speisekarte haben?",
+			"url": "/audio/6a59f064c5f9aeeee868.mp3"
+		}
+	},
+	"die vorspeise": {
+		"audio": {
+			"text": "die Vorspeise",
+			"url": "/audio/9ba0a4c5d762c9e341ed.mp3"
+		},
+		"translation": {
+			"text": "el entrante",
+			"url": "/audio/8df8efbead1604953ac9.mp3"
+		},
+		"example": {
+			"text": "Als Vorspeise nehme ich eine Suppe.",
+			"url": "/audio/e363a1dabb3b38be09b5.mp3"
+		}
+	},
+	"g'schmackig": {
+		"audio": {
+			"text": "g'schmackig",
+			"url": "/audio/af86f2b0904258854822.mp3"
+		},
+		"translation": {
+			"text": "sabroso",
+			"url": "/audio/574b2a388aa429ed46d9.mp3"
+		},
+		"example": {
+			"text": "Der Braten war richtig g'schmackig.",
+			"url": "/audio/619333026c34232fbf71.mp3"
+		}
+	},
+	"getrennt": {
+		"audio": {
+			"text": "getrennt",
+			"url": "/audio/642ad1bab52239a99fad.mp3"
+		},
+		"translation": {
+			"text": "por separado",
+			"url": "/audio/750d9d54ec039eddb29c.mp3"
+		},
+		"example": {
+			"text": "Wir zahlen getrennt, bitte.",
+			"url": "/audio/c7be9deb4f9fc1630c80.mp3"
 		}
 	},
 	"hiermit": {
@@ -83,10 +565,66 @@
 			"url": "/audio/2835bb4737cf8c1bc18f.mp3"
 		}
 	},
+	"reservieren": {
+		"audio": {
+			"text": "reservieren",
+			"url": "/audio/c709e133933f244f3ead.mp3"
+		},
+		"translation": {
+			"text": "reservar",
+			"url": "/audio/25a0ee86bb9137b1dd8c.mp3"
+		},
+		"example": {
+			"text": "Ich habe einen Tisch für vier Personen reserviert.",
+			"url": "/audio/b75bc17ec0ce0adfb381.mp3"
+		}
+	},
+	"satt": {
+		"audio": {
+			"text": "satt",
+			"url": "/audio/c72281cd1b76830dd0b0.mp3"
+		},
+		"translation": {
+			"text": "lleno",
+			"url": "/audio/04f3530728f128c7953b.mp3"
+		},
+		"example": {
+			"text": "Danke, ich bin schon satt.",
+			"url": "/audio/28115fc51fb432b45e77.mp3"
+		}
+	},
+	"scharf": {
+		"audio": {
+			"text": "scharf",
+			"url": "/audio/612e36f74ae048404dff.mp3"
+		},
+		"translation": {
+			"text": "picante",
+			"url": "/audio/0e9edff93dc94228a7aa.mp3"
+		},
+		"example": {
+			"text": "Die Suppe ist mir zu scharf.",
+			"url": "/audio/bcb5cf0f09e91b036ce2.mp3"
+		}
+	},
 	"sich beschweren": {
 		"translation": {
 			"text": "quejarse",
 			"url": "/audio/15e361a2907fe14ab17d.mp3"
+		}
+	},
+	"vegetarisch": {
+		"audio": {
+			"text": "vegetarisch",
+			"url": "/audio/028e18d66bf7e8cdbadf.mp3"
+		},
+		"translation": {
+			"text": "vegetariano",
+			"url": "/audio/e6b031a695040272132e.mp3"
+		},
+		"example": {
+			"text": "Gibt es auch ein vegetarisches Gericht?",
+			"url": "/audio/b270b9e15fb3bd6af1dd.mp3"
 		}
 	},
 	"vielen dank für die gute zusammenarbeit.": {
@@ -111,6 +649,40 @@
 		"example": {
 			"text": "Komm doch morgen auf einen Kaffee vorbei!",
 			"url": "/audio/d3a12dbbf09377b3c740.mp3"
+		}
+	},
+	"zahlen": {
+		"audio": {
+			"text": "zahlen",
+			"url": "/audio/05a866ecc014958e131e.mp3"
+		},
+		"translation": {
+			"text": "pagar",
+			"url": "/audio/9ef5ac9aec9f20a54d72.mp3"
+		},
+		"example": {
+			"text": "Zahlen, bitte!",
+			"url": "/audio/183cd4ecb55e48d3d10d.mp3"
+		}
+	},
+	"zahlen, bitte!": {
+		"audio": {
+			"text": "Zahlen, bitte!",
+			"url": "/audio/183cd4ecb55e48d3d10d.mp3"
+		}
+	},
+	"zusammen": {
+		"audio": {
+			"text": "zusammen",
+			"url": "/audio/5309d3bf319a6c1fc1f5.mp3"
+		},
+		"translation": {
+			"text": "junto",
+			"url": "/audio/04b9b84a752fcd5b8ce1.mp3"
+		},
+		"example": {
+			"text": "Zahlen Sie zusammen oder getrennt?",
+			"url": "/audio/b2d72f376ded88151938.mp3"
 		}
 	}
 }

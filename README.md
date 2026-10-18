@@ -124,6 +124,7 @@ npm run audio:build                  # estimate only: characters per voice, clip
 npm run audio:build -- --limit 8     # test batch: 8 entries spread over the vocabulary
 npm run audio:build -- --all         # everything that is still missing
 npm run audio:build -- --all --type word    # words only (skips the phrases)
+npm run audio:build -- --all --category Restaurant --type word   # one block at a time
 ```
 
 - **Idempotent**: files are named after a hash of voice + model + output format + language + text, and an
@@ -142,8 +143,10 @@ npm run audio:build -- --all --type word    # words only (skips the phrases)
   ~6 KB/s); `ELEVENLABS_CONCURRENCY` (default 3). The language is pinned with `language_code` on every request.
 - **Cost**: ElevenLabs bills per character. Each run prints the characters per voice (total and pending)
   before generating anything. The full dataset is about 55,000 German + 22,000 Spanish characters and
-  ~30 MB of MP3 in `static/audio/`; if that grows too much for the repo, upload the folder to Vercel Blob
-  and point `audioUrlBase` in `scripts/build-audio.ts` at it.
+  ~30 MB of MP3 in `static/audio/`, served by Vercel's CDN with an immutable cache header (`vercel.json`; the
+  file names are hashes). Keep one voice and model: every regeneration with another voice adds its own set of
+  files to the repo. If that ever grows too much, upload the folder to Vercel Blob and point `audioUrlBase`
+  in `scripts/build-audio.ts` at it.
 - **App**: on reveal a card says the word, the translation and the example (`autoPlayAudio`, on by default,
   can be turned off in Settings; the speaker button replays the sequence). The example and its translation
   are shown on the card. Walk mode plays word → translation → example → word again; each part can be

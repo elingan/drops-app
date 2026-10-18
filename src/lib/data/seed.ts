@@ -50,7 +50,7 @@ export const SEED_CATEGORIES: SeedCategory[] = [
  * new items (duplicates are skipped, progress is untouched) and the example
  * sentences and audio of the items they already have.
  */
-export const SEED_VERSION = 4;
+export const SEED_VERSION = 5;
 
 /** Main dataset (data/vocabulary/*.txt → npm run vocab:build). Loaded lazily. */
 export const loadVocabulary = async (): Promise<SeedItem[]> =>

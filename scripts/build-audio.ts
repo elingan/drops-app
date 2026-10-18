@@ -23,6 +23,7 @@ import { loadEnv } from './env.ts';
  *   npm run audio:build                  # estimate only (characters per voice)
  *   npm run audio:build -- --limit 8     # test batch: 8 entries spread over the vocabulary
  *   npm run audio:build -- --all         # everything that is missing
+ *   npm run audio:build -- --all --category Restaurant --type word   # one block
  *
  * Idempotent: a file is named after a hash of voice + model + format + language +
  * text, and an existing file is never requested again. Needs ELEVENLABS_API_KEY
@@ -49,6 +50,8 @@ export interface Options {
 	dryRun: boolean;
 	/** Restrict to words or phrases. */
 	type?: 'word' | 'phrase';
+	/** Restrict to one category (name, case-insensitive). */
+	category?: string;
 }
 
 export interface Config {
@@ -79,7 +82,7 @@ export interface Report {
 	bytes: number;
 }
 
-type VocabRow = AudioRow & { type: 'word' | 'phrase' };
+type VocabRow = AudioRow & { type: 'word' | 'phrase'; category?: string };
 type FetchFn = typeof fetch;
 
 const API = 'https://api.elevenlabs.io';
@@ -97,8 +100,9 @@ export function sample<T>(items: T[], limit: number): T[] {
 }
 
 /** The clips of the selected entries, de-duplicated by (language, text). */
-export function planJobs(rows: VocabRow[], opts: Pick<Options, 'limit' | 'type'>): Job[] {
-	const rowsOfType = rows.filter((r) => !opts.type || r.type === opts.type);
+export function planJobs(rows: VocabRow[], opts: Pick<Options, 'limit' | 'type' | 'category'>): Job[] {
+	const category = opts.category?.trim().toLowerCase();
+	const rowsOfType = rows.filter((r) => (!opts.type || r.type === opts.type) && (!category || r.category?.toLowerCase() === category));
 	// A sample only makes sense over entries that have the most clips, i.e. words with an example.
 	const selected = opts.limit ? sample(rowsOfType, opts.limit) : rowsOfType;
 	const jobs: Job[] = [];
@@ -323,6 +327,7 @@ export function parseArgs(argv: string[]): Options {
 		else if (a === '--dry-run') opts.dryRun = true;
 		else if (a === '--limit') opts.limit = Number(argv[++i]);
 		else if (a === '--type') opts.type = argv[++i] as Options['type'];
+		else if (a === '--category') opts.category = argv[++i];
 		else throw new Error(`Unknown option ${a}`);
 	}
 	if (opts.limit !== undefined && !(Number.isInteger(opts.limit) && opts.limit > 0)) throw new Error('--limit needs a positive integer');
