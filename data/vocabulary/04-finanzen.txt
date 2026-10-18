@@ -1,65 +1,65 @@
 # Finanzen
-w|die Rechnung|la factura; la cuenta (restaurante)||
-w|die Rechnungsnummer|el número de factura||
-w|die Dauerrechnung|la factura recurrente/anual||Austria: factura anual para pagos periódicos.
-w|der Betrag|el importe||
-w|der Gesamtbetrag|el importe total||
+w|die Rechnung|la factura; la cuenta (restaurante)|||Die Rechnung kommt immer Ende des Monats.|La factura llega siempre a final de mes.
+w|die Rechnungsnummer|el número de factura|||Bitte geben Sie die Rechnungsnummer bei der Überweisung an.|Por favor, indique el número de factura en la transferencia.
+w|die Dauerrechnung|la factura recurrente/anual||Austria: factura anual para pagos periódicos.|Die Dauerrechnung für die Webseite kommt jedes Jahr im Jänner.|La factura anual de la web llega cada año en enero.
+w|der Betrag|el importe|||Der Betrag wurde noch nicht überwiesen.|El importe todavía no se ha transferido.
+w|der Gesamtbetrag|el importe total|||Der Gesamtbetrag steht ganz unten auf der Rechnung.|El importe total aparece al final de la factura.
 w|offen|pendiente (de pago)||ein offener Betrag
-w|bezahlen|pagar||
-w|begleichen|saldar, pagar (formal)|bezahlen|eine Rechnung begleichen
-w|die Zahlung|el pago||
-w|die Überweisung|la transferencia||
-w|überweisen|transferir (dinero)||
-w|der Zahlschein|el recibo de pago bancario|der Überweisungsträger (DE)|Austria; antes «Erlagschein».
-w|der Erlagschein|el recibo de pago (en papel)|der Zahlschein|Austria, tradicional.
-w|der Bankomat|el cajero automático|der Geldautomat (DE)|Austria.
-w|die Bankomatkarte|la tarjeta de débito|die EC-Karte (DE)|Austria.
+w|bezahlen|pagar|||Ich bezahle die Rechnung heute noch.|Pago la factura hoy mismo.
+w|begleichen|saldar, pagar (formal)|bezahlen|eine Rechnung begleichen|Bitte begleichen Sie den Betrag bis Freitag.|Por favor, salde el importe antes del viernes.
+w|die Zahlung|el pago|||Die Zahlung ist heute eingegangen.|El pago ha llegado hoy.
+w|die Überweisung|la transferencia|||Die Überweisung dauert ein bis zwei Tage.|La transferencia tarda uno o dos días.
+w|überweisen|transferir (dinero)|||Ich überweise dir das Geld morgen.|Mañana te transfiero el dinero.
+w|der Zahlschein|el recibo de pago bancario|der Überweisungsträger (DE)|Austria; antes «Erlagschein».|Auf dem Zahlschein steht die falsche Nummer.|En el recibo de pago bancario está el número equivocado.
+w|der Erlagschein|el recibo de pago (en papel)|der Zahlschein|Austria, tradicional.|Mit dem Erlagschein kann ich auf der Bank einzahlen.|Con el recibo de pago puedo ingresar en el banco.
+w|der Bankomat|el cajero automático|der Geldautomat (DE)|Austria.|Gibt es hier in der Nähe einen Bankomaten?|¿Hay un cajero automático por aquí cerca?
+w|die Bankomatkarte|la tarjeta de débito|die EC-Karte (DE)|Austria.|Ich habe meine Bankomatkarte verloren.|He perdido mi tarjeta de débito.
 w|das Konto|la cuenta bancaria||
-w|die IBAN|el IBAN||
-w|der Kontoauszug|el extracto bancario||
-w|die Mahnung|el requerimiento de pago||
+w|die IBAN|el IBAN|||Schickst du mir bitte deine IBAN?|¿Me envías tu IBAN, por favor?
+w|der Kontoauszug|el extracto bancario|||Ich brauche einen aktuellen Kontoauszug.|Necesito un extracto bancario reciente.
+w|die Mahnung|el requerimiento de pago|||Gestern habe ich eine Mahnung bekommen.|Ayer recibí un requerimiento de pago.
 w|die Frist|el plazo||Zahlungsfrist
-w|fällig|vencido, a pagar||Die Rechnung ist am 15. fällig.
-w|die Gutschrift|el abono, la nota de crédito||
-w|die Erstattung|el reembolso||
-w|zurückerstatten|reembolsar||
-w|der Preis|el precio||
-w|die Kosten|los costes||
-w|kostenlos|gratis|gratis|
-w|der Rabatt|el descuento||
-w|die Umsatzsteuer|el IVA|die Mehrwertsteuer|En Austria se dice USt. (20 %).
-w|die Steuer|el impuesto||
-w|die Einkommensteuer|el impuesto sobre la renta||
-w|die Steuererklärung|la declaración de impuestos||
-w|der Steuerbescheid|la liquidación de impuestos||Lo envía el Finanzamt.
-w|das Finanzamt|la Agencia Tributaria||
-w|der Steuerberater|el asesor fiscal||
-w|der Buchhalter / die Buchhalterin|el/la contable||
-w|die Buchhaltung|la contabilidad||
-w|der Beleg|el comprobante|die Quittung|
-w|die Quittung|el recibo||
-w|die Einnahmen|los ingresos||
-w|die Ausgaben|los gastos||
-w|die Einkünfte|los ingresos, las rentas||Ich hatte keine Einkünfte.
-w|der Verlust|la pérdida||
-w|der Gewinn|la ganancia||
-w|das Quartal|el trimestre||
-w|monatlich|mensual(mente)||
-w|jährlich|anual(mente)||
-w|der Vertrag|el contrato||
-w|kündigen|rescindir (contrato); dimitir/despedir||
-w|die Kündigung|la rescisión; el despido||
-w|die Verlängerung|la renovación, la prórroga||
-w|der Beitrag|la cuota, la contribución||SVS-Beitrag
-w|die Herabsetzung|la reducción||Herabsetzung der Beiträge
-w|die Förderung|la subvención, la ayuda||
-w|der Zuschuss|la subvención, el subsidio||
-w|beantragen|solicitar (oficialmente)||
-w|sparen|ahorrar||
-w|ausgeben|gastar||
-w|die Versicherung|el seguro||
-w|die Kaution|la fianza||
-w|bar|en efectivo||Kann ich bar zahlen?
+w|fällig|vencido, a pagar||Die Rechnung ist am 15. fällig.|Die Miete ist am Ersten fällig.|El alquiler vence el día uno.
+w|die Gutschrift|el abono, la nota de crédito|||Die Gutschrift sehen Sie auf dem nächsten Kontoauszug.|El abono lo verá en el próximo extracto.
+w|die Erstattung|el reembolso|||Die Erstattung kommt in zehn Tagen.|El reembolso llega en diez días.
+w|zurückerstatten|reembolsar|||Das Geld wird Ihnen vollständig zurückerstattet.|Se le reembolsará el dinero por completo.
+w|der Preis|el precio|||Der Preis ist in Ordnung.|El precio está bien.
+w|die Kosten|los costes|||Die Kosten teilen wir uns.|Nos repartimos los costes.
+w|kostenlos|gratis|gratis||Der Eintritt für Kinder ist kostenlos.|La entrada para niños es gratuita.
+w|der Rabatt|el descuento|||Ich habe zehn Prozent Rabatt bekommen.|Me han hecho un diez por ciento de descuento.
+w|die Umsatzsteuer|el IVA|die Mehrwertsteuer|En Austria se dice USt. (20 %).|In Österreich beträgt die Umsatzsteuer meistens zwanzig Prozent.|En Austria el IVA es casi siempre del veinte por ciento.
+w|die Steuer|el impuesto|||Die Steuer muss ich jedes Jahr zahlen.|El impuesto tengo que pagarlo cada año.
+w|die Einkommensteuer|el impuesto sobre la renta|||Die Einkommensteuer hängt vom Gehalt ab.|El impuesto sobre la renta depende del sueldo.
+w|die Steuererklärung|la declaración de impuestos|||Meine Steuererklärung gebe ich im Frühling ab.|Mi declaración de impuestos la presento en primavera.
+w|der Steuerbescheid|la liquidación de impuestos||Lo envía el Finanzamt.|Der Steuerbescheid ist heute mit der Post gekommen.|La liquidación de impuestos ha llegado hoy por correo.
+w|das Finanzamt|la Agencia Tributaria|||Ich muss morgen zum Finanzamt.|Mañana tengo que ir a Hacienda.
+w|der Steuerberater|el asesor fiscal|||Mein Steuerberater macht die Buchhaltung für mich.|Mi asesor fiscal me lleva la contabilidad.
+w|der Buchhalter / die Buchhalterin|el/la contable|||Die Buchhalterin prüft alle Rechnungen.|La contable revisa todas las facturas.
+w|die Buchhaltung|la contabilidad|||Die Buchhaltung ist im zweiten Stock.|La contabilidad está en el segundo piso.
+w|der Beleg|el comprobante|die Quittung||Heb bitte jeden Beleg auf.|Guarda cada comprobante, por favor.
+w|die Quittung|el recibo|||Kann ich bitte eine Quittung haben?|¿Puedo tener un recibo, por favor?
+w|die Einnahmen|los ingresos|||Die Einnahmen sind dieses Jahr gestiegen.|Los ingresos han subido este año.
+w|die Ausgaben|los gastos|||Meine Ausgaben sind im Dezember immer hoch.|Mis gastos en diciembre son siempre altos.
+w|die Einkünfte|los ingresos, las rentas||Ich hatte keine Einkünfte.|Alle Einkünfte müssen in die Steuererklärung.|Todos los ingresos tienen que ir en la declaración de impuestos.
+w|der Verlust|la pérdida|||Im ersten Jahr haben wir einen kleinen Verlust gemacht.|En el primer año tuvimos una pequeña pérdida.
+w|der Gewinn|la ganancia|||Der Gewinn war heuer besser als erwartet.|La ganancia fue mejor este año de lo esperado.
+w|das Quartal|el trimestre|||Im nächsten Quartal erwarten wir mehr Aufträge.|El próximo trimestre esperamos más encargos.
+w|monatlich|mensual(mente)|||Die Miete zahle ich monatlich.|El alquiler lo pago mensualmente.
+w|jährlich|anual(mente)|||Das Abo wird jährlich bezahlt.|La suscripción se paga anualmente.
+w|der Vertrag|el contrato|||Bitte lesen Sie den Vertrag in Ruhe durch.|Por favor, lea el contrato con calma.
+w|kündigen|rescindir (contrato); dimitir/despedir|||Ich möchte meinen Handyvertrag kündigen.|Quiero rescindir mi contrato de móvil.
+w|die Kündigung|la rescisión; el despido|||Die Kündigung muss schriftlich erfolgen.|La rescisión debe hacerse por escrito.
+w|die Verlängerung|la renovación, la prórroga|||Die Verlängerung des Vertrags kostet nichts.|La renovación del contrato no cuesta nada.
+w|der Beitrag|la cuota, la contribución||SVS-Beitrag|Der Beitrag für den Verein beträgt zwanzig Euro.|La cuota del club es de veinte euros.
+w|die Herabsetzung|la reducción||Herabsetzung der Beiträge|Ich beantrage eine Herabsetzung der Beiträge.|Solicito una reducción de las cuotas.
+w|die Förderung|la subvención, la ayuda|||Für das Projekt bekommen wir eine Förderung.|Para el proyecto recibimos una subvención.
+w|der Zuschuss|la subvención, el subsidio|||Die Stadt gibt uns einen Zuschuss.|La ciudad nos da una subvención.
+w|beantragen|solicitar (oficialmente)|||Ich möchte einen Zuschuss beantragen.|Quiero solicitar una subvención.
+w|sparen|ahorrar|||Wir sparen für den Urlaub.|Ahorramos para las vacaciones.
+w|ausgeben|gastar|||Ich gebe zu viel Geld für Kaffee aus.|Gasto demasiado dinero en café.
+w|die Versicherung|el seguro|||Die Versicherung zahlt den Schaden.|El seguro paga los daños.
+w|die Kaution|la fianza|||Die Kaution bekommst du beim Auszug zurück.|La fianza te la devuelven al irte del piso.
+w|bar|en efectivo||Kann ich bar zahlen?|Kann ich hier auch bar bezahlen?|¿Puedo pagar aquí también en efectivo?
 p|Ich sende dir die korrigierte Rechnung.|Te envío la factura corregida.||
 p|Die Rechnung ist momentan noch offen.|La factura todavía está pendiente.||
 p|Ich habe die Überweisung bereits vorgenommen.|Ya he hecho la transferencia.||
