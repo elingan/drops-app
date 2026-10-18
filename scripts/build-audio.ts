@@ -348,7 +348,7 @@ export function configFromEnv(env: Record<string, string | undefined>): Config {
 		// are library voices and need a paid plan: set ELEVENLABS_VOICE_DE / ELEVENLABS_VOICE_ES.
 		voiceDe: env.ELEVENLABS_VOICE_DE?.trim() || 'Matilda',
 		voiceEs: env.ELEVENLABS_VOICE_ES?.trim() || 'Matilda',
-		concurrency: Math.max(1, Number(env.ELEVENLABS_CONCURRENCY) || 3),
+		concurrency: Math.max(1, Number(env.ELEVENLABS_CONCURRENCY) || 2),
 		audioDir: 'static/audio',
 		audioUrlBase: '/audio',
 		manifestFile: 'data/audio-manifest.json',

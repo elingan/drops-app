@@ -2416,7 +2416,8 @@
 		"category": "Technik",
 		"translation": "fácil de usar",
 		"example": "Die neue App ist sehr benutzerfreundlich.",
-		"exampleTranslation": "La nueva app es muy fácil de usar."
+		"exampleTranslation": "La nueva app es muy fácil de usar.",
+		"translationAudioUrl": "/audio/b5e3cbd3780023f23118.mp3"
 	},
 	{
 		"type": "word",
@@ -8796,7 +8797,10 @@
 		"translation": "la autónoma (trabajadora por cuenta propia)",
 		"alt": "der Selbstständige (m.)",
 		"example": "Die Selbstständige braucht eine einfache Webseite.",
-		"exampleTranslation": "La autónoma necesita una web sencilla."
+		"exampleTranslation": "La autónoma necesita una web sencilla.",
+		"audioUrl": "/audio/782473d0c99627b27313.mp3",
+		"exampleAudioUrl": "/audio/fd5e941216dc93a7190a.mp3",
+		"translationAudioUrl": "/audio/8de66768b8fb5cc37e04.mp3"
 	},
 	{
 		"type": "word",
@@ -8804,7 +8808,10 @@
 		"category": "Sumaq",
 		"translation": "la tarjeta de visita en internet",
 		"example": "Deine Webseite ist deine Visitenkarte im Netz.",
-		"exampleTranslation": "Tu web es tu tarjeta de visita en internet."
+		"exampleTranslation": "Tu web es tu tarjeta de visita en internet.",
+		"audioUrl": "/audio/0e07a782710a1fca6891.mp3",
+		"translationAudioUrl": "/audio/f02126daab36a9a1cc33.mp3",
+		"exampleAudioUrl": "/audio/fb274d4d648a7b0880fc.mp3"
 	},
 	{
 		"type": "word",
@@ -8812,7 +8819,10 @@
 		"category": "Sumaq",
 		"translation": "el alojamiento web",
 		"example": "Das Hosting ist im Preis inbegriffen.",
-		"exampleTranslation": "El alojamiento web está incluido en el precio."
+		"exampleTranslation": "El alojamiento web está incluido en el precio.",
+		"audioUrl": "/audio/8bc3565e4fc3818f003c.mp3",
+		"translationAudioUrl": "/audio/ab002fbfe53d51a1dca0.mp3",
+		"exampleAudioUrl": "/audio/e0253050d4cf2aac0824.mp3"
 	},
 	{
 		"type": "word",
@@ -8821,7 +8831,10 @@
 		"translation": "el área de cliente",
 		"context": "Sumaq Bereich",
 		"example": "Im Kundenbereich siehst du alle Rechnungen.",
-		"exampleTranslation": "En el área de cliente ves todas las facturas."
+		"exampleTranslation": "En el área de cliente ves todas las facturas.",
+		"audioUrl": "/audio/250bcf14d353a1509f60.mp3",
+		"translationAudioUrl": "/audio/ccb72c46e1d6b428fe7e.mp3",
+		"exampleAudioUrl": "/audio/75fc303d280236574a4a.mp3"
 	},
 	{
 		"type": "word",
@@ -8829,7 +8842,10 @@
 		"category": "Sumaq",
 		"translation": "el buzón de correo",
 		"example": "Dein Postfach ist fast voll.",
-		"exampleTranslation": "Tu buzón de correo está casi lleno."
+		"exampleTranslation": "Tu buzón de correo está casi lleno.",
+		"audioUrl": "/audio/0909166f41ba3fb3d1ba.mp3",
+		"translationAudioUrl": "/audio/a4f2c713e0a123d635ca.mp3",
+		"exampleAudioUrl": "/audio/3bd61daea88086121277.mp3"
 	},
 	{
 		"type": "word",
@@ -8837,7 +8853,10 @@
 		"category": "Sumaq",
 		"translation": "las estadísticas de visitas",
 		"example": "In der Besuchsstatistik sehe ich, wie viele Leute die Seite besuchen.",
-		"exampleTranslation": "En las estadísticas de visitas veo cuánta gente visita la página."
+		"exampleTranslation": "En las estadísticas de visitas veo cuánta gente visita la página.",
+		"audioUrl": "/audio/6071bd30c72e49e5a187.mp3",
+		"translationAudioUrl": "/audio/4a173e1207c362d0f799.mp3",
+		"exampleAudioUrl": "/audio/914573c4f0766cce62ba.mp3"
 	},
 	{
 		"type": "word",
@@ -8846,7 +8865,10 @@
 		"translation": "la reserva de citas",
 		"alt": "die Online-Buchung",
 		"example": "Die Terminbuchung funktioniert direkt über die Webseite.",
-		"exampleTranslation": "La reserva de citas funciona directamente desde la web."
+		"exampleTranslation": "La reserva de citas funciona directamente desde la web.",
+		"audioUrl": "/audio/5fda59a968a339fe9e3c.mp3",
+		"translationAudioUrl": "/audio/bd4e0767c9141a3ce43e.mp3",
+		"exampleAudioUrl": "/audio/0f34bbfb8ea28fe5c5be.mp3"
 	},
 	{
 		"type": "word",
@@ -8854,7 +8876,10 @@
 		"category": "Sumaq",
 		"translation": "el servicio, la prestación",
 		"example": "Welche Leistungen sind im Paket enthalten?",
-		"exampleTranslation": "¿Qué servicios incluye el paquete?"
+		"exampleTranslation": "¿Qué servicios incluye el paquete?",
+		"audioUrl": "/audio/74eff8de971d677aa5b0.mp3",
+		"translationAudioUrl": "/audio/a22257d4f6f4297953f0.mp3",
+		"exampleAudioUrl": "/audio/b767aa0451b14efeaf36.mp3"
 	},
 	{
 		"type": "word",
@@ -8862,7 +8887,10 @@
 		"category": "Sumaq",
 		"translation": "la puesta en marcha, la configuración",
 		"example": "Die Einrichtung der Seite dauert nur ein paar Tage.",
-		"exampleTranslation": "La puesta en marcha de la página lleva solo unos días."
+		"exampleTranslation": "La puesta en marcha de la página lleva solo unos días.",
+		"audioUrl": "/audio/6b2be3958a3830dc023f.mp3",
+		"translationAudioUrl": "/audio/cfda11a204935689cff6.mp3",
+		"exampleAudioUrl": "/audio/1bd3c19869e03630986a.mp3"
 	},
 	{
 		"type": "word",
@@ -8870,7 +8898,10 @@
 		"category": "Sumaq",
 		"translation": "el mantenimiento",
 		"example": "Die Wartung der Seite übernehmen wir für Sie.",
-		"exampleTranslation": "El mantenimiento de la página lo hacemos nosotros por usted."
+		"exampleTranslation": "El mantenimiento de la página lo hacemos nosotros por usted.",
+		"audioUrl": "/audio/3822448e1414a3267612.mp3",
+		"translationAudioUrl": "/audio/0bacecf0bee025289985.mp3",
+		"exampleAudioUrl": "/audio/7eabb1bd66ecd26ff9f7.mp3"
 	},
 	{
 		"type": "word",
@@ -8878,7 +8909,10 @@
 		"category": "Sumaq",
 		"translation": "la atención, el cuidado continuo",
 		"example": "Wir bieten eine persönliche Betreuung an.",
-		"exampleTranslation": "Ofrecemos una atención personalizada."
+		"exampleTranslation": "Ofrecemos una atención personalizada.",
+		"audioUrl": "/audio/fc696573cfd8f5c397ea.mp3",
+		"translationAudioUrl": "/audio/a36e0192c26a9fe42178.mp3",
+		"exampleAudioUrl": "/audio/0558c91712706536bede.mp3"
 	},
 	{
 		"type": "word",
@@ -8886,7 +8920,10 @@
 		"category": "Sumaq",
 		"translation": "la ronda de correcciones",
 		"example": "Im Preis ist eine Korrekturschleife inbegriffen.",
-		"exampleTranslation": "En el precio se incluye una ronda de correcciones."
+		"exampleTranslation": "En el precio se incluye una ronda de correcciones.",
+		"audioUrl": "/audio/1b749f09c48e7dd7cc29.mp3",
+		"translationAudioUrl": "/audio/fd23b5df7938b012fc62.mp3",
+		"exampleAudioUrl": "/audio/9a20d5cb440e05a9df0c.mp3"
 	},
 	{
 		"type": "word",
@@ -8894,7 +8931,10 @@
 		"category": "Sumaq",
 		"translation": "la publicación",
 		"example": "Die Veröffentlichung der Seite ist für Montag geplant.",
-		"exampleTranslation": "La publicación de la página está prevista para el lunes."
+		"exampleTranslation": "La publicación de la página está prevista para el lunes.",
+		"audioUrl": "/audio/498af0a578da89ab7d09.mp3",
+		"translationAudioUrl": "/audio/2e8d00eb8fc6459936f8.mp3",
+		"exampleAudioUrl": "/audio/04d11e135dca5071a122.mp3"
 	},
 	{
 		"type": "word",
@@ -8902,7 +8942,10 @@
 		"category": "Sumaq",
 		"translation": "publicar",
 		"example": "Wir veröffentlichen die Webseite nächste Woche.",
-		"exampleTranslation": "Publicamos la web la semana que viene."
+		"exampleTranslation": "Publicamos la web la semana que viene.",
+		"audioUrl": "/audio/4566b124924b8a277644.mp3",
+		"translationAudioUrl": "/audio/92def8a8146d4fd2a992.mp3",
+		"exampleAudioUrl": "/audio/4ded014c11aedb78ff10.mp3"
 	},
 	{
 		"type": "word",
@@ -8911,7 +8954,10 @@
 		"translation": "la optimización para buscadores (SEO)",
 		"alt": "SEO",
 		"example": "Mit Suchmaschinenoptimierung wirst du leichter gefunden.",
-		"exampleTranslation": "Con la optimización para buscadores te encuentran más fácilmente."
+		"exampleTranslation": "Con la optimización para buscadores te encuentran más fácilmente.",
+		"audioUrl": "/audio/0e19675f625586b8a715.mp3",
+		"translationAudioUrl": "/audio/708f6990e2a5738ce1ec.mp3",
+		"exampleAudioUrl": "/audio/efc01d304701ced0bac8.mp3"
 	},
 	{
 		"type": "word",
@@ -8919,7 +8965,10 @@
 		"category": "Sumaq",
 		"translation": "la posición (en el ranking)",
 		"example": "Die Platzierung in der Suche ist sehr gut.",
-		"exampleTranslation": "La posición en la búsqueda es muy buena."
+		"exampleTranslation": "La posición en la búsqueda es muy buena.",
+		"audioUrl": "/audio/100b2ff303618b87f18f.mp3",
+		"translationAudioUrl": "/audio/7509cf8b0f49ae36cb32.mp3",
+		"exampleAudioUrl": "/audio/7d9b49a616acdf25f5c5.mp3"
 	},
 	{
 		"type": "word",
@@ -8927,7 +8976,10 @@
 		"category": "Sumaq",
 		"translation": "el número de visitantes",
 		"example": "Die Besucherzahl ist im Mai gestiegen.",
-		"exampleTranslation": "El número de visitantes ha subido en mayo."
+		"exampleTranslation": "El número de visitantes ha subido en mayo.",
+		"audioUrl": "/audio/23f3160904180d68b67d.mp3",
+		"translationAudioUrl": "/audio/dc15d4809d248babc97c.mp3",
+		"exampleAudioUrl": "/audio/c447a1caa29aa9afd27a.mp3"
 	},
 	{
 		"type": "word",
@@ -8935,7 +8987,10 @@
 		"category": "Sumaq",
 		"translation": "la tienda online",
 		"example": "Sie verkauft ihre Produkte in einem Onlineshop.",
-		"exampleTranslation": "Vende sus productos en una tienda online."
+		"exampleTranslation": "Vende sus productos en una tienda online.",
+		"audioUrl": "/audio/9c5a4899b0df567e123e.mp3",
+		"translationAudioUrl": "/audio/184e4d5649b7c7287eca.mp3",
+		"exampleAudioUrl": "/audio/ca3ad08e0ee811660026.mp3"
 	},
 	{
 		"type": "word",
@@ -8944,7 +8999,10 @@
 		"translation": "el paquete básico",
 		"alt": "das Basispaket",
 		"example": "Die Grundausstattung reicht für den Anfang.",
-		"exampleTranslation": "El paquete básico basta para empezar."
+		"exampleTranslation": "El paquete básico basta para empezar.",
+		"audioUrl": "/audio/35e732b69748068bd1d6.mp3",
+		"translationAudioUrl": "/audio/6ab1a84883646780f937.mp3",
+		"exampleAudioUrl": "/audio/2acee9c44d63ab8a522f.mp3"
 	},
 	{
 		"type": "word",
@@ -8952,7 +9010,10 @@
 		"category": "Sumaq",
 		"translation": "único, una sola vez",
 		"example": "Die Einrichtung kostet einmalig 300 Euro.",
-		"exampleTranslation": "La puesta en marcha cuesta 300 euros una sola vez."
+		"exampleTranslation": "La puesta en marcha cuesta 300 euros una sola vez.",
+		"audioUrl": "/audio/b8cbcd21ee3f7063e93b.mp3",
+		"translationAudioUrl": "/audio/1a260976f87fd12b28fe.mp3",
+		"exampleAudioUrl": "/audio/d67d929274486362dc65.mp3"
 	},
 	{
 		"type": "word",
@@ -8961,7 +9022,10 @@
 		"translation": "incluido",
 		"alt": "inkl.",
 		"example": "Der Preis ist inklusive Mehrwertsteuer.",
-		"exampleTranslation": "El precio incluye el IVA."
+		"exampleTranslation": "El precio incluye el IVA.",
+		"audioUrl": "/audio/153151d59a5197153e08.mp3",
+		"translationAudioUrl": "/audio/6eefda4f67c27c66b00c.mp3",
+		"exampleAudioUrl": "/audio/1bea2e8262a64195cb9d.mp3"
 	},
 	{
 		"type": "word",
@@ -8970,7 +9034,10 @@
 		"translation": "fácil de usar",
 		"alt": "einfach zu bedienen",
 		"example": "Wir bauen eine nutzerfreundliche Webseite für dich.",
-		"exampleTranslation": "Creamos para ti una web fácil de usar."
+		"exampleTranslation": "Creamos para ti una web fácil de usar.",
+		"audioUrl": "/audio/3f544201baf9666bee4f.mp3",
+		"translationAudioUrl": "/audio/b5e3cbd3780023f23118.mp3",
+		"exampleAudioUrl": "/audio/69cc3711de46bac64711.mp3"
 	},
 	{
 		"type": "word",
@@ -8978,7 +9045,10 @@
 		"category": "Sumaq",
 		"translation": "respetuoso con la privacidad",
 		"example": "Unsere Lösung ist datenschutzfreundlich.",
-		"exampleTranslation": "Nuestra solución respeta la privacidad."
+		"exampleTranslation": "Nuestra solución respeta la privacidad.",
+		"audioUrl": "/audio/1fc2bde95504f6ea0cb4.mp3",
+		"translationAudioUrl": "/audio/f69e9e54d3fd41bb50ab.mp3",
+		"exampleAudioUrl": "/audio/40388f37b0d7510cfbe2.mp3"
 	},
 	{
 		"type": "word",
@@ -8987,7 +9057,10 @@
 		"translation": "el cifrado",
 		"alt": "HTTPS",
 		"example": "Die Verschlüsselung schützt die Daten der Besucher.",
-		"exampleTranslation": "El cifrado protege los datos de los visitantes."
+		"exampleTranslation": "El cifrado protege los datos de los visitantes.",
+		"audioUrl": "/audio/d508fcdf29dcd100df8f.mp3",
+		"translationAudioUrl": "/audio/3c998f0f9671cfd01192.mp3",
+		"exampleAudioUrl": "/audio/c4d41ec64c32b0c0280a.mp3"
 	},
 	{
 		"type": "word",
@@ -8995,7 +9068,10 @@
 		"category": "Sumaq",
 		"translation": "el formulario de contacto",
 		"example": "Über das Kontaktformular erreichen dich neue Kunden.",
-		"exampleTranslation": "A través del formulario de contacto te llegan nuevos clientes."
+		"exampleTranslation": "A través del formulario de contacto te llegan nuevos clientes.",
+		"audioUrl": "/audio/ee27c8b47adb8fce3176.mp3",
+		"translationAudioUrl": "/audio/d122083a2451ece894ae.mp3",
+		"exampleAudioUrl": "/audio/05f7fed34e9e7442d311.mp3"
 	},
 	{
 		"type": "word",
@@ -9004,260 +9080,347 @@
 		"translation": "la obligación de aviso legal",
 		"context": "Austria",
 		"example": "In Österreich gilt eine Impressumspflicht für Webseiten.",
-		"exampleTranslation": "En Austria rige la obligación de aviso legal en las webs."
+		"exampleTranslation": "En Austria rige la obligación de aviso legal en las webs.",
+		"audioUrl": "/audio/ddfcddb30755cbb31484.mp3",
+		"translationAudioUrl": "/audio/1ca111ddcc555c9ac8b1.mp3",
+		"exampleAudioUrl": "/audio/d8eee650e40a31da5ba8.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Wir gestalten Websites für Selbstständige.",
 		"category": "Sumaq",
-		"translation": "Diseñamos sitios web para autónomos."
+		"translation": "Diseñamos sitios web para autónomos.",
+		"audioUrl": "/audio/9b6fae578635279af53e.mp3",
+		"translationAudioUrl": "/audio/c9bbfab3b8424003d8cf.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Persönlich gestaltet, einfach gepflegt.",
 		"category": "Sumaq",
 		"translation": "Diseñado a medida, fácil de mantener.",
-		"context": "Lema de Sumaq"
+		"context": "Lema de Sumaq",
+		"audioUrl": "/audio/897fd7f99e2909a16677.mp3",
+		"translationAudioUrl": "/audio/c7aeb1abb6c402221bf1.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Du musst dich um nichts Technisches kümmern.",
 		"category": "Sumaq",
-		"translation": "No tienes que ocuparte de nada técnico."
+		"translation": "No tienes que ocuparte de nada técnico.",
+		"audioUrl": "/audio/1ba9950752b0a26c4dfc.mp3",
+		"translationAudioUrl": "/audio/fc615a15c1a1041ce17c.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Wir übernehmen Gestaltung, Aufbau und Hosting.",
 		"category": "Sumaq",
-		"translation": "Nos encargamos del diseño, la construcción y el alojamiento."
+		"translation": "Nos encargamos del diseño, la construcción y el alojamiento.",
+		"audioUrl": "/audio/995709c8b06507a66c24.mp3",
+		"translationAudioUrl": "/audio/510e3b95faffbb79ff9a.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Die Seite sieht auch am Handy gut aus.",
 		"category": "Sumaq",
-		"translation": "La página se ve bien también en el móvil."
+		"translation": "La página se ve bien también en el móvil.",
+		"audioUrl": "/audio/032d1d50fecc7cf4b4c3.mp3",
+		"translationAudioUrl": "/audio/aba42777a4d93eebab38.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Du bekommst eine eigene Domain.",
 		"category": "Sumaq",
-		"translation": "Recibes tu propio dominio."
+		"translation": "Recibes tu propio dominio.",
+		"audioUrl": "/audio/c5fd18801b54a7fa05b5.mp3",
+		"translationAudioUrl": "/audio/790e860fac5b42527b0a.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Deine E-Mails werden an dein bestehendes Postfach weitergeleitet.",
 		"category": "Sumaq",
 		"translation": "Tus correos se reenvían a tu buzón actual.",
-		"context": "Sin buzón nuevo"
+		"context": "Sin buzón nuevo",
+		"audioUrl": "/audio/2dbc12a2ae7586e4a72c.mp3",
+		"translationAudioUrl": "/audio/2dce13fa036696368cb1.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Ein eigenes Postfach ist nicht enthalten.",
 		"category": "Sumaq",
-		"translation": "Un buzón propio no está incluido."
+		"translation": "Un buzón propio no está incluido.",
+		"audioUrl": "/audio/af4e64209d43b29407a5.mp3",
+		"translationAudioUrl": "/audio/6ea7ed97036b98c6020b.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Der Server steht in Europa.",
 		"category": "Sumaq",
-		"translation": "El servidor está en Europa."
+		"translation": "El servidor está en Europa.",
+		"audioUrl": "/audio/7b8e38965ddb65ccef30.mp3",
+		"translationAudioUrl": "/audio/343ab5ec9424cda32ec3.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Du kannst Texte und Bilder selbst ändern.",
 		"category": "Sumaq",
-		"translation": "Puedes cambiar textos e imágenes tú mismo."
+		"translation": "Puedes cambiar textos e imágenes tú mismo.",
+		"audioUrl": "/audio/e0650382957ef9dd9064.mp3",
+		"translationAudioUrl": "/audio/60af12f1f20621a91614.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Im Kundenbereich pflegst du Öffnungszeiten und Leistungen.",
 		"category": "Sumaq",
-		"translation": "En el área de cliente gestionas horarios y servicios."
+		"translation": "En el área de cliente gestionas horarios y servicios.",
+		"audioUrl": "/audio/f9ef16e63d37f9e65093.mp3",
+		"translationAudioUrl": "/audio/d0ddbe8e7a6bfdc7d9cc.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Das ist kein komplizierter Website-Baukasten.",
 		"category": "Sumaq",
-		"translation": "No es un constructor de webs complicado."
+		"translation": "No es un constructor de webs complicado.",
+		"audioUrl": "/audio/bc6328b6679143851842.mp3",
+		"translationAudioUrl": "/audio/ee3d4877490ab565389b.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Die Statistik ist einfach und ohne unnötiges Tracking.",
 		"category": "Sumaq",
-		"translation": "Las estadísticas son sencillas y sin rastreo innecesario."
+		"translation": "Las estadísticas son sencillas y sin rastreo innecesario.",
+		"audioUrl": "/audio/94d2d98751334bb2c606.mp3",
+		"translationAudioUrl": "/audio/70628ba6aee26a5b55e9.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Die Online-Terminbuchung ist optional.",
 		"category": "Sumaq",
-		"translation": "La reserva de citas online es opcional."
+		"translation": "La reserva de citas online es opcional.",
+		"audioUrl": "/audio/14d6687eeab17b60118f.mp3",
+		"translationAudioUrl": "/audio/ce25bf344239bf746e70.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Du musst Texte und Bilder nicht vorher haben.",
 		"category": "Sumaq",
-		"translation": "No necesitas tener textos ni imágenes de antemano."
+		"translation": "No necesitas tener textos ni imágenes de antemano.",
+		"audioUrl": "/audio/a1c4b7eadf2cedd40593.mp3",
+		"translationAudioUrl": "/audio/06d72b7a9b09d3958db7.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Wir führen dich Schritt für Schritt durch den Prozess.",
 		"category": "Sumaq",
-		"translation": "Te guiamos paso a paso por el proceso."
+		"translation": "Te guiamos paso a paso por el proceso.",
+		"audioUrl": "/audio/4c3f2139e48b8ffa653f.mp3",
+		"translationAudioUrl": "/audio/464f29a973a6d8116797.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Du brauchst keine technischen Kenntnisse.",
 		"category": "Sumaq",
-		"translation": "No necesitas conocimientos técnicos."
+		"translation": "No necesitas conocimientos técnicos.",
+		"audioUrl": "/audio/53b7fe1afcd49321caeb.mp3",
+		"translationAudioUrl": "/audio/fc2edac9b3ff3f78b7f7.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Wir sprechen zuerst über dein Angebot.",
 		"category": "Sumaq",
-		"translation": "Primero hablamos de tu oferta."
+		"translation": "Primero hablamos de tu oferta.",
+		"audioUrl": "/audio/114cd46f60f0e7e2cc1a.mp3",
+		"translationAudioUrl": "/audio/800b19c69644bed237c7.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Du prüfst das Ergebnis in Ruhe.",
 		"category": "Sumaq",
-		"translation": "Revisas el resultado con calma."
+		"translation": "Revisas el resultado con calma.",
+		"audioUrl": "/audio/085e10e925340b38cf0d.mp3",
+		"translationAudioUrl": "/audio/11e165aed85d303aa5c4.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Eine Korrekturrunde ist im Basispaket enthalten.",
 		"category": "Sumaq",
-		"translation": "Una ronda de correcciones está incluida en el paquete básico."
+		"translation": "Una ronda de correcciones está incluida en el paquete básico.",
+		"audioUrl": "/audio/0ef471dde7c0057d0c3a.mp3",
+		"translationAudioUrl": "/audio/4ae651bd156dfb7a382b.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Erst nach deiner Freigabe gehen wir online.",
 		"category": "Sumaq",
-		"translation": "Solo salimos online tras tu aprobación."
+		"translation": "Solo salimos online tras tu aprobación.",
+		"audioUrl": "/audio/46922aedf2be15181614.mp3",
+		"translationAudioUrl": "/audio/8cac7d2c5c6fcdf7ff7d.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Die erste Version ist oft in ein bis drei Tagen fertig.",
 		"category": "Sumaq",
-		"translation": "La primera versión suele estar lista en uno a tres días."
+		"translation": "La primera versión suele estar lista en uno a tres días.",
+		"audioUrl": "/audio/41b104a4acc745cce969.mp3",
+		"translationAudioUrl": "/audio/c4cffb9c931b5c6e64c3.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Sobald alle Informationen da sind, geht es schnell.",
 		"category": "Sumaq",
-		"translation": "En cuanto tenemos toda la información, va rápido."
+		"translation": "En cuanto tenemos toda la información, va rápido.",
+		"audioUrl": "/audio/49455954f074b19e3d22.mp3",
+		"translationAudioUrl": "/audio/76294556ca685f2a4ce5.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Du kannst mit einer bestehenden Website starten.",
 		"category": "Sumaq",
-		"translation": "Puedes empezar con una web existente."
+		"translation": "Puedes empezar con una web existente.",
+		"audioUrl": "/audio/c26b493a64fdf89355a3.mp3",
+		"translationAudioUrl": "/audio/3191ad07b03ec8b48f20.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Du kannst auch ganz von vorne anfangen.",
 		"category": "Sumaq",
-		"translation": "También puedes empezar desde cero."
+		"translation": "También puedes empezar desde cero.",
+		"audioUrl": "/audio/f546a23f331a0d4f6895.mp3",
+		"translationAudioUrl": "/audio/99397235a3c65200f59a.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Wir verwenden KI für Vorschläge und Struktur.",
 		"category": "Sumaq",
-		"translation": "Usamos IA para propuestas y estructura."
+		"translation": "Usamos IA para propuestas y estructura.",
+		"audioUrl": "/audio/40289b088fb9803ef2a0.mp3",
+		"translationAudioUrl": "/audio/851ed8c1a922e0fa05b2.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Jede Seite wird persönlich geprüft.",
 		"category": "Sumaq",
-		"translation": "Cada página se revisa personalmente."
+		"translation": "Cada página se revisa personalmente.",
+		"audioUrl": "/audio/5bb0579659af46bb38a1.mp3",
+		"translationAudioUrl": "/audio/4ea803405f2637a632b3.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Nichts wird ungeprüft veröffentlicht.",
 		"category": "Sumaq",
-		"translation": "Nada se publica sin revisar."
+		"translation": "Nada se publica sin revisar.",
+		"audioUrl": "/audio/97fee3870d3d183a7dc7.mp3",
+		"translationAudioUrl": "/audio/fe48190fc4a6e4b9c513.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Die Erstellung kostet ab 500 Euro einmalig.",
 		"category": "Sumaq",
-		"translation": "La creación cuesta desde 500 euros, pago único."
+		"translation": "La creación cuesta desde 500 euros, pago único.",
+		"audioUrl": "/audio/aac99a3bfbee33a1d139.mp3",
+		"translationAudioUrl": "/audio/b635c15a940414c64317.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Die Betreuung kostet 120 Euro pro Jahr.",
 		"category": "Sumaq",
-		"translation": "El mantenimiento cuesta 120 euros al año."
+		"translation": "El mantenimiento cuesta 120 euros al año.",
+		"audioUrl": "/audio/ade0253925d9b005f0a5.mp3",
+		"translationAudioUrl": "/audio/0e4f921bf418d4c72e48.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Alle Preise verstehen sich inklusive 20 % Umsatzsteuer.",
 		"category": "Sumaq",
-		"translation": "Todos los precios incluyen un 20 % de IVA."
+		"translation": "Todos los precios incluyen un 20 % de IVA.",
+		"audioUrl": "/audio/371e86b48982678200ab.mp3",
+		"translationAudioUrl": "/audio/42062c52fe8db188d84f.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Sonderwünsche besprechen wir vorher.",
 		"category": "Sumaq",
-		"translation": "Los deseos especiales los hablamos antes."
+		"translation": "Los deseos especiales los hablamos antes.",
+		"audioUrl": "/audio/1801a98c13c0cfa13d11.mp3",
+		"translationAudioUrl": "/audio/765a809b8dc3e02bf421.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Im Preis sind Hosting und technische Wartung enthalten.",
 		"category": "Sumaq",
-		"translation": "En el precio están incluidos el alojamiento y el mantenimiento técnico."
+		"translation": "En el precio están incluidos el alojamiento y el mantenimiento técnico.",
+		"audioUrl": "/audio/a6310d495053f6f7394f.mp3",
+		"translationAudioUrl": "/audio/f8484d3ffc55ba2b8db1.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Wir können keine Platzierung bei Google garantieren.",
 		"category": "Sumaq",
-		"translation": "No podemos garantizar una posición en Google."
+		"translation": "No podemos garantizar una posición en Google.",
+		"audioUrl": "/audio/b1b967bfca7a79f68a64.mp3",
+		"translationAudioUrl": "/audio/522fbc1d438e3b37040a.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Wir sorgen für eine saubere technische Basis.",
 		"category": "Sumaq",
-		"translation": "Nos ocupamos de una base técnica limpia."
+		"translation": "Nos ocupamos de una base técnica limpia.",
+		"audioUrl": "/audio/05d7505ef2854ee8a253.mp3",
+		"translationAudioUrl": "/audio/160241c2c39716a6ddfa.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Die Seite ist per HTTPS gesichert.",
 		"category": "Sumaq",
-		"translation": "La página está protegida con HTTPS."
+		"translation": "La página está protegida con HTTPS.",
+		"audioUrl": "/audio/0b31e9faffb9a2482d9f.mp3",
+		"translationAudioUrl": "/audio/c1abf8b9f29a52bfd696.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Für große Shops ist das Angebot weniger geeignet.",
 		"category": "Sumaq",
-		"translation": "La oferta es menos adecuada para tiendas grandes."
+		"translation": "La oferta es menos adecuada para tiendas grandes.",
+		"audioUrl": "/audio/4b17c464e52548bd3012.mp3",
+		"translationAudioUrl": "/audio/e1134e050a00fcab554c.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Das passt gut für Einzelunternehmer.",
 		"category": "Sumaq",
-		"translation": "Encaja bien para autónomos individuales."
+		"translation": "Encaja bien para autónomos individuales.",
+		"audioUrl": "/audio/cafa324ef45322039038.mp3",
+		"translationAudioUrl": "/audio/5822721312131a3a155b.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Erzähl uns von deinem Angebot.",
 		"category": "Sumaq",
-		"translation": "Cuéntanos sobre tu oferta."
+		"translation": "Cuéntanos sobre tu oferta.",
+		"audioUrl": "/audio/eb6c989506671304cb2a.mp3",
+		"translationAudioUrl": "/audio/478ea14f29cf8df63f3f.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Schreib uns über das Kontaktformular.",
 		"category": "Sumaq",
-		"translation": "Escríbenos a través del formulario de contacto."
+		"translation": "Escríbenos a través del formulario de contacto.",
+		"audioUrl": "/audio/0f9e22ccdc406ec94974.mp3",
+		"translationAudioUrl": "/audio/ddb5e2a784349fdb5635.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Wir sitzen in Graz.",
 		"category": "Sumaq",
-		"translation": "Estamos en Graz."
+		"translation": "Estamos en Graz.",
+		"audioUrl": "/audio/fd42d20344df7d9931aa.mp3",
+		"translationAudioUrl": "/audio/2e8618d708d8c645c879.mp3"
 	},
 	{
 		"type": "phrase",
 		"german": "Melde dich im Kundenbereich an.",
 		"category": "Sumaq",
-		"translation": "Inicia sesión en el área de cliente."
+		"translation": "Inicia sesión en el área de cliente.",
+		"audioUrl": "/audio/a81b49f58c5df7dcb3f1.mp3",
+		"translationAudioUrl": "/audio/d6e319e6194be4f876a0.mp3"
 	}
 ]

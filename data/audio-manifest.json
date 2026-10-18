@@ -1,4 +1,20 @@
 {
+	"alle preise verstehen sich inklusive 20 % umsatzsteuer.": {
+		"audio": {
+			"text": "Alle Preise verstehen sich inklusive 20 % Umsatzsteuer.",
+			"url": "/audio/371e86b48982678200ab.mp3"
+		},
+		"translation": {
+			"text": "Todos los precios incluyen un 20 % de IVA.",
+			"url": "/audio/42062c52fe8db188d84f.mp3"
+		}
+	},
+	"benutzerfreundlich": {
+		"translation": {
+			"text": "fácil de usar",
+			"url": "/audio/b5e3cbd3780023f23118.mp3"
+		}
+	},
 	"bezahlen": {
 		"translation": {
 			"text": "pagar",
@@ -89,6 +105,30 @@
 			"url": "/audio/f24ab2b729baea98cfb1.mp3"
 		}
 	},
+	"das hosting": {
+		"audio": {
+			"text": "das Hosting",
+			"url": "/audio/8bc3565e4fc3818f003c.mp3"
+		},
+		"translation": {
+			"text": "el alojamiento web",
+			"url": "/audio/ab002fbfe53d51a1dca0.mp3"
+		},
+		"example": {
+			"text": "Das Hosting ist im Preis inbegriffen.",
+			"url": "/audio/e0253050d4cf2aac0824.mp3"
+		}
+	},
+	"das ist kein komplizierter website-baukasten.": {
+		"audio": {
+			"text": "Das ist kein komplizierter Website-Baukasten.",
+			"url": "/audio/bc6328b6679143851842.mp3"
+		},
+		"translation": {
+			"text": "No es un constructor de webs complicado.",
+			"url": "/audio/ee3d4877490ab565389b.mp3"
+		}
+	},
 	"das kaffeehaus": {
 		"audio": {
 			"text": "das Kaffeehaus",
@@ -101,6 +141,20 @@
 		"example": {
 			"text": "Im Kaffeehaus kann man stundenlang Zeitung lesen.",
 			"url": "/audio/4647113db6c7e166c73f.mp3"
+		}
+	},
+	"das kontaktformular": {
+		"audio": {
+			"text": "das Kontaktformular",
+			"url": "/audio/ee27c8b47adb8fce3176.mp3"
+		},
+		"translation": {
+			"text": "el formulario de contacto",
+			"url": "/audio/d122083a2451ece894ae.mp3"
+		},
+		"example": {
+			"text": "Über das Kontaktformular erreichen dich neue Kunden.",
+			"url": "/audio/05f7fed34e9e7442d311.mp3"
 		}
 	},
 	"das krügerl": {
@@ -159,6 +213,30 @@
 			"url": "/audio/af4cfabc9dacc0f3db31.mp3"
 		}
 	},
+	"das passt gut für einzelunternehmer.": {
+		"audio": {
+			"text": "Das passt gut für Einzelunternehmer.",
+			"url": "/audio/cafa324ef45322039038.mp3"
+		},
+		"translation": {
+			"text": "Encaja bien para autónomos individuales.",
+			"url": "/audio/5822721312131a3a155b.mp3"
+		}
+	},
+	"das postfach": {
+		"audio": {
+			"text": "das Postfach",
+			"url": "/audio/0909166f41ba3fb3d1ba.mp3"
+		},
+		"translation": {
+			"text": "el buzón de correo",
+			"url": "/audio/a4f2c713e0a123d635ca.mp3"
+		},
+		"example": {
+			"text": "Dein Postfach ist fast voll.",
+			"url": "/audio/3bd61daea88086121277.mp3"
+		}
+	},
 	"das seidl": {
 		"audio": {
 			"text": "das Seidl",
@@ -199,6 +277,30 @@
 		"example": {
 			"text": "Das Wiener Schnitzel ist hier besonders groß.",
 			"url": "/audio/e5770e143de479ad7109.mp3"
+		}
+	},
+	"datenschutzfreundlich": {
+		"audio": {
+			"text": "datenschutzfreundlich",
+			"url": "/audio/1fc2bde95504f6ea0cb4.mp3"
+		},
+		"translation": {
+			"text": "respetuoso con la privacidad",
+			"url": "/audio/f69e9e54d3fd41bb50ab.mp3"
+		},
+		"example": {
+			"text": "Unsere Lösung ist datenschutzfreundlich.",
+			"url": "/audio/40388f37b0d7510cfbe2.mp3"
+		}
+	},
+	"deine e-mails werden an dein bestehendes postfach weitergeleitet.": {
+		"audio": {
+			"text": "Deine E-Mails werden an dein bestehendes Postfach weitergeleitet.",
+			"url": "/audio/2dbc12a2ae7586e4a72c.mp3"
+		},
+		"translation": {
+			"text": "Tus correos se reenvían a tu buzón actual.",
+			"url": "/audio/2dce13fa036696368cb1.mp3"
 		}
 	},
 	"der almdudler": {
@@ -271,6 +373,34 @@
 			"url": "/audio/221b14f9f806b59e5d05.mp3"
 		}
 	},
+	"der kundenbereich": {
+		"audio": {
+			"text": "der Kundenbereich",
+			"url": "/audio/250bcf14d353a1509f60.mp3"
+		},
+		"translation": {
+			"text": "el área de cliente",
+			"url": "/audio/ccb72c46e1d6b428fe7e.mp3"
+		},
+		"example": {
+			"text": "Im Kundenbereich siehst du alle Rechnungen.",
+			"url": "/audio/75fc303d280236574a4a.mp3"
+		}
+	},
+	"der onlineshop": {
+		"audio": {
+			"text": "der Onlineshop",
+			"url": "/audio/9c5a4899b0df567e123e.mp3"
+		},
+		"translation": {
+			"text": "la tienda online",
+			"url": "/audio/184e4d5649b7c7287eca.mp3"
+		},
+		"example": {
+			"text": "Sie verkauft ihre Produkte in einem Onlineshop.",
+			"url": "/audio/ca3ad08e0ee811660026.mp3"
+		}
+	},
 	"der rabatt": {
 		"audio": {
 			"text": "der Rabatt",
@@ -283,6 +413,16 @@
 		"example": {
 			"text": "Ich habe zehn Prozent Rabatt bekommen.",
 			"url": "/audio/824d7501ad715b9baa03.mp3"
+		}
+	},
+	"der server steht in europa.": {
+		"audio": {
+			"text": "Der Server steht in Europa.",
+			"url": "/audio/7b8e38965ddb65ccef30.mp3"
+		},
+		"translation": {
+			"text": "El servidor está en Europa.",
+			"url": "/audio/343ab5ec9424cda32ec3.mp3"
 		}
 	},
 	"der stammtisch": {
@@ -369,6 +509,58 @@
 			"url": "/audio/56bc9d1e44e14ad7edfc.mp3"
 		}
 	},
+	"die besucherzahl": {
+		"audio": {
+			"text": "die Besucherzahl",
+			"url": "/audio/23f3160904180d68b67d.mp3"
+		},
+		"translation": {
+			"text": "el número de visitantes",
+			"url": "/audio/dc15d4809d248babc97c.mp3"
+		},
+		"example": {
+			"text": "Die Besucherzahl ist im Mai gestiegen.",
+			"url": "/audio/c447a1caa29aa9afd27a.mp3"
+		}
+	},
+	"die besuchsstatistik": {
+		"audio": {
+			"text": "die Besuchsstatistik",
+			"url": "/audio/6071bd30c72e49e5a187.mp3"
+		},
+		"translation": {
+			"text": "las estadísticas de visitas",
+			"url": "/audio/4a173e1207c362d0f799.mp3"
+		},
+		"example": {
+			"text": "In der Besuchsstatistik sehe ich, wie viele Leute die Seite besuchen.",
+			"url": "/audio/914573c4f0766cce62ba.mp3"
+		}
+	},
+	"die betreuung": {
+		"audio": {
+			"text": "die Betreuung",
+			"url": "/audio/fc696573cfd8f5c397ea.mp3"
+		},
+		"translation": {
+			"text": "la atención, el cuidado continuo",
+			"url": "/audio/a36e0192c26a9fe42178.mp3"
+		},
+		"example": {
+			"text": "Wir bieten eine persönliche Betreuung an.",
+			"url": "/audio/0558c91712706536bede.mp3"
+		}
+	},
+	"die betreuung kostet 120 euro pro jahr.": {
+		"audio": {
+			"text": "Die Betreuung kostet 120 Euro pro Jahr.",
+			"url": "/audio/ade0253925d9b005f0a5.mp3"
+		},
+		"translation": {
+			"text": "El mantenimiento cuesta 120 euros al año.",
+			"url": "/audio/0e4f921bf418d4c72e48.mp3"
+		}
+	},
 	"die buschenschank": {
 		"audio": {
 			"text": "die Buschenschank",
@@ -397,6 +589,54 @@
 			"url": "/audio/113a94658899853019e7.mp3"
 		}
 	},
+	"die einrichtung": {
+		"audio": {
+			"text": "die Einrichtung",
+			"url": "/audio/6b2be3958a3830dc023f.mp3"
+		},
+		"translation": {
+			"text": "la puesta en marcha, la configuración",
+			"url": "/audio/cfda11a204935689cff6.mp3"
+		},
+		"example": {
+			"text": "Die Einrichtung der Seite dauert nur ein paar Tage.",
+			"url": "/audio/1bd3c19869e03630986a.mp3"
+		}
+	},
+	"die erste version ist oft in ein bis drei tagen fertig.": {
+		"audio": {
+			"text": "Die erste Version ist oft in ein bis drei Tagen fertig.",
+			"url": "/audio/41b104a4acc745cce969.mp3"
+		},
+		"translation": {
+			"text": "La primera versión suele estar lista en uno a tres días.",
+			"url": "/audio/c4cffb9c931b5c6e64c3.mp3"
+		}
+	},
+	"die erstellung kostet ab 500 euro einmalig.": {
+		"audio": {
+			"text": "Die Erstellung kostet ab 500 Euro einmalig.",
+			"url": "/audio/aac99a3bfbee33a1d139.mp3"
+		},
+		"translation": {
+			"text": "La creación cuesta desde 500 euros, pago único.",
+			"url": "/audio/b635c15a940414c64317.mp3"
+		}
+	},
+	"die grundausstattung": {
+		"audio": {
+			"text": "die Grundausstattung",
+			"url": "/audio/35e732b69748068bd1d6.mp3"
+		},
+		"translation": {
+			"text": "el paquete básico",
+			"url": "/audio/6ab1a84883646780f937.mp3"
+		},
+		"example": {
+			"text": "Die Grundausstattung reicht für den Anfang.",
+			"url": "/audio/2acee9c44d63ab8a522f.mp3"
+		}
+	},
 	"die hauptspeise": {
 		"audio": {
 			"text": "die Hauptspeise",
@@ -409,6 +649,48 @@
 		"example": {
 			"text": "Als Hauptspeise empfehle ich den Fisch.",
 			"url": "/audio/f3b28f4dc2e4b265a020.mp3"
+		}
+	},
+	"die impressumspflicht": {
+		"audio": {
+			"text": "die Impressumspflicht",
+			"url": "/audio/ddfcddb30755cbb31484.mp3"
+		},
+		"translation": {
+			"text": "la obligación de aviso legal",
+			"url": "/audio/1ca111ddcc555c9ac8b1.mp3"
+		},
+		"example": {
+			"text": "In Österreich gilt eine Impressumspflicht für Webseiten.",
+			"url": "/audio/d8eee650e40a31da5ba8.mp3"
+		}
+	},
+	"die korrekturschleife": {
+		"audio": {
+			"text": "die Korrekturschleife",
+			"url": "/audio/1b749f09c48e7dd7cc29.mp3"
+		},
+		"translation": {
+			"text": "la ronda de correcciones",
+			"url": "/audio/fd23b5df7938b012fc62.mp3"
+		},
+		"example": {
+			"text": "Im Preis ist eine Korrekturschleife inbegriffen.",
+			"url": "/audio/9a20d5cb440e05a9df0c.mp3"
+		}
+	},
+	"die leistung": {
+		"audio": {
+			"text": "die Leistung",
+			"url": "/audio/74eff8de971d677aa5b0.mp3"
+		},
+		"translation": {
+			"text": "el servicio, la prestación",
+			"url": "/audio/a22257d4f6f4297953f0.mp3"
+		},
+		"example": {
+			"text": "Welche Leistungen sind im Paket enthalten?",
+			"url": "/audio/b767aa0451b14efeaf36.mp3"
 		}
 	},
 	"die mehlspeise": {
@@ -453,6 +735,16 @@
 			"url": "/audio/a0aae58fb9095f822172.mp3"
 		}
 	},
+	"die online-terminbuchung ist optional.": {
+		"audio": {
+			"text": "Die Online-Terminbuchung ist optional.",
+			"url": "/audio/14d6687eeab17b60118f.mp3"
+		},
+		"translation": {
+			"text": "La reserva de citas online es opcional.",
+			"url": "/audio/ce25bf344239bf746e70.mp3"
+		}
+	},
 	"die palatschinke": {
 		"audio": {
 			"text": "die Palatschinke",
@@ -465,6 +757,54 @@
 		"example": {
 			"text": "Meine Mutter macht Palatschinken mit Marmelade.",
 			"url": "/audio/d67b5085b1b1e5573f8c.mp3"
+		}
+	},
+	"die platzierung": {
+		"audio": {
+			"text": "die Platzierung",
+			"url": "/audio/100b2ff303618b87f18f.mp3"
+		},
+		"translation": {
+			"text": "la posición",
+			"url": "/audio/7509cf8b0f49ae36cb32.mp3"
+		},
+		"example": {
+			"text": "Die Platzierung in der Suche ist sehr gut.",
+			"url": "/audio/7d9b49a616acdf25f5c5.mp3"
+		}
+	},
+	"die seite ist per https gesichert.": {
+		"audio": {
+			"text": "Die Seite ist per HTTPS gesichert.",
+			"url": "/audio/0b31e9faffb9a2482d9f.mp3"
+		},
+		"translation": {
+			"text": "La página está protegida con HTTPS.",
+			"url": "/audio/c1abf8b9f29a52bfd696.mp3"
+		}
+	},
+	"die seite sieht auch am handy gut aus.": {
+		"audio": {
+			"text": "Die Seite sieht auch am Handy gut aus.",
+			"url": "/audio/032d1d50fecc7cf4b4c3.mp3"
+		},
+		"translation": {
+			"text": "La página se ve bien también en el móvil.",
+			"url": "/audio/aba42777a4d93eebab38.mp3"
+		}
+	},
+	"die selbstständige": {
+		"audio": {
+			"text": "die Selbstständige",
+			"url": "/audio/782473d0c99627b27313.mp3"
+		},
+		"example": {
+			"text": "Die Selbstständige braucht eine einfache Webseite.",
+			"url": "/audio/fd5e941216dc93a7190a.mp3"
+		},
+		"translation": {
+			"text": "la autónoma",
+			"url": "/audio/8de66768b8fb5cc37e04.mp3"
 		}
 	},
 	"die speisekarte": {
@@ -481,6 +821,86 @@
 			"url": "/audio/6a59f064c5f9aeeee868.mp3"
 		}
 	},
+	"die statistik ist einfach und ohne unnötiges tracking.": {
+		"audio": {
+			"text": "Die Statistik ist einfach und ohne unnötiges Tracking.",
+			"url": "/audio/94d2d98751334bb2c606.mp3"
+		},
+		"translation": {
+			"text": "Las estadísticas son sencillas y sin rastreo innecesario.",
+			"url": "/audio/70628ba6aee26a5b55e9.mp3"
+		}
+	},
+	"die suchmaschinenoptimierung": {
+		"audio": {
+			"text": "die Suchmaschinenoptimierung",
+			"url": "/audio/0e19675f625586b8a715.mp3"
+		},
+		"translation": {
+			"text": "la optimización para buscadores",
+			"url": "/audio/708f6990e2a5738ce1ec.mp3"
+		},
+		"example": {
+			"text": "Mit Suchmaschinenoptimierung wirst du leichter gefunden.",
+			"url": "/audio/efc01d304701ced0bac8.mp3"
+		}
+	},
+	"die terminbuchung": {
+		"audio": {
+			"text": "die Terminbuchung",
+			"url": "/audio/5fda59a968a339fe9e3c.mp3"
+		},
+		"translation": {
+			"text": "la reserva de citas",
+			"url": "/audio/bd4e0767c9141a3ce43e.mp3"
+		},
+		"example": {
+			"text": "Die Terminbuchung funktioniert direkt über die Webseite.",
+			"url": "/audio/0f34bbfb8ea28fe5c5be.mp3"
+		}
+	},
+	"die veröffentlichung": {
+		"audio": {
+			"text": "die Veröffentlichung",
+			"url": "/audio/498af0a578da89ab7d09.mp3"
+		},
+		"translation": {
+			"text": "la publicación",
+			"url": "/audio/2e8d00eb8fc6459936f8.mp3"
+		},
+		"example": {
+			"text": "Die Veröffentlichung der Seite ist für Montag geplant.",
+			"url": "/audio/04d11e135dca5071a122.mp3"
+		}
+	},
+	"die verschlüsselung": {
+		"audio": {
+			"text": "die Verschlüsselung",
+			"url": "/audio/d508fcdf29dcd100df8f.mp3"
+		},
+		"translation": {
+			"text": "el cifrado",
+			"url": "/audio/3c998f0f9671cfd01192.mp3"
+		},
+		"example": {
+			"text": "Die Verschlüsselung schützt die Daten der Besucher.",
+			"url": "/audio/c4d41ec64c32b0c0280a.mp3"
+		}
+	},
+	"die visitenkarte im netz": {
+		"audio": {
+			"text": "die Visitenkarte im Netz",
+			"url": "/audio/0e07a782710a1fca6891.mp3"
+		},
+		"translation": {
+			"text": "la tarjeta de visita en internet",
+			"url": "/audio/f02126daab36a9a1cc33.mp3"
+		},
+		"example": {
+			"text": "Deine Webseite ist deine Visitenkarte im Netz.",
+			"url": "/audio/fb274d4d648a7b0880fc.mp3"
+		}
+	},
 	"die vorspeise": {
 		"audio": {
 			"text": "die Vorspeise",
@@ -493,6 +913,164 @@
 		"example": {
 			"text": "Als Vorspeise nehme ich eine Suppe.",
 			"url": "/audio/e363a1dabb3b38be09b5.mp3"
+		}
+	},
+	"die wartung": {
+		"audio": {
+			"text": "die Wartung",
+			"url": "/audio/3822448e1414a3267612.mp3"
+		},
+		"translation": {
+			"text": "el mantenimiento",
+			"url": "/audio/0bacecf0bee025289985.mp3"
+		},
+		"example": {
+			"text": "Die Wartung der Seite übernehmen wir für Sie.",
+			"url": "/audio/7eabb1bd66ecd26ff9f7.mp3"
+		}
+	},
+	"du bekommst eine eigene domain.": {
+		"audio": {
+			"text": "Du bekommst eine eigene Domain.",
+			"url": "/audio/c5fd18801b54a7fa05b5.mp3"
+		},
+		"translation": {
+			"text": "Recibes tu propio dominio.",
+			"url": "/audio/790e860fac5b42527b0a.mp3"
+		}
+	},
+	"du brauchst keine technischen kenntnisse.": {
+		"audio": {
+			"text": "Du brauchst keine technischen Kenntnisse.",
+			"url": "/audio/53b7fe1afcd49321caeb.mp3"
+		},
+		"translation": {
+			"text": "No necesitas conocimientos técnicos.",
+			"url": "/audio/fc2edac9b3ff3f78b7f7.mp3"
+		}
+	},
+	"du kannst auch ganz von vorne anfangen.": {
+		"audio": {
+			"text": "Du kannst auch ganz von vorne anfangen.",
+			"url": "/audio/f546a23f331a0d4f6895.mp3"
+		},
+		"translation": {
+			"text": "También puedes empezar desde cero.",
+			"url": "/audio/99397235a3c65200f59a.mp3"
+		}
+	},
+	"du kannst mit einer bestehenden website starten.": {
+		"audio": {
+			"text": "Du kannst mit einer bestehenden Website starten.",
+			"url": "/audio/c26b493a64fdf89355a3.mp3"
+		},
+		"translation": {
+			"text": "Puedes empezar con una web existente.",
+			"url": "/audio/3191ad07b03ec8b48f20.mp3"
+		}
+	},
+	"du kannst texte und bilder selbst ändern.": {
+		"audio": {
+			"text": "Du kannst Texte und Bilder selbst ändern.",
+			"url": "/audio/e0650382957ef9dd9064.mp3"
+		},
+		"translation": {
+			"text": "Puedes cambiar textos e imágenes tú mismo.",
+			"url": "/audio/60af12f1f20621a91614.mp3"
+		}
+	},
+	"du musst dich um nichts technisches kümmern.": {
+		"audio": {
+			"text": "Du musst dich um nichts Technisches kümmern.",
+			"url": "/audio/1ba9950752b0a26c4dfc.mp3"
+		},
+		"translation": {
+			"text": "No tienes que ocuparte de nada técnico.",
+			"url": "/audio/fc615a15c1a1041ce17c.mp3"
+		}
+	},
+	"du musst texte und bilder nicht vorher haben.": {
+		"audio": {
+			"text": "Du musst Texte und Bilder nicht vorher haben.",
+			"url": "/audio/a1c4b7eadf2cedd40593.mp3"
+		},
+		"translation": {
+			"text": "No necesitas tener textos ni imágenes de antemano.",
+			"url": "/audio/06d72b7a9b09d3958db7.mp3"
+		}
+	},
+	"du prüfst das ergebnis in ruhe.": {
+		"audio": {
+			"text": "Du prüfst das Ergebnis in Ruhe.",
+			"url": "/audio/085e10e925340b38cf0d.mp3"
+		},
+		"translation": {
+			"text": "Revisas el resultado con calma.",
+			"url": "/audio/11e165aed85d303aa5c4.mp3"
+		}
+	},
+	"ein eigenes postfach ist nicht enthalten.": {
+		"audio": {
+			"text": "Ein eigenes Postfach ist nicht enthalten.",
+			"url": "/audio/af4e64209d43b29407a5.mp3"
+		},
+		"translation": {
+			"text": "Un buzón propio no está incluido.",
+			"url": "/audio/6ea7ed97036b98c6020b.mp3"
+		}
+	},
+	"eine korrekturrunde ist im basispaket enthalten.": {
+		"audio": {
+			"text": "Eine Korrekturrunde ist im Basispaket enthalten.",
+			"url": "/audio/0ef471dde7c0057d0c3a.mp3"
+		},
+		"translation": {
+			"text": "Una ronda de correcciones está incluida en el paquete básico.",
+			"url": "/audio/4ae651bd156dfb7a382b.mp3"
+		}
+	},
+	"einmalig": {
+		"audio": {
+			"text": "einmalig",
+			"url": "/audio/b8cbcd21ee3f7063e93b.mp3"
+		},
+		"translation": {
+			"text": "único, una sola vez",
+			"url": "/audio/1a260976f87fd12b28fe.mp3"
+		},
+		"example": {
+			"text": "Die Einrichtung kostet einmalig 300 Euro.",
+			"url": "/audio/d67d929274486362dc65.mp3"
+		}
+	},
+	"erst nach deiner freigabe gehen wir online.": {
+		"audio": {
+			"text": "Erst nach deiner Freigabe gehen wir online.",
+			"url": "/audio/46922aedf2be15181614.mp3"
+		},
+		"translation": {
+			"text": "Solo salimos online tras tu aprobación.",
+			"url": "/audio/8cac7d2c5c6fcdf7ff7d.mp3"
+		}
+	},
+	"erzähl uns von deinem angebot.": {
+		"audio": {
+			"text": "Erzähl uns von deinem Angebot.",
+			"url": "/audio/eb6c989506671304cb2a.mp3"
+		},
+		"translation": {
+			"text": "Cuéntanos sobre tu oferta.",
+			"url": "/audio/478ea14f29cf8df63f3f.mp3"
+		}
+	},
+	"für große shops ist das angebot weniger geeignet.": {
+		"audio": {
+			"text": "Für große Shops ist das Angebot weniger geeignet.",
+			"url": "/audio/4b17c464e52548bd3012.mp3"
+		},
+		"translation": {
+			"text": "La oferta es menos adecuada para tiendas grandes.",
+			"url": "/audio/e1134e050a00fcab554c.mp3"
 		}
 	},
 	"g'schmackig": {
@@ -537,6 +1115,60 @@
 			"url": "/audio/64edf3202b1bd72102f8.mp3"
 		}
 	},
+	"im kundenbereich pflegst du öffnungszeiten und leistungen.": {
+		"audio": {
+			"text": "Im Kundenbereich pflegst du Öffnungszeiten und Leistungen.",
+			"url": "/audio/f9ef16e63d37f9e65093.mp3"
+		},
+		"translation": {
+			"text": "En el área de cliente gestionas horarios y servicios.",
+			"url": "/audio/d0ddbe8e7a6bfdc7d9cc.mp3"
+		}
+	},
+	"im preis sind hosting und technische wartung enthalten.": {
+		"audio": {
+			"text": "Im Preis sind Hosting und technische Wartung enthalten.",
+			"url": "/audio/a6310d495053f6f7394f.mp3"
+		},
+		"translation": {
+			"text": "En el precio están incluidos el alojamiento y el mantenimiento técnico.",
+			"url": "/audio/f8484d3ffc55ba2b8db1.mp3"
+		}
+	},
+	"inklusive": {
+		"audio": {
+			"text": "inklusive",
+			"url": "/audio/153151d59a5197153e08.mp3"
+		},
+		"translation": {
+			"text": "incluido",
+			"url": "/audio/6eefda4f67c27c66b00c.mp3"
+		},
+		"example": {
+			"text": "Der Preis ist inklusive Mehrwertsteuer.",
+			"url": "/audio/1bea2e8262a64195cb9d.mp3"
+		}
+	},
+	"jede seite wird persönlich geprüft.": {
+		"audio": {
+			"text": "Jede Seite wird persönlich geprüft.",
+			"url": "/audio/5bb0579659af46bb38a1.mp3"
+		},
+		"translation": {
+			"text": "Cada página se revisa personalmente.",
+			"url": "/audio/4ea803405f2637a632b3.mp3"
+		}
+	},
+	"melde dich im kundenbereich an.": {
+		"audio": {
+			"text": "Melde dich im Kundenbereich an.",
+			"url": "/audio/a81b49f58c5df7dcb3f1.mp3"
+		},
+		"translation": {
+			"text": "Inicia sesión en el área de cliente.",
+			"url": "/audio/d6e319e6194be4f876a0.mp3"
+		}
+	},
 	"möglich": {
 		"audio": {
 			"text": "möglich",
@@ -549,6 +1181,40 @@
 		"example": {
 			"text": "Ist es möglich, den Termin zu verschieben?",
 			"url": "/audio/6e4fcfd7a9c9b64d4298.mp3"
+		}
+	},
+	"nichts wird ungeprüft veröffentlicht.": {
+		"audio": {
+			"text": "Nichts wird ungeprüft veröffentlicht.",
+			"url": "/audio/97fee3870d3d183a7dc7.mp3"
+		},
+		"translation": {
+			"text": "Nada se publica sin revisar.",
+			"url": "/audio/fe48190fc4a6e4b9c513.mp3"
+		}
+	},
+	"nutzerfreundlich": {
+		"audio": {
+			"text": "nutzerfreundlich",
+			"url": "/audio/3f544201baf9666bee4f.mp3"
+		},
+		"translation": {
+			"text": "fácil de usar",
+			"url": "/audio/b5e3cbd3780023f23118.mp3"
+		},
+		"example": {
+			"text": "Wir bauen eine nutzerfreundliche Webseite für dich.",
+			"url": "/audio/69cc3711de46bac64711.mp3"
+		}
+	},
+	"persönlich gestaltet, einfach gepflegt.": {
+		"audio": {
+			"text": "Persönlich gestaltet, einfach gepflegt.",
+			"url": "/audio/897fd7f99e2909a16677.mp3"
+		},
+		"translation": {
+			"text": "Diseñado a medida, fácil de mantener.",
+			"url": "/audio/c7aeb1abb6c402221bf1.mp3"
 		}
 	},
 	"raunzen": {
@@ -607,10 +1273,40 @@
 			"url": "/audio/bcb5cf0f09e91b036ce2.mp3"
 		}
 	},
+	"schreib uns über das kontaktformular.": {
+		"audio": {
+			"text": "Schreib uns über das Kontaktformular.",
+			"url": "/audio/0f9e22ccdc406ec94974.mp3"
+		},
+		"translation": {
+			"text": "Escríbenos a través del formulario de contacto.",
+			"url": "/audio/ddb5e2a784349fdb5635.mp3"
+		}
+	},
 	"sich beschweren": {
 		"translation": {
 			"text": "quejarse",
 			"url": "/audio/15e361a2907fe14ab17d.mp3"
+		}
+	},
+	"sobald alle informationen da sind, geht es schnell.": {
+		"audio": {
+			"text": "Sobald alle Informationen da sind, geht es schnell.",
+			"url": "/audio/49455954f074b19e3d22.mp3"
+		},
+		"translation": {
+			"text": "En cuanto tenemos toda la información, va rápido.",
+			"url": "/audio/76294556ca685f2a4ce5.mp3"
+		}
+	},
+	"sonderwünsche besprechen wir vorher.": {
+		"audio": {
+			"text": "Sonderwünsche besprechen wir vorher.",
+			"url": "/audio/1801a98c13c0cfa13d11.mp3"
+		},
+		"translation": {
+			"text": "Los deseos especiales los hablamos antes.",
+			"url": "/audio/765a809b8dc3e02bf421.mp3"
 		}
 	},
 	"vegetarisch": {
@@ -625,6 +1321,20 @@
 		"example": {
 			"text": "Gibt es auch ein vegetarisches Gericht?",
 			"url": "/audio/b270b9e15fb3bd6af1dd.mp3"
+		}
+	},
+	"veröffentlichen": {
+		"audio": {
+			"text": "veröffentlichen",
+			"url": "/audio/4566b124924b8a277644.mp3"
+		},
+		"translation": {
+			"text": "publicar",
+			"url": "/audio/92def8a8146d4fd2a992.mp3"
+		},
+		"example": {
+			"text": "Wir veröffentlichen die Webseite nächste Woche.",
+			"url": "/audio/4ded014c11aedb78ff10.mp3"
 		}
 	},
 	"vielen dank für die gute zusammenarbeit.": {
@@ -649,6 +1359,86 @@
 		"example": {
 			"text": "Komm doch morgen auf einen Kaffee vorbei!",
 			"url": "/audio/d3a12dbbf09377b3c740.mp3"
+		}
+	},
+	"wir führen dich schritt für schritt durch den prozess.": {
+		"audio": {
+			"text": "Wir führen dich Schritt für Schritt durch den Prozess.",
+			"url": "/audio/4c3f2139e48b8ffa653f.mp3"
+		},
+		"translation": {
+			"text": "Te guiamos paso a paso por el proceso.",
+			"url": "/audio/464f29a973a6d8116797.mp3"
+		}
+	},
+	"wir gestalten websites für selbstständige.": {
+		"audio": {
+			"text": "Wir gestalten Websites für Selbstständige.",
+			"url": "/audio/9b6fae578635279af53e.mp3"
+		},
+		"translation": {
+			"text": "Diseñamos sitios web para autónomos.",
+			"url": "/audio/c9bbfab3b8424003d8cf.mp3"
+		}
+	},
+	"wir können keine platzierung bei google garantieren.": {
+		"audio": {
+			"text": "Wir können keine Platzierung bei Google garantieren.",
+			"url": "/audio/b1b967bfca7a79f68a64.mp3"
+		},
+		"translation": {
+			"text": "No podemos garantizar una posición en Google.",
+			"url": "/audio/522fbc1d438e3b37040a.mp3"
+		}
+	},
+	"wir sitzen in graz.": {
+		"audio": {
+			"text": "Wir sitzen in Graz.",
+			"url": "/audio/fd42d20344df7d9931aa.mp3"
+		},
+		"translation": {
+			"text": "Estamos en Graz.",
+			"url": "/audio/2e8618d708d8c645c879.mp3"
+		}
+	},
+	"wir sorgen für eine saubere technische basis.": {
+		"audio": {
+			"text": "Wir sorgen für eine saubere technische Basis.",
+			"url": "/audio/05d7505ef2854ee8a253.mp3"
+		},
+		"translation": {
+			"text": "Nos ocupamos de una base técnica limpia.",
+			"url": "/audio/160241c2c39716a6ddfa.mp3"
+		}
+	},
+	"wir sprechen zuerst über dein angebot.": {
+		"audio": {
+			"text": "Wir sprechen zuerst über dein Angebot.",
+			"url": "/audio/114cd46f60f0e7e2cc1a.mp3"
+		},
+		"translation": {
+			"text": "Primero hablamos de tu oferta.",
+			"url": "/audio/800b19c69644bed237c7.mp3"
+		}
+	},
+	"wir übernehmen gestaltung, aufbau und hosting.": {
+		"audio": {
+			"text": "Wir übernehmen Gestaltung, Aufbau und Hosting.",
+			"url": "/audio/995709c8b06507a66c24.mp3"
+		},
+		"translation": {
+			"text": "Nos encargamos del diseño, la construcción y el alojamiento.",
+			"url": "/audio/510e3b95faffbb79ff9a.mp3"
+		}
+	},
+	"wir verwenden ki für vorschläge und struktur.": {
+		"audio": {
+			"text": "Wir verwenden KI für Vorschläge und Struktur.",
+			"url": "/audio/40289b088fb9803ef2a0.mp3"
+		},
+		"translation": {
+			"text": "Usamos IA para propuestas y estructura.",
+			"url": "/audio/851ed8c1a922e0fa05b2.mp3"
 		}
 	},
 	"zahlen": {

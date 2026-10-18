@@ -140,7 +140,7 @@ npm run audio:build -- --all --category Restaurant --type word   # one block at 
 - **Environment**: `ELEVENLABS_API_KEY` (required, only needs the *voices* and *text to speech*
   permissions); `ELEVENLABS_VOICE_DE`, `ELEVENLABS_VOICE_ES` (name or voice id, e.g. `Livia` / `Marina`);
   `ELEVENLABS_MODEL` (default `eleven_multilingual_v2`); `ELEVENLABS_OUTPUT_FORMAT` (default `mp3_24000_48`,
-  ~6 KB/s); `ELEVENLABS_CONCURRENCY` (default 3). The language is pinned with `language_code` on every request.
+  ~6 KB/s); `ELEVENLABS_CONCURRENCY` (default 2, the free plan's limit). The language is pinned with `language_code` on every request.
 - **Cost**: ElevenLabs bills per character. Each run prints the characters per voice (total and pending)
   before generating anything. The full dataset is about 55,000 German + 22,000 Spanish characters and
   ~30 MB of MP3 in `static/audio/`, served by Vercel's CDN with an immutable cache header (`vercel.json`; the
