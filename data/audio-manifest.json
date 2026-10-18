@@ -1,0 +1,116 @@
+{
+	"der rabatt": {
+		"audio": {
+			"text": "der Rabatt",
+			"url": "/audio/10732c1236118cabac85.mp3"
+		},
+		"translation": {
+			"text": "el descuento",
+			"url": "/audio/24281539df3377fdab6f.mp3"
+		},
+		"example": {
+			"text": "Ich habe zehn Prozent Rabatt bekommen.",
+			"url": "/audio/824d7501ad715b9baa03.mp3"
+		}
+	},
+	"der strafzettel": {
+		"audio": {
+			"text": "der Strafzettel",
+			"url": "/audio/2a661a8fb26c595fb0e4.mp3"
+		},
+		"translation": {
+			"text": "la multa",
+			"url": "/audio/c663253b050d6c275650.mp3"
+		},
+		"example": {
+			"text": "Ich habe einen Strafzettel bekommen.",
+			"url": "/audio/e06310908b63cc95201b.mp3"
+		}
+	},
+	"die drogerie": {
+		"audio": {
+			"text": "die Drogerie",
+			"url": "/audio/9efe4701d1a63a7edaa3.mp3"
+		},
+		"translation": {
+			"text": "la droguería",
+			"url": "/audio/68db8d2b59a1457c5806.mp3"
+		},
+		"example": {
+			"text": "In der Drogerie kaufe ich Shampoo und Zahnpasta.",
+			"url": "/audio/113a94658899853019e7.mp3"
+		}
+	},
+	"hiermit": {
+		"audio": {
+			"text": "hiermit",
+			"url": "/audio/544e8e9758b629620135.mp3"
+		},
+		"translation": {
+			"text": "por la presente",
+			"url": "/audio/d9e6c640121e32044df4.mp3"
+		},
+		"example": {
+			"text": "Hiermit bestätige ich den Termin.",
+			"url": "/audio/64edf3202b1bd72102f8.mp3"
+		}
+	},
+	"möglich": {
+		"audio": {
+			"text": "möglich",
+			"url": "/audio/3bec5ee893b21ac8c6cc.mp3"
+		},
+		"translation": {
+			"text": "posible",
+			"url": "/audio/b48b56266454f6500402.mp3"
+		},
+		"example": {
+			"text": "Ist es möglich, den Termin zu verschieben?",
+			"url": "/audio/6e4fcfd7a9c9b64d4298.mp3"
+		}
+	},
+	"raunzen": {
+		"audio": {
+			"text": "raunzen",
+			"url": "/audio/ba55b297d98d777b2b2d.mp3"
+		},
+		"translation": {
+			"text": "quejarse",
+			"url": "/audio/15e361a2907fe14ab17d.mp3"
+		},
+		"example": {
+			"text": "Die Kinder raunzen schon den ganzen Tag.",
+			"url": "/audio/2835bb4737cf8c1bc18f.mp3"
+		}
+	},
+	"sich beschweren": {
+		"translation": {
+			"text": "quejarse",
+			"url": "/audio/15e361a2907fe14ab17d.mp3"
+		}
+	},
+	"vielen dank für die gute zusammenarbeit.": {
+		"audio": {
+			"text": "Vielen Dank für die gute Zusammenarbeit.",
+			"url": "/audio/e9d28dd607c726d8682b.mp3"
+		},
+		"translation": {
+			"text": "Muchas gracias por la buena colaboración.",
+			"url": "/audio/19b309d1ee7d617fef33.mp3"
+		}
+	},
+	"vorbeikommen": {
+		"audio": {
+			"text": "vorbeikommen",
+			"url": "/audio/c31f1f69f19e13688111.mp3"
+		},
+		"translation": {
+			"text": "pasar",
+			"url": "/audio/57c1d8bc69f4e14eb95c.mp3"
+		},
+		"example": {
+			"text": "Komm doch morgen auf einen Kaffee vorbei!",
+			"url": "/audio/d3a12dbbf09377b3c740.mp3"
+		}
+	}
+}

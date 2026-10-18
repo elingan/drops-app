@@ -223,7 +223,7 @@ describe('cli', () => {
 		expect(() => parseArgs(['--limit', 'x'])).toThrow();
 		expect(() => parseArgs(['--nope'])).toThrow('Unknown option');
 		const cfg = configFromEnv({ ELEVENLABS_API_KEY: ' k ', ELEVENLABS_VOICE_ES: 'Sarah' });
-		expect(cfg).toMatchObject({ apiKey: 'k', voiceDe: 'Livia', voiceEs: 'Sarah', model: 'eleven_multilingual_v2' });
+		expect(cfg).toMatchObject({ apiKey: 'k', voiceDe: 'Matilda', voiceEs: 'Sarah', model: 'eleven_multilingual_v2' });
 	});
 
 	it('asks for the key (without asking to paste it anywhere) when it is missing', () => {

@@ -16,9 +16,9 @@ import { loadEnv } from './env.ts';
  * Generates the MP3s of the bundled vocabulary with ElevenLabs and links them
  * into src/lib/data/vocabulary-at.json (via data/audio-manifest.json):
  *
- *   audio        the German word or phrase          voice «Livia»
- *   example      the German example sentence        voice «Livia»
- *   translation  the Spanish translation (1st sense) voice «Marina»
+ *   audio        the German word or phrase          German voice  (ELEVENLABS_VOICE_DE, default Matilda)
+ *   example      the German example sentence        German voice
+ *   translation  the Spanish translation (1st sense) Spanish voice (ELEVENLABS_VOICE_ES, default Matilda)
  *
  *   npm run audio:build                  # estimate only (characters per voice)
  *   npm run audio:build -- --limit 8     # test batch: 8 entries spread over the vocabulary
@@ -339,8 +339,10 @@ export function configFromEnv(env: Record<string, string | undefined>): Config {
 		apiKey,
 		model: env.ELEVENLABS_MODEL?.trim() || DEFAULT_MODEL,
 		format: env.ELEVENLABS_OUTPUT_FORMAT?.trim() || DEFAULT_FORMAT,
-		voiceDe: env.ELEVENLABS_VOICE_DE?.trim() || 'Livia',
-		voiceEs: env.ELEVENLABS_VOICE_ES?.trim() || 'Marina',
+		// Matilda is a premade voice, usable on every plan. «Livia» (German) and «Marina» (Spanish)
+		// are library voices and need a paid plan: set ELEVENLABS_VOICE_DE / ELEVENLABS_VOICE_ES.
+		voiceDe: env.ELEVENLABS_VOICE_DE?.trim() || 'Matilda',
+		voiceEs: env.ELEVENLABS_VOICE_ES?.trim() || 'Matilda',
 		concurrency: Math.max(1, Number(env.ELEVENLABS_CONCURRENCY) || 3),
 		audioDir: 'static/audio',
 		audioUrlBase: '/audio',
