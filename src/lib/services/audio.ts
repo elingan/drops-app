@@ -65,12 +65,20 @@ export class AudioService {
 		}
 	}
 
+	/** Plays a source and resolves when it ends (or fails, or is stopped). */
+	playToEnd(src: AudioSource): Promise<void> {
+		return new Promise((resolve) => {
+			void this.play(src, (s) => (s === 'idle' || s === 'error') && resolve());
+		});
+	}
+
 	private speak(src: AudioSource, emit: (s: PlaybackState) => void) {
 		if (!AudioService.hasSpeechSynthesis()) return emit('error');
 		const u = new SpeechSynthesisUtterance(src.text);
 		u.lang = src.lang;
-		u.rate = 0.9;
-		const voice = speechSynthesis.getVoices().find((v) => v.lang.toLowerCase().startsWith('de'));
+		u.rate = src.rate ?? 0.9;
+		const prefix = src.lang.slice(0, 2).toLowerCase();
+		const voice = speechSynthesis.getVoices().find((v) => v.lang.toLowerCase().startsWith(prefix));
 		if (voice) u.voice = voice;
 		u.onstart = () => emit('playing');
 		u.onend = () => emit('idle');

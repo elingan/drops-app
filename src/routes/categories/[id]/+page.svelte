@@ -46,6 +46,7 @@
 				<span>{m.category_practice()}</span>
 				<span class="play" aria-hidden="true"><Icon name="play" size={20} /></span>
 			</button>
+			<IconButton icon="volume" variant="sage" size={68} iconSize={26} label={m.walk_start()} onclick={() => goto(`/walk?category=${encodeURIComponent(category.id)}`)} />
 			<IconButton icon="plus" variant="sage" size={68} iconSize={26} label={m.category_add_here()} onclick={() => goto(`/add?category=${encodeURIComponent(category.id)}`)} />
 		</div>
 		{#if items.length}
@@ -71,7 +72,7 @@
 	.sub { font-size: 15px; color: var(--color-neutral-700); }
 	.bar { display: flex; margin: 0 4px; }
 	.facts { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 4px; }
-	.actions { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+	.actions { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 8px; }
 	.practice {
 		border: 0;
 		min-height: 68px;
