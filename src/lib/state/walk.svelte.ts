@@ -16,6 +16,9 @@ export interface WalkSettings {
 
 export const WALK_DEFAULTS: WalkSettings = { spanish: true, repeat: true, rate: 0.85, gap: 3 };
 const STORAGE_KEY = 'd10.walk';
+const HISTORY_KEY = 'd10.walk.heard';
+/** Length of one walk session, in seconds of playback. */
+export const WALK_SECONDS = 10 * 60;
 /** Cards planned per batch; the playlist refills (rotating) when it runs out. */
 const BATCH = 30;
 /** Listening is passive, so introduce more new cards per batch than in a session. */
@@ -31,7 +34,9 @@ const wait = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
  * Listening is passive: it doesn't touch spaced-repetition progress.
  */
 export class WalkState {
-	status = $state<'idle' | 'playing' | 'paused'>('idle');
+	status = $state<'idle' | 'playing' | 'paused' | 'finished'>('idle');
+	/** Seconds left in the current session (counts only while playing). */
+	remaining = $state(WALK_SECONDS);
 	item = $state<LearningItem | undefined>(undefined);
 	step = $state<WalkStep>('german');
 	heard = $state(0);
@@ -42,6 +47,9 @@ export class WalkState {
 	private done = new Set<string>();
 	private runId = 0;
 	private wake: WakeLockSentinel | null = null;
+	private ticker: ReturnType<typeof setInterval> | undefined;
+	/** Cards heard in earlier sessions: new sessions start with different ones. */
+	private history = this.loadHistory();
 
 	constructor(private readonly data: LearningState = learning) {}
 
@@ -52,9 +60,10 @@ export class WalkState {
 	start(categoryId?: string): boolean {
 		this.stop();
 		this.categoryId = categoryId;
-		this.done.clear();
+		this.done = this.freshScope(categoryId);
 		this.queue = [];
 		this.heard = 0;
+		this.remaining = WALK_SECONDS;
 		if (!this.refill()) return false;
 		this.play();
 		return true;
@@ -62,8 +71,9 @@ export class WalkState {
 
 	/** Starts or resumes playback of the current card. */
 	play(): void {
-		if (this.status === 'playing') return;
+		if (this.status === 'playing' || this.status === 'finished') return;
 		this.status = 'playing';
+		this.startTicker();
 		void this.acquireWakeLock();
 		void this.loop(++this.runId);
 	}
@@ -72,6 +82,7 @@ export class WalkState {
 		if (this.status !== 'playing') return;
 		this.status = 'paused';
 		this.runId++;
+		this.stopTicker();
 		this.data.services.audio.stop();
 		this.releaseWakeLock();
 	}
@@ -95,6 +106,7 @@ export class WalkState {
 
 	stop(): void {
 		this.runId++;
+		this.stopTicker();
 		this.data.services.audio.stop();
 		this.releaseWakeLock();
 		this.status = 'idle';
@@ -147,7 +159,43 @@ export class WalkState {
 			if (!alive()) return;
 			this.heard++;
 			this.advance();
+			if (this.remaining <= 0) return this.finish();
 		}
+	}
+
+	/** The 10 minutes are over: stop after the card that was playing. */
+	private finish(): void {
+		this.runId++;
+		this.stopTicker();
+		this.data.services.audio.stop();
+		this.releaseWakeLock();
+		this.status = 'finished';
+	}
+
+	private startTicker() {
+		this.stopTicker();
+		this.ticker = setInterval(() => {
+			if (this.remaining > 0) this.remaining--;
+		}, 1000);
+	}
+
+	private stopTicker() {
+		clearInterval(this.ticker);
+		this.ticker = undefined;
+	}
+
+	/**
+	 * Cards to leave out at the start of a session: everything heard before.
+	 * Once the whole scope has been heard the history restarts, so any number
+	 * of sessions can be played.
+	 */
+	private freshScope(categoryId?: string): Set<string> {
+		const scope = this.data.items.filter((i) => !categoryId || i.categoryId === categoryId);
+		if (scope.length && scope.every((i) => this.history.has(i.id))) {
+			for (const i of scope) this.history.delete(i.id);
+			this.saveHistory();
+		}
+		return new Set(this.history);
 	}
 
 	private spanishSource(text: string, rate: number): AudioSource {
@@ -158,7 +206,11 @@ export class WalkState {
 
 	/** Moves to the next card of the playlist, refilling it when empty. */
 	private advance(): LearningItem | undefined {
-		if (this.item) this.done.add(this.item.id);
+		if (this.item) {
+			this.done.add(this.item.id);
+			this.history.add(this.item.id);
+			this.saveHistory();
+		}
 		for (let tries = 0; tries < 3; tries++) {
 			while (this.queue.length) {
 				const next = this.data.itemsById.get(this.queue.shift()!.itemId);
@@ -196,6 +248,22 @@ export class WalkState {
 	private releaseWakeLock() {
 		void this.wake?.release().catch(() => {});
 		this.wake = null;
+	}
+
+	private loadHistory(): Set<string> {
+		try {
+			return new Set<string>(JSON.parse(localStorage.getItem(HISTORY_KEY) ?? '[]'));
+		} catch {
+			return new Set();
+		}
+	}
+
+	private saveHistory() {
+		try {
+			localStorage.setItem(HISTORY_KEY, JSON.stringify([...this.history]));
+		} catch {
+			/* private mode: sessions just won't remember */
+		}
 	}
 
 	private loadSettings(): WalkSettings {

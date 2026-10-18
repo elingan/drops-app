@@ -8,7 +8,7 @@
 	import TopBar from '$lib/components/TopBar.svelte';
 	import { m } from '$lib/paraglide/messages.js';
 	import { learning } from '$lib/state/learning.svelte';
-	import { walk } from '$lib/state/walk.svelte';
+	import { WALK_SECONDS, walk } from '$lib/state/walk.svelte';
 
 	const categoryId = page.url.searchParams.get('category') ?? undefined;
 	let empty = $state(false);
@@ -27,6 +27,12 @@
 	const item = $derived(walk.item);
 	const showSpanish = $derived(walk.step === 'spanish' || walk.step === 'again' || walk.step === 'gap' || walk.status === 'paused');
 	const playing = $derived(walk.status === 'playing');
+	const finished = $derived(walk.status === 'finished');
+	const clock = $derived(`${Math.floor(walk.remaining / 60)}:${String(walk.remaining % 60).padStart(2, '0')}`);
+
+	function again() {
+		empty = !walk.start(categoryId && learning.categoriesById.has(categoryId) ? categoryId : undefined);
+	}
 
 	function mediaSession(on: boolean) {
 		if (!('mediaSession' in navigator)) return;
@@ -75,10 +81,15 @@
 		<EmptyState title={m.session_empty_title()} body={m.session_empty_body()}>
 			<a class="btn btn-primary" href="/add">{m.nav_add()}</a>
 		</EmptyState>
+	{:else if finished}
+		<EmptyState title={m.walk_done_title()} body={m.walk_done_body({ n: walk.heard, min: WALK_SECONDS / 60 })}>
+			<button class="btn btn-primary" onclick={again}>{m.walk_again()}</button>
+			<button class="btn" onclick={leave}>{m.close()}</button>
+		</EmptyState>
 	{:else if item}
 		<div class="meta">
 			<span class="tag tag-neutral" lang="de">{walk.category?.name ?? '—'}</span>
-			<span class="count">{m.walk_heard({ n: walk.heard })}</span>
+			<span class="count">{clock} · {m.walk_heard({ n: walk.heard })}</span>
 		</div>
 
 		<div class="stage" aria-live="polite">

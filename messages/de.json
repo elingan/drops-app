@@ -229,5 +229,8 @@
 	"walk_gap_short": "Kurz",
 	"walk_gap_normal": "Mittel",
 	"walk_gap_long": "Lang",
-	"walk_note": "Lass den Bildschirm an: Manche Handys stoppen die Stimme bei Sperrung. Dein Fortschritt bleibt unverändert."
+	"walk_note": "Lass den Bildschirm an: Manche Handys stoppen die Stimme bei Sperrung. Dein Fortschritt bleibt unverändert.",
+	"walk_done_title": "Sitzung beendet",
+	"walk_done_body": "Du hast {n} Karten in {min} Minuten gehört. Die nächste Sitzung bringt neue.",
+	"walk_again": "Neue 10-Minuten-Sitzung"
 }
