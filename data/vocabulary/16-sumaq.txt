@@ -1,0 +1,69 @@
+# Sumaq
+w|die Selbstständige|la autónoma (trabajadora por cuenta propia)|der Selbstständige (m.)|
+w|die Visitenkarte im Netz|la tarjeta de visita en internet||
+w|das Hosting|el alojamiento web||
+w|der Kundenbereich|el área de cliente||Sumaq Bereich
+w|das Postfach|el buzón de correo||
+w|die Besuchsstatistik|las estadísticas de visitas||
+w|die Terminbuchung|la reserva de citas|die Online-Buchung|
+w|die Leistung|el servicio, la prestación||
+w|die Einrichtung|la puesta en marcha, la configuración||
+w|die Wartung|el mantenimiento||
+w|die Betreuung|la atención, el cuidado continuo||
+w|die Korrekturschleife|la ronda de correcciones||
+w|die Veröffentlichung|la publicación||
+w|veröffentlichen|publicar||
+w|die Suchmaschinenoptimierung|la optimización para buscadores (SEO)|SEO|
+w|die Platzierung|la posición (en el ranking)||
+w|die Besucherzahl|el número de visitantes||
+w|der Onlineshop|la tienda online||
+w|die Grundausstattung|el paquete básico|das Basispaket|
+w|einmalig|único, una sola vez||
+w|inklusive|incluido|inkl.|
+w|nutzerfreundlich|fácil de usar|einfach zu bedienen|
+w|datenschutzfreundlich|respetuoso con la privacidad||
+w|die Verschlüsselung|el cifrado|HTTPS|
+w|das Kontaktformular|el formulario de contacto||
+w|die Impressumspflicht|la obligación de aviso legal||Austria
+p|Wir gestalten Websites für Selbstständige.|Diseñamos sitios web para autónomos.||
+p|Persönlich gestaltet, einfach gepflegt.|Diseñado a medida, fácil de mantener.||Lema de Sumaq
+p|Du musst dich um nichts Technisches kümmern.|No tienes que ocuparte de nada técnico.||
+p|Wir übernehmen Gestaltung, Aufbau und Hosting.|Nos encargamos del diseño, la construcción y el alojamiento.||
+p|Die Seite sieht auch am Handy gut aus.|La página se ve bien también en el móvil.||
+p|Du bekommst eine eigene Domain.|Recibes tu propio dominio.||
+p|Deine E-Mails werden an dein bestehendes Postfach weitergeleitet.|Tus correos se reenvían a tu buzón actual.||Sin buzón nuevo
+p|Ein eigenes Postfach ist nicht enthalten.|Un buzón propio no está incluido.||
+p|Der Server steht in Europa.|El servidor está en Europa.||
+p|Du kannst Texte und Bilder selbst ändern.|Puedes cambiar textos e imágenes tú mismo.||
+p|Im Kundenbereich pflegst du Öffnungszeiten und Leistungen.|En el área de cliente gestionas horarios y servicios.||
+p|Das ist kein komplizierter Website-Baukasten.|No es un constructor de webs complicado.||
+p|Die Statistik ist einfach und ohne unnötiges Tracking.|Las estadísticas son sencillas y sin rastreo innecesario.||
+p|Die Online-Terminbuchung ist optional.|La reserva de citas online es opcional.||
+p|Du musst Texte und Bilder nicht vorher haben.|No necesitas tener textos ni imágenes de antemano.||
+p|Wir führen dich Schritt für Schritt durch den Prozess.|Te guiamos paso a paso por el proceso.||
+p|Du brauchst keine technischen Kenntnisse.|No necesitas conocimientos técnicos.||
+p|Wir sprechen zuerst über dein Angebot.|Primero hablamos de tu oferta.||
+p|Du prüfst das Ergebnis in Ruhe.|Revisas el resultado con calma.||
+p|Eine Korrekturrunde ist im Basispaket enthalten.|Una ronda de correcciones está incluida en el paquete básico.||
+p|Erst nach deiner Freigabe gehen wir online.|Solo salimos online tras tu aprobación.||
+p|Die erste Version ist oft in ein bis drei Tagen fertig.|La primera versión suele estar lista en uno a tres días.||
+p|Sobald alle Informationen da sind, geht es schnell.|En cuanto tenemos toda la información, va rápido.||
+p|Du kannst mit einer bestehenden Website starten.|Puedes empezar con una web existente.||
+p|Du kannst auch ganz von vorne anfangen.|También puedes empezar desde cero.||
+p|Wir verwenden KI für Vorschläge und Struktur.|Usamos IA para propuestas y estructura.||
+p|Jede Seite wird persönlich geprüft.|Cada página se revisa personalmente.||
+p|Nichts wird ungeprüft veröffentlicht.|Nada se publica sin revisar.||
+p|Die Erstellung kostet ab 500 Euro einmalig.|La creación cuesta desde 500 euros, pago único.||
+p|Die Betreuung kostet 120 Euro pro Jahr.|El mantenimiento cuesta 120 euros al año.||
+p|Alle Preise verstehen sich inklusive 20 % Umsatzsteuer.|Todos los precios incluyen un 20 % de IVA.||
+p|Sonderwünsche besprechen wir vorher.|Los deseos especiales los hablamos antes.||
+p|Im Preis sind Hosting und technische Wartung enthalten.|En el precio están incluidos el alojamiento y el mantenimiento técnico.||
+p|Wir können keine Platzierung bei Google garantieren.|No podemos garantizar una posición en Google.||
+p|Wir sorgen für eine saubere technische Basis.|Nos ocupamos de una base técnica limpia.||
+p|Die Seite ist per HTTPS gesichert.|La página está protegida con HTTPS.||
+p|Für große Shops ist das Angebot weniger geeignet.|La oferta es menos adecuada para tiendas grandes.||
+p|Das passt gut für Einzelunternehmer.|Encaja bien para autónomos individuales.||
+p|Erzähl uns von deinem Angebot.|Cuéntanos sobre tu oferta.||
+p|Schreib uns über das Kontaktformular.|Escríbenos a través del formulario de contacto.||
+p|Wir sitzen in Graz.|Estamos en Graz.||
+p|Melde dich im Kundenbereich an.|Inicia sesión en el área de cliente.||
