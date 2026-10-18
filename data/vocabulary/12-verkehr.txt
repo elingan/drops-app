@@ -1,46 +1,46 @@
 # Verkehr
-w|die Öffis|el transporte público|die öffentlichen Verkehrsmittel|Austria, coloquial.
-w|die Bim|el tranvía|die Straßenbahn|Austria (Graz, Viena), coloquial.
-w|die Straßenbahn|el tranvía||
-w|die Haltestelle|la parada||
-w|die Station|la estación, la parada||
-w|der Fahrplan|el horario (de transporte)||
-w|der Fahrschein|el billete|das Ticket|
-w|die Jahreskarte|el abono anual||Austria: KlimaTicket.
-w|das KlimaTicket|el abono nacional de transporte||Austria.
-w|entwerten|validar (billete)||
-w|der Kontrolleur|el revisor||
-w|die ÖBB|los ferrocarriles austriacos||Österreichische Bundesbahnen.
-w|der Bahnhof|la estación de tren||Graz Hauptbahnhof
-w|der Bahnsteig|el andén||
-w|das Gleis|la vía||
-w|umsteigen|hacer transbordo||
+w|die Öffis|el transporte público|die öffentlichen Verkehrsmittel|Austria, coloquial.|Ich fahre immer mit den Öffis in die Arbeit.|Siempre voy al trabajo en transporte público.
+w|die Bim|el tranvía|die Straßenbahn|Austria (Graz, Viena), coloquial.|Die Bim kommt alle fünf Minuten.|El tranvía pasa cada cinco minutos.
+w|die Straßenbahn|el tranvía|||Die Straßenbahn fährt bis zum Hauptbahnhof.|El tranvía llega hasta la estación central.
+w|die Haltestelle|la parada|||Die Haltestelle ist gleich um die Ecke.|La parada está justo a la vuelta de la esquina.
+w|die Station|la estación, la parada|||An der nächsten Station müssen wir aussteigen.|En la próxima estación tenemos que bajarnos.
+w|der Fahrplan|el horario (de transporte)|||Laut Fahrplan fährt der Bus um 7:45 Uhr.|Según el horario, el autobús sale a las 7:45.
+w|der Fahrschein|el billete|das Ticket||Wo kann ich einen Fahrschein kaufen?|¿Dónde puedo comprar un billete?
+w|die Jahreskarte|el abono anual||Austria: KlimaTicket.|Die Jahreskarte für die Öffis ist sehr günstig.|El abono anual del transporte público es muy barato.
+w|das KlimaTicket|el abono nacional de transporte||Austria.|Mit dem KlimaTicket fahre ich durch ganz Österreich.|Con el KlimaTicket viajo por toda Austria.
+w|entwerten|validar (billete)|||Vergiss nicht, den Fahrschein zu entwerten.|No olvides validar el billete.
+w|der Kontrolleur|el revisor|||Der Kontrolleur hat meinen Fahrschein verlangt.|El revisor me ha pedido el billete.
+w|die ÖBB|los ferrocarriles austriacos||Österreichische Bundesbahnen.|Die ÖBB haben neue Nachtzüge eingeführt.|Los ferrocarriles austriacos han introducido nuevos trenes nocturnos.
+w|der Bahnhof|la estación de tren||Graz Hauptbahnhof|Wir treffen uns um acht am Bahnhof.|Nos vemos a las ocho en la estación.
+w|der Bahnsteig|el andén|||Der Zug fährt von Bahnsteig drei ab.|El tren sale del andén tres.
+w|das Gleis|la vía|||Von welchem Gleis fährt der Zug nach Linz?|¿De qué vía sale el tren a Linz?
+w|umsteigen|hacer transbordo|||In Salzburg müssen Sie umsteigen.|En Salzburgo tiene que hacer transbordo.
 w|die Verspätung|el retraso||
-w|ausfallen|cancelarse, no circular||Der Zug fällt aus.
-w|die Ersatzverbindung|la conexión alternativa||
-w|der Schienenersatzverkehr|el autobús sustituto del tren||
-w|das Auto|el coche||
+w|ausfallen|cancelarse, no circular||Der Zug fällt aus.|Wegen des Schnees ist der Zug ausgefallen.|Por la nieve, el tren no ha circulado.
+w|die Ersatzverbindung|la conexión alternativa|||Es gibt eine Ersatzverbindung mit dem Bus.|Hay una conexión alternativa en autobús.
+w|der Schienenersatzverkehr|el autobús sustituto del tren|||Wegen der Baustelle gibt es Schienenersatzverkehr.|Por las obras hay autobús sustituto del tren.
+w|das Auto|el coche|||Wir haben das Auto vor einem Jahr gekauft.|Compramos el coche hace un año.
 w|der Führerschein|el carnet de conducir||
-w|das Pickerl|la ITV; la pegatina||Austria: §57a-Überprüfung.
-w|die Vignette|la viñeta de autopista||Austria: obligatoria en autopistas.
-w|die Autobahn|la autopista||
-w|der Stau|el atasco||
-w|parken|aparcar||
-w|der Parkplatz|el aparcamiento||
-w|die Kurzparkzone|la zona de aparcamiento limitado||Austria («blaue Zone»).
-w|der Parkschein|el ticket de aparcamiento||
-w|die Tankstelle|la gasolinera||
-w|tanken|repostar||
-w|das Fahrrad|la bicicleta||
-w|der Radweg|el carril bici||
-w|der Zebrastreifen|el paso de cebra||
-w|die Ampel|el semáforo||
-w|die Kreuzung|el cruce||
-w|abbiegen|girar (dirección)||
-w|die Umleitung|el desvío||
-w|die Baustelle|las obras||
-w|der Strafzettel|la multa (de tráfico)||Austria también: Organstrafverfügung.
-w|der Flughafen|el aeropuerto||
+w|das Pickerl|la ITV; la pegatina||Austria: §57a-Überprüfung.|Mein Pickerl ist nur noch bis März gültig.|Mi ITV solo es válida hasta marzo.
+w|die Vignette|la viñeta de autopista||Austria: obligatoria en autopistas.|Für die Autobahn braucht man eine Vignette.|Para la autopista hace falta una viñeta.
+w|die Autobahn|la autopista|||Auf der Autobahn war viel Verkehr.|En la autopista había mucho tráfico.
+w|der Stau|el atasco|||Wir standen eine Stunde im Stau.|Estuvimos una hora en un atasco.
+w|parken|aparcar|||Hier darf man nicht parken.|Aquí no se puede aparcar.
+w|der Parkplatz|el aparcamiento|||Ich finde keinen Parkplatz.|No encuentro aparcamiento.
+w|die Kurzparkzone|la zona de aparcamiento limitado||Austria («blaue Zone»).|In der Kurzparkzone darf man höchstens zwei Stunden parken.|En la zona de aparcamiento limitado solo se puede aparcar dos horas como máximo.
+w|der Parkschein|el ticket de aparcamiento|||Den Parkschein musst du hinter die Windschutzscheibe legen.|El ticket de aparcamiento hay que ponerlo detrás del parabrisas.
+w|die Tankstelle|la gasolinera|||An der nächsten Tankstelle halte ich an.|En la próxima gasolinera paro.
+w|tanken|repostar|||Ich muss noch tanken, bevor wir losfahren.|Todavía tengo que repostar antes de salir.
+w|das Fahrrad|la bicicleta|||Mit dem Fahrrad bin ich schneller als mit dem Auto.|En bici voy más rápido que en coche.
+w|der Radweg|el carril bici|||Entlang der Donau gibt es einen schönen Radweg.|A lo largo del Danubio hay un bonito carril bici.
+w|der Zebrastreifen|el paso de cebra|||Am Zebrastreifen müssen die Autos anhalten.|En el paso de cebra los coches tienen que parar.
+w|die Ampel|el semáforo|||Bei Rot an der Ampel bleibt man stehen.|Con el semáforo en rojo, uno se para.
+w|die Kreuzung|el cruce|||An der nächsten Kreuzung biegen Sie links ab.|En el próximo cruce gire a la izquierda.
+w|abbiegen|girar (dirección)|||Hier dürfen Sie nicht links abbiegen.|Aquí no puede girar a la izquierda.
+w|die Umleitung|el desvío|||Wegen der Baustelle gibt es eine Umleitung.|Por las obras hay un desvío.
+w|die Baustelle|las obras|||Auf der Straße ist eine große Baustelle.|En la calle hay unas obras grandes.
+w|der Strafzettel|la multa (de tráfico)||Austria también: Organstrafverfügung.|Ich habe einen Strafzettel bekommen.|Me han puesto una multa.
+w|der Flughafen|el aeropuerto|||Der Flughafen ist mit dem Zug in zwanzig Minuten erreichbar.|Al aeropuerto se llega en tren en veinte minutos.
 p|Wann fährt die nächste Bim?|¿Cuándo sale el próximo tranvía?||Austria, coloquial.
 p|Wo muss ich umsteigen?|¿Dónde tengo que hacer transbordo?||
 p|Der Zug fällt aus.|El tren está cancelado.||

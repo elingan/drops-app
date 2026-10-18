@@ -1,46 +1,46 @@
 # Restaurant
-w|das Gasthaus|el restaurante tradicional, la fonda||Austria.
-w|das Beisl|el bar-restaurante sencillo|die Kneipe (DE)|Austria (Viena).
-w|der Heurige|la taberna de vino nuevo||Austria: vino de la cosecha del año.
-w|die Buschenschank|la taberna de viñedo||Austria/Steiermark, típico.
-w|das Kaffeehaus|el café tradicional||Austria.
-w|die Speisekarte|la carta||
-w|das Mittagsmenü|el menú del día||
-w|die Vorspeise|el entrante||
-w|die Hauptspeise|el plato principal|das Hauptgericht (DE)|Austria.
-w|die Nachspeise|el postre|der Nachtisch (DE)|Austria.
-w|die Mehlspeise|el dulce, el pastel||Austria.
-w|die Beilage|la guarnición||
-w|der Kellner / die Kellnerin|el/la camarero/a||Austria también: Herr Ober.
-w|reservieren|reservar||
+w|das Gasthaus|el restaurante tradicional, la fonda||Austria.|Im Gasthaus am Dorfplatz gibt es gutes Essen.|En el restaurante de la plaza del pueblo se come bien.
+w|das Beisl|el bar-restaurante sencillo|die Kneipe (DE)|Austria (Viena).|Nach der Arbeit gehen wir oft in ein Beisl.|Después del trabajo solemos ir a un bar-restaurante.
+w|der Heurige|la taberna de vino nuevo||Austria: vino de la cosecha del año.|Am Wochenende gehen wir zum Heurigen.|El fin de semana vamos a una taberna de vino nuevo.
+w|die Buschenschank|la taberna de viñedo||Austria/Steiermark, típico.|Die Buschenschank hat nur im Sommer offen.|La taberna de viñedo solo abre en verano.
+w|das Kaffeehaus|el café tradicional||Austria.|Im Kaffeehaus kann man stundenlang Zeitung lesen.|En el café tradicional se puede leer el periódico durante horas.
+w|die Speisekarte|la carta|||Können wir bitte die Speisekarte haben?|¿Nos puede traer la carta, por favor?
+w|das Mittagsmenü|el menú del día|||Das Mittagsmenü kostet nur neun Euro.|El menú del día cuesta solo nueve euros.
+w|die Vorspeise|el entrante|||Als Vorspeise nehme ich eine Suppe.|De entrante tomo una sopa.
+w|die Hauptspeise|el plato principal|das Hauptgericht (DE)|Austria.|Als Hauptspeise empfehle ich den Fisch.|De plato principal les recomiendo el pescado.
+w|die Nachspeise|el postre|der Nachtisch (DE)|Austria.|Als Nachspeise gibt es einen Apfelstrudel.|De postre hay un strudel de manzana.
+w|die Mehlspeise|el dulce, el pastel||Austria.|Meine Lieblingsmehlspeise ist der Kaiserschmarrn.|Mi dulce favorito es el Kaiserschmarrn.
+w|die Beilage|la guarnición|||Als Beilage nehme ich Reis, bitte.|De guarnición tomo arroz, por favor.
+w|der Kellner / die Kellnerin|el/la camarero/a||Austria también: Herr Ober.|Die Kellnerin bringt gleich die Getränke.|La camarera trae enseguida las bebidas.
+w|reservieren|reservar|||Ich habe einen Tisch für vier Personen reserviert.|He reservado una mesa para cuatro personas.
 w|bestellen|pedir||
-w|das Trinkgeld|la propina||Austria: se redondea (5–10 %).
-w|zahlen|pagar||Zahlen, bitte!
-w|getrennt|por separado||getrennt zahlen
-w|zusammen|junto||
-w|der Gespritzte|vino con agua con gas|die Weinschorle (DE)|Austria.
-w|der Almdudler|refresco de hierbas||Austria, típico.
-w|das Krügerl|la jarra de cerveza (0,5 l)||Austria.
-w|das Seidl|la caña de cerveza (0,3 l)||Austria.
-w|der Verlängerte|café americano||Austria: espresso alargado.
-w|die Melange|café con leche espumosa||Austria.
-w|das Häferl|la taza grande|der Becher (DE)|Austria.
-w|das Wiener Schnitzel|el escalope vienés||
-w|das Backhendl|el pollo empanado||Austria.
-w|der Tafelspitz|la carne de ternera hervida||Austria.
-w|die Palatschinke|el crep|der Pfannkuchen (DE)|Austria.
-w|der Kaiserschmarrn|tortilla dulce troceada||Austria.
-w|der Strudel|el strudel||
-w|der Sterz|plato de harina (polenta)||Austria/Steiermark.
-w|das Leitungswasser|el agua del grifo||
-w|vegetarisch|vegetariano||
-w|scharf|picante||
-w|g'schmackig|sabroso|lecker|Austria, coloquial.
-w|satt|lleno (de comida)||
-w|der Stammtisch|la mesa de los habituales||
-w|das Mittagessen|la comida (del mediodía)||
-w|das Abendessen|la cena||
-w|das Frühstück|el desayuno||
+w|das Trinkgeld|la propina||Austria: se redondea (5–10 %).|In Österreich gibt man etwa zehn Prozent Trinkgeld.|En Austria se da una propina de alrededor del diez por ciento.
+w|zahlen|pagar||Zahlen, bitte!|Zahlen, bitte!|¡La cuenta, por favor!
+w|getrennt|por separado||getrennt zahlen|Wir zahlen getrennt, bitte.|Pagamos por separado, por favor.
+w|zusammen|junto|||Zahlen Sie zusammen oder getrennt?|¿Pagan juntos o por separado?
+w|der Gespritzte|vino con agua con gas|die Weinschorle (DE)|Austria.|Ich nehme einen Gespritzten, bitte.|Tomaré un vino con agua con gas, por favor.
+w|der Almdudler|refresco de hierbas||Austria, típico.|Die Kinder trinken einen Almdudler.|Los niños beben un Almdudler.
+w|das Krügerl|la jarra de cerveza (0,5 l)||Austria.|Ein Krügerl Bier, bitte!|¡Una jarra de cerveza, por favor!
+w|das Seidl|la caña de cerveza (0,3 l)||Austria.|Nach der Wanderung trinke ich ein Seidl.|Después de la excursión me tomo una caña.
+w|der Verlängerte|café americano||Austria: espresso alargado.|Einen Verlängerten und ein Glas Wasser, bitte.|Un café americano y un vaso de agua, por favor.
+w|die Melange|café con leche espumosa||Austria.|Zum Frühstück trinke ich immer eine Melange.|En el desayuno siempre tomo una Melange.
+w|das Häferl|la taza grande|der Becher (DE)|Austria.|Das Häferl Tee wärmt schön die Hände.|La taza grande de té calienta bien las manos.
+w|das Wiener Schnitzel|el escalope vienés|||Das Wiener Schnitzel ist hier besonders groß.|El escalope vienés aquí es especialmente grande.
+w|das Backhendl|el pollo empanado||Austria.|Zu Mittag gab es Backhendl mit Erdäpfelsalat.|A mediodía hubo pollo empanado con ensalada de patata.
+w|der Tafelspitz|la carne de ternera hervida||Austria.|Der Tafelspitz kommt mit Kren und Rösti.|El tafelspitz viene con rábano picante y rösti.
+w|die Palatschinke|el crep|der Pfannkuchen (DE)|Austria.|Meine Mutter macht Palatschinken mit Marmelade.|Mi madre hace crepes con mermelada.
+w|der Kaiserschmarrn|tortilla dulce troceada||Austria.|Zum Kaiserschmarrn gibt es Zwetschkenröster.|El Kaiserschmarrn se sirve con compota de ciruelas.
+w|der Strudel|el strudel|||Der Apfelstrudel ist noch warm.|El strudel de manzana todavía está caliente.
+w|der Sterz|plato de harina (polenta)||Austria/Steiermark.|In der Steiermark isst man gern Sterz.|En Estiria se come mucho el sterz.
+w|das Leitungswasser|el agua del grifo|||Leitungswasser ist in Wien sehr gut.|El agua del grifo en Viena es muy buena.
+w|vegetarisch|vegetariano|||Gibt es auch ein vegetarisches Gericht?|¿Hay también un plato vegetariano?
+w|scharf|picante|||Die Suppe ist mir zu scharf.|La sopa me resulta demasiado picante.
+w|g'schmackig|sabroso|lecker|Austria, coloquial.|Der Braten war richtig g'schmackig.|El asado estaba realmente sabroso.
+w|satt|lleno (de comida)|||Danke, ich bin schon satt.|Gracias, ya estoy lleno.
+w|der Stammtisch|la mesa de los habituales|||Am Freitag treffen wir uns am Stammtisch.|El viernes quedamos en la mesa de los habituales.
+w|das Mittagessen|la comida (del mediodía)|||Das Mittagessen ist um halb eins.|La comida es a las doce y media.
+w|das Abendessen|la cena|||Das Abendessen bereite ich schon vor.|Ya voy preparando la cena.
+w|das Frühstück|el desayuno|||Das Frühstück ist im Hotel inklusive.|El desayuno está incluido en el hotel.
 p|Wir hätten gern die Rechnung.|Nos trae la cuenta, por favor.||
 p|Zahlen, bitte!|¡La cuenta, por favor!||Austria, muy habitual.
 p|Getrennt oder zusammen?|¿Por separado o junto?||

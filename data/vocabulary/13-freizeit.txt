@@ -1,44 +1,44 @@
 # Freizeit
-w|die Freizeit|el tiempo libre||
-w|das Wochenende|el fin de semana||
-w|der Ausflug|la excursión||
-w|wandern|hacer senderismo||
-w|die Wanderung|la caminata||
-w|die Hütte|el refugio de montaña||Austria: Almhütte.
-w|die Alm|el pasto alpino||Austria.
-w|der Berg|la montaña||
-w|der See|el lago||
-w|das Freibad|la piscina al aire libre||
-w|das Hallenbad|la piscina cubierta||
-w|Schi fahren|esquiar|Ski fahren|Austria escribe a menudo «Schi».
-w|rodeln|ir en trineo||Austria.
-w|der Schlepplift|el telearrastre||
-w|die Langlaufloipe|la pista de esquí de fondo||
-w|der Verein|la asociación, el club||
-w|das Mitglied|el miembro, el socio||
-w|der Sport|el deporte||
-w|trainieren|entrenar||
-w|das Fitnessstudio|el gimnasio||
-w|das Konzert|el concierto||
-w|die Veranstaltung|el evento||
-w|die Ausstellung|la exposición||
-w|das Theater|el teatro||
-w|das Kino|el cine||
-w|der Flohmarkt|el mercadillo||
-w|der Adventmarkt|el mercado navideño|der Weihnachtsmarkt (DE)|Austria.
-w|der Krampus|el Krampus (figura navideña)||Austria, 5 de diciembre.
-w|das Feuerwerk|los fuegos artificiales||
-w|die Reise|el viaje||
+w|die Freizeit|el tiempo libre|||In meiner Freizeit lese ich gern.|En mi tiempo libre me gusta leer.
+w|das Wochenende|el fin de semana|||Was machst du am Wochenende?|¿Qué haces el fin de semana?
+w|der Ausflug|la excursión|||Am Sonntag machen wir einen Ausflug an den See.|El domingo hacemos una excursión al lago.
+w|wandern|hacer senderismo|||Im Herbst gehen wir gern wandern.|En otoño nos gusta ir de senderismo.
+w|die Wanderung|la caminata|||Die Wanderung dauert ungefähr vier Stunden.|La caminata dura aproximadamente cuatro horas.
+w|die Hütte|el refugio de montaña||Austria: Almhütte.|Auf der Hütte gibt es gutes Essen.|En el refugio se come muy bien.
+w|die Alm|el pasto alpino||Austria.|Im Sommer sind die Kühe auf der Alm.|En verano las vacas están en el pasto alpino.
+w|der Berg|la montaña|||Der Berg ist fast dreitausend Meter hoch.|La montaña tiene casi tres mil metros de altura.
+w|der See|el lago|||Im Sommer baden wir im See.|En verano nos bañamos en el lago.
+w|das Freibad|la piscina al aire libre|||Bei Hitze gehen wir ins Freibad.|Cuando hace calor vamos a la piscina al aire libre.
+w|das Hallenbad|la piscina cubierta|||Im Winter schwimme ich im Hallenbad.|En invierno nado en la piscina cubierta.
+w|Schi fahren|esquiar|Ski fahren|Austria escribe a menudo «Schi».|Wir fahren im Februar Schi.|Esquiamos en febrero.
+w|rodeln|ir en trineo||Austria.|Die Kinder gehen heute rodeln.|Hoy los niños van en trineo.
+w|der Schlepplift|el telearrastre|||Der Schlepplift ist für Anfänger leicht.|El telearrastre es fácil para principiantes.
+w|die Langlaufloipe|la pista de esquí de fondo|||Die Langlaufloipe beginnt hinter dem Dorf.|La pista de esquí de fondo empieza detrás del pueblo.
+w|der Verein|la asociación, el club|||Ich bin in einem Sportverein.|Estoy en un club deportivo.
+w|das Mitglied|el miembro, el socio|||Als Mitglied zahlst du weniger.|Como socio pagas menos.
+w|der Sport|el deporte|||Sport macht mir viel Spaß.|El deporte me divierte mucho.
+w|trainieren|entrenar|||Ich trainiere dreimal pro Woche.|Entreno tres veces por semana.
+w|das Fitnessstudio|el gimnasio|||Das Fitnessstudio hat bis 22 Uhr offen.|El gimnasio está abierto hasta las 22 h.
+w|das Konzert|el concierto|||Am Samstag gehen wir auf ein Konzert.|El sábado vamos a un concierto.
+w|die Veranstaltung|el evento|||Die Veranstaltung beginnt um 19 Uhr.|El evento empieza a las 19 h.
+w|die Ausstellung|la exposición|||Die Ausstellung läuft noch bis Ende Mai.|La exposición sigue abierta hasta finales de mayo.
+w|das Theater|el teatro|||Gestern waren wir im Theater.|Ayer estuvimos en el teatro.
+w|das Kino|el cine|||Hast du Lust auf Kino?|¿Te apetece ir al cine?
+w|der Flohmarkt|el mercadillo|||Am Samstag ist ein Flohmarkt im Park.|El sábado hay un mercadillo en el parque.
+w|der Adventmarkt|el mercado navideño|der Weihnachtsmarkt (DE)|Austria.|Auf dem Adventmarkt trinken wir Punsch.|En el mercado navideño tomamos ponche.
+w|der Krampus|el Krampus (figura navideña)||Austria, 5 de diciembre.|Am fünften Dezember kommt der Krampus.|El cinco de diciembre viene el Krampus.
+w|das Feuerwerk|los fuegos artificiales|||Um Mitternacht gibt es ein großes Feuerwerk.|A medianoche hay unos grandes fuegos artificiales.
+w|die Reise|el viaje|||Die Reise nach Italien war wunderbar.|El viaje a Italia fue maravilloso.
 w|der Urlaub|las vacaciones||
-w|die Unterkunft|el alojamiento||
-w|übernachten|pernoctar||
-w|Lust haben|tener ganas||
-w|sich treffen|quedar, verse||
-w|die Verabredung|la cita, el plan||
-w|spazieren gehen|ir a pasear||
-w|grillen|hacer barbacoa||
+w|die Unterkunft|el alojamiento|||Wir haben schon eine Unterkunft gebucht.|Ya hemos reservado alojamiento.
+w|übernachten|pernoctar|||Wir übernachten in einer kleinen Pension.|Pernoctamos en una pequeña pensión.
+w|Lust haben|tener ganas|||Ich habe Lust auf einen Spaziergang.|Tengo ganas de dar un paseo.
+w|sich treffen|quedar, verse|||Wir treffen uns um drei vor dem Kino.|Nos vemos a las tres delante del cine.
+w|die Verabredung|la cita, el plan|||Ich habe heute Abend eine Verabredung.|Esta noche tengo una cita.
+w|spazieren gehen|ir a pasear|||Nach dem Essen gehen wir spazieren.|Después de comer vamos a pasear.
+w|grillen|hacer barbacoa|||Am Wochenende wollen wir im Garten grillen.|El fin de semana queremos hacer una barbacoa en el jardín.
 w|die Gaudi|la diversión||Austria.
-w|gemütlich|acogedor, tranquilo||
+w|gemütlich|acogedor, tranquilo|||Die Stube ist schön gemütlich.|La sala es muy acogedora.
 p|Hast du am Wochenende schon was vor?|¿Ya tienes planes para el finde?||
 p|Gehen wir am Sonntag wandern?|¿Vamos de senderismo el domingo?||
 p|Wir kehren auf einer Hütte ein.|Paramos a comer en un refugio.||Austria.

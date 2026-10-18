@@ -1,30 +1,30 @@
 # Sumaq
-w|die Selbstständige|la autónoma (trabajadora por cuenta propia)|der Selbstständige (m.)|
-w|die Visitenkarte im Netz|la tarjeta de visita en internet||
-w|das Hosting|el alojamiento web||
-w|der Kundenbereich|el área de cliente||Sumaq Bereich
-w|das Postfach|el buzón de correo||
-w|die Besuchsstatistik|las estadísticas de visitas||
-w|die Terminbuchung|la reserva de citas|die Online-Buchung|
-w|die Leistung|el servicio, la prestación||
-w|die Einrichtung|la puesta en marcha, la configuración||
-w|die Wartung|el mantenimiento||
-w|die Betreuung|la atención, el cuidado continuo||
-w|die Korrekturschleife|la ronda de correcciones||
-w|die Veröffentlichung|la publicación||
-w|veröffentlichen|publicar||
-w|die Suchmaschinenoptimierung|la optimización para buscadores (SEO)|SEO|
-w|die Platzierung|la posición (en el ranking)||
-w|die Besucherzahl|el número de visitantes||
-w|der Onlineshop|la tienda online||
-w|die Grundausstattung|el paquete básico|das Basispaket|
-w|einmalig|único, una sola vez||
-w|inklusive|incluido|inkl.|
-w|nutzerfreundlich|fácil de usar|einfach zu bedienen|
-w|datenschutzfreundlich|respetuoso con la privacidad||
-w|die Verschlüsselung|el cifrado|HTTPS|
-w|das Kontaktformular|el formulario de contacto||
-w|die Impressumspflicht|la obligación de aviso legal||Austria
+w|die Selbstständige|la autónoma (trabajadora por cuenta propia)|der Selbstständige (m.)||Die Selbstständige braucht eine einfache Webseite.|La autónoma necesita una web sencilla.
+w|die Visitenkarte im Netz|la tarjeta de visita en internet|||Deine Webseite ist deine Visitenkarte im Netz.|Tu web es tu tarjeta de visita en internet.
+w|das Hosting|el alojamiento web|||Das Hosting ist im Preis inbegriffen.|El alojamiento web está incluido en el precio.
+w|der Kundenbereich|el área de cliente||Sumaq Bereich|Im Kundenbereich siehst du alle Rechnungen.|En el área de cliente ves todas las facturas.
+w|das Postfach|el buzón de correo|||Dein Postfach ist fast voll.|Tu buzón de correo está casi lleno.
+w|die Besuchsstatistik|las estadísticas de visitas|||In der Besuchsstatistik sehe ich, wie viele Leute die Seite besuchen.|En las estadísticas de visitas veo cuánta gente visita la página.
+w|die Terminbuchung|la reserva de citas|die Online-Buchung||Die Terminbuchung funktioniert direkt über die Webseite.|La reserva de citas funciona directamente desde la web.
+w|die Leistung|el servicio, la prestación|||Welche Leistungen sind im Paket enthalten?|¿Qué servicios incluye el paquete?
+w|die Einrichtung|la puesta en marcha, la configuración|||Die Einrichtung der Seite dauert nur ein paar Tage.|La puesta en marcha de la página lleva solo unos días.
+w|die Wartung|el mantenimiento|||Die Wartung der Seite übernehmen wir für Sie.|El mantenimiento de la página lo hacemos nosotros por usted.
+w|die Betreuung|la atención, el cuidado continuo|||Wir bieten eine persönliche Betreuung an.|Ofrecemos una atención personalizada.
+w|die Korrekturschleife|la ronda de correcciones|||Im Preis ist eine Korrekturschleife inbegriffen.|En el precio se incluye una ronda de correcciones.
+w|die Veröffentlichung|la publicación|||Die Veröffentlichung der Seite ist für Montag geplant.|La publicación de la página está prevista para el lunes.
+w|veröffentlichen|publicar|||Wir veröffentlichen die Webseite nächste Woche.|Publicamos la web la semana que viene.
+w|die Suchmaschinenoptimierung|la optimización para buscadores (SEO)|SEO||Mit Suchmaschinenoptimierung wirst du leichter gefunden.|Con la optimización para buscadores te encuentran más fácilmente.
+w|die Platzierung|la posición (en el ranking)|||Die Platzierung in der Suche ist sehr gut.|La posición en la búsqueda es muy buena.
+w|die Besucherzahl|el número de visitantes|||Die Besucherzahl ist im Mai gestiegen.|El número de visitantes ha subido en mayo.
+w|der Onlineshop|la tienda online|||Sie verkauft ihre Produkte in einem Onlineshop.|Vende sus productos en una tienda online.
+w|die Grundausstattung|el paquete básico|das Basispaket||Die Grundausstattung reicht für den Anfang.|El paquete básico basta para empezar.
+w|einmalig|único, una sola vez|||Die Einrichtung kostet einmalig 300 Euro.|La puesta en marcha cuesta 300 euros una sola vez.
+w|inklusive|incluido|inkl.||Der Preis ist inklusive Mehrwertsteuer.|El precio incluye el IVA.
+w|nutzerfreundlich|fácil de usar|einfach zu bedienen||Wir bauen eine nutzerfreundliche Webseite für dich.|Creamos para ti una web fácil de usar.
+w|datenschutzfreundlich|respetuoso con la privacidad|||Unsere Lösung ist datenschutzfreundlich.|Nuestra solución respeta la privacidad.
+w|die Verschlüsselung|el cifrado|HTTPS||Die Verschlüsselung schützt die Daten der Besucher.|El cifrado protege los datos de los visitantes.
+w|das Kontaktformular|el formulario de contacto|||Über das Kontaktformular erreichen dich neue Kunden.|A través del formulario de contacto te llegan nuevos clientes.
+w|die Impressumspflicht|la obligación de aviso legal||Austria|In Österreich gilt eine Impressumspflicht für Webseiten.|En Austria rige la obligación de aviso legal en las webs.
 p|Wir gestalten Websites für Selbstständige.|Diseñamos sitios web para autónomos.||
 p|Persönlich gestaltet, einfach gepflegt.|Diseñado a medida, fácil de mantener.||Lema de Sumaq
 p|Du musst dich um nichts Technisches kümmern.|No tienes que ocuparte de nada técnico.||

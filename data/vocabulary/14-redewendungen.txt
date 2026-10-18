@@ -1,24 +1,24 @@
 # Redewendungen
-w|Bescheid geben|avisar||Gib mir Bescheid.
-w|zur Verfügung stehen|estar a disposición||
-w|in Ordnung sein|estar bien||Ist alles in Ordnung?
-w|auf dem Laufenden sein|estar al día||
-w|im Griff haben|tener bajo control||die Finanzen im Griff haben
-w|unter Druck stehen|estar bajo presión||
-w|Rücksicht nehmen auf|tener consideración con||
-w|in Frage kommen|entrar en consideración||Das kommt nicht in Frage.
-w|zur Sprache bringen|sacar un tema||
-w|Bescheid wissen|estar al tanto||
-w|den Kopf verlieren|perder la cabeza||
-w|die Daumen drücken|cruzar los dedos||
-w|sich Zeit lassen|tomarse su tiempo||
-w|auf die Nerven gehen|poner de los nervios||
-w|ins Fettnäpfchen treten|meter la pata||
-w|Schwein haben|tener suerte||
-w|um die Ecke denken|pensar de forma lateral||
-w|etwas auf die lange Bank schieben|dejar algo para más tarde||
-w|den Nagel auf den Kopf treffen|dar en el clavo||
-w|Tomaten auf den Augen haben|no ver lo evidente||
+w|Bescheid geben|avisar||Gib mir Bescheid.|Gib mir bitte Bescheid, wenn du ankommst.|Avísame, por favor, cuando llegues.
+w|zur Verfügung stehen|estar a disposición|||Ich stehe dir morgen gern zur Verfügung.|Mañana estoy encantado a tu disposición.
+w|in Ordnung sein|estar bien||Ist alles in Ordnung?|Ist alles in Ordnung bei dir?|¿Está todo bien contigo?
+w|auf dem Laufenden sein|estar al día|||Ich bin über das Projekt auf dem Laufenden.|Estoy al día del proyecto.
+w|im Griff haben|tener bajo control||die Finanzen im Griff haben|Keine Sorge, ich habe alles im Griff.|No te preocupes, lo tengo todo bajo control.
+w|unter Druck stehen|estar bajo presión|||Vor dem Abgabetermin stehe ich immer unter Druck.|Antes de la fecha de entrega siempre estoy bajo presión.
+w|Rücksicht nehmen auf|tener consideración con|||Bitte nimm Rücksicht auf die Nachbarn.|Por favor, ten consideración con los vecinos.
+w|in Frage kommen|entrar en consideración||Das kommt nicht in Frage.|Dieser Termin kommt für mich nicht in Frage.|Esa fecha no entra en consideración para mí.
+w|zur Sprache bringen|sacar un tema|||Ich bringe das Thema morgen zur Sprache.|Mañana saco el tema.
+w|Bescheid wissen|estar al tanto|||Weißt du schon Bescheid über den Termin?|¿Ya estás al tanto de la cita?
+w|den Kopf verlieren|perder la cabeza|||Bleib ruhig und verlier nicht den Kopf!|¡Mantén la calma y no pierdas la cabeza!
+w|die Daumen drücken|cruzar los dedos|||Ich drücke dir die Daumen für die Prüfung.|Cruzo los dedos por ti para el examen.
+w|sich Zeit lassen|tomarse su tiempo|||Lass dir ruhig Zeit mit der Antwort.|Tómate tu tiempo para responder.
+w|auf die Nerven gehen|poner de los nervios|||Der Lärm geht mir auf die Nerven.|El ruido me pone de los nervios.
+w|ins Fettnäpfchen treten|meter la pata|||Mit dieser Frage bin ich ins Fettnäpfchen getreten.|Con esa pregunta he metido la pata.
+w|Schwein haben|tener suerte|||Da hast du aber Schwein gehabt!|¡Qué suerte has tenido!
+w|um die Ecke denken|pensar de forma lateral|||Für dieses Problem muss man um die Ecke denken.|Para este problema hay que pensar de forma lateral.
+w|etwas auf die lange Bank schieben|dejar algo para más tarde|||Schieb die Steuererklärung nicht auf die lange Bank.|No dejes la declaración de impuestos para más tarde.
+w|den Nagel auf den Kopf treffen|dar en el clavo|||Mit deiner Idee hast du den Nagel auf den Kopf getroffen.|Con tu idea has dado en el clavo.
+w|Tomaten auf den Augen haben|no ver lo evidente|||Hast du Tomaten auf den Augen? Der Schlüssel liegt da!|¿No ves lo evidente? ¡La llave está ahí!
 p|Ich verstehe nur Bahnhof.|No entiendo nada.|Ich verstehe gar nichts.|Coloquial.
 p|Das ist nicht mein Bier.|No es asunto mío.|Das geht mich nichts an.|Coloquial.
 p|Ich drücke dir die Daumen!|¡Cruzo los dedos por ti!||

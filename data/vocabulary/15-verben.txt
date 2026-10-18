@@ -1,49 +1,49 @@
 # Alltag
-w|sich beschäftigen mit|ocuparse de, dedicarse a||
-w|sich beschweren|quejarse||
-w|sich beeilen|darse prisa||
-w|sich bemühen|esforzarse||
-w|sich verlassen auf|confiar en, contar con||
-w|sich verabschieden|despedirse||
-w|sich wundern|sorprenderse||
-w|sich Sorgen machen|preocuparse||
-w|sich auskennen|conocer bien, saber de algo||Ich kenne mich in Graz gut aus.
-w|sich entscheiden|decidirse||
-w|sich einigen|ponerse de acuerdo||
-w|sich lohnen|merecer la pena||
-w|ausprobieren|probar (algo nuevo)||
-w|vermeiden|evitar||
-w|verlangen|exigir, pedir||
-w|vergleichen|comparar||
-w|verwenden|utilizar||
-w|erwarten|esperar (expectativa)||
-w|ermöglichen|posibilitar||
-w|verhindern|impedir||
-w|zustimmen|estar de acuerdo||
-w|widersprechen|contradecir||
-w|überzeugen|convencer||
-w|überlegen|pensar, considerar||Ich überlege es mir.
-w|vorkommen|ocurrir; parecer||Das kommt öfter vor.
-w|auffallen|llamar la atención||
-w|ausreichen|bastar, ser suficiente||
-w|zunehmen / abnehmen|aumentar / disminuir; engordar / adelgazar||
-w|aufhören|dejar de, terminar||
-w|anfangen|empezar||
-w|wiederholen|repetir||
-w|üben|practicar||
-w|sich merken|recordar, memorizar||Das muss ich mir merken.
-w|nachdenken über|reflexionar sobre||
-w|zuverlässig|fiable||
-w|ehrlich|sincero||
-w|geduldig|paciente||
-w|selbstverständlich|por supuesto, evidente||
-w|zufrieden|satisfecho||
-w|enttäuscht|decepcionado||
-w|erleichtert|aliviado||
-w|aufgeregt|nervioso, emocionado||
-w|dringend|urgente||
-w|notwendig|necesario||
-w|möglich|posible||
-w|wichtig|importante||
-w|schwierig|difícil||
-w|einfach|sencillo||
+w|sich beschäftigen mit|ocuparse de, dedicarse a|||Ich beschäftige mich gerade mit dem Vertrag.|Ahora me estoy ocupando del contrato.
+w|sich beschweren|quejarse|||Ich möchte mich über den Lärm beschweren.|Quiero quejarme del ruido.
+w|sich beeilen|darse prisa|||Beeil dich, der Zug fährt gleich!|¡Date prisa, el tren sale enseguida!
+w|sich bemühen|esforzarse|||Ich bemühe mich, pünktlich zu sein.|Me esfuerzo por ser puntual.
+w|sich verlassen auf|confiar en, contar con|||Du kannst dich auf mich verlassen.|Puedes contar conmigo.
+w|sich verabschieden|despedirse|||Wir müssen uns jetzt leider verabschieden.|Ahora, lamentablemente, tenemos que despedirnos.
+w|sich wundern|sorprenderse|||Ich wundere mich, dass er nicht angerufen hat.|Me sorprende que no haya llamado.
+w|sich Sorgen machen|preocuparse|||Mach dir keine Sorgen, es wird gut gehen.|No te preocupes, saldrá bien.
+w|sich auskennen|conocer bien, saber de algo||Ich kenne mich in Graz gut aus.|In Wien kenne ich mich gut aus.|En Viena me oriento bien.
+w|sich entscheiden|decidirse|||Hast du dich schon für eine Wohnung entschieden?|¿Ya te has decidido por un piso?
+w|sich einigen|ponerse de acuerdo|||Wir haben uns auf einen Preis geeinigt.|Nos hemos puesto de acuerdo en un precio.
+w|sich lohnen|merecer la pena|||Der Ausflug hat sich wirklich gelohnt.|La excursión realmente ha merecido la pena.
+w|ausprobieren|probar (algo nuevo)|||Ich möchte das neue Programm ausprobieren.|Quiero probar el programa nuevo.
+w|vermeiden|evitar|||Wir wollen unnötige Kosten vermeiden.|Queremos evitar costes innecesarios.
+w|verlangen|exigir, pedir|||Das Amt verlangt noch einen Nachweis.|La oficina exige todavía un justificante.
+w|vergleichen|comparar|||Ich vergleiche zuerst die Preise.|Primero comparo los precios.
+w|verwenden|utilizar|||Welches Passwort verwendest du?|¿Qué contraseña utilizas?
+w|erwarten|esperar (expectativa)|||Ich erwarte morgen ein Paket.|Mañana espero un paquete.
+w|ermöglichen|posibilitar|||Das neue System ermöglicht schnelle Zahlungen.|El nuevo sistema permite pagos rápidos.
+w|verhindern|impedir|||Mit einer Sicherung kann man Datenverlust verhindern.|Con una copia de seguridad se puede impedir la pérdida de datos.
+w|zustimmen|estar de acuerdo|||Ich stimme dir völlig zu.|Estoy completamente de acuerdo contigo.
+w|widersprechen|contradecir|||Da muss ich dir leider widersprechen.|En eso, lamentablemente, tengo que contradecirte.
+w|überzeugen|convencer|||Der Preis hat mich überzeugt.|El precio me ha convencido.
+w|überlegen|pensar, considerar||Ich überlege es mir.|Ich muss noch überlegen, ob ich komme.|Todavía tengo que pensar si voy.
+w|vorkommen|ocurrir; parecer||Das kommt öfter vor.|Das kommt mir bekannt vor.|Eso me suena.
+w|auffallen|llamar la atención|||Mir ist der Fehler sofort aufgefallen.|El error me llamó la atención enseguida.
+w|ausreichen|bastar, ser suficiente|||Fünf Euro reichen völlig aus.|Con cinco euros basta de sobra.
+w|zunehmen / abnehmen|aumentar / disminuir; engordar / adelgazar|||Im Winter nehme ich meistens ein bisschen zu.|En invierno suelo engordar un poco.
+w|aufhören|dejar de, terminar|||Es hat endlich aufgehört zu regnen.|Por fin ha dejado de llover.
+w|anfangen|empezar|||Wann fängt der Film an?|¿Cuándo empieza la película?
+w|wiederholen|repetir|||Können Sie das bitte wiederholen?|¿Puede repetir eso, por favor?
+w|üben|practicar|||Ich übe jeden Tag zehn Minuten Deutsch.|Practico alemán diez minutos cada día.
+w|sich merken|recordar, memorizar||Das muss ich mir merken.|Diese Telefonnummer kann ich mir nicht merken.|Este número de teléfono no consigo memorizarlo.
+w|nachdenken über|reflexionar sobre|||Ich denke über deinen Vorschlag nach.|Estoy reflexionando sobre tu propuesta.
+w|zuverlässig|fiable|||Er ist ein sehr zuverlässiger Kollege.|Es un colega muy fiable.
+w|ehrlich|sincero|||Sei bitte ehrlich zu mir.|Sé sincero conmigo, por favor.
+w|geduldig|paciente|||Die Lehrerin ist sehr geduldig.|La profesora es muy paciente.
+w|selbstverständlich|por supuesto, evidente|||Selbstverständlich helfe ich dir.|Por supuesto que te ayudo.
+w|zufrieden|satisfecho|||Ich bin mit dem Ergebnis sehr zufrieden.|Estoy muy satisfecho con el resultado.
+w|enttäuscht|decepcionado|||Wir waren vom Essen etwas enttäuscht.|Nos decepcionó un poco la comida.
+w|erleichtert|aliviado|||Ich bin erleichtert, dass alles gut gegangen ist.|Estoy aliviado de que todo haya ido bien.
+w|aufgeregt|nervioso, emocionado|||Vor der Prüfung war ich sehr aufgeregt.|Antes del examen estaba muy nervioso.
+w|dringend|urgente|||Ich brauche dringend deine Hilfe.|Necesito urgentemente tu ayuda.
+w|notwendig|necesario|||Ein Termin ist nicht notwendig.|No es necesario pedir cita.
+w|möglich|posible|||Ist es möglich, den Termin zu verschieben?|¿Es posible aplazar la cita?
+w|wichtig|importante|||Das Treffen ist für mich sehr wichtig.|La reunión es muy importante para mí.
+w|schwierig|difícil|||Die Prüfung war ziemlich schwierig.|El examen fue bastante difícil.
+w|einfach|sencillo|||Die Anleitung ist einfach zu verstehen.|Las instrucciones son fáciles de entender.
