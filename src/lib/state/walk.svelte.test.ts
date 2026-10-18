@@ -12,6 +12,8 @@ async function setup() {
 	const services = createServices(createMemoryRepositories());
 	const data = new LearningState(() => services);
 	await data.load();
+	// Phrases have no example: keep only cards that do, so every card follows the full order.
+	data.items = data.items.filter((i) => i.example);
 	const walk = new WalkState(data);
 	const played: { url?: string; lang: string; rate?: number; step: string }[] = [];
 	Object.assign(services.audio, {
