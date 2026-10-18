@@ -1,79 +1,79 @@
 # Korrespondenz
-w|die Nachricht|el mensaje||
-w|der Anhang|el archivo adjunto||Im Anhang findest du … = en el adjunto encontrarás…
-w|anbei|adjunto, en el anexo|beiliegend|Anbei sende ich dir … Muy usado en emails.
-w|die Anlage|el anexo|der Anhang|In der Anlage … (más formal)
-w|der Betreff|el asunto|das Thema der E-Mail|Campo «asunto» de un email.
-w|der Absender|el remitente||
-w|der Empfänger|el destinatario||
-w|der Adressat|el destinatario (formal)|der Empfänger|
-w|weiterleiten|reenviar, reenviar a otra persona||Ich leite die Info weiter.
-w|die Weiterleitung|el reenvío||
-w|beantworten|responder (algo)|antworten auf|Eine E-Mail beantworten.
-w|die Rückmeldung|la respuesta, el feedback|die Antwort|Ich freue mich auf deine Rückmeldung.
-w|der Bescheid|el aviso; la resolución oficial|die Information / der amtliche Entscheid|Gib mir Bescheid = avísame. Bescheid vom Amt = resolución.
-w|sich melden|ponerse en contacto, dar señales||Ich melde mich morgen.
-w|mitteilen|comunicar, informar|sagen, informieren|Hiermit teilen wir Ihnen mit …
-w|bestätigen|confirmar||Bitte bestätige den Termin.
-w|die Bestätigung|la confirmación||
-w|die Erinnerung|el recordatorio; el recuerdo||
-w|erinnern an|recordar algo a alguien||Ich wollte dich an … erinnern.
-w|nachfragen|volver a preguntar, consultar||Ich wollte kurz nachfragen, ob …
-w|die Anfrage|la consulta, la solicitud||Danke für Ihre Anfrage.
-w|anfragen|consultar, solicitar información||
-w|zusenden|enviar (a alguien)|schicken|Bitte senden Sie mir die Unterlagen zu.
-w|die Zusendung|el envío||
-w|zukommen lassen|hacer llegar|schicken|Ich lasse dir die Rechnung zukommen.
-w|die Unterlagen|los documentos, la documentación|die Dokumente|Siempre en plural.
-w|ausfüllen|rellenar (un formulario)||
-w|unterschreiben|firmar||
-w|die Unterschrift|la firma||
-w|ausdrucken|imprimir||
-w|einscannen|escanear||
-w|der Zeitraum|el período||
-w|rechtzeitig|a tiempo, con antelación||
-w|umgehend|de inmediato (formal)|sofort|
-w|baldig|pronto, próximo|bald|Um baldige Antwort wird gebeten.
-w|rasch|rápido|schnell|Danke für die rasche Antwort. Muy usado en Austria.
-w|gerne|con gusto; claro||Gerne! = ¡Con gusto!
-w|herzlich|cordial(mente)||Herzlichen Dank!
-w|freundlich|amable||Mit freundlichen Grüßen
-w|geehrt|estimado (formal)||Sehr geehrte Frau …
-w|die Verfügung|la disposición||zur Verfügung stehen = estar a disposición
-w|die Rücksicht|la consideración||Danke für deine Rücksichtnahme.
-w|der Hinweis|la indicación, el aviso||
-w|hinweisen auf|señalar, advertir sobre||Wir möchten Sie darauf hinweisen, dass …
-w|ausstehend|pendiente||ausstehende Details
-w|offen|abierto; pendiente|ausstehend|Die Rechnung ist noch offen.
-w|versehentlich|por error|irrtümlich|Ich habe versehentlich das falsche Datum eingetragen.
-w|irrtümlich|por equivocación|versehentlich|Falls Sie diese E-Mail irrtümlich erhalten haben …
-w|die Verzögerung|el retraso||
-w|die Unannehmlichkeit|la molestia||Entschuldigen Sie die Unannehmlichkeiten.
-w|sich entschuldigen|disculparse||
-w|bedauern|lamentar|leidtun|Wir bedauern, Ihnen mitteilen zu müssen …
-w|sich bedanken|dar las gracias||Ich bedanke mich für …
-w|die Empfehlung|la recomendación||auf Empfehlung von … = por recomendación de …
-w|die Einladung|la invitación||
-w|einladen|invitar||
-w|zusagen|aceptar, confirmar asistencia||
-w|absagen|cancelar, rechazar||
-w|die Absage|la cancelación, el rechazo||
-w|verschieben|aplazar, posponer||Können wir den Termin verschieben?
-w|vereinbaren|acordar, concertar||einen Termin vereinbaren
-w|der Termin|la cita, el plazo||En Austria también: Arzttermin, Amtstermin.
-w|die Telefonnummer|el número de teléfono||
-w|erreichbar|localizable, disponible||Ich bin ab 9 Uhr erreichbar.
-w|zurückrufen|devolver la llamada||
-w|der Rückruf|la devolución de llamada||Ich bitte um Rückruf.
-w|ersichtlich|visible, que se puede ver|sichtbar, erkennbar|Die Informationen sind unter dem Link ersichtlich.
-w|beigefügt|adjunto|beiliegend|die beigefügten Unterlagen
-w|nochmals|nuevamente, otra vez|noch einmal|Nochmals vielen Dank!
-w|bezüglich|con respecto a|wegen|bezüglich Ihrer Anfrage
-w|diesbezüglich|al respecto||
-w|hiermit|por la presente||Hiermit bestätige ich …
-w|der Spam-Ordner|la carpeta de spam||
-w|der Verteiler|la lista de distribución||
-w|abmelden|darse de baja; cerrar sesión||vom Newsletter abmelden
+w|die Nachricht|el mensaje|||Ich habe dir gestern eine Nachricht geschickt.|Ayer te envié un mensaje.
+w|der Anhang|el archivo adjunto||Im Anhang findest du … = en el adjunto encontrarás…|Der Anhang ist leider zu groß für die E-Mail.|Lamentablemente, el archivo adjunto es demasiado grande para el correo.
+w|anbei|adjunto, en el anexo|beiliegend|Anbei sende ich dir … Muy usado en emails.|Anbei finden Sie den unterschriebenen Vertrag.|Adjunto encontrará el contrato firmado.
+w|die Anlage|el anexo|der Anhang|In der Anlage … (más formal)|Die Rechnung steht in der Anlage.|La factura está en el anexo.
+w|der Betreff|el asunto|das Thema der E-Mail|Campo «asunto» de un email.|Bitte schreib einen klaren Betreff in die E-Mail.|Por favor, escribe un asunto claro en el correo.
+w|der Absender|el remitente|||Ich kenne den Absender dieser Nachricht nicht.|No conozco al remitente de este mensaje.
+w|der Empfänger|el destinatario|||Der Empfänger hat das Paket noch nicht abgeholt.|El destinatario todavía no ha recogido el paquete.
+w|der Adressat|el destinatario (formal)|der Empfänger||Der Brief ist an einen anderen Adressaten gegangen.|La carta ha ido a otro destinatario.
+w|weiterleiten|reenviar, reenviar a otra persona||Ich leite die Info weiter.|Kannst du mir die Mail bitte weiterleiten?|¿Puedes reenviarme el correo, por favor?
+w|die Weiterleitung|el reenvío|||Die Weiterleitung hat leider nicht funktioniert.|Lamentablemente, el reenvío no ha funcionado.
+w|beantworten|responder (algo)|antworten auf|Eine E-Mail beantworten.|Ich muss noch ein paar E-Mails beantworten.|Todavía tengo que responder algunos correos.
+w|die Rückmeldung|la respuesta, el feedback|die Antwort|Ich freue mich auf deine Rückmeldung.|Vielen Dank für Ihre schnelle Rückmeldung.|Muchas gracias por su rápida respuesta.
+w|der Bescheid|el aviso; la resolución oficial|die Information / der amtliche Entscheid|Gib mir Bescheid = avísame. Bescheid vom Amt = resolución.|Wir warten noch auf den Bescheid vom Amt.|Seguimos esperando la resolución de la oficina.
+w|sich melden|ponerse en contacto, dar señales||Ich melde mich morgen.|Ich melde mich nächste Woche bei dir.|Te escribo la semana que viene.
+w|mitteilen|comunicar, informar|sagen, informieren|Hiermit teilen wir Ihnen mit …|Bitte teilen Sie uns Ihre neue Adresse mit.|Por favor, comuníquenos su nueva dirección.
+w|bestätigen|confirmar||Bitte bestätige den Termin.|Können Sie bitte den Termin bestätigen?|¿Puede confirmar la cita, por favor?
+w|die Bestätigung|la confirmación|||Ich habe noch keine Bestätigung bekommen.|Todavía no he recibido ninguna confirmación.
+w|die Erinnerung|el recordatorio; el recuerdo|||Ich habe mir eine Erinnerung im Handy gesetzt.|Me he puesto un recordatorio en el móvil.
+w|erinnern an|recordar algo a alguien||Ich wollte dich an … erinnern.|Erinnerst du mich bitte morgen an den Anruf?|¿Me recuerdas la llamada mañana, por favor?
+w|nachfragen|volver a preguntar, consultar||Ich wollte kurz nachfragen, ob …|Ich frage morgen noch einmal bei der Firma nach.|Mañana vuelvo a preguntar en la empresa.
+w|die Anfrage|la consulta, la solicitud||Danke für Ihre Anfrage.|Wir haben viele Anfragen zu diesem Produkt.|Tenemos muchas consultas sobre este producto.
+w|anfragen|consultar, solicitar información|||Ich habe schon beim Hotel angefragt, ob noch ein Zimmer frei ist.|Ya he consultado en el hotel si queda alguna habitación libre.
+w|zusenden|enviar (a alguien)|schicken|Bitte senden Sie mir die Unterlagen zu.|Wir senden Ihnen die Unterlagen per Post zu.|Le enviamos la documentación por correo postal.
+w|die Zusendung|el envío|||Die Zusendung dauert normalerweise zwei Tage.|El envío suele tardar dos días.
+w|zukommen lassen|hacer llegar|schicken|Ich lasse dir die Rechnung zukommen.|Ich lasse dir die Fotos morgen zukommen.|Mañana te hago llegar las fotos.
+w|die Unterlagen|los documentos, la documentación|die Dokumente|Siempre en plural.|Hast du alle Unterlagen für das Treffen dabei?|¿Llevas todos los documentos para la reunión?
+w|ausfüllen|rellenar (un formulario)|||Bitte füllen Sie das Formular vollständig aus.|Por favor, rellene el formulario por completo.
+w|unterschreiben|firmar|||Hier müssen Sie bitte unterschreiben.|Aquí tiene que firmar, por favor.
+w|die Unterschrift|la firma|||Auf dem Vertrag fehlt noch deine Unterschrift.|En el contrato todavía falta tu firma.
+w|ausdrucken|imprimir|||Kannst du die Karte für die Reise ausdrucken?|¿Puedes imprimir el billete para el viaje?
+w|einscannen|escanear|||Ich scanne den Brief ein und schicke ihn dir.|Escaneo la carta y te la envío.
+w|der Zeitraum|el período|||In diesem Zeitraum bin ich im Urlaub.|En ese período estoy de vacaciones.
+w|rechtzeitig|a tiempo, con antelación|||Bitte schick die Unterlagen rechtzeitig ab.|Por favor, envía los documentos con antelación.
+w|umgehend|de inmediato (formal)|sofort||Bitte antworten Sie umgehend auf diese Anfrage.|Por favor, responda de inmediato a esta consulta.
+w|baldig|pronto, próximo|bald|Um baldige Antwort wird gebeten.|Auf ein baldiges Wiedersehen!|¡Hasta pronto!
+w|rasch|rápido|schnell|Danke für die rasche Antwort. Muy usado en Austria.|Wir brauchen eine rasche Lösung.|Necesitamos una solución rápida.
+w|gerne|con gusto; claro||Gerne! = ¡Con gusto!|Ich helfe dir gerne bei der Übersetzung.|Con gusto te ayudo con la traducción.
+w|herzlich|cordial(mente)||Herzlichen Dank!|Herzlichen Dank für die Einladung!|¡Muchas gracias por la invitación!
+w|freundlich|amable||Mit freundlichen Grüßen|Die Frau am Telefon war sehr freundlich.|La mujer del teléfono fue muy amable.
+w|geehrt|estimado (formal)||Sehr geehrte Frau …|Sehr geehrte Frau Berger, vielen Dank für Ihre Mail.|Estimada señora Berger, muchas gracias por su correo.
+w|die Verfügung|la disposición||zur Verfügung stehen = estar a disposición|Ich stehe Ihnen jederzeit zur Verfügung.|Estoy a su disposición en todo momento.
+w|die Rücksicht|la consideración||Danke für deine Rücksichtnahme.|Bitte nehmen Sie Rücksicht auf die Nachbarn.|Por favor, tenga consideración con los vecinos.
+w|der Hinweis|la indicación, el aviso|||Danke für den Hinweis, das war sehr hilfreich.|Gracias por el aviso, fue muy útil.
+w|hinweisen auf|señalar, advertir sobre||Wir möchten Sie darauf hinweisen, dass …|Ich möchte Sie auf die neue Frist hinweisen.|Quiero advertirle del nuevo plazo.
+w|ausstehend|pendiente||ausstehende Details|Die ausstehende Zahlung ist noch nicht eingegangen.|El pago pendiente todavía no ha llegado.
+w|offen|abierto; pendiente|ausstehend|Die Rechnung ist noch offen.|Die Rechnung ist noch offen.|La factura todavía está pendiente.
+w|versehentlich|por error|irrtümlich|Ich habe versehentlich das falsche Datum eingetragen.|Ich habe die Mail versehentlich gelöscht.|He borrado el correo por error.
+w|irrtümlich|por equivocación|versehentlich|Falls Sie diese E-Mail irrtümlich erhalten haben …|Das Paket wurde irrtümlich an uns geliefert.|El paquete nos lo entregaron por equivocación.
+w|die Verzögerung|el retraso|||Wir entschuldigen uns für die Verzögerung.|Nos disculpamos por el retraso.
+w|die Unannehmlichkeit|la molestia||Entschuldigen Sie die Unannehmlichkeiten.|Wir bedauern die Unannehmlichkeit sehr.|Lamentamos mucho la molestia.
+w|sich entschuldigen|disculparse|||Ich muss mich für meinen Fehler entschuldigen.|Tengo que disculparme por mi error.
+w|bedauern|lamentar|leidtun|Wir bedauern, Ihnen mitteilen zu müssen …|Wir bedauern, dass Sie nicht kommen können.|Lamentamos que no pueda venir.
+w|sich bedanken|dar las gracias||Ich bedanke mich für …|Ich möchte mich bei dir für alles bedanken.|Quiero darte las gracias por todo.
+w|die Empfehlung|la recomendación||auf Empfehlung von … = por recomendación de …|Danke für die Empfehlung, das Restaurant war super!|Gracias por la recomendación, ¡el restaurante era genial!
+w|die Einladung|la invitación|||Wir haben eine Einladung zur Hochzeit bekommen.|Hemos recibido una invitación para la boda.
+w|einladen|invitar|||Ich lade euch am Samstag zum Essen ein.|Os invito a comer el sábado.
+w|zusagen|aceptar, confirmar asistencia|||Ich habe für die Feier schon zugesagt.|Ya he confirmado mi asistencia a la fiesta.
+w|absagen|cancelar, rechazar|||Leider muss ich das Treffen absagen.|Lamentablemente tengo que cancelar la reunión.
+w|die Absage|la cancelación, el rechazo|||Wir haben heute eine Absage bekommen.|Hoy hemos recibido una negativa.
+w|verschieben|aplazar, posponer||Können wir den Termin verschieben?|Können wir den Termin auf Montag verschieben?|¿Podemos aplazar la cita al lunes?
+w|vereinbaren|acordar, concertar||einen Termin vereinbaren|Ich möchte einen Termin vereinbaren.|Quiero concertar una cita.
+w|der Termin|la cita, el plazo||En Austria también: Arzttermin, Amtstermin.|Ich habe morgen um zehn einen Termin beim Arzt.|Mañana a las diez tengo cita con el médico.
+w|die Telefonnummer|el número de teléfono|||Hast du seine Telefonnummer?|¿Tienes su número de teléfono?
+w|erreichbar|localizable, disponible||Ich bin ab 9 Uhr erreichbar.|Sind Sie am Wochenende erreichbar?|¿Está localizable el fin de semana?
+w|zurückrufen|devolver la llamada|||Ich rufe dich in einer Stunde zurück.|Te devuelvo la llamada en una hora.
+w|der Rückruf|la devolución de llamada||Ich bitte um Rückruf.|Ich warte noch auf einen Rückruf von der Bank.|Todavía espero una llamada del banco.
+w|ersichtlich|visible, que se puede ver|sichtbar, erkennbar|Die Informationen sind unter dem Link ersichtlich.|Das ist aus dem Vertrag nicht ersichtlich.|Eso no se ve en el contrato.
+w|beigefügt|adjunto|beiliegend|die beigefügten Unterlagen|Beigefügt sende ich Ihnen den Plan.|Adjunto le envío el plano.
+w|nochmals|nuevamente, otra vez|noch einmal|Nochmals vielen Dank!|Ich danke Ihnen nochmals für die Hilfe.|Le doy las gracias otra vez por la ayuda.
+w|bezüglich|con respecto a|wegen|bezüglich Ihrer Anfrage|Ich schreibe Ihnen bezüglich der Wohnung.|Le escribo con respecto al piso.
+w|diesbezüglich|al respecto|||Haben Sie diesbezüglich noch Fragen?|¿Tiene alguna pregunta al respecto?
+w|hiermit|por la presente||Hiermit bestätige ich …|Hiermit bestätige ich den Termin.|Por la presente confirmo la cita.
+w|der Spam-Ordner|la carpeta de spam|||Deine Mail war im Spam-Ordner.|Tu correo estaba en la carpeta de spam.
+w|der Verteiler|la lista de distribución|||Bitte setz mich auf den Verteiler.|Por favor, ponme en la lista de distribución.
+w|abmelden|darse de baja; cerrar sesión||vom Newsletter abmelden|Ich möchte mich vom Newsletter abmelden.|Quiero darme de baja del boletín.
 p|Gib mir bitte kurz Bescheid.|Avísame brevemente, por favor.|Sag mir bitte kurz, wie es aussieht.|Muy frecuente en tus emails.
 p|Im Anhang findest du die Rechnung.|En el adjunto encontrarás la factura.||
 p|Falls du Fragen hast, melde dich.|Si tienes preguntas, escríbeme.|Bei Fragen melde dich gerne.|

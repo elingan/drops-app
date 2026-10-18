@@ -1,106 +1,106 @@
 # Arbeit
-w|der Kunde / die Kundin|el cliente / la clienta||
-w|der Auftrag|el encargo, el pedido||Danke für Ihren Auftrag!
-w|der Auftraggeber|el cliente, quien encarga||
-w|das Angebot|la oferta, el presupuesto||ein Angebot erstellen
-w|der Kostenvoranschlag|el presupuesto (estimado)||
-w|die Lösung|la solución||
-w|die Änderung|el cambio, la modificación||
-w|ändern|cambiar, modificar||
-w|anpassen|ajustar, adaptar||Dann passen wir die wichtigsten Sachen an.
-w|umsetzen|implementar, llevar a cabo|realisieren|Das lässt sich problemlos umsetzen.
-w|die Umsetzung|la implementación||
-w|der Entwurf|el borrador, el diseño preliminar||
-w|vorbereiten|preparar||
-w|die Vorlage|la plantilla||
-w|der Fortschritt|el progreso||
-w|auf dem Laufenden halten|mantener al tanto||Ich halte dich auf dem Laufenden.
-w|die Zusammenarbeit|la colaboración||
-w|zusammenarbeiten|colaborar||
-w|das Projekt|el proyecto||
-w|die Projektleitung|la dirección del proyecto||
-w|der Schritt|el paso||der nächste Schritt
-w|die Aufgabe|la tarea||
-w|erledigen|hacer, despachar, resolver||Ich erledige das heute noch.
-w|abschließen|terminar, cerrar (un proyecto, contrato)||
-w|fertig|terminado, listo||
-w|die Frist|el plazo||Die Frist endet am Freitag.
-w|der Abgabetermin|la fecha de entrega|die Deadline|
-w|die Besprechung|la reunión||
-w|besprechen|hablar, tratar (un tema)||
-w|das Meeting|la reunión (anglicismo)|die Besprechung|
-w|das Gespräch|la conversación, la entrevista||
-w|das Kennenlernen|la reunión para conocerse||ein Termin zum Kennenlernen
-w|der Vorschlag|la propuesta||
-w|vorschlagen|proponer||
-w|die Rückfrage|la consulta, la pregunta de aclaración||Bei Rückfragen …
-w|klären|aclarar||Das müssen wir noch klären.
-w|der Aufwand|el esfuerzo, el trabajo necesario||Wie hoch ist der Aufwand?
-w|der Stundensatz|la tarifa por hora||
-w|die Stunde|la hora||
-w|der Selbstständige|el autónomo||En Austria: Neue Selbstständige (SVS).
-w|selbstständig|autónomo, independiente||Ich bin selbstständig.
-w|das Einzelunternehmen|la empresa unipersonal||En Austria: e.U. (eingetragenes Unternehmen).
-w|das Unternehmen|la empresa||
-w|der Betrieb|la empresa, el negocio||
-w|die Firma|la empresa||
-w|der Kollege / die Kollegin|el/la colega||
-w|der Chef / die Chefin|el jefe / la jefa||
-w|der Mitarbeiter / die Mitarbeiterin|el empleado / la empleada||
-w|die Stelle|el puesto de trabajo||eine Stelle suchen
-w|die Stellenanzeige|el anuncio de empleo|das Jobangebot|
-w|die Bewerbung|la candidatura, la solicitud de empleo||
-w|sich bewerben|postularse, presentar candidatura||Ich bewerbe mich als Webentwickler.
-w|der Lebenslauf|el currículum||
-w|das Anschreiben|la carta de presentación||
-w|das Vorstellungsgespräch|la entrevista de trabajo||
-w|die Zusage|la respuesta afirmativa||
-w|das Gehalt|el sueldo||
-w|brutto / netto|bruto / neto||
-w|Vollzeit / Teilzeit|jornada completa / media jornada||
-w|das Homeoffice|el teletrabajo||
-w|der Arbeitsplatz|el puesto de trabajo, el lugar de trabajo||
-w|das Büro|la oficina||
-w|die Arbeitszeit|el horario laboral||
-w|der Urlaub|las vacaciones||Ich bin im Urlaub.
-w|der Krankenstand|la baja por enfermedad|die Krankschreibung (DE)|Austria: im Krankenstand sein.
-w|die Weiterbildung|la formación continua||
-w|der Kurs|el curso||
-w|die Erfahrung|la experiencia||
-w|die Kenntnisse|los conocimientos||Deutschkenntnisse
-w|zuständig|responsable, competente||Wer ist dafür zuständig?
-w|verantwortlich|responsable||
-w|die Verantwortung|la responsabilidad||
-w|unterstützen|apoyar, ayudar||
-w|die Unterstützung|el apoyo||
-w|überprüfen|revisar, verificar||Ich habe die Fehler überprüft.
-w|prüfen|comprobar, revisar||
-w|testen|probar||
-w|beheben|solucionar, corregir (un fallo)||Das Problem ist behoben.
-w|das Problem|el problema||
-w|problemlos|sin problemas||
-w|der Fehler|el error||
-w|einwandfrei|perfectamente, sin fallos||Die Seite läuft einwandfrei.
-w|funktionieren|funcionar||
-w|die Funktion|la función||
-w|integrieren|integrar||
-w|entwickeln|desarrollar||
-w|die Entwicklung|el desarrollo||
-w|der Entwickler / die Entwicklerin|el/la desarrollador/a||
-w|die Anforderung|el requisito||
-w|die Vorstellung|la idea, la expectativa; la presentación||genaue Vorstellungen haben
-w|die Priorität|la prioridad||
-w|vorläufig|provisional||die vorläufige Version
-w|endgültig|definitivo||
-w|aktuell|actual, vigente, al día||die aktuelle Version = la versión vigente
-w|derzeit|actualmente|momentan|
-w|momentan|en este momento|derzeit|
-w|demnächst|próximamente|bald|
-w|bereits|ya|schon|
-w|sobald|en cuanto||sobald alles fertig ist
-w|spannend|interesante, emocionante||Das Angebot klingt spannend.
-w|der Einsatz|el compromiso, la dedicación||Danke für deinen tollen Einsatz.
-w|hackeln|currar, trabajar duro|arbeiten|Austria, coloquial.
+w|der Kunde / die Kundin|el cliente / la clienta|||Die Kundin ruft heute noch einmal an.|La clienta vuelve a llamar hoy.
+w|der Auftrag|el encargo, el pedido||Danke für Ihren Auftrag!|Wir haben gestern einen neuen Auftrag bekommen.|Ayer conseguimos un nuevo encargo.
+w|der Auftraggeber|el cliente, quien encarga|||Der Auftraggeber ist mit dem Ergebnis zufrieden.|El cliente está satisfecho con el resultado.
+w|das Angebot|la oferta, el presupuesto||ein Angebot erstellen|Ich schicke Ihnen morgen ein Angebot.|Mañana le envío una oferta.
+w|der Kostenvoranschlag|el presupuesto (estimado)|||Können Sie mir einen Kostenvoranschlag machen?|¿Puede hacerme un presupuesto?
+w|die Lösung|la solución|||Ich glaube, wir haben endlich eine Lösung gefunden.|Creo que por fin hemos encontrado una solución.
+w|die Änderung|el cambio, la modificación|||Die Änderung ist ab Montag gültig.|El cambio es válido desde el lunes.
+w|ändern|cambiar, modificar|||Kann ich meine Bestellung noch ändern?|¿Puedo cambiar todavía mi pedido?
+w|anpassen|ajustar, adaptar||Dann passen wir die wichtigsten Sachen an.|Wir müssen den Zeitplan etwas anpassen.|Tenemos que ajustar un poco el calendario.
+w|umsetzen|implementar, llevar a cabo|realisieren|Das lässt sich problemlos umsetzen.|Den Plan können wir leicht umsetzen.|Este plan lo podemos llevar a cabo fácilmente.
+w|die Umsetzung|la implementación|||Die Umsetzung dauert ungefähr drei Wochen.|La implementación lleva unas tres semanas.
+w|der Entwurf|el borrador, el diseño preliminar|||Hier ist der erste Entwurf für die Webseite.|Aquí está el primer borrador de la web.
+w|vorbereiten|preparar|||Ich muss noch die Präsentation vorbereiten.|Todavía tengo que preparar la presentación.
+w|die Vorlage|la plantilla|||Für den Brief nehme ich eine Vorlage.|Para la carta uso una plantilla.
+w|der Fortschritt|el progreso|||Wir machen gute Fortschritte.|Estamos avanzando bien.
+w|auf dem Laufenden halten|mantener al tanto||Ich halte dich auf dem Laufenden.|Halte mich bitte auf dem Laufenden.|Mantenme al tanto, por favor.
+w|die Zusammenarbeit|la colaboración|||Die Zusammenarbeit mit dem Team funktioniert gut.|La colaboración con el equipo funciona bien.
+w|zusammenarbeiten|colaborar|||Wir arbeiten seit zwei Jahren zusammen.|Colaboramos desde hace dos años.
+w|das Projekt|el proyecto|||Das Projekt startet im Herbst.|El proyecto empieza en otoño.
+w|die Projektleitung|la dirección del proyecto|||Die Projektleitung hat Frau Huber übernommen.|La señora Huber ha asumido la dirección del proyecto.
+w|der Schritt|el paso||der nächste Schritt|Der nächste Schritt ist ein Gespräch mit dem Kunden.|El siguiente paso es una conversación con el cliente.
+w|die Aufgabe|la tarea|||Meine wichtigste Aufgabe ist die Planung.|Mi tarea más importante es la planificación.
+w|erledigen|hacer, despachar, resolver||Ich erledige das heute noch.|Ich muss noch ein paar Dinge erledigen.|Todavía tengo que resolver algunas cosas.
+w|abschließen|terminar, cerrar (un proyecto, contrato)|||Wir wollen das Projekt bis Freitag abschließen.|Queremos cerrar el proyecto antes del viernes.
+w|fertig|terminado, listo|||Ist die Präsentation schon fertig?|¿Ya está lista la presentación?
+w|die Frist|el plazo||Die Frist endet am Freitag.|Die Frist endet am Freitag.|El plazo termina el viernes.
+w|der Abgabetermin|la fecha de entrega|die Deadline||Der Abgabetermin ist der 15. November.|La fecha de entrega es el 15 de noviembre.
+w|die Besprechung|la reunión|||Die Besprechung beginnt um neun Uhr.|La reunión empieza a las nueve.
+w|besprechen|hablar, tratar (un tema)|||Das besprechen wir am besten morgen.|Lo mejor es que lo hablemos mañana.
+w|das Meeting|la reunión (anglicismo)|die Besprechung||Ich habe gleich ein Meeting mit dem Chef.|Enseguida tengo una reunión con el jefe.
+w|das Gespräch|la conversación, la entrevista|||Nach dem Gespräch war ich sehr zufrieden.|Después de la conversación estaba muy satisfecho.
+w|das Kennenlernen|la reunión para conocerse||ein Termin zum Kennenlernen|Wir machen zum Kennenlernen einen Kaffee.|Para conocernos, tomamos un café.
+w|der Vorschlag|la propuesta|||Ich habe einen Vorschlag für den Termin.|Tengo una propuesta para la cita.
+w|vorschlagen|proponer|||Ich schlage vor, wir treffen uns um drei.|Propongo que nos veamos a las tres.
+w|die Rückfrage|la consulta, la pregunta de aclaración||Bei Rückfragen …|Haben Sie noch eine Rückfrage zum Angebot?|¿Tiene todavía alguna pregunta sobre la oferta?
+w|klären|aclarar||Das müssen wir noch klären.|Das müssen wir zuerst mit dem Chef klären.|Eso primero tenemos que aclararlo con el jefe.
+w|der Aufwand|el esfuerzo, el trabajo necesario||Wie hoch ist der Aufwand?|Der Aufwand für das Projekt ist ziemlich groß.|El esfuerzo del proyecto es bastante grande.
+w|der Stundensatz|la tarifa por hora|||Mein Stundensatz liegt bei achtzig Euro.|Mi tarifa por hora es de ochenta euros.
+w|die Stunde|la hora|||Das dauert ungefähr eine Stunde.|Eso dura aproximadamente una hora.
+w|der Selbstständige|el autónomo||En Austria: Neue Selbstständige (SVS).|Als Selbstständiger muss man viel organisieren.|Siendo autónomo hay que organizar mucho.
+w|selbstständig|autónomo, independiente||Ich bin selbstständig.|Seit letztem Jahr arbeite ich selbstständig.|Desde el año pasado trabajo por cuenta propia.
+w|das Einzelunternehmen|la empresa unipersonal||En Austria: e.U. (eingetragenes Unternehmen).|Mein Einzelunternehmen ist beim Finanzamt angemeldet.|Mi empresa unipersonal está registrada en Hacienda.
+w|das Unternehmen|la empresa|||Das Unternehmen hat zwanzig Mitarbeiter.|La empresa tiene veinte empleados.
+w|der Betrieb|la empresa, el negocio|||Er hat den Betrieb von seinem Vater übernommen.|Se hizo cargo del negocio de su padre.
+w|die Firma|la empresa|||Ich arbeite für eine kleine Firma in Wien.|Trabajo para una pequeña empresa en Viena.
+w|der Kollege / die Kollegin|el/la colega|||Meine Kollegin hilft mir bei dem Projekt.|Mi colega me ayuda con el proyecto.
+w|der Chef / die Chefin|el jefe / la jefa|||Die Chefin ist heute nicht im Büro.|La jefa hoy no está en la oficina.
+w|der Mitarbeiter / die Mitarbeiterin|el empleado / la empleada|||Unsere neue Mitarbeiterin fängt am Montag an.|Nuestra nueva empleada empieza el lunes.
+w|die Stelle|el puesto de trabajo||eine Stelle suchen|Ich suche eine neue Stelle als Entwickler.|Busco un nuevo puesto de desarrollador.
+w|die Stellenanzeige|el anuncio de empleo|das Jobangebot||Ich habe eine interessante Stellenanzeige gefunden.|He encontrado un anuncio de empleo interesante.
+w|die Bewerbung|la candidatura, la solicitud de empleo|||Ich schreibe heute meine Bewerbung.|Hoy escribo mi solicitud de empleo.
+w|sich bewerben|postularse, presentar candidatura||Ich bewerbe mich als Webentwickler.|Ich möchte mich bei dieser Firma bewerben.|Quiero presentar mi candidatura en esta empresa.
+w|der Lebenslauf|el currículum|||Mein Lebenslauf ist nicht mehr aktuell.|Mi currículum ya no está actualizado.
+w|das Anschreiben|la carta de presentación|||Im Anschreiben erkläre ich, warum ich die Stelle möchte.|En la carta de presentación explico por qué quiero el puesto.
+w|das Vorstellungsgespräch|la entrevista de trabajo|||Morgen habe ich ein Vorstellungsgespräch.|Mañana tengo una entrevista de trabajo.
+w|die Zusage|la respuesta afirmativa|||Ich habe heute die Zusage für die Stelle bekommen.|Hoy me han dicho que sí al puesto.
+w|das Gehalt|el sueldo|||Das Gehalt wird immer am Monatsende überwiesen.|El sueldo se transfiere siempre a final de mes.
+w|brutto / netto|bruto / neto|||Das ist der Preis brutto, nicht netto.|Este es el precio bruto, no el neto.
+w|Vollzeit / Teilzeit|jornada completa / media jornada|||Ich arbeite in Teilzeit, nicht in Vollzeit.|Trabajo a media jornada, no a jornada completa.
+w|das Homeoffice|el teletrabajo|||Dienstags arbeite ich im Homeoffice.|Los martes trabajo en casa.
+w|der Arbeitsplatz|el puesto de trabajo, el lugar de trabajo|||Mein Arbeitsplatz ist direkt am Fenster.|Mi puesto de trabajo está junto a la ventana.
+w|das Büro|la oficina|||Heute bleibe ich nicht lange im Büro.|Hoy no me quedo mucho tiempo en la oficina.
+w|die Arbeitszeit|el horario laboral|||Die Arbeitszeit beginnt um acht Uhr.|El horario laboral empieza a las ocho.
+w|der Urlaub|las vacaciones||Ich bin im Urlaub.|Im Sommer nehme ich zwei Wochen Urlaub.|En verano me cojo dos semanas de vacaciones.
+w|der Krankenstand|la baja por enfermedad|die Krankschreibung (DE)|Austria: im Krankenstand sein.|Er ist seit Montag im Krankenstand.|Está de baja por enfermedad desde el lunes.
+w|die Weiterbildung|la formación continua|||Die Firma bezahlt meine Weiterbildung.|La empresa paga mi formación continua.
+w|der Kurs|el curso|||Ich besuche einen Kurs für Buchhaltung.|Hago un curso de contabilidad.
+w|die Erfahrung|la experiencia|||Ich habe fünf Jahre Erfahrung in diesem Bereich.|Tengo cinco años de experiencia en este ámbito.
+w|die Kenntnisse|los conocimientos||Deutschkenntnisse|Gute Deutschkenntnisse sind wichtig für die Stelle.|Los buenos conocimientos de alemán son importantes para el puesto.
+w|zuständig|responsable, competente||Wer ist dafür zuständig?|Dafür ist meine Kollegin zuständig.|De eso se encarga mi colega.
+w|verantwortlich|responsable|||Wer ist dafür verantwortlich?|¿Quién es responsable de eso?
+w|die Verantwortung|la responsabilidad|||Ich übernehme gern mehr Verantwortung.|Con gusto asumo más responsabilidad.
+w|unterstützen|apoyar, ayudar|||Mein Team unterstützt mich bei diesem Projekt.|Mi equipo me apoya en este proyecto.
+w|die Unterstützung|el apoyo|||Vielen Dank für deine Unterstützung!|¡Muchas gracias por tu apoyo!
+w|überprüfen|revisar, verificar||Ich habe die Fehler überprüft.|Bitte überprüfen Sie die Zahlen noch einmal.|Por favor, revise las cifras otra vez.
+w|prüfen|comprobar, revisar|||Ich prüfe das und melde mich dann.|Lo reviso y luego te aviso.
+w|testen|probar|||Wir testen die neue Version heute Nachmittag.|Probamos la nueva versión esta tarde.
+w|beheben|solucionar, corregir (un fallo)||Das Problem ist behoben.|Der Fehler wurde schon behoben.|El fallo ya se ha corregido.
+w|das Problem|el problema|||Wir haben ein kleines Problem mit der Lieferung.|Tenemos un pequeño problema con la entrega.
+w|problemlos|sin problemas|||Die Installation ist problemlos gelaufen.|La instalación ha ido sin problemas.
+w|der Fehler|el error|||Ich habe einen Fehler in der Rechnung gefunden.|He encontrado un error en la factura.
+w|einwandfrei|perfectamente, sin fallos||Die Seite läuft einwandfrei.|Die Maschine funktioniert wieder einwandfrei.|La máquina funciona de nuevo perfectamente.
+w|funktionieren|funcionar|||Der Drucker funktioniert nicht mehr.|La impresora ya no funciona.
+w|die Funktion|la función|||Diese Funktion brauche ich nicht.|Esta función no la necesito.
+w|integrieren|integrar|||Wir wollen das neue System in die Website integrieren.|Queremos integrar el nuevo sistema en la web.
+w|entwickeln|desarrollar|||Wir entwickeln gerade eine neue App.|Ahora mismo estamos desarrollando una nueva app.
+w|die Entwicklung|el desarrollo|||Die Entwicklung der Seite dauert drei Monate.|El desarrollo de la página lleva tres meses.
+w|der Entwickler / die Entwicklerin|el/la desarrollador/a|||Die Entwicklerin arbeitet an einem neuen Projekt.|La desarrolladora trabaja en un nuevo proyecto.
+w|die Anforderung|el requisito|||Die wichtigste Anforderung ist die Sicherheit.|El requisito más importante es la seguridad.
+w|die Vorstellung|la idea, la expectativa; la presentación||genaue Vorstellungen haben|Das Ergebnis entspricht nicht meinen Vorstellungen.|El resultado no se corresponde con mis expectativas.
+w|die Priorität|la prioridad|||Diese Aufgabe hat jetzt Priorität.|Esta tarea tiene ahora prioridad.
+w|vorläufig|provisional||die vorläufige Version|Das ist nur eine vorläufige Lösung.|Esto es solo una solución provisional.
+w|endgültig|definitivo|||Die endgültige Entscheidung kommt nächste Woche.|La decisión definitiva llega la semana que viene.
+w|aktuell|actual, vigente, al día||die aktuelle Version = la versión vigente|Ist diese Information noch aktuell?|¿Sigue vigente esta información?
+w|derzeit|actualmente|momentan||Derzeit arbeite ich an zwei Projekten.|Actualmente trabajo en dos proyectos.
+w|momentan|en este momento|derzeit||Momentan habe ich leider keine Zeit.|En este momento, lamentablemente, no tengo tiempo.
+w|demnächst|próximamente|bald||Wir ziehen demnächst in ein neues Büro.|Próximamente nos mudamos a una nueva oficina.
+w|bereits|ya|schon||Ich habe die Mail bereits beantwortet.|Ya he respondido al correo.
+w|sobald|en cuanto||sobald alles fertig ist|Ich rufe dich an, sobald ich fertig bin.|Te llamo en cuanto termine.
+w|spannend|interesante, emocionante||Das Angebot klingt spannend.|Das Projekt klingt wirklich spannend.|El proyecto suena realmente interesante.
+w|der Einsatz|el compromiso, la dedicación||Danke für deinen tollen Einsatz.|Danke für deinen Einsatz in den letzten Wochen!|¡Gracias por tu dedicación estas últimas semanas!
+w|hackeln|currar, trabajar duro|arbeiten|Austria, coloquial.|Heute muss ich den ganzen Tag hackeln.|Hoy tengo que currar todo el día.
 p|Können wir einen Termin vereinbaren?|¿Podemos acordar una cita?||
 p|Das lässt sich problemlos umsetzen.|Eso se puede implementar sin problemas.||
 p|Ich bereite einen ersten Entwurf vor.|Preparo un primer borrador.||

@@ -1,66 +1,66 @@
 # Technik
-w|die Webseite|la página web|die Website|
-w|die Seite|la página||
-w|der Link|el enlace||
-w|verknüpfen|vincular, enlazar|verbinden|die Seite mit der Domain verknüpfen
-w|die Domain|el dominio||
-w|der Eintrag|la entrada, el registro||DNS-Einträge
-w|eintragen|anotar, registrar, introducir||
-w|der Zugang|el acceso||Ich brauche noch Zugang zu deinem Account.
-w|der Zugriff|el acceso (a datos, cuenta)||
-w|die Zugangsdaten|los datos de acceso||
-w|das Passwort|la contraseña||
-w|das Konto|la cuenta||Benutzerkonto, Bankkonto
-w|sich anmelden|iniciar sesión; inscribirse||
-w|sich registrieren|registrarse||
-w|hochladen|subir (archivos)||
-w|herunterladen|descargar||
-w|speichern|guardar||
-w|löschen|borrar||
-w|die Datei|el archivo||
-w|der Ordner|la carpeta||
-w|teilen|compartir; dividir||
-w|die Freigabe|el permiso de acceso compartido||
-w|freigeben|compartir, autorizar||
-w|die Version|la versión||
-w|aktualisieren|actualizar||
-w|die Aktualisierung|la actualización|das Update|
-w|einrichten|configurar, instalar||ein E-Mail-Konto einrichten
-w|die Einstellung|el ajuste, la configuración||
-w|die Konfiguration|la configuración||
-w|laufen|funcionar (un sistema)||Die neue Version läuft ab morgen.
-w|der Server|el servidor||
-w|die Sicherung|la copia de seguridad|das Backup|
-w|wiederherstellen|restaurar||
-w|der Umzug|la mudanza; la migración||Umzug auf einen neuen Server
-w|übertragen|transferir||
-w|die Schaltfläche|el botón|der Button|
-w|anklicken|hacer clic||
-w|der Bildschirm|la pantalla||
-w|das Bildschirmfoto|la captura de pantalla|der Screenshot|
-w|das Gerät|el dispositivo||
-w|der Drucker|la impresora||
-w|das Ladegerät|el cargador||
-w|der Akku|la batería||
-w|die Verbindung|la conexión||
-w|das WLAN|el wifi||
-w|der Datenschutz|la protección de datos||DSGVO = RGPD
-w|das Impressum|el aviso legal||Obligatorio en webs en Austria.
-w|die Benachrichtigung|la notificación||
-w|automatisch|automático||
-w|benutzerfreundlich|fácil de usar||
-w|die Anleitung|las instrucciones, el manual||
-w|die Suchmaschine|el buscador||
-w|die Schriftgröße|el tamaño de letra||
-w|das Formular|el formulario||
-w|der Fehlercode|el código de error||
-w|abstürzen|colgarse, fallar (programa)||
-w|der Absturz|el cuelgue, la caída||
-w|neu starten|reiniciar||
-w|die Software|el software||
-w|die Anwendung|la aplicación||
-w|verfügbar|disponible||
-w|die Sicherheit|la seguridad||
+w|die Webseite|la página web|die Website||Unsere Webseite ist seit gestern online.|Nuestra página web está en línea desde ayer.
+w|die Seite|la página|||Die Seite lädt sehr langsam.|La página carga muy despacio.
+w|der Link|el enlace|||Ich schicke dir den Link per E-Mail.|Te envío el enlace por correo.
+w|verknüpfen|vincular, enlazar|verbinden|die Seite mit der Domain verknüpfen|Du kannst dein Konto mit der App verknüpfen.|Puedes vincular tu cuenta con la app.
+w|die Domain|el dominio|||Die Domain muss jedes Jahr verlängert werden.|El dominio hay que renovarlo cada año.
+w|der Eintrag|la entrada, el registro||DNS-Einträge|Ich habe deinen Eintrag im Kalender gesehen.|He visto tu entrada en el calendario.
+w|eintragen|anotar, registrar, introducir|||Bitte tragen Sie hier Ihren Namen ein.|Por favor, anote aquí su nombre.
+w|der Zugang|el acceso||Ich brauche noch Zugang zu deinem Account.|Ich habe keinen Zugang zum Server.|No tengo acceso al servidor.
+w|der Zugriff|el acceso (a datos, cuenta)|||Der Zugriff auf die Dateien ist gesperrt.|El acceso a los archivos está bloqueado.
+w|die Zugangsdaten|los datos de acceso|||Ich habe meine Zugangsdaten vergessen.|He olvidado mis datos de acceso.
+w|das Passwort|la contraseña|||Dein Passwort muss mindestens zehn Zeichen haben.|Tu contraseña debe tener al menos diez caracteres.
+w|das Konto|la cuenta||Benutzerkonto, Bankkonto|Ich habe ein neues Konto angelegt.|He creado una cuenta nueva.
+w|sich anmelden|iniciar sesión; inscribirse|||Ich kann mich nicht mehr anmelden.|Ya no puedo iniciar sesión.
+w|sich registrieren|registrarse|||Du musst dich zuerst registrieren.|Primero tienes que registrarte.
+w|hochladen|subir (archivos)|||Ich lade die Fotos später hoch.|Subo las fotos más tarde.
+w|herunterladen|descargar|||Du kannst das Formular hier herunterladen.|Puedes descargar el formulario aquí.
+w|speichern|guardar|||Vergiss nicht, die Datei zu speichern.|No olvides guardar el archivo.
+w|löschen|borrar|||Ich habe die alte Datei versehentlich gelöscht.|He borrado el archivo antiguo por error.
+w|die Datei|el archivo|||Die Datei lässt sich nicht öffnen.|El archivo no se puede abrir.
+w|der Ordner|la carpeta|||Die Fotos liegen im Ordner „Urlaub“.|Las fotos están en la carpeta «Vacaciones».
+w|teilen|compartir; dividir|||Kannst du den Ordner mit mir teilen?|¿Puedes compartir la carpeta conmigo?
+w|die Freigabe|el permiso de acceso compartido|||Ich habe die Freigabe für den Ordner erhalten.|He recibido el permiso de acceso a la carpeta.
+w|freigeben|compartir, autorizar|||Der Chef hat das Dokument schon freigegeben.|El jefe ya ha autorizado el documento.
+w|die Version|la versión|||Hast du die neueste Version installiert?|¿Has instalado la última versión?
+w|aktualisieren|actualizar|||Du musst die App erst aktualisieren.|Primero tienes que actualizar la app.
+w|die Aktualisierung|la actualización|das Update||Die Aktualisierung dauert nur ein paar Minuten.|La actualización solo tarda unos minutos.
+w|einrichten|configurar, instalar||ein E-Mail-Konto einrichten|Kannst du mir helfen, den Drucker einzurichten?|¿Puedes ayudarme a configurar la impresora?
+w|die Einstellung|el ajuste, la configuración|||Diese Einstellung findest du im Menü.|Este ajuste lo encuentras en el menú.
+w|die Konfiguration|la configuración|||Die Konfiguration des Servers ist sehr kompliziert.|La configuración del servidor es muy complicada.
+w|laufen|funcionar (un sistema)||Die neue Version läuft ab morgen.|Das Programm läuft seit gestern ohne Probleme.|El programa funciona desde ayer sin problemas.
+w|der Server|el servidor|||Der Server ist seit heute früh nicht erreichbar.|El servidor no está disponible desde esta mañana.
+w|die Sicherung|la copia de seguridad|das Backup||Mach bitte jede Woche eine Sicherung.|Haz una copia de seguridad cada semana, por favor.
+w|wiederherstellen|restaurar|||Ich konnte die gelöschten Daten wiederherstellen.|Pude restaurar los datos borrados.
+w|der Umzug|la mudanza; la migración||Umzug auf einen neuen Server|Der Umzug der Webseite auf einen neuen Server dauert einen Tag.|La migración de la web a un nuevo servidor lleva un día.
+w|übertragen|transferir|||Die Daten werden automatisch auf das neue Handy übertragen.|Los datos se transfieren automáticamente al móvil nuevo.
+w|die Schaltfläche|el botón|der Button||Klick auf die grüne Schaltfläche, um zu speichern.|Haz clic en el botón verde para guardar.
+w|anklicken|hacer clic|||Du musst den Link nur anklicken.|Solo tienes que hacer clic en el enlace.
+w|der Bildschirm|la pantalla|||Der Bildschirm ist plötzlich schwarz geworden.|La pantalla se ha puesto negra de repente.
+w|das Bildschirmfoto|la captura de pantalla|der Screenshot||Ich schicke dir ein Bildschirmfoto vom Fehler.|Te envío una captura de pantalla del error.
+w|das Gerät|el dispositivo|||Dieses Gerät ist leider kaputt.|Este dispositivo está estropeado, lamentablemente.
+w|der Drucker|la impresora|||Der Drucker hat kein Papier mehr.|La impresora se ha quedado sin papel.
+w|das Ladegerät|el cargador|||Ich habe mein Ladegerät zu Hause vergessen.|Me he dejado el cargador en casa.
+w|der Akku|la batería|||Mein Akku ist fast leer.|Mi batería está casi vacía.
+w|die Verbindung|la conexión|||Die Verbindung ist heute sehr schlecht.|La conexión es hoy muy mala.
+w|das WLAN|el wifi|||Wie ist das Passwort für das WLAN?|¿Cuál es la contraseña del wifi?
+w|der Datenschutz|la protección de datos||DSGVO = RGPD|Beim Datenschutz müssen wir sehr vorsichtig sein.|En la protección de datos debemos tener mucho cuidado.
+w|das Impressum|el aviso legal||Obligatorio en webs en Austria.|Das Impressum steht ganz unten auf der Seite.|El aviso legal está al final de la página.
+w|die Benachrichtigung|la notificación|||Ich habe eine Benachrichtigung auf dem Handy bekommen.|He recibido una notificación en el móvil.
+w|automatisch|automático|||Die Rechnung wird automatisch verschickt.|La factura se envía automáticamente.
+w|benutzerfreundlich|fácil de usar|||Die neue App ist sehr benutzerfreundlich.|La nueva app es muy fácil de usar.
+w|die Anleitung|las instrucciones, el manual|||Die Anleitung ist leider nur auf Englisch.|Las instrucciones, lamentablemente, solo están en inglés.
+w|die Suchmaschine|el buscador|||Ich suche das in der Suchmaschine.|Lo busco en el buscador.
+w|die Schriftgröße|el tamaño de letra|||Die Schriftgröße ist mir zu klein.|El tamaño de letra me parece demasiado pequeño.
+w|das Formular|el formulario|||Das Formular kannst du online ausfüllen.|El formulario puedes rellenarlo en línea.
+w|der Fehlercode|el código de error|||Auf dem Bildschirm steht ein Fehlercode.|En la pantalla aparece un código de error.
+w|abstürzen|colgarse, fallar (programa)|||Das Programm ist schon wieder abgestürzt.|El programa se ha colgado otra vez.
+w|der Absturz|el cuelgue, la caída|||Nach dem Absturz waren alle Daten weg.|Después de la caída, todos los datos habían desaparecido.
+w|neu starten|reiniciar|||Starte bitte den Computer neu.|Reinicia el ordenador, por favor.
+w|die Software|el software|||Die Software kostet zehn Euro im Monat.|El software cuesta diez euros al mes.
+w|die Anwendung|la aplicación|||Diese Anwendung ist für Anfänger gedacht.|Esta aplicación está pensada para principiantes.
+w|verfügbar|disponible|||Das Update ist ab morgen verfügbar.|La actualización está disponible a partir de mañana.
+w|die Sicherheit|la seguridad|||Die Sicherheit unserer Kunden ist uns wichtig.|La seguridad de nuestros clientes es importante para nosotros.
 p|Hier ist der Link zur neuesten Version.|Aquí está el enlace a la versión más reciente.||
 p|Ich verknüpfe die Seite mit deiner Domain.|Vinculo la página con tu dominio.||
 p|Ich brauche noch Zugang zu deinem Account.|Todavía necesito acceso a tu cuenta.||
