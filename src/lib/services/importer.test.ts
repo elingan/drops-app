@@ -48,3 +48,19 @@ describe('importer', () => {
 		expect(parseCsv('foo,bar\n1,2').errors[0]!.message).toBe('invalid_format');
 	});
 });
+
+describe('example sentences', () => {
+	it('keeps example and translation (JSON and CSV), and ignores audio URLs from outside', () => {
+		const json = parseImport(
+			'x.json',
+			JSON.stringify([
+				{ german: 'heuer', category: 'Alltag', example: 'Heuer ist es heiß.', exampleTranslation: 'Este año hace calor.', audioUrl: 'https://evil.example/x.mp3' }
+			])
+		);
+		expect(json.errors).toEqual([]);
+		expect(json.rows[0]).toMatchObject({ example: 'Heuer ist es heiß.', exampleTranslation: 'Este año hace calor.' });
+		expect(json.rows[0]).not.toHaveProperty('audioUrl');
+		const csv = parseImport('x.csv', 'german,category,example,exampleTranslation\nheuer,Alltag,Heuer ist es heiß.,Este año hace calor.');
+		expect(csv.rows[0]).toMatchObject({ example: 'Heuer ist es heiß.', exampleTranslation: 'Este año hace calor.' });
+	});
+});

@@ -34,8 +34,14 @@ export interface LearningItem {
 	translation?: string;
 	/** When/why you'd say it. */
 	context?: string;
+	/** Short B1 sentence that uses the word (words only), with its Spanish translation. */
+	example?: string;
+	exampleTranslation?: string;
 	categoryId: string;
+	/** Generated MP3s (ElevenLabs): the German text, its Spanish translation, the example sentence. */
 	audioUrl?: string;
+	translationAudioUrl?: string;
+	exampleAudioUrl?: string;
 	nativeAudioUrl?: string;
 	/** Media blob ids stored by MediaRepository. */
 	imageId?: string;

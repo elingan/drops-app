@@ -7,7 +7,13 @@ export interface ImportRow {
 	translation?: string;
 	alt?: string;
 	context?: string;
+	example?: string;
+	exampleTranslation?: string;
 	category: string;
+	/** Generated audio; set by the bundled dataset (audio:build), never by user imports. */
+	audioUrl?: string;
+	translationAudioUrl?: string;
+	exampleAudioUrl?: string;
 }
 
 export interface ImportError {
@@ -21,7 +27,7 @@ export interface ImportResult {
 	errors: ImportError[];
 }
 
-export const LIMITS = { german: 300, translation: 300, alt: 300, context: 500, category: 60, rows: 10_000 } as const;
+export const LIMITS = { german: 300, translation: 300, alt: 300, context: 500, example: 300, category: 60, rows: 10_000 } as const;
 
 /** Strips control characters (keeps newlines out of single-line fields). */
 function clean(v: unknown, max: number): string | undefined | null {
@@ -49,7 +55,9 @@ export function validateEntries(entries: unknown[]): ImportResult {
 		const translation = clean(r.translation, LIMITS.translation);
 		const alt = clean(r.alt, LIMITS.alt);
 		const context = clean(r.context, LIMITS.context);
-		if (german === null || category === null || translation === null || alt === null || context === null) {
+		const example = clean(r.example, LIMITS.example);
+		const exampleTranslation = clean(r.exampleTranslation, LIMITS.example);
+		if ([german, category, translation, alt, context, example, exampleTranslation].includes(null)) {
 			errors.push({ row, message: 'too_long' });
 			return;
 		}
@@ -62,7 +70,7 @@ export function validateEntries(entries: unknown[]): ImportResult {
 		const key = german.toLowerCase();
 		if (seen.has(key)) return void errors.push({ row, message: 'duplicate' });
 		seen.add(key);
-		rows.push({ type, german, category, translation, alt, context });
+		rows.push({ type, german, category, translation, alt, context, example, exampleTranslation });
 	});
 	return { rows, errors };
 }
@@ -115,7 +123,7 @@ export function parseCsvRecords(text: string): string[][] {
 
 export function parseCsv(text: string): ImportResult {
 	const records = parseCsvRecords(text);
-	const header = records.shift()?.map((h) => h.trim().toLowerCase());
+	const header = records.shift()?.map((h) => h.trim().toLowerCase().replace('exampletranslation', 'exampleTranslation'));
 	if (!header || !header.includes('german') || !header.includes('category')) {
 		return { rows: [], errors: [{ row: 0, message: 'invalid_format' }] };
 	}
