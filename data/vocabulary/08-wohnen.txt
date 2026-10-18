@@ -1,55 +1,55 @@
 # Wohnen
-w|die Wohnung|el piso||
-w|die Mietwohnung|el piso de alquiler||
-w|die Eigentumswohnung|el piso en propiedad||
-w|die Genossenschaftswohnung|la vivienda de cooperativa||Austria, muy común.
-w|die Gemeindewohnung|la vivienda municipal||Austria.
-w|die Miete|el alquiler||
-w|mieten|alquilar (como inquilino)||
-w|vermieten|alquilar (como propietario)||
-w|der Vermieter / die Vermieterin|el/la casero/a||
-w|der Mieter / die Mieterin|el/la inquilino/a||
-w|der Mietvertrag|el contrato de alquiler||
-w|befristet|temporal, con fecha de fin||Austria: befristeter Mietvertrag (3 años).
-w|die Betriebskosten|los gastos de comunidad||Austria.
-w|die Hausverwaltung|la administración de la finca||
-w|der Hausbesorger|el portero, el conserje|der Hausmeister (DE)|Austria.
+w|die Wohnung|el piso|||Wir suchen eine Wohnung in der Nähe vom Zentrum.|Buscamos un piso cerca del centro.
+w|die Mietwohnung|el piso de alquiler|||Im Moment leben wir in einer Mietwohnung.|Ahora mismo vivimos en un piso de alquiler.
+w|die Eigentumswohnung|el piso en propiedad|||Sie haben sich eine Eigentumswohnung gekauft.|Se han comprado un piso en propiedad.
+w|die Genossenschaftswohnung|la vivienda de cooperativa||Austria, muy común.|Die Genossenschaftswohnung ist günstiger als eine normale Mietwohnung.|La vivienda de cooperativa es más barata que un piso de alquiler normal.
+w|die Gemeindewohnung|la vivienda municipal||Austria.|Er wohnt seit Jahren in einer Gemeindewohnung in Wien.|Vive desde hace años en una vivienda municipal en Viena.
+w|die Miete|el alquiler|||Die Miete wird am Ersten überwiesen.|El alquiler se transfiere el día uno.
+w|mieten|alquilar (como inquilino)|||Wir möchten eine kleine Wohnung mieten.|Queremos alquilar un piso pequeño.
+w|vermieten|alquilar (como propietario)|||Sie vermietet das Zimmer an eine Studentin.|Alquila la habitación a una estudiante.
+w|der Vermieter / die Vermieterin|el/la casero/a|||Die Vermieterin wohnt im ersten Stock.|La casera vive en el primer piso.
+w|der Mieter / die Mieterin|el/la inquilino/a|||Die Mieter im zweiten Stock sind sehr nett.|Los inquilinos del segundo piso son muy simpáticos.
+w|der Mietvertrag|el contrato de alquiler|||Wir unterschreiben den Mietvertrag nächste Woche.|Firmamos el contrato de alquiler la semana que viene.
+w|befristet|temporal, con fecha de fin||Austria: befristeter Mietvertrag (3 años).|Der Mietvertrag ist auf drei Jahre befristet.|El contrato de alquiler es temporal, por tres años.
+w|die Betriebskosten|los gastos de comunidad||Austria.|Die Betriebskosten sind in der Miete nicht enthalten.|Los gastos de comunidad no están incluidos en el alquiler.
+w|die Hausverwaltung|la administración de la finca|||Ich habe der Hausverwaltung eine E-Mail geschrieben.|He escrito un correo a la administración de la finca.
+w|der Hausbesorger|el portero, el conserje|der Hausmeister (DE)|Austria.|Der Hausbesorger kehrt jeden Morgen die Stiege.|El portero barre la escalera cada mañana.
 w|die Kaution|la fianza||
-w|die Provision|la comisión (de agencia)||
-w|der Makler / die Maklerin|el/la agente inmobiliario/a||
-w|die Besichtigung|la visita (al piso)||
-w|einziehen|mudarse a (entrar)||
-w|ausziehen|mudarse de (salir)||
-w|umziehen|mudarse||
+w|die Provision|la comisión (de agencia)|||Die Provision für den Makler beträgt zwei Monatsmieten.|La comisión del agente son dos mensualidades.
+w|der Makler / die Maklerin|el/la agente inmobiliario/a|||Die Maklerin zeigt uns heute drei Wohnungen.|La agente inmobiliaria nos enseña hoy tres pisos.
+w|die Besichtigung|la visita (al piso)|||Die Besichtigung ist am Donnerstag um fünf.|La visita al piso es el jueves a las cinco.
+w|einziehen|mudarse a (entrar)|||Wir ziehen am Ersten in die neue Wohnung ein.|El día uno nos mudamos al piso nuevo.
+w|ausziehen|mudarse de (salir)|||Meine Tochter ist letzten Monat von zu Hause ausgezogen.|Mi hija se fue de casa el mes pasado.
+w|umziehen|mudarse|||Wir ziehen im Herbst nach Graz um.|En otoño nos mudamos a Graz.
 w|der Umzug|la mudanza||
-w|die Hausordnung|las normas de la comunidad||
-w|das Stiegenhaus|la escalera (del edificio)|das Treppenhaus (DE)|Austria.
-w|der Stock|la planta, el piso||im zweiten Stock
-w|das Erdgeschoss|la planta baja||Austria también: Parterre.
-w|der Keller|el sótano, el trastero||
-w|der Dachboden|el desván||
-w|der Balkon|el balcón||
-w|die Heizung|la calefacción||
-w|heizen|calentar, encender la calefacción||
-w|lüften|ventilar||Austria: Stoßlüften.
-w|der Schimmel|el moho||
-w|der Wasserhahn|el grifo||
-w|tropfen|gotear||
-w|reparieren|reparar||
-w|der Installateur|el fontanero|der Klempner (DE)|Austria.
-w|der Elektriker|el electricista||
-w|der Rauchfangkehrer|el deshollinador|der Schornsteinfeger (DE)|Austria.
-w|der Strom|la electricidad||
-w|die Stromrechnung|la factura de la luz||
-w|der Zählerstand|la lectura del contador||
-w|die Mülltrennung|la separación de basura||
-w|der Biomüll|los residuos orgánicos||
-w|der Altpapiercontainer|el contenedor de papel||
-w|die Waschmaschine|la lavadora||
-w|der Geschirrspüler|el lavavajillas||
-w|die Abstellkammer|el trastero (dentro del piso)||
-w|möbliert|amueblado||
-w|die Garçonnière|el estudio (piso pequeño)|die Einzimmerwohnung|Austria.
+w|die Hausordnung|las normas de la comunidad|||Die Hausordnung hängt im Stiegenhaus.|Las normas de la comunidad están en la escalera.
+w|das Stiegenhaus|la escalera (del edificio)|das Treppenhaus (DE)|Austria.|Im Stiegenhaus ist das Licht kaputt.|En la escalera la luz está estropeada.
+w|der Stock|la planta, el piso||im zweiten Stock|Wir wohnen im vierten Stock, es gibt einen Lift.|Vivimos en el cuarto piso, hay ascensor.
+w|das Erdgeschoss|la planta baja||Austria también: Parterre.|Die Wohnung im Erdgeschoss hat einen kleinen Garten.|El piso de la planta baja tiene un pequeño jardín.
+w|der Keller|el sótano, el trastero|||Das Fahrrad steht im Keller.|La bicicleta está en el sótano.
+w|der Dachboden|el desván|||Auf dem Dachboden lagern alte Möbel.|En el desván hay muebles viejos.
+w|der Balkon|el balcón|||Im Sommer frühstücken wir auf dem Balkon.|En verano desayunamos en el balcón.
+w|die Heizung|la calefacción|||Die Heizung funktioniert seit gestern nicht mehr.|La calefacción no funciona desde ayer.
+w|heizen|calentar, encender la calefacción|||Im Winter heizen wir mit Fernwärme.|En invierno calentamos con calefacción urbana.
+w|lüften|ventilar||Austria: Stoßlüften.|Bitte lüfte das Zimmer jeden Morgen.|Por favor, ventila la habitación cada mañana.
+w|der Schimmel|el moho|||An der Wand im Bad ist Schimmel.|En la pared del baño hay moho.
+w|der Wasserhahn|el grifo|||Der Wasserhahn in der Küche tropft.|El grifo de la cocina gotea.
+w|tropfen|gotear|||Es tropft schon seit Tagen aus dem Rohr.|Lleva días goteando de la tubería.
+w|reparieren|reparar|||Der Vermieter lässt die Heizung reparieren.|El casero manda reparar la calefacción.
+w|der Installateur|el fontanero|der Klempner (DE)|Austria.|Der Installateur kommt morgen um acht.|El fontanero viene mañana a las ocho.
+w|der Elektriker|el electricista|||Ich rufe einen Elektriker, die Steckdose geht nicht.|Llamo a un electricista, el enchufe no funciona.
+w|der Rauchfangkehrer|el deshollinador|der Schornsteinfeger (DE)|Austria.|Einmal im Jahr kommt der Rauchfangkehrer.|Una vez al año viene el deshollinador.
+w|der Strom|la electricidad|||Gestern Abend ist kurz der Strom ausgefallen.|Ayer por la noche se fue la luz un momento.
+w|die Stromrechnung|la factura de la luz|||Die Stromrechnung ist heuer höher als im Vorjahr.|La factura de la luz es este año más alta que el año pasado.
+w|der Zählerstand|la lectura del contador|||Ich muss noch den Zählerstand ablesen.|Todavía tengo que leer el contador.
+w|die Mülltrennung|la separación de basura|||Die Mülltrennung ist in Österreich sehr wichtig.|La separación de basura es muy importante en Austria.
+w|der Biomüll|los residuos orgánicos|||Den Biomüll bringe ich jeden Tag hinunter.|Los residuos orgánicos los bajo cada día.
+w|der Altpapiercontainer|el contenedor de papel|||Der Altpapiercontainer steht hinter dem Haus.|El contenedor de papel está detrás del edificio.
+w|die Waschmaschine|la lavadora|||Die Waschmaschine ist leider kaputt.|La lavadora, lamentablemente, está rota.
+w|der Geschirrspüler|el lavavajillas|||Räumst du bitte den Geschirrspüler aus?|¿Vacías el lavavajillas, por favor?
+w|die Abstellkammer|el trastero (dentro del piso)|||In der Abstellkammer steht der Staubsauger.|En el trastero está la aspiradora.
+w|möbliert|amueblado|||Das Zimmer ist möbliert und kostet 400 Euro.|La habitación está amueblada y cuesta 400 euros.
+w|die Garçonnière|el estudio (piso pequeño)|die Einzimmerwohnung|Austria.|Er wohnt in einer kleinen Garçonnière im zweiten Bezirk.|Vive en un pequeño estudio en el distrito segundo.
 p|Die Heizung funktioniert nicht.|La calefacción no funciona.||
 p|Der Wasserhahn tropft seit gestern.|El grifo gotea desde ayer.||
 p|Wie hoch sind die Betriebskosten?|¿Cuánto son los gastos de comunidad?||Austria.

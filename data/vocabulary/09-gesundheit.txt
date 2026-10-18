@@ -1,51 +1,51 @@
 # Gesundheit
-w|der Hausarzt / die Hausärztin|el/la médico/a de cabecera||
-w|der Facharzt|el especialista||
-w|die Ordination|la consulta médica|die Praxis (DE)|Austria.
-w|die Ordinationszeiten|el horario de consulta|die Sprechstunden (DE)|Austria.
-w|das Spital|el hospital|das Krankenhaus|Austria/Suiza.
-w|das LKH|el hospital regional||Austria: Landeskrankenhaus (LKH Graz).
-w|die Ambulanz|las urgencias / consultas externas del hospital|die Notaufnahme (DE)|Austria.
-w|die Rettung|la ambulancia|der Krankenwagen (DE)|Austria. Teléfono 144.
-w|der Notarzt|el médico de urgencias||
-w|die Apotheke|la farmacia||
-w|das Rezept|la receta||
-w|die Rezeptgebühr|la tasa por receta||Austria.
-w|das Medikament|el medicamento||
-w|die Tablette|la pastilla||
-w|einnehmen|tomar (medicamento)||
-w|die Überweisung zum Facharzt|el volante para el especialista||Austria: la da el médico de cabecera.
-w|die Krankmeldung|la baja médica||
-w|krankgeschrieben|de baja médica||
+w|der Hausarzt / die Hausärztin|el/la médico/a de cabecera|||Meine Hausärztin ist heute leider nicht da.|Mi médica de cabecera hoy lamentablemente no está.
+w|der Facharzt|el especialista|||Ich brauche einen Termin beim Facharzt.|Necesito una cita con el especialista.
+w|die Ordination|la consulta médica|die Praxis (DE)|Austria.|Die Ordination ist von acht bis zwölf Uhr offen.|La consulta está abierta de ocho a doce.
+w|die Ordinationszeiten|el horario de consulta|die Sprechstunden (DE)|Austria.|Die Ordinationszeiten stehen auf der Webseite.|El horario de consulta está en la web.
+w|das Spital|el hospital|das Krankenhaus|Austria/Suiza.|Mein Vater liegt seit Montag im Spital.|Mi padre está en el hospital desde el lunes.
+w|das LKH|el hospital regional||Austria: Landeskrankenhaus (LKH Graz).|Das LKH liegt am Stadtrand.|El hospital regional está a las afueras.
+w|die Ambulanz|las urgencias / consultas externas del hospital|die Notaufnahme (DE)|Austria.|Wir mussten am Abend in die Ambulanz.|Tuvimos que ir por la noche a urgencias.
+w|die Rettung|la ambulancia|der Krankenwagen (DE)|Austria. Teléfono 144.|Bitte ruf sofort die Rettung!|¡Llama enseguida a la ambulancia, por favor!
+w|der Notarzt|el médico de urgencias|||Der Notarzt war in fünf Minuten da.|El médico de urgencias llegó en cinco minutos.
+w|die Apotheke|la farmacia|||Die Apotheke am Eck hat bis acht Uhr offen.|La farmacia de la esquina está abierta hasta las ocho.
+w|das Rezept|la receta|||Die Ärztin hat mir ein Rezept gegeben.|La médica me ha dado una receta.
+w|die Rezeptgebühr|la tasa por receta||Austria.|Für das Medikament zahle ich nur die Rezeptgebühr.|Por el medicamento solo pago la tasa por receta.
+w|das Medikament|el medicamento|||Dieses Medikament bekommst du nur mit Rezept.|Este medicamento solo lo dan con receta.
+w|die Tablette|la pastilla|||Nimm bitte zweimal am Tag eine Tablette.|Toma una pastilla dos veces al día, por favor.
+w|einnehmen|tomar (medicamento)|||Das Medikament muss man nach dem Essen einnehmen.|El medicamento hay que tomarlo después de comer.
+w|die Überweisung zum Facharzt|el volante para el especialista||Austria: la da el médico de cabecera.|Dafür brauchst du eine Überweisung zum Facharzt.|Para eso necesitas un volante para el especialista.
+w|die Krankmeldung|la baja médica|||Ich schicke dir die Krankmeldung per E-Mail.|Te envío la baja médica por correo.
+w|krankgeschrieben|de baja médica|||Der Arzt hat mich für eine Woche krankgeschrieben.|El médico me ha dado la baja por una semana.
 w|der Krankenstand|la baja por enfermedad||Austria.
-w|die Untersuchung|el examen médico||
-w|die Impfung|la vacuna||
-w|der Befund|el resultado (médico)||Austria: den Befund abholen.
-w|die Blutabnahme|la extracción de sangre||
-w|die Beschwerden|las molestias||
-w|der Schmerz|el dolor||
-w|weh tun|doler||
-w|das Fieber|la fiebre||
-w|der Husten|la tos||
-w|der Schnupfen|el resfriado (mocos)||
-w|die Grippe|la gripe||
-w|die Erkältung|el resfriado||
-w|die Verkühlung|el resfriado|die Erkältung|Austria.
-w|sich verkühlen|resfriarse|sich erkälten|Austria.
-w|schwindelig|mareado||
-w|übel|con náuseas||Mir ist übel.
-w|die Allergie|la alergia||
-w|verletzt|herido||
-w|der Unfall|el accidente||
-w|der Arbeitsunfall|el accidente laboral||
-w|sich erholen|recuperarse||
-w|gesund|sano||
-w|die Gesundheit|la salud||
-w|der Zahnarzt|el dentista||
-w|der Gips|la escayola||
-w|der Wahlarzt|médico privado (con reembolso parcial)||Austria.
-w|der Kassenarzt|médico de la seguridad social||Austria.
-w|die Gesundheitshotline 1450|línea de salud 1450||Austria: consultas por teléfono.
+w|die Untersuchung|el examen médico|||Die Untersuchung dauert ungefähr eine halbe Stunde.|El examen dura aproximadamente media hora.
+w|die Impfung|la vacuna|||Die Impfung hat nur ein bisschen wehgetan.|La vacuna solo ha dolido un poquito.
+w|der Befund|el resultado (médico)||Austria: den Befund abholen.|Den Befund bekomme ich erst nächste Woche.|El resultado no lo recibo hasta la semana que viene.
+w|die Blutabnahme|la extracción de sangre|||Zur Blutabnahme musst du nüchtern kommen.|Para la extracción de sangre tienes que venir en ayunas.
+w|die Beschwerden|las molestias|||Haben Sie schon lange diese Beschwerden?|¿Hace mucho que tiene estas molestias?
+w|der Schmerz|el dolor|||Der Schmerz ist im Rücken, ziemlich stark.|El dolor está en la espalda y es bastante fuerte.
+w|weh tun|doler|||Mir tut der Kopf weh.|Me duele la cabeza.
+w|das Fieber|la fiebre|||Das Kind hat seit gestern Fieber.|El niño tiene fiebre desde ayer.
+w|der Husten|la tos|||Ich habe schon seit einer Woche Husten.|Llevo una semana con tos.
+w|der Schnupfen|el resfriado (mocos)|||Gegen den Schnupfen helfen Tropfen.|Para el resfriado ayudan las gotas.
+w|die Grippe|la gripe|||Im Winter haben viele Leute die Grippe.|En invierno mucha gente tiene la gripe.
+w|die Erkältung|el resfriado|||Ich glaube, ich habe eine Erkältung.|Creo que tengo un resfriado.
+w|die Verkühlung|el resfriado|die Erkältung|Austria.|Wegen einer Verkühlung bleibe ich zu Hause.|Me quedo en casa por un resfriado.
+w|sich verkühlen|resfriarse|sich erkälten|Austria.|Ohne Schal verkühlst du dich noch.|Sin bufanda te vas a resfriar.
+w|schwindelig|mareado|||Mir ist schwindelig, ich muss mich setzen.|Estoy mareado, tengo que sentarme.
+w|übel|con náuseas||Mir ist übel.|Nach dem Essen war mir plötzlich übel.|Después de comer me dieron náuseas de repente.
+w|die Allergie|la alergia|||Er hat eine Allergie gegen Nüsse.|Tiene alergia a los frutos secos.
+w|verletzt|herido|||Bei dem Unfall wurde niemand verletzt.|En el accidente no resultó herido nadie.
+w|der Unfall|el accidente|||Der Unfall ist gestern Abend passiert.|El accidente ocurrió ayer por la noche.
+w|der Arbeitsunfall|el accidente laboral|||Er hatte einen Arbeitsunfall und ist im Spital.|Tuvo un accidente laboral y está en el hospital.
+w|sich erholen|recuperarse|||Nach der Grippe muss ich mich erst erholen.|Después de la gripe tengo que recuperarme primero.
+w|gesund|sano|||Gesund essen ist mir wichtig.|Comer sano es importante para mí.
+w|die Gesundheit|la salud|||Hauptsache, die Gesundheit stimmt!|¡Lo importante es que haya salud!
+w|der Zahnarzt|el dentista|||Ich habe morgen einen Termin beim Zahnarzt.|Mañana tengo cita con el dentista.
+w|der Gips|la escayola|||Sie trägt wegen des Sturzes einen Gips.|Lleva una escayola por la caída.
+w|der Wahlarzt|médico privado (con reembolso parcial)||Austria.|Beim Wahlarzt zahlt man zuerst selbst.|En el médico privado se paga primero de tu bolsillo.
+w|der Kassenarzt|médico de la seguridad social||Austria.|Beim Kassenarzt zahlt die Versicherung die Behandlung.|En el médico de la seguridad social, el seguro paga el tratamiento.
+w|die Gesundheitshotline 1450|línea de salud 1450||Austria: consultas por teléfono.|Bei Fieber kannst du die Gesundheitshotline 1450 anrufen.|Si tienes fiebre, puedes llamar a la línea de salud 1450.
 p|Ich brauche einen Termin beim Hausarzt.|Necesito una cita con el médico de cabecera.||
 p|Wann hat die Ordination offen?|¿Cuándo abre la consulta?||Austria.
 p|Mir tut der Kopf weh.|Me duele la cabeza.||

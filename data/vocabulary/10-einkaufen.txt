@@ -1,55 +1,55 @@
 # Einkaufen
-w|das Sackerl|la bolsa|die Tüte (DE)|Austria.
-w|die Kassa|la caja (para pagar)|die Kasse (DE)|Austria.
-w|der Kassabon|el ticket de compra|der Kassenbon (DE)|Austria.
-w|das Geschäft|la tienda||
-w|der Supermarkt|el supermercado||
-w|der Markt|el mercado||Bauernmarkt = mercado de productores.
-w|der Bauernmarkt|el mercado de productores||Austria: Kaiser-Josef-Markt en Graz.
-w|die Drogerie|la droguería||
+w|das Sackerl|la bolsa|die Tüte (DE)|Austria.|Brauchen Sie ein Sackerl für die Äpfel?|¿Necesita una bolsa para las manzanas?
+w|die Kassa|la caja (para pagar)|die Kasse (DE)|Austria.|Bitte bezahlen Sie an der Kassa vorne.|Por favor, pague en la caja de la entrada.
+w|der Kassabon|el ticket de compra|der Kassenbon (DE)|Austria.|Heb den Kassabon auf, falls du es umtauschen willst.|Guarda el ticket por si quieres cambiarlo.
+w|das Geschäft|la tienda|||Das Geschäft sperrt um neun auf.|La tienda abre a las nueve.
+w|der Supermarkt|el supermercado|||Ich gehe schnell in den Supermarkt.|Voy un momento al supermercado.
+w|der Markt|el mercado||Bauernmarkt = mercado de productores.|Samstags kaufen wir immer am Markt ein.|Los sábados siempre compramos en el mercado.
+w|der Bauernmarkt|el mercado de productores||Austria: Kaiser-Josef-Markt en Graz.|Auf dem Bauernmarkt gibt es frisches Gemüse.|En el mercado de productores hay verdura fresca.
+w|die Drogerie|la droguería|||In der Drogerie kaufe ich Shampoo und Zahnpasta.|En la droguería compro champú y pasta de dientes.
 w|das Angebot|la oferta||im Angebot = de oferta
-w|die Aktion|la promoción, la oferta|das Sonderangebot|Austria: «in Aktion».
-w|reduziert|rebajado||
-w|der Ausverkauf|las rebajas, la liquidación||
-w|die Größe|la talla||
-w|anprobieren|probarse (ropa)||
-w|die Umkleidekabine|el probador||
-w|umtauschen|cambiar (un producto)||
-w|zurückgeben|devolver||
-w|die Rücksendung|la devolución (envío)|die Retoure|
-w|die Bestellung|el pedido||
-w|bestellen|pedir, encargar||
-w|die Lieferung|la entrega||
-w|liefern|entregar, repartir||
-w|das Lieferdatum|la fecha de entrega||
-w|voraussichtlich|previsiblemente, estimado||das voraussichtliche Lieferdatum
-w|die Versandkosten|los gastos de envío||
-w|die Garantie|la garantía||
-w|kaputt|roto||
-w|der Gutschein|el vale, el cupón||
-w|die Filiale|la sucursal||
-w|geöffnet / geschlossen|abierto / cerrado||
-w|der Feiertag|el día festivo||Austria: tiendas cerradas en festivos y domingos.
-w|das Pfand|el depósito (de envases)||Austria: Pfand desde 2025.
-w|die Pfandflasche|la botella retornable||
-w|die Semmel|el panecillo|das Brötchen (DE)|Austria.
-w|das Kipferl|el croissant (tipo cuerno)|das Hörnchen (DE)|Austria.
-w|der Topfen|el requesón|der Quark (DE)|Austria.
-w|das Schlagobers|la nata montada|die Sahne (DE)|Austria.
-w|das Obers|la nata líquida|die Sahne (DE)|Austria.
-w|die Erdäpfel|las patatas|die Kartoffeln (DE)|Austria.
-w|der Karfiol|la coliflor|der Blumenkohl (DE)|Austria.
-w|die Fisolen|las judías verdes|die grünen Bohnen (DE)|Austria.
-w|der Kren|el rábano picante|der Meerrettich (DE)|Austria.
-w|die Marille|el albaricoque|die Aprikose (DE)|Austria.
-w|die Ribisel|la grosella|die Johannisbeere (DE)|Austria.
-w|der Kukuruz|el maíz|der Mais (DE)|Austria.
-w|die Melanzani|la berenjena|die Aubergine (DE)|Austria.
-w|das Faschierte|la carne picada|das Hackfleisch (DE)|Austria.
-w|das Kürbiskernöl|el aceite de pepitas de calabaza||Austria/Steiermark, típico.
-w|der Bäcker|la panadería; el panadero||Austria: zum Bäcker gehen.
-w|das Stück|la pieza, la unidad||
-w|das Deka|10 gramos|zehn Gramm|Austria: 10 Deka Schinken.
+w|die Aktion|la promoción, la oferta|das Sonderangebot|Austria: «in Aktion».|Diese Woche gibt es Kaffee in Aktion.|Esta semana el café está en promoción.
+w|reduziert|rebajado|||Die Schuhe sind jetzt um die Hälfte reduziert.|Los zapatos están ahora rebajados a la mitad.
+w|der Ausverkauf|las rebajas, la liquidación|||Im Ausverkauf habe ich eine Jacke gefunden.|En las rebajas he encontrado una chaqueta.
+w|die Größe|la talla|||Haben Sie diese Hose in Größe 38?|¿Tiene estos pantalones en la talla 38?
+w|anprobieren|probarse (ropa)|||Darf ich das Kleid anprobieren?|¿Puedo probarme el vestido?
+w|die Umkleidekabine|el probador|||Die Umkleidekabine ist gleich da hinten.|El probador está justo allí al fondo.
+w|umtauschen|cambiar (un producto)|||Ich möchte den Pullover umtauschen, er ist zu klein.|Quiero cambiar el jersey, es demasiado pequeño.
+w|zurückgeben|devolver|||Du kannst die Schuhe innerhalb von vierzehn Tagen zurückgeben.|Puedes devolver los zapatos en catorce días.
+w|die Rücksendung|la devolución (envío)|die Retoure||Die Rücksendung ist kostenlos.|La devolución es gratuita.
+w|die Bestellung|el pedido|||Meine Bestellung ist noch nicht angekommen.|Mi pedido todavía no ha llegado.
+w|bestellen|pedir, encargar|||Ich bestelle die Bücher im Internet.|Pido los libros por internet.
+w|die Lieferung|la entrega|||Die Lieferung kommt am Dienstag.|La entrega llega el martes.
+w|liefern|entregar, repartir|||Wir liefern auch an Sonntagen.|También entregamos los domingos.
+w|das Lieferdatum|la fecha de entrega|||Das Lieferdatum steht in der Bestätigungsmail.|La fecha de entrega aparece en el correo de confirmación.
+w|voraussichtlich|previsiblemente, estimado||das voraussichtliche Lieferdatum|Das Paket kommt voraussichtlich am Freitag.|El paquete llegará previsiblemente el viernes.
+w|die Versandkosten|los gastos de envío|||Ab fünfzig Euro sind die Versandkosten gratis.|A partir de cincuenta euros los gastos de envío son gratis.
+w|die Garantie|la garantía|||Auf das Handy habe ich zwei Jahre Garantie.|El móvil tiene dos años de garantía.
+w|kaputt|roto|||Mein Handy ist runtergefallen und kaputt.|Mi móvil se ha caído y está roto.
+w|der Gutschein|el vale, el cupón|||Zum Geburtstag habe ich einen Gutschein bekommen.|Por mi cumpleaños me han regalado un cupón.
+w|die Filiale|la sucursal|||Die Filiale in der Mariahilfer Straße ist größer.|La sucursal de la Mariahilfer Straße es más grande.
+w|geöffnet / geschlossen|abierto / cerrado|||Am Sonntag sind die Geschäfte geschlossen.|Los domingos las tiendas están cerradas.
+w|der Feiertag|el día festivo||Austria: tiendas cerradas en festivos y domingos.|Morgen ist Feiertag, da hat alles zu.|Mañana es festivo, así que todo está cerrado.
+w|das Pfand|el depósito (de envases)||Austria: Pfand desde 2025.|Auf der Flasche ist ein Euro Pfand.|La botella lleva un euro de depósito.
+w|die Pfandflasche|la botella retornable|||Die Pfandflaschen bringe ich zurück in den Supermarkt.|Las botellas retornables las devuelvo al supermercado.
+w|die Semmel|el panecillo|das Brötchen (DE)|Austria.|Zum Frühstück esse ich eine Semmel mit Butter.|En el desayuno como un panecillo con mantequilla.
+w|das Kipferl|el croissant (tipo cuerno)|das Hörnchen (DE)|Austria.|Ich nehme zwei Kipferl und ein Brot.|Me llevo dos croissants y un pan.
+w|der Topfen|el requesón|der Quark (DE)|Austria.|Für den Strudel brauche ich ein Kilo Topfen.|Para el strudel necesito un kilo de requesón.
+w|das Schlagobers|la nata montada|die Sahne (DE)|Austria.|Zum Kaffee möchte ich Schlagobers.|Con el café quiero nata montada.
+w|das Obers|la nata líquida|die Sahne (DE)|Austria.|Für die Suppe brauchen wir einen Becher Obers.|Para la sopa necesitamos un vaso de nata líquida.
+w|die Erdäpfel|las patatas|die Kartoffeln (DE)|Austria.|Zum Mittagessen gibt es Erdäpfel mit Gemüse.|Para comer hay patatas con verdura.
+w|der Karfiol|la coliflor|der Blumenkohl (DE)|Austria.|Der Karfiol ist heute im Angebot.|La coliflor está hoy de oferta.
+w|die Fisolen|las judías verdes|die grünen Bohnen (DE)|Austria.|Die Fisolen koche ich nur kurz.|Las judías verdes las cuezo solo un momento.
+w|der Kren|el rábano picante|der Meerrettich (DE)|Austria.|Zum Tafelspitz gibt es frischen Kren.|Con el tafelspitz hay rábano picante fresco.
+w|die Marille|el albaricoque|die Aprikose (DE)|Austria.|Die Marillen aus der Wachau schmecken super.|Los albaricoques de la Wachau saben genial.
+w|die Ribisel|la grosella|die Johannisbeere (DE)|Austria.|Aus den Ribiseln mache ich Marmelade.|Con las grosellas hago mermelada.
+w|der Kukuruz|el maíz|der Mais (DE)|Austria.|Auf dem Feld wächst Kukuruz.|En el campo crece maíz.
+w|die Melanzani|la berenjena|die Aubergine (DE)|Austria.|Die Melanzani schneide ich in Scheiben.|Corto las berenjenas en rodajas.
+w|das Faschierte|la carne picada|das Hackfleisch (DE)|Austria.|Für die Laberl brauche ich 500 Gramm Faschiertes.|Para las hamburguesas necesito 500 gramos de carne picada.
+w|das Kürbiskernöl|el aceite de pepitas de calabaza||Austria/Steiermark, típico.|Den Salat machen wir mit Kürbiskernöl.|La ensalada la aliñamos con aceite de pepitas de calabaza.
+w|der Bäcker|la panadería; el panadero||Austria: zum Bäcker gehen.|Ich hole beim Bäcker frisches Brot.|Voy a la panadería a por pan fresco.
+w|das Stück|la pieza, la unidad|||Ich nehme drei Stück von dem Kuchen.|Me llevo tres trozos de esa tarta.
+w|das Deka|10 gramos|zehn Gramm|Austria: 10 Deka Schinken.|Bitte zehn Deka Schinken.|Cien gramos de jamón, por favor.
 p|Brauchen Sie ein Sackerl?|¿Necesita una bolsa?||Austria.
 p|Ich zahle mit Karte.|Pago con tarjeta.||
 p|Kann ich das umtauschen?|¿Puedo cambiarlo?||
