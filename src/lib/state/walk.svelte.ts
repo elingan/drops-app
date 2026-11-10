@@ -141,11 +141,11 @@ export class WalkState {
 			if (de) await audio.playToEnd({ ...de, rate });
 			if (!alive()) return;
 
-			if (spanish && item.translation) {
+			if (spanish && (item.translation || item.translationAudioId)) {
 				await wait(900);
 				if (!alive()) return;
 				this.step = 'spanish';
-				const es = audio.resolveTranslation(item);
+				const es = await audio.resolveTranslation(item);
 				if (es) await audio.playToEnd({ ...es, rate });
 				if (!alive()) return;
 			}
@@ -164,7 +164,7 @@ export class WalkState {
 				await audio.playToEnd({ ...de, rate });
 				if (!alive()) return;
 				// Close the card with the meaning once more, so it sticks with the word.
-				const es = spanish && item.translation ? audio.resolveTranslation(item) : undefined;
+				const es = spanish && (item.translation || item.translationAudioId) ? await audio.resolveTranslation(item) : undefined;
 				if (es) {
 					await wait(900);
 					if (!alive()) return;

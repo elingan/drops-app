@@ -52,6 +52,22 @@ describe('ContentService', () => {
 		expect(await repos.progress.get(it1.id)).toBeUndefined();
 	});
 
+	it('keeps your Spanish recording with the item and removes it with the item', async () => {
+		const repos = createMemoryRepositories();
+		const svc = new ContentService(repos);
+		const de = await repos.media.put(new Blob(['de']));
+		const es = await repos.media.put(new Blob(['es']));
+		const item = await svc.saveItem({ german: 'Ich hab das gehört.', translation: 'Lo he oído.', categoryId: 'x', nativeAudioId: de, translationAudioId: es });
+		expect(item.translationAudioId).toBe(es);
+		// Re-recording replaces the old clip.
+		const es2 = await repos.media.put(new Blob(['es2']));
+		await svc.saveItem({ german: item.german, categoryId: 'x', translationAudioId: es2 }, item.id);
+		expect(await repos.media.get(es)).toBeUndefined();
+		await svc.deleteItem(item.id);
+		expect(await repos.media.get(es2)).toBeUndefined();
+		expect(await repos.media.get(de)).toBeUndefined();
+	});
+
 	it('installs example sentences with the built-in items', async () => {
 		const svc = new ContentService(createMemoryRepositories());
 		await svc.seedIfEmpty();

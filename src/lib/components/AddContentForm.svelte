@@ -38,7 +38,9 @@
 	let categoryId = $state<string | undefined>(init.item?.categoryId ?? init.defaultCategoryId);
 	let imageId = $state<string | undefined>(init.item?.imageId);
 	let audioId = $state<string | undefined>(init.item?.nativeAudioId);
-	let recording = $state(false);
+	let esAudioId = $state<string | undefined>(init.item?.translationAudioId);
+	/** Which clip is being recorded: the German pronunciation or your Spanish translation. */
+	let recording = $state<false | 'de' | 'es'>(false);
 	let playback = $state<PlaybackState>('idle');
 	let saving = $state(false);
 	let imageError = $state(false);
@@ -78,23 +80,26 @@
 		}
 	}
 
-	async function toggleRecording() {
+	async function toggleRecording(kind: 'de' | 'es') {
 		if (recording) {
+			if (recording !== kind) return;
 			const blob = await recorder.stop();
 			recording = false;
 			const id = await svc.repos.media.put(blob);
 			created.add(id);
-			audioId = id;
+			if (kind === 'de') audioId = id;
+			else esAudioId = id;
 			return;
 		}
-		if (audioId) {
-			const src = await svc.audio.resolve({ ...(item ?? ({} as LearningItem)), german, nativeAudioId: audioId, nativeAudioUrl: undefined });
+		const existing = kind === 'de' ? audioId : esAudioId;
+		if (existing) {
+			const src = await svc.audio.resolveRecording(existing, kind === 'de' ? 'de-DE' : 'es-ES');
 			if (src) await svc.audio.play(src, (s) => (playback = s));
 			return;
 		}
 		try {
 			await recorder.start();
-			recording = true;
+			recording = kind;
 		} catch {
 			ui.flash(m.editor_mic_denied());
 		}
@@ -123,11 +128,12 @@
 					context: context.trim() || known?.context,
 					categoryId: chosenId,
 					imageId: imageId ?? null,
-					nativeAudioId: audioId ?? null
+					nativeAudioId: audioId ?? null,
+					translationAudioId: esAudioId ?? null
 				},
 				item?.id
 			);
-			await discardCreated([imageId, audioId]);
+			await discardCreated([imageId, audioId, esAudioId]);
 			onsaved(saved, !editing);
 		} finally {
 			saving = false;
@@ -155,6 +161,7 @@
 		<h2>{editing ? (isPhraseText(german) ? m.editor_edit_phrase() : m.editor_edit_word()) : m.editor_add_title()}</h2>
 
 		{#if !editing}
+			<a class="capture-link" href="/capture"><Icon name="mic" size={18} />{m.capture_link()}</a>
 			<div class="mode" role="radiogroup" aria-label={m.editor_german_label()}>
 				<button type="button" role="radio" aria-checked={mode === 'type'} class:on={mode === 'type'} onclick={() => (mode = 'type')}>
 					<Icon name="type" size={18} />{m.editor_type()}
@@ -236,22 +243,37 @@
 
 		{#if AudioRecorder.supported() || audioId}
 			<div class="audio-row">
-				<button type="button" class="audio" onclick={toggleRecording}>
-					<span class="ac" class:rec={recording} class:has={!!audioId && !recording}><Icon name="volumeLow" size={18} /></span>
+				<button type="button" class="audio" onclick={() => toggleRecording('de')} disabled={recording === 'es'}>
+					<span class="ac" class:rec={recording === 'de'} class:has={!!audioId && recording !== 'de'}><Icon name="volumeLow" size={18} /></span>
 					<span class="col">
-						<span class="t">{recording ? m.editor_audio_recording() : audioId ? m.editor_audio_added() : m.editor_audio_add()}</span>
-						<span class="s">{audioId ? (playback === 'playing' ? m.audio_playing() : m.editor_audio_listen()) : m.editor_audio_optional()}</span>
+						<span class="t">{recording === 'de' ? m.editor_audio_recording() : audioId ? m.editor_audio_added() : m.editor_audio_add()}</span>
+						<span class="s">{audioId ? m.editor_audio_listen() : m.editor_audio_optional()}</span>
 					</span>
 				</button>
-				{#if audioId && !recording}
+				{#if audioId && recording !== 'de'}
 					<button type="button" class="x" aria-label={m.editor_audio_remove()} onclick={() => (audioId = undefined)}><Icon name="x" size={18} /></button>
+				{/if}
+			</div>
+		{/if}
+
+		{#if AudioRecorder.supported() || esAudioId}
+			<div class="audio-row">
+				<button type="button" class="audio" onclick={() => toggleRecording('es')} disabled={recording === 'de'}>
+					<span class="ac" class:rec={recording === 'es'} class:has={!!esAudioId && recording !== 'es'}><Icon name="mic" size={18} /></span>
+					<span class="col">
+						<span class="t">{recording === 'es' ? m.editor_audio_recording() : esAudioId ? m.editor_es_audio_added() : m.editor_es_audio_add()}</span>
+						<span class="s">{esAudioId ? m.editor_audio_listen() : m.editor_audio_optional()}</span>
+					</span>
+				</button>
+				{#if esAudioId && recording !== 'es'}
+					<button type="button" class="x" aria-label={m.editor_es_audio_remove()} onclick={() => (esAudioId = undefined)}><Icon name="x" size={18} /></button>
 				{/if}
 			</div>
 		{/if}
 	</div>
 
 	<div class="save">
-		<PrimaryButton type="submit" disabled={!hasText || saving || recording || !!duplicate}>{editing ? m.editor_save_changes() : m.editor_save()}</PrimaryButton>
+		<PrimaryButton type="submit" disabled={!hasText || saving || !!recording || !!duplicate}>{editing ? m.editor_save_changes() : m.editor_save()}</PrimaryButton>
 	</div>
 </form>
 
@@ -297,6 +319,8 @@
 	.ac.rec { background: var(--color-accent); color: var(--color-neutral-100); }
 	.ac.has { background: var(--color-accent-2-700); color: var(--color-neutral-100); }
 	.x { width: 44px; height: 44px; border: 0; border-radius: 50%; background: var(--color-neutral-100); display: grid; place-items: center; }
+	.capture-link { align-self: flex-start; display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px 0 12px; border-radius: 999px; background: var(--color-accent-100); color: var(--color-accent-800); font-size: 15px; font-weight: 700; margin-top: -6px; }
+	.audio:disabled { opacity: 0.5; }
 	.dup { margin: -6px 6px 0; font-size: 14px; font-weight: 600; color: var(--color-accent-800); }
 	.save { padding: 10px 20px calc(18px + env(safe-area-inset-bottom)); }
 </style>

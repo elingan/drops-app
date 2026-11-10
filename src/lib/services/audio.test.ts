@@ -115,11 +115,20 @@ describe('AudioService sources', () => {
 		expect(await audio.resolveReveal(item())).toEqual([]); // no MP3 and no speech synthesis
 	});
 
+	it('plays your own Spanish recording before any generated voice', async () => {
+		vi.stubGlobal('URL', { ...URL, createObjectURL: () => 'blob:es' });
+		const withClip = { get: async () => new Blob(['es']) } as unknown as MediaRepository;
+		const audio = new AudioService(withClip);
+		const src = await audio.resolveTranslation(item({ translation: 'lo he oído', translationAudioId: 'clip', translationAudioUrl: '/b.mp3' }));
+		expect(src).toMatchObject({ kind: 'recorded', url: 'blob:es', lang: 'es-ES', text: 'lo he oído' });
+		vi.unstubAllGlobals();
+	});
+
 	it('reads slashes and notes the way the generated audio does', async () => {
 		const audio = new AudioService(media);
 		const src = await audio.resolve(item({ german: 'der Kunde / die Kundin', audioUrl: '/a.mp3' }));
 		expect(src?.text).toBe('der Kunde, die Kundin');
-		expect(audio.resolveTranslation(item({ translation: 'hola; adiós (informal)', translationAudioUrl: '/b.mp3' }))?.text).toBe('hola');
+		expect((await audio.resolveTranslation(item({ translation: 'hola; adiós (informal)', translationAudioUrl: '/b.mp3' })))?.text).toBe('hola');
 	});
 });
 

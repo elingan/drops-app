@@ -46,6 +46,8 @@ export interface LearningItem {
 	/** Media blob ids stored by MediaRepository. */
 	imageId?: string;
 	nativeAudioId?: string;
+	/** Your own recording of the Spanish translation (MediaRepository id). */
+	translationAudioId?: string;
 	/** User-added content (vs. seeded/imported). */
 	userCreated?: boolean;
 	createdAt: Date;

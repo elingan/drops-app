@@ -13,6 +13,8 @@ export interface SpeechRecognitionService {
 	readonly supported: boolean;
 	start(opts: {
 		lang: string;
+		/** Keep listening through pauses (until stop()); the browser may still end it. */
+		continuous?: boolean;
 		onResult: (r: SpeechRecognitionResult) => void;
 		onEnd: () => void;
 		onError: (code: SpeechErrorCode) => void;
@@ -44,14 +46,14 @@ export class WebSpeechRecognitionService implements SpeechRecognitionService {
 	get supported() {
 		return !!getCtor();
 	}
-	start({ lang, onResult, onEnd, onError }: Parameters<SpeechRecognitionService['start']>[0]) {
+	start({ lang, continuous = false, onResult, onEnd, onError }: Parameters<SpeechRecognitionService['start']>[0]) {
 		const C = getCtor();
 		if (!C) return onError('not_supported');
 		this.stop();
 		const rec = new C();
 		rec.lang = lang;
 		rec.interimResults = true;
-		rec.continuous = false;
+		rec.continuous = continuous;
 		rec.onresult = (e) => {
 			let text = '';
 			let final = false;
@@ -73,7 +75,7 @@ export class WebSpeechRecognitionService implements SpeechRecognitionService {
 							: 'unknown'
 			);
 		rec.onend = () => {
-			this.rec = null;
+			if (this.rec === rec) this.rec = null;
 			onEnd();
 		};
 		this.rec = rec;

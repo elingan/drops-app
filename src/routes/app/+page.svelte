@@ -101,6 +101,10 @@
 			<span class="wi" aria-hidden="true"><Icon name="volume" size={22} /></span>
 			<span class="col"><span class="t">{m.walk_start()}</span><span class="s">{m.walk_start_sub()}</span></span>
 		</button>
+		<button class="walk capture" onclick={() => goto('/capture')}>
+			<span class="wi" aria-hidden="true"><Icon name="mic" size={22} /></span>
+			<span class="col"><span class="t">{m.capture_home()}</span><span class="s">{m.capture_home_sub()}</span></span>
+		</button>
 	</div>
 </div>
 
@@ -174,6 +178,7 @@
 	.walk { border: 0; display: flex; align-items: center; gap: 14px; text-align: left; min-height: 68px; padding: 10px 20px; border-radius: 999px; background: var(--color-accent-2-200); color: var(--color-accent-2-800); }
 	.walk:active { background: var(--color-accent-2-300); }
 	.walk .s { color: inherit; opacity: 0.85; }
+	.walk.capture { background: var(--color-accent-100); color: var(--color-accent-800); }
 	.big { font-family: var(--font-heading); font-size: 34px; line-height: 1; }
 	.meta { font-size: 16px; font-weight: 600; opacity: 0.92; margin-top: 6px; }
 	.play { width: 76px; height: 76px; flex: none; border-radius: 50%; background: var(--color-neutral-100); color: var(--color-accent-600); display: grid; place-items: center; padding-left: 4px; }

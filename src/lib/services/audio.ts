@@ -36,10 +36,23 @@ export class AudioService {
 		return undefined;
 	}
 
-	/** The Spanish translation (first meaning), as an MP3 or, failing that, browser speech. */
-	resolveTranslation(item: LearningItem): AudioSource | undefined {
+	/**
+	 * The Spanish translation (first meaning): your own recording if there is
+	 * one, else an MP3 or, failing that, browser speech.
+	 */
+	async resolveTranslation(item: LearningItem): Promise<AudioSource | undefined> {
 		const text = item.translation ? spokenSpanish(item.translation) : '';
+		if (item.translationAudioId) {
+			const url = await this.objectUrl(item.translationAudioId);
+			if (url) return { kind: 'recorded', text, lang: 'es-ES', url };
+		}
 		return text ? this.generated(text, 'es-ES', item.translationAudioUrl) : undefined;
+	}
+
+	/** Plays a recorded clip straight from the media store (used while capturing). */
+	async resolveRecording(id: string, lang: string): Promise<AudioSource | undefined> {
+		const url = await this.objectUrl(id);
+		return url ? { kind: 'recorded', text: '', lang, url } : undefined;
 	}
 
 	/** The example sentence, as an MP3 or, failing that, browser speech. */
@@ -51,7 +64,7 @@ export class AudioService {
 	/** What a revealed card says, in order: word, translation, example. Missing parts are skipped. */
 	async resolveReveal(item: LearningItem): Promise<AudioSource[]> {
 		const word = await this.resolve(item);
-		return [word, this.resolveTranslation(item), this.resolveExample(item)].filter((s): s is AudioSource => !!s);
+		return [word, await this.resolveTranslation(item), this.resolveExample(item)].filter((s): s is AudioSource => !!s);
 	}
 
 	private generated(text: string, lang: string, url?: string): AudioSource | undefined {

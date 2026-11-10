@@ -14,6 +14,7 @@ export interface ItemInput {
 	type?: ItemType;
 	imageId?: string | null;
 	nativeAudioId?: string | null;
+	translationAudioId?: string | null;
 }
 
 const typed = (s: SeedItem): ImportRow => ({ ...s, type: s.type ?? (isPhraseText(s.german) ? 'phrase' : 'word') });
@@ -79,6 +80,7 @@ export class ContentService {
 			categoryId: input.categoryId,
 			imageId: input.imageId === null ? undefined : (input.imageId ?? prev?.imageId),
 			nativeAudioId: input.nativeAudioId === null ? undefined : (input.nativeAudioId ?? prev?.nativeAudioId),
+			translationAudioId: input.translationAudioId === null ? undefined : (input.translationAudioId ?? prev?.translationAudioId),
 			updatedAt: now
 		} as LearningItem;
 		// Generated audio belongs to the text it was made from.
@@ -87,6 +89,7 @@ export class ContentService {
 		// Drop replaced media.
 		if (prev?.imageId && prev.imageId !== item.imageId) await this.repos.media.delete(prev.imageId);
 		if (prev?.nativeAudioId && prev.nativeAudioId !== item.nativeAudioId) await this.repos.media.delete(prev.nativeAudioId);
+		if (prev?.translationAudioId && prev.translationAudioId !== item.translationAudioId) await this.repos.media.delete(prev.translationAudioId);
 		await this.repos.items.put(item);
 		return item;
 	}
@@ -95,6 +98,7 @@ export class ContentService {
 		const item = await this.repos.items.get(id);
 		if (item?.imageId) await this.repos.media.delete(item.imageId);
 		if (item?.nativeAudioId) await this.repos.media.delete(item.nativeAudioId);
+		if (item?.translationAudioId) await this.repos.media.delete(item.translationAudioId);
 		await this.repos.items.delete(id);
 		await this.repos.progress.delete(id);
 	}
