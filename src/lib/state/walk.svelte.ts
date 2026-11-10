@@ -1,14 +1,14 @@
 import type { LearningItem, RouteEntry } from '$lib/domain/types';
 import { learning, type LearningState } from './learning.svelte';
 
-export type WalkStep = 'german' | 'spanish' | 'example' | 'again' | 'gap';
+export type WalkStep = 'german' | 'spanish' | 'example' | 'again' | 'spanishAgain' | 'gap';
 
 export interface WalkSettings {
 	/** Read the Spanish meaning after the German. */
 	spanish: boolean;
 	/** Read the example sentence after the Spanish meaning (words that have one). */
 	example: boolean;
-	/** Say the German a second time at the end. */
+	/** Say the German a second time at the end (then the Spanish once more). */
 	repeat: boolean;
 	/** Speech rate for generated voices. */
 	rate: number;
@@ -30,7 +30,7 @@ const wait = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
 /**
  * Hands-free "walk" mode: plays German → Spanish → example sentence → German
- * (the same order as a revealed card) card after card
+ * → Spanish card after card
  * without any interaction. It reuses the learning engine's route (due and
  * difficult cards first, categories interleaved) and excludes cards already
  * heard, so a long walk keeps moving through new material.
@@ -163,6 +163,15 @@ export class WalkState {
 				this.step = 'again';
 				await audio.playToEnd({ ...de, rate });
 				if (!alive()) return;
+				// Close the card with the meaning once more, so it sticks with the word.
+				const es = spanish && item.translation ? audio.resolveTranslation(item) : undefined;
+				if (es) {
+					await wait(900);
+					if (!alive()) return;
+					this.step = 'spanishAgain';
+					await audio.playToEnd({ ...es, rate });
+					if (!alive()) return;
+				}
 			}
 
 			this.step = 'gap';

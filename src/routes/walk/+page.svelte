@@ -5,7 +5,6 @@
 	import EmptyState from '$lib/components/EmptyState.svelte';
 	import Icon from '$lib/components/Icon.svelte';
 	import IconButton from '$lib/components/IconButton.svelte';
-	import TopBar from '$lib/components/TopBar.svelte';
 	import { m } from '$lib/paraglide/messages.js';
 	import { learning } from '$lib/state/learning.svelte';
 	import { WALK_SECONDS, walk } from '$lib/state/walk.svelte';
@@ -76,7 +75,13 @@
 <svelte:head><title>{m.walk_title()} · {m.app_name()}</title></svelte:head>
 
 <div class="walk" data-screen-label="Walk">
-	<TopBar onback={leave} backIcon="x" backLabel={m.close()} />
+	<header class="head">
+		{#if item && !empty && !finished}
+			<span class="tag tag-neutral" lang="de">{walk.category?.name ?? '—'}</span>
+			<span class="count">{clock} · {m.walk_heard({ n: walk.heard })}</span>
+		{/if}
+		<span class="close"><IconButton icon="x" label={m.close()} onclick={leave} iconSize={20} /></span>
+	</header>
 
 	{#if empty}
 		<EmptyState title={m.session_empty_title()} body={m.session_empty_body()}>
@@ -88,14 +93,9 @@
 			<button class="btn" onclick={leave}>{m.close()}</button>
 		</EmptyState>
 	{:else if item}
-		<div class="meta">
-			<span class="tag tag-neutral" lang="de">{walk.category?.name ?? '—'}</span>
-			<span class="count">{clock} · {m.walk_heard({ n: walk.heard })}</span>
-		</div>
-
 		<div class="stage" aria-live="polite">
 			{#key item.id}
-				<p class="de" lang="de" class:phrase={item.type === 'phrase'} class:long={item.german.length > 30}>{item.german}</p>
+				<p class="de" lang="de" class:phrase={item.type === 'phrase'} class:long={item.german.length > 30} class:xlong={item.german.length > 55}>{item.german}</p>
 				<p class="es" class:shown={showSpanish && !!item.translation}>{item.translation ?? ''}</p>
 				{#if item.example}
 					<div class="ex" class:shown={showExample}>
@@ -139,19 +139,22 @@
 
 <style>
 	.walk { flex: 1; display: flex; flex-direction: column; gap: 14px; padding: 14px 18px calc(18px + env(safe-area-inset-bottom)); min-height: 0; overflow-y: auto; }
-	.meta { display: flex; align-items: center; gap: 8px; }
-	.meta .tag { font-size: 13px; font-weight: 600; padding: 4px 12px; }
-	.count { margin-left: auto; font-size: 13px; color: var(--color-neutral-700); }
-	.stage { flex: 1; min-height: 200px; display: flex; flex-direction: column; justify-content: center; gap: 18px; padding: 24px 22px; border-radius: 32px; background: var(--color-surface); text-align: center; }
-	.de { margin: 0; font-family: var(--font-heading); font-size: 44px; line-height: 1.1; overflow-wrap: anywhere; hyphens: auto; animation: d10fade-up 0.25s var(--ease-out); }
-	.de.phrase { font-size: 32px; }
-	.de.long { font-size: 27px; }
-	.es { margin: 0; font-size: 22px; color: var(--color-accent-2-800); min-height: 1.3em; opacity: 0; transition: opacity 0.3s; }
+	.head { display: flex; align-items: center; gap: 8px; min-height: 44px; }
+	.head .tag { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; font-weight: 600; padding: 4px 12px; }
+	.count { flex: none; font-size: 13px; color: var(--color-neutral-700); white-space: nowrap; }
+	.close { flex: none; margin-left: auto; margin-right: -8px; }
+	/* Grows to fill the screen but never shrinks below its text, so nothing spills out. */
+	.stage { flex: 1 0 auto; min-height: 220px; display: flex; flex-direction: column; justify-content: safe center; gap: 14px; padding: 24px 20px; border-radius: 32px; background: var(--color-surface); text-align: center; }
+	.de { margin: 0; font-family: var(--font-heading); font-size: 40px; line-height: 1.15; overflow-wrap: break-word; hyphens: auto; text-wrap: balance; animation: d10fade-up 0.25s var(--ease-out); }
+	.de.phrase { font-size: 30px; }
+	.de.long { font-size: 25px; line-height: 1.2; }
+	.de.xlong { font-size: 21px; }
+	.es { margin: 0; font-size: 20px; line-height: 1.3; color: var(--color-accent-2-800); min-height: 1.3em; text-wrap: balance; opacity: 0; transition: opacity 0.3s; }
 	.es.shown { opacity: 1; }
-	.ex { display: flex; flex-direction: column; gap: 4px; opacity: 0; transition: opacity 0.3s; }
+	.ex { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; padding-top: 14px; border-top: 1px solid var(--color-neutral-200); opacity: 0; transition: opacity 0.3s; }
 	.ex.shown { opacity: 1; }
-	.exde { margin: 0; font-size: 19px; font-weight: 600; line-height: 1.3; text-wrap: balance; }
-	.exes { margin: 0; font-size: 16px; color: var(--color-neutral-700); line-height: 1.3; }
+	.exde { margin: 0; font-size: 18px; font-weight: 600; line-height: 1.35; text-wrap: balance; overflow-wrap: break-word; }
+	.exes { margin: 0; font-size: 15px; color: var(--color-neutral-700); line-height: 1.35; text-wrap: balance; }
 	.transport { display: flex; flex-direction: column; align-items: center; gap: 10px; }
 	.state { font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-2-700); }
 	.buttons { display: flex; align-items: center; gap: 18px; }

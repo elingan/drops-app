@@ -42,14 +42,15 @@ describe('WalkState playback order', () => {
 	});
 	afterEach(() => vi.useRealTimers());
 
-	it('says word → translation → example → word again', async () => {
+	it('says word → translation → example → word again → translation again', async () => {
 		const { walk, played } = await setup();
 		const item = await playOneCard(walk);
-		const first = played.slice(0, 4).map((p) => p.url!.split(':')[0]);
+		const first = played.slice(0, 5).map((p) => p.url!.split(':')[0]);
 		expect(item.example).toBeTruthy();
-		expect(first).toEqual(['de', 'es', 'ex', 'de']);
+		expect(first).toEqual(['de', 'es', 'ex', 'de', 'es']);
 		expect(played[0]!.url).toBe(`de:${item.german}`);
 		expect(played[3]!.url).toBe(`de:${item.german}`);
+		expect(played[4]!.url).toBe(`es:${item.german}`);
 	});
 
 	it('follows the walk options: no example, no repeat, no Spanish', async () => {
@@ -64,17 +65,28 @@ describe('WalkState playback order', () => {
 		expect(played.slice(0, 2).map((p) => p.url!.split(':')[0])).toEqual(['de', 'ex']);
 	});
 
+	it('repeats the Spanish only after the German repeat, and never with Spanish off', async () => {
+		const { walk, played } = await setup();
+		walk.update({ spanish: true, example: false, repeat: true });
+		await playOneCard(walk);
+		expect(played.slice(0, 4).map((p) => p.url!.split(':')[0])).toEqual(['de', 'es', 'de', 'es']);
+		played.length = 0;
+		walk.update({ spanish: false });
+		await playOneCard(walk);
+		expect(played.some((p) => p.url!.startsWith('es:'))).toBe(false);
+	});
+
 	it('applies the speed to every clip and defaults the example to on', async () => {
 		const { walk, played } = await setup();
 		expect(WALK_DEFAULTS.example).toBe(true);
 		walk.update({ rate: 0.7 });
 		await playOneCard(walk);
-		expect(played.slice(0, 4).every((p) => p.rate === 0.7)).toBe(true);
+		expect(played.slice(0, 5).every((p) => p.rate === 0.7)).toBe(true);
 	});
 
 	it('moves through the steps while it plays, so the screen can show the example', async () => {
 		const { walk, played } = await setup();
 		await playOneCard(walk);
-		expect(played.slice(0, 4).map((p) => p.step)).toEqual(['german', 'spanish', 'example', 'again']);
+		expect(played.slice(0, 5).map((p) => p.step)).toEqual(['german', 'spanish', 'example', 'again', 'spanishAgain']);
 	});
 });
